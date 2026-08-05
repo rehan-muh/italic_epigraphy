@@ -3,7 +3,6 @@ layout: page
 permalink: /about/
 nav: about
 title: "About this atlas"
-lede: "What the atlas holds, how its dates and findspots are reckoned, and what the data does and does not support."
 ---
 
 ## Provenance of this build
@@ -124,11 +123,6 @@ Base maps and relief, all fetched at run time by the visitor's browser:
 OpenTopoMap (CC-BY-SA, data © OpenStreetMap contributors), Esri World Shaded
 Relief and World Physical Map, OpenStreetMap standard tiles, and AWS Terrain
 Tiles for relief (Mapzen, SRTM, GMTED).
-
-Each geography layer is kept in its own file, with its own licence, so that a
-share-alike obligation on one does not attach to the corpus or to the others.
-The AWMC and OpenStreetMap layers are ODbL, which is share-alike; Pleiades is
-CC-BY, Itiner-e CC BY 4.0, Wikidata CC0, and Natural Earth public domain.
 
 <div class="table-scroll">
 <table>

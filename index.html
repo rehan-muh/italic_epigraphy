@@ -35,6 +35,27 @@ title: "Atlas"
       <p class="help">Matches reference, findspot and note text.</p>
     </section>
 
+    <section class="rail-section" aria-labelledby="h-basemap">
+      <h2 class="panel-title"><span id="h-basemap">Base map</span></h2>
+
+      <div class="field">
+        <label class="visually-hidden" for="basemap">Base map</label>
+        <select class="control" id="basemap">
+          {% for b in site.atlas.basemaps %}
+          <option value="{{ b.id }}">{{ b.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="field">
+        <span class="field-label" id="lbl-relief">Relief</span>
+        <div class="control-row" role="group" aria-labelledby="lbl-relief">
+          <button type="button" class="toggle" id="toggle-hillshade" aria-pressed="true">Hillshade</button>
+          <button type="button" class="toggle" id="toggle-terrain"   aria-pressed="false">3&#8209;D terrain</button>
+        </div>
+      </div>
+    </section>
+
     <section class="rail-section" aria-labelledby="h-lang">
       <h2 class="panel-title">
         <span id="h-lang">Language</span>
@@ -77,10 +98,10 @@ title: "Atlas"
     </section>
 
     <section class="rail-section" aria-labelledby="h-display">
-      <h2 class="panel-title"><span id="h-display">Map display</span></h2>
+      <h2 class="panel-title"><span id="h-display">Findspot display</span></h2>
 
       <div class="field">
-        <span class="field-label" id="lbl-symbol">Findspot symbols</span>
+        <span class="field-label" id="lbl-symbol">Symbols</span>
         <div class="segmented" role="group" aria-labelledby="lbl-symbol">
           <button type="button" class="seg" id="mode-points" aria-pressed="true">Points</button>
           <button type="button" class="seg" id="mode-heat"   aria-pressed="false">Density</button>
@@ -90,23 +111,6 @@ title: "Atlas"
       <div class="field">
         <button type="button" class="toggle" id="toggle-rollup" aria-pressed="true">Group sub&#8209;findspots</button>
         <p class="help">Below zoom 10.5, tombs and sectors are folded into the site they belong to.</p>
-      </div>
-
-      <div class="field">
-        <label class="field-label" for="basemap">Base map</label>
-        <select class="control" id="basemap">
-          {% for b in site.atlas.basemaps %}
-          <option value="{{ b.id }}">{{ b.name }}</option>
-          {% endfor %}
-        </select>
-      </div>
-
-      <div class="field">
-        <span class="field-label" id="lbl-relief">Relief</span>
-        <div class="control-row" role="group" aria-labelledby="lbl-relief">
-          <button type="button" class="toggle" id="toggle-hillshade" aria-pressed="true">Hillshade</button>
-          <button type="button" class="toggle" id="toggle-terrain"   aria-pressed="false">3&#8209;D terrain</button>
-        </div>
       </div>
     </section>
 

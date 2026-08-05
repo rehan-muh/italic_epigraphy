@@ -401,14 +401,6 @@ a:hover { color: var(--accent-hover); text-decoration-thickness: 2px; }
 
 .masthead .spacer { flex: 1; }
 
-.build-stamp {
-  font-family: var(--font-ui);
-  font-size: var(--t-12);
-  color: var(--text-muted);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
 .theme-toggle {
   flex: none;
   height: var(--h-sm);
@@ -1589,7 +1581,7 @@ figure.place-figure figcaption {
   }
   .masthead nav { order: 3; width: 100%; gap: var(--s5); font-size: var(--t-13); }
   .masthead .spacer { display: none; }
-  .build-stamp { margin-left: auto; }
+  .theme-toggle { margin-left: auto; }
 
   .atlas {
     grid-template-columns: 1fr;
@@ -1620,8 +1612,6 @@ figure.place-figure figcaption {
   .filter-bar .btn { margin-left: 0; width: 100%; }
   .wordmark { font-size: var(--t-14); }
   .result-wrap { max-height: 26rem; }
-  /* the build stamp is provenance, and the About page carries it in full */
-  .build-stamp { display: none; }
 }
 
 /* --------------------------------------------------------------------------
