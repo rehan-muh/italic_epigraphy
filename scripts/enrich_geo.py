@@ -789,6 +789,110 @@ def element_geometry(el) -> dict | None:
     return None
 
 
+def adapt_wfs(spec, bbox, opts):
+    """A WFS layer, fetched as tiles and cached one file per tile.
+
+    A single request for a whole country makes GeoServer serialise the entire
+    response in memory, and the connection is reset before any of it arrives.
+    The Carta Litologica at 1:100,000 runs to about 47 MB per square degree, so
+    even a 2.7 degree tile is a third of a gigabyte. Tiling keeps each request
+    to something the server will actually finish, and because every tile is
+    cached on its own an interrupted run resumes for free.
+
+    WFS 1.0.0 by default: 2.0.0 with EPSG:4326 flips the axis order, and a
+    bbox given lon/lat then returns an empty result rather than an error.
+    """
+    step = float(spec.get("tile") or 0.5)
+    version = str(spec.get("wfs_version") or "1.0.0")
+    typename = spec["typename"]
+    endpoint = spec["wfs_url"]
+    fields = spec.get("properties")
+
+    boxes = list(tiles(bbox, step))
+    log(f"    {len(boxes)} tiles of {step} degrees")
+
+    keep_fields = spec.get("keep_fields") or []
+    drop = {str(c).lower() for c in (spec.get("drop_classes") or ())}
+    out, seen = [], set()
+    got = missed = empty = 0
+    total_bytes = 0
+
+    for i, (w, s_, e, n) in enumerate(boxes, 1):
+        params = {
+            "service": "WFS", "version": version, "request": "GetFeature",
+            "typeName": typename, "outputFormat": "application/json",
+            "srsName": "EPSG:4326", "bbox": f"{w},{s_},{e},{n}",
+        }
+        if fields:
+            params["propertyName"] = ",".join(fields)
+        url = endpoint + ("&" if "?" in endpoint else "?") + urllib.parse.urlencode(params)
+
+        cp = cache_path(spec["id"], url, ".geojson")
+        if cp.exists() and not opts.refresh:
+            blob = cp.read_bytes()
+        elif opts.offline:
+            missed += 1
+            continue
+        else:
+            try:
+                blob = http(url, timeout=opts.timeout, retries=2)
+            except (RuntimeError, Throttled) as exc:
+                missed += 1
+                log(f"      tile {i}/{len(boxes)}: {exc}")
+                continue
+            cp.write_bytes(blob)
+            time.sleep(opts.pause)
+
+        total_bytes += len(blob)
+        try:
+            payload = json.loads(blob.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            missed += 1
+            cp.unlink(missing_ok=True)
+            log(f"      tile {i}/{len(boxes)}: unreadable response, discarded")
+            continue
+
+        features = payload.get("features") or []
+        got += 1
+        if not features:
+            empty += 1
+            continue
+
+        for f in features:
+            # a polygon straddling a tile edge comes back in both, and the
+            # server repeats its id, so dedupe on that
+            fid = f.get("id") or f.get("properties", {}).get("OBJECTID")
+            if fid is not None:
+                if fid in seen:
+                    continue
+                seen.add(fid)
+            geom = f.get("geometry")
+            if not geom:
+                continue
+            gb = bbox_of(geom)
+            if not gb or not intersects(gb, bbox):
+                continue
+            props = f.get("properties") or {}
+            featurecla = (prop(props, ["featurecla", "type", "class"]) or "").lower()
+            if featurecla in drop:
+                continue
+            attrs = {"name": prop(props, spec.get("name_fields") or ["name"])}
+            for field in keep_fields:
+                value = prop(props, [field])
+                if value not in (None, ""):
+                    attrs[field.lower()] = value
+            out.append((geom, attrs, 50.0))
+
+        if i % 25 == 0 or i == len(boxes):
+            log(f"      {i}/{len(boxes)} tiles, {len(out)} features so far, "
+                f"{total_bytes / 1e6:.0f} MB fetched")
+
+    log(f"    {got}/{len(boxes)} tiles retrieved ({empty} empty)" +
+        (f", {missed} still missing: re-run to fill them, cached tiles cost nothing"
+         if missed else ""))
+    return out
+
+
 WIKIDATA_QUERY = """
 SELECT ?item ?itemLabel ?coord ?typeLabel ?pleiades WHERE {{
   VALUES ?type {{ wd:Q839954 wd:Q2221906 wd:Q1006733 wd:Q207934 }}
@@ -888,6 +992,7 @@ ADAPTERS = {
     "pleiades": adapt_pleiades,
     "overpass": adapt_overpass,
     "wikidata": adapt_wikidata,
+    "wfs": adapt_wfs,
     "local": adapt_local,
 }
 

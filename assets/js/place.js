@@ -11,6 +11,13 @@
     });
   }
 
+  function cssVar(name, fallback) {
+    try {
+      var v = getComputedStyle(document.documentElement).getPropertyValue(name);
+      return (v && v.trim()) || fallback;
+    } catch (e) { return fallback; }
+  }
+
   function drawMap() {
     var b = CFG.basemaps[0];
     var map = new maplibregl.Map({
@@ -25,7 +32,8 @@
                  maxzoom: CFG.dem.max_zoom || 13, attribution: CFG.dem.attribution }
         },
         layers: [
-          { id: 'bg', type: 'background', paint: { 'background-color': '#1f2523' } },
+          { id: 'bg', type: 'background',
+            paint: { 'background-color': cssVar('--map-void', '#e6e4df') } },
           { id: 'base', type: 'raster', source: 'base' },
           { id: 'hillshade', type: 'hillshade', source: 'dem',
             paint: { 'hillshade-exaggeration': 0.45 } }
@@ -41,14 +49,16 @@
         type: 'geojson',
         data: { type: 'Feature', geometry: { type: 'Point', coordinates: [P.lon, P.lat] } }
       });
+      // the accent, not a language colour, so it reads as chrome
+      var mark = cssVar('--accent', '#17527d');
       map.addLayer({
         id: 'here-halo', type: 'circle', source: 'here',
-        paint: { 'circle-radius': 16, 'circle-color': '#cd4a2c', 'circle-opacity': 0.18 }
+        paint: { 'circle-radius': 16, 'circle-color': mark, 'circle-opacity': 0.16 }
       });
       map.addLayer({
         id: 'here-dot', type: 'circle', source: 'here',
-        paint: { 'circle-radius': 5, 'circle-color': '#cd4a2c',
-                 'circle-stroke-width': 1.5, 'circle-stroke-color': '#ece5d8' }
+        paint: { 'circle-radius': 5, 'circle-color': mark,
+                 'circle-stroke-width': 1.6, 'circle-stroke-color': '#ffffff' }
       });
     });
   }
@@ -77,10 +87,10 @@
     var names = Object.keys(langs)
       .sort(function (a, b) { return langs[b] - langs[a]; })
       .map(function (id) { return C.label('languages', id); });
-    el('p-langs').textContent = names.length ? names.join(', ') : '\u2014';
-    el('p-langs').style.fontSize = names.length > 1 ? '.95rem' : '';
+    el('p-langs').textContent = names.length ? names.join(', ') : 'None recorded';
 
     el('p-table').querySelector('tbody').innerHTML = rows.map(function (i) {
+      // notes wrap rather than clipping to an ellipsis
       return '<tr>' +
         '<td>' + esc(C.col.ref[i]) + '</td>' +
         '<td>' + esc(C.label('languages', C.col.lang[i])) + '</td>' +
@@ -88,17 +98,22 @@
         '<td>' + esc(C.label('directions', C.col.dir[i])) + '</td>' +
         '<td class="num">' + esc(C.fmt.year(C.col.ds[i])) + '</td>' +
         '<td class="num">' + esc(C.fmt.year(C.col.de[i])) + '</td>' +
-        '<td title="' + esc(C.text('notes', i)) + '">' + esc(C.text('notes', i)) + '</td>' +
+        '<td class="wrap">' + esc(C.text('notes', i)) + '</td>' +
         '</tr>';
     }).join('');
 
-    el('p-status').textContent = C.fmt.n(rows.length) +
-      (rows.length === 1 ? ' record' : ' records');
+    el('p-status').textContent = rows.length === 0
+      ? 'No records are filed under this findspot in the current build.'
+      : C.fmt.n(rows.length) + (rows.length === 1 ? ' record' : ' records');
   }
 
   drawMap();
   C.load().then(renderRecords).catch(function (err) {
-    el('p-status').textContent = 'Could not load the corpus: ' + err.message;
+    var status = el('p-status');
+    status.className = 'status status--error';
+    status.textContent = 'The corpus could not be loaded: ' + err.message +
+      '. Run python3 scripts/build_db.py --force, then reload.';
+    el('p-langs').textContent = 'Unavailable';
   });
 
 })(window);

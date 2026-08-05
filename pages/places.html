@@ -4,25 +4,35 @@ permalink: /places/
 nav: places
 title: "Gazetteer"
 width: wide
-lede: "Every findspot with coordinates, by region and by weight in the corpus."
+lede: "Every findspot with coordinates, ordered by weight in the corpus and then indexed by region."
 ---
 
-<div class="stat-grid">
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.places }}</span><span class="k">Findspots</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.located }}</span><span class="k">Located records</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.unlocated }}</span><span class="k">Without coordinates</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.regions }}</span><span class="k">Regions</span></div>
-</div>
+{% assign by_region = site.sites | group_by: "region" | sort: "name" %}
 
-<h2>By weight in the corpus</h2>
+<ul class="figure-line">
+  <li><b>{% include number.html value=site.data.atlas.stats.places %}</b> findspots</li>
+  <li><b>{% include number.html value=site.data.atlas.stats.located %}</b> located records</li>
+  <li><b>{% include number.html value=site.data.atlas.stats.unlocated %}</b> records without coordinates</li>
+  <li><b>{% include number.html value=site.data.atlas.stats.regions %}</b> regions</li>
+</ul>
+
+<h2 id="h-weight">Findspots by number of records</h2>
 <table>
-  <thead><tr><th>Findspot</th><th>Region</th><th>Records</th><th>Attested range</th></tr></thead>
+  <caption class="visually-hidden">The findspots carrying the most records in the corpus.</caption>
+  <thead>
+    <tr>
+      <th scope="col">Findspot</th>
+      <th scope="col">Region</th>
+      <th scope="col" class="num">Records</th>
+      <th scope="col" class="num">Attested range</th>
+    </tr>
+  </thead>
   <tbody>
   {% for p in site.data.atlas.top_places %}
     <tr>
       <td><a href="{{ '/place/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }}</a></td>
-      <td>{{ p.region }}</td>
-      <td class="num">{{ p.n }}</td>
+      <td>{{ p.region | default: "&mdash;" }}</td>
+      <td class="num">{% include number.html value=p.n %}</td>
       <td class="num">
         {%- if p.date_min -%}
           {%- if p.date_min < 0 %}{{ p.date_min | times: -1 }} BC{% else %}AD {{ p.date_min }}{% endif -%}
@@ -35,14 +45,29 @@ lede: "Every findspot with coordinates, by region and by weight in the corpus."
   </tbody>
 </table>
 
-<h2>All findspots, by region</h2>
-{% assign by_region = site.sites | group_by: "region" | sort: "name" %}
+<h2 id="h-index">All findspots, by region</h2>
+
+<nav class="region-nav" aria-labelledby="lbl-regions">
+  <span class="field-label" id="lbl-regions">Jump to a region</span>
+  {% for group in by_region %}
+    {% assign region_name = group.name | default: "Region not recorded" %}
+    <a href="#region-{{ region_name | slugify }}">{{ region_name }}</a>
+  {% endfor %}
+</nav>
+
 {% for group in by_region %}
-  <h3>{{ group.name | default: "Region not recorded" }} <span class="build-stamp">{{ group.items | size }} findspots</span></h3>
+  {% assign region_name = group.name | default: "Region not recorded" %}
+  <h3 id="region-{{ region_name | slugify }}">
+    {{ region_name }}
+    <span class="count">{{ group.items | size }} findspots</span>
+  </h3>
   <div class="gaz-columns">
     {% assign sorted = group.items | sort: "title" %}
     {% for s in sorted %}
-      <a href="{{ s.url | relative_url }}">{{ s.title }} <span class="n">{{ s.n_inscriptions }}</span></a>
+      <a href="{{ s.url | relative_url }}">
+        <span>{{ s.title }}</span>
+        <span class="n">{% include number.html value=s.n_inscriptions %}</span>
+      </a>
     {% endfor %}
   </div>
 {% endfor %}

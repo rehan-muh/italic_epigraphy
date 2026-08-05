@@ -144,16 +144,27 @@
       view.page++; renderTable();
     });
 
+    // the headers are real buttons, so sorting answers the keyboard and the
+    // state is carried by aria-sort rather than by the arrow alone
     el('t-table').querySelectorAll('th[data-sort]').forEach(function (th) {
-      th.style.cursor = 'pointer';
-      th.addEventListener('click', function () {
+      var button = th.querySelector('.sort');
+      if (!button) return;
+      button.addEventListener('click', function () {
         var key = th.dataset.sort;
         view.dir = view.sort === key ? -view.dir : 1;
         view.sort = key;
         sortRows();
         view.page = 0;
         renderTable();
+        markSort();
       });
+    });
+  }
+
+  function markSort() {
+    el('t-table').querySelectorAll('th[data-sort]').forEach(function (th) {
+      th.setAttribute('aria-sort', view.sort !== th.dataset.sort ? 'none'
+        : (view.dir === 1 ? 'ascending' : 'descending'));
     });
   }
 
@@ -193,12 +204,13 @@
     var head = el('sql-table').querySelector('thead');
     var body = el('sql-table').querySelector('tbody');
     var t0 = performance.now();
+    showError('');
     try {
       var res = db.exec(sql);
       if (!res.length) {
         head.innerHTML = '';
         body.innerHTML = '';
-        el('sql-status').textContent = 'Query ran, no rows returned.';
+        el('sql-status').textContent = 'The query ran and returned no rows.';
         return;
       }
       var last = res[res.length - 1];
@@ -216,14 +228,25 @@
         (last.values.length > 2000 ? ' (first 2000 shown)' : '');
     } catch (err) {
       head.innerHTML = '';
-      body.innerHTML = '<tr><td style="color:var(--cinnabar)">' + esc(err.message) + '</td></tr>';
+      body.innerHTML = '';
+      showError(err.message);
       el('sql-status').textContent = 'SQLite rejected the query.';
     }
   }
 
+  /* The SQLite message names the problem, so it is shown verbatim in its own
+   * region rather than dropped into the result table. */
+  function showError(message) {
+    var box = el('sql-error');
+    if (!box) return;
+    box.textContent = message || '';
+    box.hidden = !message;
+  }
+
   function wireSQL() {
     el('sql-samples').innerHTML = SAMPLES.map(function (s, i) {
-      return '<button class="chip" data-sample="' + i + '">' + esc(s[0]) + '</button>';
+      return '<button type="button" class="btn btn--sm" data-sample="' + i + '">' +
+             esc(s[0]) + '</button>';
     }).join('');
     el('sql-samples').addEventListener('click', function (e) {
       var b = e.target.closest('[data-sample]');
@@ -284,8 +307,10 @@
     applyTableFilters();
     wireSQL();
   }).catch(function (err) {
-    el('t-status').textContent = 'Could not load the corpus: ' + err.message +
-      '. Run python3 scripts/build_db.py --force.';
+    var status = el('t-status');
+    status.className = 'status status--error';
+    status.textContent = 'The corpus could not be loaded: ' + err.message +
+      '. Run python3 scripts/build_db.py --force to regenerate assets/data/, then reload.';
   });
 
 })(window);

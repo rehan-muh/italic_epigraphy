@@ -6,74 +6,118 @@ title: "Atlas"
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.1.0/dist/maplibre-gl.css">
 
-<div class="atlas">
+<main class="atlas" id="main">
 
-  <aside class="rail" aria-label="Filters">
+  <h1 class="visually-hidden">Atlas of the pre-Roman and Republican inscriptions of Italy</h1>
 
-    <section>
-      <h2 class="eyebrow">Selection <span class="count" id="sel-share"></span></h2>
+  <aside class="rail" aria-label="Selection and map controls">
+
+    <section class="rail-section" aria-labelledby="h-selection">
+      <h2 class="panel-title">
+        <span id="h-selection">Selection</span>
+        <span class="meta" id="sel-share"></span>
+      </h2>
       <p class="readout">
         <b class="big" id="sel-inscriptions">&mdash;</b>
-        inscriptions at <b id="sel-places">&mdash;</b> findspots<br>
-        <span id="sel-window">all periods</span>
+        inscriptions at <b id="sel-places">&mdash;</b> findspots
+        <span class="window" id="sel-window">All periods</span>
       </p>
       <div class="facet-actions">
-        <button class="link" id="reset-all">Reset every filter</button>
+        <button type="button" class="btn btn--quiet" id="reset-all">Clear all filters</button>
       </div>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Find <span class="count">reference, findspot, note</span></h2>
-      <input type="search" class="search-input" id="q" placeholder="e.g. Segesta, Agostiniani, bucchero"
+    <section class="rail-section" aria-labelledby="h-search">
+      <h2 class="panel-title"><span id="h-search">Search</span></h2>
+      <label class="visually-hidden" for="q">Search references, findspots and notes</label>
+      <input type="search" class="control" id="q" placeholder="Segesta, Agostiniani, bucchero"
              autocomplete="off" spellcheck="false">
+      <p class="help">Matches reference, findspot and note text.</p>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Language <span class="count" id="n-lang"></span></h2>
+    <section class="rail-section" aria-labelledby="h-lang">
+      <h2 class="panel-title">
+        <span id="h-lang">Language</span>
+        <span class="meta" id="n-lang"></span>
+      </h2>
       <ul class="facet-list" id="facet-lang"></ul>
       <div class="facet-actions">
-        <button class="link" data-all="lang">All</button>
-        <button class="link" data-none="lang">None</button>
+        <button type="button" class="btn btn--quiet" data-all="lang">Select all</button>
+        <button type="button" class="btn btn--quiet" data-none="lang">Select none</button>
       </div>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Alphabet <span class="count" id="n-alpha"></span></h2>
+    <section class="rail-section" aria-labelledby="h-alpha">
+      <h2 class="panel-title">
+        <span id="h-alpha">Alphabet</span>
+        <span class="meta" id="n-alpha"></span>
+      </h2>
       <ul class="facet-list" id="facet-alpha"></ul>
       <div class="facet-actions">
-        <button class="link" data-all="alpha">All</button>
-        <button class="link" data-none="alpha">None</button>
+        <button type="button" class="btn btn--quiet" data-all="alpha">Select all</button>
+        <button type="button" class="btn btn--quiet" data-none="alpha">Select none</button>
       </div>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Region <span class="count" id="n-region"></span></h2>
+    <section class="rail-section" aria-labelledby="h-region">
+      <h2 class="panel-title">
+        <span id="h-region">Region</span>
+        <span class="meta" id="n-region"></span>
+      </h2>
       <ul class="facet-list" id="facet-region"></ul>
       <div class="facet-actions">
-        <button class="link" data-all="region">All</button>
-        <button class="link" data-none="region">None</button>
+        <button type="button" class="btn btn--quiet" data-all="region">Select all</button>
+        <button type="button" class="btn btn--quiet" data-none="region">Select none</button>
       </div>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Direction of writing</h2>
+    <section class="rail-section" aria-labelledby="h-dir">
+      <h2 class="panel-title"><span id="h-dir">Direction of writing</span></h2>
       <ul class="facet-list" id="facet-dir"></ul>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Symbol</h2>
-      <div class="toggle-row">
-        <button class="chip" id="mode-points"  aria-pressed="true">Findspots</button>
-        <button class="chip" id="mode-heat"    aria-pressed="false">Density</button>
-        <button class="chip" id="toggle-rollup" aria-pressed="true">Group sub&#8209;findspots</button>
+    <section class="rail-section" aria-labelledby="h-display">
+      <h2 class="panel-title"><span id="h-display">Map display</span></h2>
+
+      <div class="field">
+        <span class="field-label" id="lbl-symbol">Findspot symbols</span>
+        <div class="segmented" role="group" aria-labelledby="lbl-symbol">
+          <button type="button" class="seg" id="mode-points" aria-pressed="true">Points</button>
+          <button type="button" class="seg" id="mode-heat"   aria-pressed="false">Density</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <button type="button" class="toggle" id="toggle-rollup" aria-pressed="true">Group sub&#8209;findspots</button>
+        <p class="help">Below zoom 10.5, tombs and sectors are folded into the site they belong to.</p>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="basemap">Base map</label>
+        <select class="control" id="basemap">
+          {% for b in site.atlas.basemaps %}
+          <option value="{{ b.id }}">{{ b.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="field">
+        <span class="field-label" id="lbl-relief">Relief</span>
+        <div class="control-row" role="group" aria-labelledby="lbl-relief">
+          <button type="button" class="toggle" id="toggle-hillshade" aria-pressed="true">Hillshade</button>
+          <button type="button" class="toggle" id="toggle-terrain"   aria-pressed="false">3&#8209;D terrain</button>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2 class="eyebrow">Layers <span class="count" id="layer-note"></span></h2>
+    <section class="rail-section" aria-labelledby="h-layers">
+      <h2 class="panel-title">
+        <span id="h-layers">Geography layers</span>
+        <span class="meta" id="layer-note"></span>
+      </h2>
       <div id="layer-groups" class="layer-groups">
-        <p class="empty">No external geography yet. Run
-          <code>python3 scripts/enrich_geo.py</code>.</p>
+        <p class="empty">No external geography has been generated yet. Run
+          <code>python3 scripts/enrich_geo.py</code> and rebuild.</p>
       </div>
     </section>
 
@@ -82,56 +126,49 @@ title: "Atlas"
   <div class="map-shell">
     <div id="map"></div>
 
-    <div class="map-controls">
-      <div class="map-panel">
-        <label for="basemap">Base map</label>
-        <select class="control" id="basemap">
-          {% for b in site.atlas.basemaps %}
-          <option value="{{ b.id }}">{{ b.name }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="map-panel toggle-row">
-        <button class="chip" id="toggle-hillshade" aria-pressed="true">Hillshade</button>
-        <button class="chip" id="toggle-terrain"   aria-pressed="false">3&#8209;D relief</button>
-      </div>
-    </div>
-
-    <div class="map-panel legend" id="legend" aria-label="Legend">
-      <label>Dominant language</label>
+    <details class="map-overlay legend" id="legend" open>
+      <summary>Dominant language</summary>
       <ul id="legend-items"></ul>
       <div class="sizes">
         <i style="width:6px;height:6px"></i>
         <i style="width:12px;height:12px"></i>
         <i style="width:22px;height:22px"></i>
-        <span>1 &rarr; 1000 inscriptions</span>
+        <span>1 to 1,000 inscriptions</span>
       </div>
-    </div>
+    </details>
 
     <div class="loading" id="loading">
-      <div class="bar"><i></i></div>
-      <span>Reading the corpus</span>
+      <div class="bar" aria-hidden="true"><i></i></div>
+      <p class="status" id="loading-status" role="status">Loading the corpus&hellip;</p>
     </div>
   </div>
 
-  <div class="timeline-shell">
+  <section class="timeline-shell" aria-labelledby="h-timeline">
     <div class="timeline-head">
-      <h2 class="eyebrow" style="margin:0">
-        Quarter centuries, written boustrophedon
-        <span class="count">drag to select a window, double&#8209;click to clear</span>
-      </h2>
-      <div class="toggle-row timeline-modes">
-        <button class="chip" id="mode-aoristic" aria-pressed="true"
-                title="Each record is spread evenly over the quarters its date interval covers, with a band showing the uncertainty that implies">Aoristic</button>
-        <button class="chip" id="mode-start" aria-pressed="false"
-                title="Each record is counted in the quarter its Date.Start falls in, which piles a third of the corpus onto the round century edges">Start date</button>
-      </div>
-      <span class="timeline-range" id="timeline-range"></span>
-    </div>
-    <svg id="timeline" role="img" aria-label="Inscriptions per quarter century, laid out boustrophedon"></svg>
-  </div>
+      <h2 class="panel-title"><span id="h-timeline">Quarter centuries, written boustrophedon</span></h2>
 
-</div>
+      <div class="timeline-modes">
+        <span class="field-label" id="lbl-count">Counting</span>
+        <div class="segmented" role="group" aria-labelledby="lbl-count">
+          <button type="button" class="seg" id="mode-aoristic" aria-pressed="true"
+                  title="Each record is spread evenly over the quarters its date interval covers, with a whisker showing the uncertainty that implies">Aoristic</button>
+          <button type="button" class="seg" id="mode-start" aria-pressed="false"
+                  title="Each record is counted in the quarter its Date.Start falls in, which piles a third of the corpus onto the round century edges">Start date</button>
+        </div>
+      </div>
+
+      <span class="timeline-range" id="timeline-range" role="status"></span>
+    </div>
+
+    <p class="help" id="timeline-help">
+      Drag across the bars to select a period, double&#8209;click to clear. With the chart
+      focused, the arrow keys move the selection.
+    </p>
+
+    <svg id="timeline" aria-labelledby="h-timeline" aria-describedby="timeline-help"></svg>
+  </section>
+
+</main>
 
 <script>
   window.ATLAS_CONFIG = {

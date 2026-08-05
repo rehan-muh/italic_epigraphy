@@ -3,17 +3,29 @@
 # Every entry becomes one toggleable layer in the atlas and one file under
 # assets/data/layers/. Adding a source is an edit here, not a code change.
 #
-#   id           file name and DOM id; keep it stable, the front end remembers it
-#   group        heading the layer is filed under in the map's Layers panel
-#   name         what the reader sees
-#   adapter      geojson | ndjson | pleiades | overpass | wikidata
-#   kind         drives the drawing style: see STYLE_KINDS in enrich_geo.py
-#   default      true to load the layer on first paint; everything else is
-#                fetched only when the reader switches it on
-#   simplify     Douglas-Peucker tolerance in degrees, 0 to keep full detail
-#   max_features cap, applied after sorting by rank then by size
-#   licence      shown in the panel; ODbL layers are kept in their own files so
-#                the share-alike obligation does not attach to the whole corpus
+#   id            file name and DOM id; keep it stable, the front end remembers it
+#   group         heading the layer is filed under in the map's Layers panel
+#   name          what the reader sees
+#   adapter       geojson | ndjson | pleiades | overpass | wikidata
+#                 (entries under local_sources are always the local adapter)
+#   kind          drives the drawing style: see AtlasMap.STYLES in assets/js/map.js
+#   default       true to load the layer on first paint; everything else is
+#                 fetched only when the reader switches it on
+#   simplify      Douglas-Peucker tolerance in degrees, 0 to keep full detail
+#   max_features  cap, applied after sorting by rank then by size
+#   licence       shown in the panel; ODbL layers are kept in their own files so
+#                 the share-alike obligation does not attach to the whole corpus
+#
+# Optional, for the geojson and local adapters:
+#
+#   url           the file to fetch; a WFS GetFeature URL works, GeoServer
+#                 returns GeoJSON when asked for outputFormat=application/json
+#   extra_urls    further files merged into the same layer
+#   name_fields   columns to try for the label, in order, matched case-insensitively
+#   keep_fields   columns carried through into the feature properties
+#   require_name  drop features with no name; for layers whose point is the name
+#   drop_classes  featurecla values to discard
+#   rank_field    column used to order features before max_features applies
 #
 # Sizes below are the download, not the published layer: everything is clipped
 # to the corpus bounding box and simplified before it is written.
@@ -299,6 +311,71 @@ sources:
       );
       out body qt;
 
+  # ---- physical setting --------------------------------------------------
+  # Which stone was locally available bears directly on what got inscribed and
+  # on what survived to be found, so this is a covariate rather than decoration.
+  # cod_lito is the categorical key; litologia is the readable class.
+  #
+  # The layer name was read off the capabilities document:
+  #   curl "https://sgi2.isprambiente.it/geoserver/ge-core8/wfs?service=WFS&version=2.0.0&request=GetCapabilities"
+  #
+  # WFS 1.0.0 on purpose: 2.0.0 with EPSG:4326 flips the axis order, and a bbox
+  # given lon/lat then returns nothing at all rather than failing. No bbox is
+  # sent here anyway; the whole country is fetched once and clipped locally.
+  # ---- physical setting --------------------------------------------------
+  # Which stone was locally available bears on what got inscribed and on what
+  # survived to be found, so this is a covariate rather than decoration.
+  # cod_lito is the categorical key; litologia is the readable class.
+  #
+  # Two scales are declared. The 1:500,000 is the default because it is
+  # proportionate to the coordinates in this corpus: 2,242 inscriptions share a
+  # single point and many findspots are municipality centroids, so a boundary
+  # drawn at 1:100,000 is precision the corpus cannot use. The finer layer is
+  # here for anyone who has better coordinates, but it is roughly 47 MB per
+  # square degree, close to two gigabytes for the whole box.
+  #
+  # Layer names come from the capabilities document:
+  #   curl "https://sgi2.isprambiente.it/geoserver/ge-core3/wfs?service=WFS&version=2.0.0&request=GetCapabilities"
+  - id: ispra-lithology
+    group: Physical setting
+    name: Lithology (1:500.000)
+    adapter: wfs
+    wfs_url: https://sgi2.isprambiente.it/geoserver/ge-core3/wfs
+    # One feature type, with lithology as attributes rather than as a layer of
+    # its own. litho1 is the simple lithology and urn_litho is the same term as
+    # a CGI SimpleLithology URI, which is a controlled vocabulary rather than
+    # free text and is therefore the field to model on. Note that the 1:100,000
+    # layer uses a different schema entirely (cod_lito, litologia), so the
+    # covariate is not named the same at both scales.
+    typename: ge-core3:geo500K
+    tile: 2.0
+    kind: geology
+    name_fields: [litho1, formation_1, formazione]
+    keep_fields: [litho1, litho2, urn_litho, lithounit, tipo_mat, composizione,
+                  formazione, formation_1, etainf, etasup, cod_lege]
+    simplify: 0.002
+    default: false
+    licence: CC BY 4.0
+    attribution: ISPRA, Servizio Geologico d'Italia
+
+  - id: ispra-lithology-100k
+    group: Physical setting
+    name: Lithology (1:100.000)
+    adapter: wfs
+    wfs_url: https://sgi2.isprambiente.it/geoserver/ge-core8/wfs
+    typename: ge-core8:litologia100k
+    # 0.5 degrees measured at about 12 MB and 3,200 polygons over southern
+    # Etruria, which the server returns comfortably. Larger tiles are reset
+    # before the response starts.
+    tile: 0.5
+    kind: geology
+    name_fields: [litologia]
+    keep_fields: [cod_lito, litologia, classi_litologiche, nome_ulf, eta_geol]
+    simplify: 0.001
+    default: false
+    licence: CC BY 4.0
+    attribution: ISPRA, Servizio Geologico d'Italia
+
   # ---- modern reference --------------------------------------------------
   - id: wikidata-sites
     group: Ancient geography
@@ -339,13 +416,18 @@ sources:
 #
 #   Itiner-e, if api.nakala.fr will not verify on your network
 #     https://doi.org/10.5281/zenodo.17122148  ->  .cache/local-itinere.geojson
-#   HydroBASINS (catchment polygons). Take Standard / Europe and Middle East,
-#   level 6 for a spatial unit and level 8 for a finer one. It ships as a
-#   shapefile, so convert it first:
-#     python3 scripts/shapefile_to_layer.py hybas_eu_lev06_v1c.shp local-hydrobasins
+#
+#   HydroBASINS, catchment polygons. Standard / Europe and Middle East, level 6
+#   as a spatial unit and level 8 for a finer one. It ships as shapefiles inside
+#   one 345 MB archive, so convert the members you want:
+#     python3 scripts/shapefile_to_layer.py hybas_eu_lev01-12_v1c.zip local-hydrobasins \
+#         --member hybas_eu_lev06_v1c \
+#         --fields HYBAS_ID PFAF_ID SUB_AREA UP_AREA NEXT_DOWN MAIN_BAS
 #     https://www.hydrosheds.org/products  ->  .cache/local-hydrobasins.geojson
-#   Carta Geologica d'Italia 1:100k (lithology polygons)
-#     https://www.isprambiente.gov.it/     ->  .cache/local-geology.geojson
+#
+#   local-geology is a fallback for the ispra-lithology layer above. Use it only
+#   if the WFS is unreachable: fetch the GML instead, open it in QGIS, export
+#   GeoJSON, and save it as .cache/local-geology.geojson
 #
 local_sources:
   - id: local-itinere
@@ -377,9 +459,10 @@ local_sources:
 
   - id: local-geology
     group: Physical setting
-    name: Bedrock geology
+    name: Lithology (local copy)
     kind: geology
+    name_fields: [litologia]
+    keep_fields: [cod_lito, litologia, classi_litologiche, nome_ulf, eta_geol]
     simplify: 0.001
-    name_fields: [descr, litologia, name]
-    licence: Check the publisher
-    attribution: ISPRA
+    licence: CC BY 4.0
+    attribution: ISPRA, Servizio Geologico d'Italia

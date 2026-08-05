@@ -3,88 +3,125 @@ layout: default
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.1.0/dist/maplibre-gl.css">
 
-<main class="page-wrap wide">
-  <p class="eyebrow" style="margin-bottom:.3rem">
+<main class="page-wrap wide" id="main">
+
+  <h1>{{ page.title }}</h1>
+
+  <p class="place-meta">
     {{ page.level | default: "findspot" | capitalize }}{% if page.region %} &middot; {{ page.region }}{% endif %}
     {%- if page.parent_slug %} &middot; part of
     <a href="{{ '/place/' | append: page.parent_slug | append: '/' | relative_url }}">{{ page.parent_name }}</a>
     {%- endif %}
   </p>
-  <div class="place-head">
-    <h1 style="margin:0">{{ page.title }}</h1>
-  </div>
 
   {% if page.aliases %}
-  <p class="empty" style="padding:.2rem 0">
-    Also recorded as {{ page.aliases | join: "; " }}.
-  </p>
+  <p class="place-aliases">Also recorded as {{ page.aliases | join: "; " }}.</p>
   {% endif %}
 
+  <dl class="meta-list">
+    <div>
+      <dt>Inscriptions</dt>
+      <dd>{% include number.html value=page.n_inscriptions %}{% if page.n_descendants > 0 %},
+        {% include number.html value=page.n_descendants %} including sub&#8209;findspots{% endif %}</dd>
+    </div>
+    <div>
+      <dt>Attested range</dt>
+      <dd id="p-span">
+        {%- if page.date_min -%}
+          {%- if page.date_min < 0 %}{{ page.date_min | times: -1 }} BC{% else %}AD {{ page.date_min }}{% endif -%}
+          &nbsp;&ndash;&nbsp;
+          {%- if page.date_max < 0 %}{{ page.date_max | times: -1 }} BC{% else %}AD {{ page.date_max }}{% endif -%}
+        {%- else -%}Undated{%- endif -%}
+      </dd>
+    </div>
+    <div>
+      <dt>Languages</dt>
+      <dd id="p-langs">Reading the corpus&hellip;</dd>
+    </div>
+    <div>
+      <dt>Coordinates</dt>
+      <dd class="mono">{{ page.latitude }}, {{ page.longitude }}</dd>
+    </div>
+  </dl>
+
+  <figure class="place-figure">
+    <div class="place-map" id="place-map"></div>
+    <figcaption>
+      The recorded coordinate on {{ site.atlas.basemaps[0].name }}, with hillshade from
+      the elevation tiles. Pan and zoom to read the setting.
+    </figcaption>
+  </figure>
+
   {% if page.links %}
-  <h2 style="margin-bottom:0">Authority records</h2>
-  <p class="empty" style="padding:.2rem 0">
-    Matched automatically by <code>scripts/link_authorities.py</code>; the score
-    and distance say how confident the match is. Dashed borders are searches,
-    not resolved records.
+  <h2 id="h-authorities">Authority records</h2>
+  <p class="empty">
+    Matched by <code>scripts/link_authorities.py</code> on name similarity and distance.
+    The score states how confident the match is; a search link is a pointer, not a
+    resolved identifier.
   </p>
-  <ul class="links-list">
-    {% for link in page.links %}
-    <li{% if link.method == "search" %} class="is-search"{% endif %}>
-      <span class="authority">{{ link.authority }}</span>
-      <a href="{{ link.uri }}" target="_blank" rel="noopener">{{ link.label | default: link.identifier | default: link.uri }}</a>
-      {% if link.score %}<span class="score">{{ link.score }}</span>{% endif %}
+  <table class="links-table">
+    <caption class="visually-hidden">External gazetteer records matched to this findspot.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Authority</th>
+        <th scope="col">Record</th>
+        <th scope="col" class="num">Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for link in page.links %}
+      <tr{% if link.method == "search" %} class="is-search"{% endif %}>
+        <td class="authority">
+          {{ link.authority }}
+          {% if link.method == "search" %}<span class="method">search link, unresolved</span>{% endif %}
+        </td>
+        <td><a href="{{ link.uri }}" target="_blank" rel="noopener">{{ link.label | default: link.identifier | default: link.uri }}</a></td>
+        <td class="num">{% if link.score %}{{ link.score }}{% else %}&mdash;{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  {% if page.children %}
+  <h2 id="h-children">
+    Sub&#8209;findspots
+    <span class="count">{{ page.children | size }} filed here, {% include number.html value=page.n_descendants %} inscriptions</span>
+  </h2>
+  <ul class="child-list">
+    {% for child in page.children %}
+    <li>
+      <a href="{{ '/place/' | append: child.slug | append: '/' | relative_url }}">{{ child.name }}</a>
+      <span class="n">{% include number.html value=child.n %}</span>
     </li>
     {% endfor %}
   </ul>
   {% endif %}
 
-  <div class="stat-grid">
-    <div class="stat">
-      <span class="n">{{ page.n_inscriptions }}</span>
-      <span class="k">Inscriptions</span>
-    </div>
-    <div class="stat">
-      <span class="n" id="p-span">&mdash;</span>
-      <span class="k">Attested range</span>
-    </div>
-    <div class="stat">
-      <span class="n" id="p-langs">&mdash;</span>
-      <span class="k">Languages</span>
-    </div>
-    <div class="stat">
-      <span class="n" style="font-size:.95rem">{{ page.latitude }}, {{ page.longitude }}</span>
-      <span class="k">Coordinates</span>
-    </div>
-  </div>
-
-  <div class="place-map" id="place-map"></div>
-
-  {% if page.children %}
-  <h2>Sub-findspots <span class="count">{{ page.n_descendants }} inscriptions across {{ page.children | size }}</span></h2>
-  <ul class="child-list">
-    {% for child in page.children %}
-    <li><a href="{{ '/place/' | append: child.slug | append: '/' | relative_url }}">{{ child.name }}</a>
-      <span class="score">{{ child.n }}</span></li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-
-  <h2>Records</h2>
-  <p class="empty" id="p-status">Loading&hellip;</p>
-  <div class="result-wrap">
+  <h2 id="h-records">Records</h2>
+  <p class="status" id="p-status" role="status">Loading the corpus&hellip;</p>
+  <div class="result-wrap" tabindex="0" role="region" aria-label="Records for this findspot, scrollable">
     <table id="p-table">
+      <caption class="visually-hidden">Inscriptions recorded at this findspot.</caption>
       <thead>
-        <tr><th>Reference</th><th>Language</th><th>Alphabet</th><th>Direction</th>
-            <th>From</th><th>To</th><th>Notes</th></tr>
+        <tr>
+          <th scope="col">Reference</th>
+          <th scope="col">Language</th>
+          <th scope="col">Alphabet</th>
+          <th scope="col">Direction</th>
+          <th scope="col" class="num">From</th>
+          <th scope="col" class="num">To</th>
+          <th scope="col">Notes</th>
+        </tr>
       </thead>
       <tbody></tbody>
     </table>
   </div>
 
-  <p style="margin-top:2rem">
-    <a href="{{ '/places/' | relative_url }}">&larr; All findspots</a> &nbsp;&middot;&nbsp;
+  <nav class="page-foot" aria-label="Related pages">
+    <a href="{{ '/places/' | relative_url }}">All findspots</a>
     <a href="{{ '/' | relative_url }}">Open in the atlas</a>
-  </p>
+  </nav>
 </main>
 
 <script>

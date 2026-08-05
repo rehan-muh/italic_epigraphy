@@ -104,7 +104,7 @@
     var w = C.state.quarters;
     el('sel-window').textContent = w
       ? C.fmt.quarter(w[0]).replace(/ (BC|AD)$/, '') + ' to ' + C.fmt.quarter(w[1])
-      : 'all periods';
+      : 'All periods';
     el('timeline-range').textContent = w
       ? C.fmt.quarter(w[0]) + '  \u2192  ' + C.fmt.quarter(w[1])
       : 'whole sequence, ' + C.timeline.quarters.length + ' quarter centuries';
@@ -170,16 +170,24 @@
         var label = document.createElement('label');
         label.className = 'label';
         label.htmlFor = box.id;
+
         var swatch = document.createElement('i');
         swatch.className = 'swatch';
         swatch.style.background = (M.STYLES[entry.kind] || M.STYLES.feature).color;
-        label.appendChild(swatch);
+
         var text = document.createElement('span');
-        text.textContent = entry.name;
+        text.appendChild(swatch);
+        text.appendChild(document.createTextNode(entry.name));
         text.title = entry.features.toLocaleString('en-US') + ' features, ' +
-          (entry.bytes / 1e6).toFixed(2) + ' MB, ' + (entry.licence || 'licence unstated') +
-          (entry.attribution ? ' \u00b7 ' + entry.attribution : '');
+          (entry.bytes / 1e6).toFixed(2) + ' MB' +
+          (entry.attribution ? ', ' + entry.attribution : '');
         label.appendChild(text);
+
+        // the licence belongs to the layer, not to a footnote about it
+        var licence = document.createElement('span');
+        licence.className = 'licence';
+        licence.textContent = entry.licence || 'Licence unstated';
+        label.appendChild(licence);
 
         var size = document.createElement('span');
         size.className = 'n';
@@ -193,8 +201,8 @@
             li.classList.remove('is-loading');
             if (!ok && box.checked) {
               box.checked = false;
-              li.classList.add('is-empty');
-              text.title = 'This layer could not be loaded.';
+              li.classList.add('is-unavailable');
+              licence.textContent = 'Could not be loaded; the file is missing.';
             }
           });
         });
@@ -297,16 +305,23 @@
 
     wireControls();
     renderLegend();
+
+    // on a narrow screen the key starts folded rather than covering the map
+    var legend = el('legend');
+    if (legend && global.matchMedia && global.matchMedia('(max-width: 900px)').matches) {
+      legend.open = false;
+    }
     C.onChange(refresh);
     C.emit();
 
     el('loading').hidden = true;
   }).catch(function (err) {
     var box = el('loading');
-    box.innerHTML = '<span>Could not load the corpus</span>' +
-      '<span style="text-transform:none;letter-spacing:0;max-width:26rem;text-align:center">' +
-      esc(err && err.message ? err.message : String(err)) +
-      '. Run <code>python3 scripts/build_db.py --force</code>, then reload.</span>';
+    box.innerHTML =
+      '<p class="status status--error" role="status">The corpus could not be loaded.</p>' +
+      '<p class="detail">' + esc(err && err.message ? err.message : String(err)) +
+      '. Run <code>python3 scripts/build_db.py --force</code> to regenerate ' +
+      'assets/data/, then reload this page.</p>';
     console.error(err);
   });
 

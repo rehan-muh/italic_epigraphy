@@ -4,70 +4,106 @@ permalink: /browse/
 nav: browse
 title: "Browse the corpus"
 width: wide
-lede: "Every record, filterable in the table, or queried directly. The SQL console runs the generated SQLite database inside your browser: nothing is uploaded, and edits are discarded on reload."
+lede: "Every record, filterable in the table or queried directly. The SQL console runs the generated SQLite database inside your browser: nothing is uploaded, and edits are discarded on reload."
 ---
 
 <div class="browse-grid">
 
-  <section>
-    <h2>Records</h2>
-    <div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.6rem 0">
-      <input type="search" class="search-input" id="t-q" style="max-width:22rem"
-             placeholder="reference, findspot, note, script" autocomplete="off">
-      <select class="control" id="t-lang" style="max-width:12rem"><option value="">Any language</option></select>
-      <select class="control" id="t-region" style="max-width:14rem"><option value="">Any region</option></select>
-      <button class="btn ghost" id="t-csv">Download filtered CSV</button>
+  <section aria-labelledby="h-records">
+    <h2 id="h-records">Records</h2>
+
+    <div class="filter-bar">
+      <div class="field field--grow">
+        <label class="form-label" for="t-q">Search</label>
+        <input type="search" class="control" id="t-q" autocomplete="off" spellcheck="false"
+               placeholder="Reference, findspot, note or script">
+      </div>
+      <div class="field field--select">
+        <label class="form-label" for="t-lang">Language</label>
+        <select class="control" id="t-lang"><option value="">Any language</option></select>
+      </div>
+      <div class="field field--select">
+        <label class="form-label" for="t-region">Region</label>
+        <select class="control" id="t-region"><option value="">Any region</option></select>
+      </div>
+      <button type="button" class="btn" id="t-csv">Download filtered CSV</button>
     </div>
-    <p class="empty" id="t-status">Loading the corpus&hellip;</p>
-    <div class="result-wrap">
+
+    <p class="status" id="t-status" role="status">Loading the corpus&hellip;</p>
+
+    <div class="result-wrap" tabindex="0" role="region" aria-label="Records, scrollable">
       <table id="t-table">
+        <caption class="visually-hidden">
+          Corpus records. Use the column headers to sort.
+        </caption>
         <thead>
           <tr>
-            <th data-sort="ref">Reference</th>
-            <th data-sort="place">Findspot</th>
-            <th data-sort="region">Region</th>
-            <th data-sort="lang">Language</th>
-            <th data-sort="alpha">Alphabet</th>
-            <th data-sort="dir">Direction</th>
-            <th data-sort="ds">From</th>
-            <th data-sort="de">To</th>
+            <th scope="col" data-sort="ref"    aria-sort="none"><button type="button" class="sort">Reference<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" data-sort="place"  aria-sort="none"><button type="button" class="sort">Findspot<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" data-sort="region" aria-sort="none"><button type="button" class="sort">Region<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" data-sort="lang"   aria-sort="none"><button type="button" class="sort">Language<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" data-sort="alpha"  aria-sort="none"><button type="button" class="sort">Alphabet<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" data-sort="dir"    aria-sort="none"><button type="button" class="sort">Direction<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" class="num" data-sort="ds" aria-sort="none"><button type="button" class="sort">From<i class="arrow" aria-hidden="true"></i></button></th>
+            <th scope="col" class="num" data-sort="de" aria-sort="none"><button type="button" class="sort">To<i class="arrow" aria-hidden="true"></i></button></th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
     </div>
-    <div style="display:flex;gap:.6rem;align-items:center;margin-top:.7rem">
-      <button class="btn ghost" id="t-prev">Previous</button>
-      <span class="empty" id="t-page" style="padding:0"></span>
-      <button class="btn ghost" id="t-next">Next</button>
-    </div>
+
+    <nav class="pager" aria-label="Record pages">
+      <button type="button" class="btn btn--sm" id="t-prev">Previous</button>
+      <span id="t-page"></span>
+      <button type="button" class="btn btn--sm" id="t-next">Next</button>
+    </nav>
   </section>
 
-  <section class="sql-console">
-    <h2>SQL</h2>
-    <p class="lede" style="font-size:.92rem">
-      Tables: <code>inscriptions</code>, <code>places</code>, <code>regions</code>,
-      <code>languages</code>, <code>alphabets</code>, <code>directions</code>,
-      <code>uses</code>, <code>object_types</code>, <code>meta</code>.
-      Views: <code>v_inscriptions</code>, <code>v_place_counts</code>, <code>v_timeline</code>.
-      Full-text index: <code>inscriptions_fts</code>.
-    </p>
+  <section class="sql-console" aria-labelledby="h-sql">
+    <h2 id="h-sql">SQL console</h2>
 
-    <textarea id="sql" spellcheck="false">SELECT language, COUNT(*) AS n,
+    <dl class="sql-schema">
+      <div>
+        <dt>Tables</dt>
+        <dd><code>inscriptions</code>, <code>places</code>, <code>place_links</code>,
+          <code>quarters</code>, <code>regions</code>, <code>languages</code>,
+          <code>alphabets</code>, <code>directions</code>, <code>uses</code>,
+          <code>object_types</code>, <code>meta</code></dd>
+      </div>
+      <div>
+        <dt>Views</dt>
+        <dd><code>v_inscriptions</code>, <code>v_place_counts</code>, <code>v_place_tree</code>,
+          <code>v_timeline</code>, <code>v_aoristic</code>, <code>v_timeline_aoristic</code></dd>
+      </div>
+      <div>
+        <dt>Full-text index</dt>
+        <dd><code>inscriptions_fts</code>, FTS5, diacritics folded</dd>
+      </div>
+    </dl>
+
+    <div class="field">
+      <label class="form-label" for="sql">Query</label>
+      <textarea class="control" id="sql" spellcheck="false" rows="7">SELECT language, COUNT(*) AS n,
        MIN(date_start) AS earliest,
        MAX(date_end)   AS latest
 FROM v_inscriptions
 GROUP BY language
 ORDER BY n DESC;</textarea>
-
-    <div style="display:flex;gap:.6rem;align-items:center;margin:.6rem 0">
-      <button class="btn" id="sql-run" disabled>Run query</button>
-      <span class="empty" id="sql-status" style="padding:0">Loading the database&hellip;</span>
     </div>
 
-    <div class="query-samples" id="sql-samples"></div>
+    <div class="control-row">
+      <button type="button" class="btn btn--primary" id="sql-run" disabled>Run query</button>
+      <span class="status" id="sql-status" role="status">Loading the database&hellip;</span>
+    </div>
 
-    <div class="result-wrap" style="margin-top:.9rem">
+    <p class="sql-error" id="sql-error" role="alert" hidden></p>
+
+    <div class="field">
+      <span class="field-label" id="lbl-samples">Example queries</span>
+      <div class="query-samples" id="sql-samples" role="group" aria-labelledby="lbl-samples"></div>
+    </div>
+
+    <div class="result-wrap" tabindex="0" role="region" aria-label="Query results, scrollable">
       <table id="sql-table"><thead></thead><tbody></tbody></table>
     </div>
   </section>

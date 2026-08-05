@@ -1,18 +1,23 @@
 <header class="masthead">
-  <a class="wordmark" href="{{ '/' | relative_url }}" title="{{ site.title }}">
+  <a class="wordmark" href="{{ '/' | relative_url }}">
     <span class="retrograde">Atlas</span>
-    <span class="turn">&#8617;</span>
+    <span class="turn" aria-hidden="true">&#8617;</span>
     <span>Epigraphicus</span>
   </a>
-  <nav>
+
+  <nav aria-label="Main">
     <a href="{{ '/' | relative_url }}"        {% if page.nav == 'atlas'  %}aria-current="page"{% endif %}>Atlas</a>
     <a href="{{ '/browse/' | relative_url }}" {% if page.nav == 'browse' %}aria-current="page"{% endif %}>Browse</a>
     <a href="{{ '/places/' | relative_url }}" {% if page.nav == 'places' %}aria-current="page"{% endif %}>Gazetteer</a>
     <a href="{{ '/about/' | relative_url }}"  {% if page.nav == 'about'  %}aria-current="page"{% endif %}>About</a>
   </nav>
+
   <span class="spacer"></span>
-  <span class="build-stamp">
-    {{ site.data.atlas.stats.inscriptions }} inscriptions &middot;
+
+  <a class="build-stamp" href="{{ '/about/' | relative_url }}">
+    {% include number.html value=site.data.atlas.stats.inscriptions %} records &middot;
     built {{ site.data.atlas.build.built_at | slice: 0, 10 }}
-  </span>
+  </a>
+
+  <button type="button" class="theme-toggle" id="theme-toggle" hidden>Dark</button>
 </header>

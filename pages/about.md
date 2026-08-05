@@ -38,14 +38,14 @@ has changed, so it is cheap to put in front of every `jekyll serve`.
 
 ## Provenance of this build
 
-<div class="stat-grid">
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.inscriptions }}</span><span class="k">Inscriptions</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.dated }}</span><span class="k">Dated</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.located }}</span><span class="k">Located</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.languages }}</span><span class="k">Languages</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.alphabets }}</span><span class="k">Alphabet codes</span></div>
-  <div class="stat"><span class="n">{{ site.data.atlas.stats.regions }}</span><span class="k">Regions</span></div>
-</div>
+<ul class="figure-line">
+  <li><b>{% include number.html value=site.data.atlas.stats.inscriptions %}</b> inscriptions</li>
+  <li><b>{% include number.html value=site.data.atlas.stats.dated %}</b> dated</li>
+  <li><b>{% include number.html value=site.data.atlas.stats.located %}</b> located</li>
+  <li><b>{{ site.data.atlas.stats.languages }}</b> languages</li>
+  <li><b>{{ site.data.atlas.stats.alphabets }}</b> alphabet codes</li>
+  <li><b>{{ site.data.atlas.stats.regions }}</b> regions</li>
+</ul>
 
 Source file `{{ site.data.atlas.build.source_csv }}`, decoded as
 `{{ site.data.atlas.build.source_encoding }}`, SHA-256
@@ -55,7 +55,8 @@ Source file `{{ site.data.atlas.build.source_csv }}`, decoded as
 {% if site.data.atlas.warnings and site.data.atlas.warnings.size > 0 %}
 ### Warnings raised during the last build
 
-<div class="notice warn">
+<div class="notice warn" role="note">
+<span class="notice-label">Unresolved during the last build</span>
 <ul>
 {% for w in site.data.atlas.warnings %}<li>{{ w }}</li>{% endfor %}
 </ul>
@@ -68,7 +69,7 @@ Two histograms are published, and the difference between them is not small.
 
 **Start date** counts each record in the quarter its `Date.Start` falls in. This
 is what epigraphic databases usually show, and it is badly misleading here:
-{{ site.data.atlas.stats.dated }} records are dated, but a third of them carry
+{% include number.html value=site.data.atlas.stats.dated %} records are dated, but a third of them carry
 intervals of a century or more that nearly all begin on a round century edge, so
 the bins at 400 BC, 300 BC and 200 BC swallow records that could belong anywhere
 in the following four hundred years. The bin at 400–376 BC holds 5,540
@@ -175,13 +176,31 @@ AWS Terrain Tiles for relief (Mapzen, SRTM, GMTED).
 Enrichment: one file per layer, each with its own licence, kept apart so that a
 share-alike obligation on one does not attach to the corpus or to the others.
 
-<ul>
-{% for l in site.data.layers.layers %}
-<li><b>{{ l.name }}</b> ({{ l.group }}) &middot; {{ l.features }} features,
-{{ l.bytes | divided_by: 1024 }} kB &middot; {{ l.attribution }} &middot;
-<i>{{ l.licence }}</i></li>
-{% endfor %}
-</ul>
+<div class="table-scroll">
+<table>
+  <caption class="visually-hidden">Geography layers available to the atlas, with licences.</caption>
+  <thead>
+    <tr>
+      <th scope="col">Layer</th>
+      <th scope="col">Group</th>
+      <th scope="col" class="num">Features</th>
+      <th scope="col" class="num">Size</th>
+      <th scope="col">Licence</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for l in site.data.layers.layers %}
+    <tr>
+      <td>{{ l.name }}<span class="method">{{ l.attribution }}</span></td>
+      <td>{{ l.group }}</td>
+      <td class="num">{% include number.html value=l.features %}</td>
+      <td class="num">{{ l.bytes | divided_by: 1024 }}&nbsp;kB</td>
+      <td>{{ l.licence }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
 
 The AWMC and OpenStreetMap layers are ODbL, which is share-alike. Pleiades is
 CC-BY, Itiner-e CC BY 4.0, Wikidata CC0, Natural Earth public domain.

@@ -49,7 +49,10 @@
 
       var padX = 4, labelH = 13, gap = 8;
       var cellW = (width - padX * 2) / perRow;
-      var maxRowH = Math.max(30, Math.min(64, (150 - (rows - 1) * gap) / rows));
+      // a share of the viewport rather than a fixed height, so the chart keeps
+      // its proportions on a short screen instead of being clipped
+      var budget = Math.max(76, Math.min(150, (global.innerHeight || 900) * 0.18));
+      var maxRowH = Math.max(28, Math.min(64, (budget - (rows - 1) * gap) / rows));
       var barH = maxRowH - labelH;
       var rowH = maxRowH + gap;
 
@@ -171,10 +174,12 @@
           void top;
         }
 
+        // an empty quarter keeps a mark, so a gap reads as "nothing recorded"
+        // rather than a rendering failure; the fill comes from the stylesheet
         if (total === 0) {
           group.appendChild(el('rect', {
-            class: 'seg', x: g.x + 1, y: g.baseline - 1.5,
-            width: Math.max(1, g.w - 2), height: 1.5, fill: '#39423d'
+            class: 'seg is-zero', x: g.x + 1, y: g.baseline - 1.5,
+            width: Math.max(1, g.w - 2), height: 1.5
           }));
         }
 
