@@ -7,8 +7,10 @@ lang: en
 timezone: America/Los_Angeles
 
 # Change to your GitHub Pages URL before deploying.
-url: ""
-baseurl: ""
+url: "https://rehan-muh.github.io"
+baseurl: "/italic_epigraphy"
+
+repository: "rehan-muh/italic_epigraphy"
 
 plugins:
   - jekyll-seo-tag
