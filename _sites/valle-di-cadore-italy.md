@@ -2,11 +2,14 @@
 layout: site
 title: Valle di Cadore, Italy
 slug: valle-di-cadore-italy
-place_id: 1936
+place_id: 1914
 region: Venetia et Histria
 latitude: 46.417354
 longitude: 12.323733
 n_inscriptions: 1
 date_min: -600
 date_max: -1
+level: locality
+coord_shared: 1
+n_descendants: 0
 ---

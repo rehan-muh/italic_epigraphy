@@ -2,11 +2,14 @@
 layout: site
 title: Ischia di Castro
 slug: ischia-di-castro
-place_id: 1315
+place_id: 1313
 region: Etruria Meridionale
 latitude: 42.54579
 longitude: 11.758015
 n_inscriptions: 4
 date_min: -600
 date_max: -101
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

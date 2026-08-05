@@ -2,11 +2,14 @@
 layout: site
 title: Tauromenion
 slug: tauromenion
-place_id: 1519
+place_id: 1517
 region: Sicily
 latitude: 37.855367
 longitude: 15.285368
 n_inscriptions: 2
 date_min: -300
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

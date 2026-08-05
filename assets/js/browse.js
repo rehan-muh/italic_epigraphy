@@ -4,6 +4,8 @@
 (function (global) {
   'use strict';
 
+  var AtlasBrowse = { ensureDatabase: null };
+
   var C = global.Corpus;
   var base = (global.ATLAS_CONFIG && global.ATLAS_CONFIG.baseurl) || '';
   var el = function (id) { return document.getElementById(id); };
@@ -182,7 +184,12 @@
 
   function runQuery() {
     var sql = el('sql').value.trim();
-    if (!sql || !db) return;
+    if (!sql) return;
+    if (!db) {
+      if (!AtlasBrowse.ensureDatabase) return;
+      AtlasBrowse.ensureDatabase().then(runQuery).catch(function () {});
+      return;
+    }
     var head = el('sql-table').querySelector('thead');
     var body = el('sql-table').querySelector('tbody');
     var t0 = performance.now();
@@ -236,22 +243,38 @@
       return;
     }
 
-    Promise.all([
-      initSqlJs({ locateFile: function (f) {
-        return 'https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/' + f;
-      } }),
-      fetch(base + '/assets/data/atlas.sqlite').then(function (r) {
-        if (!r.ok) throw new Error('atlas.sqlite is missing. Run scripts/build_db.py.');
-        return r.arrayBuffer();
-      })
-    ]).then(function (out) {
-      db = new out[0].Database(new Uint8Array(out[1]));
-      el('sql-run').disabled = false;
-      el('sql-status').textContent = 'Ready. Ctrl or Cmd + Enter runs the query.';
-      runQuery();
-    }).catch(function (err) {
-      el('sql-status').textContent = err.message;
-    });
+    // The database is several megabytes and most visitors never open the
+    // console, so it is fetched on the first request to run something rather
+    // than on page load. The record table above needs none of it.
+    var loading = null;
+
+    function ensureDatabase() {
+      if (loading) return loading;
+      el('sql-status').textContent = 'Fetching the database, a few megabytes, once\u2026';
+      loading = Promise.all([
+        initSqlJs({ locateFile: function (f) {
+          return 'https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/' + f;
+        } }),
+        fetch(base + '/assets/data/atlas.sqlite').then(function (r) {
+          if (!r.ok) throw new Error('atlas.sqlite is missing. Run scripts/build_db.py.');
+          return r.arrayBuffer();
+        })
+      ]).then(function (out) {
+        db = new out[0].Database(new Uint8Array(out[1]));
+        el('sql-status').textContent = 'Ready. Ctrl or Cmd + Enter runs the query.';
+        return db;
+      }).catch(function (err) {
+        loading = null;
+        el('sql-status').textContent = err.message;
+        throw err;
+      });
+      return loading;
+    }
+
+    AtlasBrowse.ensureDatabase = ensureDatabase;
+    el('sql-run').disabled = false;
+    el('sql-status').textContent =
+      'Run a query and the database will be fetched on the spot.';
   }
 
   // =======================================================================

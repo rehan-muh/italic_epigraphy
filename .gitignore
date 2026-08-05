@@ -16,3 +16,8 @@ db/.build-stamp.json
 # assets/data/
 # _data/atlas.yml
 # _sites/
+# Layer files are generated inputs and intentionally committed alongside
+# assets/data/, but the manifest copy under _data/ is written by enrich_geo.py
+# at the same time, so the two never drift:
+# assets/data/layers/
+# _data/layers.json

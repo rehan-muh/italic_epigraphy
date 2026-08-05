@@ -2,11 +2,14 @@
 layout: site
 title: S Polo d'Enza
 slug: s-polo-d-enza
-place_id: 1118
+place_id: 1116
 region: Aemilia
 latitude: 44.625111
 longitude: 10.422741
 n_inscriptions: 4
 date_min: -500
 date_max: -401
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

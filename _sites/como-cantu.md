@@ -2,11 +2,14 @@
 layout: site
 title: Como (Cantù)
 slug: como-cantu
-place_id: 1778
+place_id: 1757
 region: Transpadana
 latitude: 45.742
 longitude: 9.14
 n_inscriptions: 1
 date_min: -150
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

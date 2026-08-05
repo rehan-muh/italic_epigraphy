@@ -2,11 +2,14 @@
 layout: site
 title: Gela
 slug: gela
-place_id: 632
+place_id: 630
 region: Sicily
 latitude: 37.063093
 longitude: 14.25847
 n_inscriptions: 71
 date_min: -600
 date_max: -251
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

@@ -3,7 +3,11 @@
 #   make serve    rebuild what is stale, then run Jekyll at localhost:4000
 #   make db       CSV -> SQLite -> SQL dump -> JSON, only if the CSV changed
 #   make rebuild  same, unconditionally
-#   make geo      fetch rivers, relief names and ancient places (needs network)
+#   make geo      fetch the default geography layers (needs network)
+#   make geo-all  fetch every declared layer, including the slow OSM ones
+#   make layers   list what is declared in scripts/geosources.yml
+#   make links    reconcile findspots against Pleiades, Wikidata and iDAI
+#   make encoding audit the character encoding of the CSV
 #   make watch    rebuild automatically whenever the CSV changes
 #   make build    production build into _site/
 #   make clean    delete every generated file
@@ -13,15 +17,15 @@ PY  ?= $(shell command -v python3 2>/dev/null || command -v python 2>/dev/null |
 CSV := data/database_preliminary.csv
 GEN := _data/atlas.yml assets/data/corpus.json assets/data/places.geojson
 
-.PHONY: all db rebuild pages geo serve watch build clean check install
+.PHONY: all db rebuild pages geo geo-all layers links encoding serve watch build clean check install
 
 all: db
 
 install:
-	$(PY) -m pip install pyyaml
+	$(PY) -m pip install pyyaml certifi
 	bundle install
 
-$(GEN): $(CSV) scripts/build_db.py scripts/codebook.yml
+$(GEN): $(CSV) scripts/build_db.py scripts/codebook.yml scripts/text_repairs.yml data/links.csv
 	$(PY) scripts/build_db.py --site-pages
 
 db: $(GEN)
@@ -35,8 +39,25 @@ pages:
 check:
 	$(PY) scripts/build_db.py --check
 
+encoding:
+	$(PY) scripts/textfix.py
+
 geo:
 	$(PY) scripts/enrich_geo.py
+
+geo-all:
+	$(PY) scripts/enrich_geo.py --all
+
+layers:
+	$(PY) scripts/enrich_geo.py --list
+
+# needs db/atlas.sqlite, and writes data/links.csv for review; the next
+# build_db.py run folds it into place_links
+links:
+	$(PY) scripts/link_authorities.py --periods
+
+data/links.csv:
+	@touch $@
 
 serve: db
 	bundle exec jekyll serve --livereload --host 127.0.0.1 --port 4000

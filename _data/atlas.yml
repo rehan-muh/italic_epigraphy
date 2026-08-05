@@ -1,15 +1,17 @@
 build:
+  clamped_dates: '2'
+  merge_note: merged 200 duplicate findspot record(s)
   source_csv: database_preliminary.csv
   source_sha256: af3b25910fc043505fdf5db180a5d0f1e1c8d54541943962c2c263f86b9dff5b
-  source_encoding: cp1252
-  built_at: '2026-08-05T04:15:36+00:00'
-  script_version: 1.2.0
+  source_encoding: mixed, repaired per field
+  built_at: '2026-08-05T06:32:20+00:00'
+  script_version: 2.0.0
   row_count: '22011'
-  place_count: '1989'
+  place_count: '1768'
   sqlite_version: 3.49.1
 stats:
   inscriptions: 22011
-  places: 1989
+  places: 1768
   located: 21276
   unlocated: 735
   dated: 21754
@@ -23,6 +25,17 @@ bounds:
   miny: 31.201435
   maxx: 33.21883025
   maxy: 53.993
+bounds_core:
+  minx: 8.5916112
+  miny: 36.87187849
+  maxx: 18.23947086
+  maxy: 46.672
+hierarchy:
+  roots: 1499
+  children: 269
+  coordinate_sharing: 322
+links: {}
+aoristic_rows: 141572
 languages:
 - id: 1
   name: Camunic
@@ -349,173 +362,294 @@ directions:
   code: both
   label: Both directions
 uses:
-- id: 1
-  code: '0'
-  label: Use 0
-- id: 2
-  code: '1'
-  label: Use 1
-- id: 3
-  code: '2'
-  label: Use 2
-- id: 4
-  code: '3'
-  label: Use 3
-- id: 5
-  code: '4'
-  label: Use 4
-- id: 6
-  code: '5'
-  label: Use 5
-- id: 7
-  code: '6'
-  label: Use 6
-- id: 8
-  code: '7'
-  label: Use 7
-- id: 9
-  code: '8'
-  label: Use 8
-- id: 10
-  code: '9'
-  label: Use 9
 - id: 11
   code: both
   label: both
+  scheme: descriptive
 - id: 12
   code: boundary
   label: boundary
+  scheme: descriptive
 - id: 13
   code: boundary stone
   label: boundary stone
+  scheme: descriptive
 - id: 14
   code: building
   label: building
+  scheme: descriptive
 - id: 15
   code: building inscription
   label: building inscription
+  scheme: descriptive
 - id: 16
   code: dedicatory
   label: dedicatory
+  scheme: descriptive
 - id: 17
   code: freed men and women
   label: freed men and women
+  scheme: descriptive
 - id: 18
   code: honorary
   label: honorary
+  scheme: descriptive
 - id: 19
   code: legion inscription
   label: legion inscription
+  scheme: descriptive
 - id: 20
   code: manufacturer
   label: manufacturer
+  scheme: descriptive
 - id: 21
   code: members of senatorial order
   label: members of senatorial order
+  scheme: descriptive
 - id: 22
   code: owner
   label: owner
-object_types:
+  scheme: descriptive
 - id: 1
-  name: '1'
+  code: '0'
+  label: Use 0
+  scheme: numeric
 - id: 2
-  name: '10'
+  code: '1'
+  label: Use 1
+  scheme: numeric
 - id: 3
-  name: '11'
+  code: '2'
+  label: Use 2
+  scheme: numeric
 - id: 4
-  name: '12'
+  code: '3'
+  label: Use 3
+  scheme: numeric
 - id: 5
-  name: '13'
+  code: '4'
+  label: Use 4
+  scheme: numeric
 - id: 6
-  name: '14'
+  code: '5'
+  label: Use 5
+  scheme: numeric
 - id: 7
-  name: '15'
+  code: '6'
+  label: Use 6
+  scheme: numeric
 - id: 8
-  name: '16'
+  code: '7'
+  label: Use 7
+  scheme: numeric
 - id: 9
-  name: '17'
+  code: '8'
+  label: Use 8
+  scheme: numeric
 - id: 10
-  name: '18'
-- id: 11
-  name: '19'
-- id: 12
-  name: '2'
-- id: 13
-  name: '20'
-- id: 14
-  name: '21'
-- id: 15
-  name: '22'
-- id: 16
-  name: '23'
-- id: 17
-  name: '24'
-- id: 18
-  name: '25'
-- id: 19
-  name: '26'
-- id: 20
-  name: '27'
-- id: 21
-  name: '28'
-- id: 22
-  name: '29'
-- id: 23
-  name: '3'
-- id: 24
-  name: '31'
-- id: 25
-  name: '32'
-- id: 26
-  name: '4'
-- id: 27
-  name: '5'
-- id: 28
-  name: '6'
-- id: 29
-  name: '7'
-- id: 30
-  name: '8'
-- id: 31
-  name: '9'
+  code: '9'
+  label: Use 9
+  scheme: numeric
+object_types:
 - id: 32
   name: bronze
+  label: bronze
+  scheme: descriptive
 - id: 33
   name: cippus
+  label: cippus
+  scheme: descriptive
 - id: 34
   name: dedicatory
+  label: dedicatory
+  scheme: descriptive
 - id: 35
   name: funerary
+  label: funerary
+  scheme: descriptive
 - id: 36
   name: gold
+  label: gold
+  scheme: descriptive
 - id: 37
   name: lead
+  label: lead
+  scheme: descriptive
 - id: 38
   name: mark of manufacturer
+  label: mark of manufacturer
+  scheme: descriptive
 - id: 39
   name: mosaic
+  label: mosaic
+  scheme: descriptive
 - id: 40
   name: prob. funerary
+  label: prob. funerary
+  scheme: descriptive
 - id: 41
   name: prob. invocatory
+  label: prob. invocatory
+  scheme: descriptive
 - id: 42
   name: prob. mark of manufacturer
+  label: prob. mark of manufacturer
+  scheme: descriptive
 - id: 43
   name: prob. mark of possessor
+  label: prob. mark of possessor
+  scheme: descriptive
 - id: 44
   name: prob. votive
+  label: prob. votive
+  scheme: descriptive
 - id: 45
   name: tomb exterior
+  label: tomb exterior
+  scheme: descriptive
 - id: 46
   name: unknown
+  label: unknown
+  scheme: descriptive
 - id: 47
   name: votive
+  label: votive
+  scheme: descriptive
 - id: 48
   name: wall
+  label: wall
+  scheme: descriptive
+- id: 1
+  name: '1'
+  label: Object type 1
+  scheme: numeric
+- id: 2
+  name: '10'
+  label: Object type 10
+  scheme: numeric
+- id: 3
+  name: '11'
+  label: Object type 11
+  scheme: numeric
+- id: 4
+  name: '12'
+  label: Object type 12
+  scheme: numeric
+- id: 5
+  name: '13'
+  label: Object type 13
+  scheme: numeric
+- id: 6
+  name: '14'
+  label: Object type 14
+  scheme: numeric
+- id: 7
+  name: '15'
+  label: Object type 15
+  scheme: numeric
+- id: 8
+  name: '16'
+  label: Object type 16
+  scheme: numeric
+- id: 9
+  name: '17'
+  label: Object type 17
+  scheme: numeric
+- id: 10
+  name: '18'
+  label: Object type 18
+  scheme: numeric
+- id: 11
+  name: '19'
+  label: Object type 19
+  scheme: numeric
+- id: 12
+  name: '2'
+  label: Object type 2
+  scheme: numeric
+- id: 13
+  name: '20'
+  label: Object type 20
+  scheme: numeric
+- id: 14
+  name: '21'
+  label: Object type 21
+  scheme: numeric
+- id: 15
+  name: '22'
+  label: Object type 22
+  scheme: numeric
+- id: 16
+  name: '23'
+  label: Object type 23
+  scheme: numeric
+- id: 17
+  name: '24'
+  label: Object type 24
+  scheme: numeric
+- id: 18
+  name: '25'
+  label: Object type 25
+  scheme: numeric
+- id: 19
+  name: '26'
+  label: Object type 26
+  scheme: numeric
+- id: 20
+  name: '27'
+  label: Object type 27
+  scheme: numeric
+- id: 21
+  name: '28'
+  label: Object type 28
+  scheme: numeric
+- id: 22
+  name: '29'
+  label: Object type 29
+  scheme: numeric
+- id: 23
+  name: '3'
+  label: Object type 3
+  scheme: numeric
+- id: 24
+  name: '31'
+  label: Object type 31
+  scheme: numeric
+- id: 25
+  name: '32'
+  label: Object type 32
+  scheme: numeric
+- id: 26
+  name: '4'
+  label: Object type 4
+  scheme: numeric
+- id: 27
+  name: '5'
+  label: Object type 5
+  scheme: numeric
+- id: 28
+  name: '6'
+  label: Object type 6
+  scheme: numeric
+- id: 29
+  name: '7'
+  label: Object type 7
+  scheme: numeric
+- id: 30
+  name: '8'
+  label: Object type 8
+  scheme: numeric
+- id: 31
+  name: '9'
+  label: Object type 9
+  scheme: numeric
 quarters:
 - edge: -800
   label: 800–776 BC
   n: 1
+- edge: -775
+  label: 775–751 BC
+  n: 0
 - edge: -750
   label: 750–726 BC
   n: 4
@@ -615,6 +749,9 @@ quarters:
 - edge: 51
   label: AD 51–75
   n: 4
+- edge: 76
+  label: AD 76–100
+  n: 0
 - edge: 101
   label: AD 101–125
   n: 1
@@ -640,7 +777,7 @@ top_places:
 - name: Palestrina / Praeneste
   slug: palestrina-praeneste
   region: Latium
-  n: 514
+  n: 523
   date_min: -675
   date_max: -1
 - name: Etruria Meridionale (unspecified findspot)
@@ -649,23 +786,29 @@ top_places:
   n: 459
   date_min: -700
   date_max: -1
+- name: Calatafimi-Segesta / Segesta
+  slug: calatafimi-segesta-segesta
+  region: Sicily
+  n: 418
+  date_min: -575
+  date_max: -1
 - name: Cerveteri / Agylla / Caere
   slug: cerveteri-agylla-caere
   region: Etruria Meridionale
-  n: 413
+  n: 414
   date_min: -700
-  date_max: -1
-- name: Segesta
-  slug: segesta
-  region: Sicily
-  n: 406
-  date_min: -575
   date_max: -1
 - name: Palazzone
   slug: palazzone
   region: Etruria Settentrionale
   n: 345
   date_min: -525
+  date_max: -1
+- name: Falerii Veteres (Civita Castellana)
+  slug: falerii-veteres-civita-castellana
+  region: Agri Faliscus et Capena
+  n: 303
+  date_min: -700
   date_max: -1
 - name: Pompei
   slug: pompei
@@ -679,28 +822,22 @@ top_places:
   n: 247
   date_min: -200
   date_max: -1
-- name: Sybaris
-  slug: sybaris
+- name: Sibari / Sybaris
+  slug: sibari-sybaris
   region: Lucania et Bruttium
-  n: 217
+  n: 218
   date_min: -625
-  date_max: -401
-- name: Falerii Veteres (Civita Castellana)
-  slug: falerii-veteres-civita-castellana
-  region: Agri Faliscus et Capena
-  n: 213
-  date_min: -700
-  date_max: -1
+  date_max: -151
 - name: Camarina
   slug: camarina
   region: Sicily
   n: 212
   date_min: -650
   date_max: -26
-- name: Aquileia
-  slug: aquileia
+- name: Belvedere / Aquileia
+  slug: belvedere-aquileia
   region: Venetia et Histria
-  n: 202
+  n: 204
   date_min: -200
   date_max: -1
 - name: Capua / Casilinum
@@ -733,6 +870,24 @@ top_places:
   n: 157
   date_min: -300
   date_max: -1
+- name: Este / Ateste
+  slug: este-ateste
+  region: Venetia et Histria
+  n: 149
+  date_min: -600
+  date_max: -1
+- name: Castelvetrano / Selinus
+  slug: castelvetrano-selinus
+  region: Sicily
+  n: 132
+  date_min: -650
+  date_max: -201
+- name: Corfinio / Pentima / Corfinium
+  slug: corfinio-pentima-corfinium
+  region: Samnium
+  n: 130
+  date_min: -650
+  date_max: -1
 - name: Veii
   slug: veii
   region: Etruria Meridionale
@@ -745,16 +900,10 @@ top_places:
   n: 123
   date_min: -700
   date_max: -1
-- name: Ateste (Este)
-  slug: ateste-este
-  region: Venetia et Histria
-  n: 120
-  date_min: -600
-  date_max: -1
-- name: Corfinio / Pentima / Corfinium
-  slug: corfinio-pentima-corfinium
-  region: Samnium
-  n: 95
+- name: Montefalco / Mevania
+  slug: montefalco-mevania
+  region: Umbria
+  n: 94
   date_min: -200
   date_max: -1
 - name: Capua
@@ -763,20 +912,14 @@ top_places:
   n: 90
   date_min: -650
   date_max: -1
-- name: Falerii Veteres (Civita Castellana) (?)
-  slug: falerii-veteres-civita-castellana-2
-  region: Agri Faliscus et Capena
-  n: 88
-  date_min: -700
-  date_max: -51
 - name: Bruscalupo
   slug: bruscalupo
   region: Etruria Settentrionale
   n: 88
   date_min: -400
   date_max: -1
-- name: Area della Cittï¿½
-  slug: area-della-citti12
+- name: Area della Città
+  slug: area-della-citta-etruria-settentrionale
   region: Etruria Settentrionale
   n: 86
   date_min: -700
@@ -787,23 +930,23 @@ top_places:
   n: 85
   date_min: -725
   date_max: -1
-- name: Bevagna / Mevania
-  slug: bevagna-mevania
-  region: Umbria
-  n: 83
-  date_min: -150
-  date_max: -1
-- name: Castelvetrano / Selinus
-  slug: castelvetrano-selinus
-  region: Sicily
-  n: 83
-  date_min: -650
-  date_max: -201
 - name: Valle Trebba
   slug: valle-trebba
   region: Aemilia
   n: 82
   date_min: -500
+  date_max: -1
+- name: Monte Vairano
+  slug: monte-vairano
+  region: Samnium
+  n: 79
+  date_min: -650
+  date_max: -1
+- name: Capaccio / Poseidonia / Paestum
+  slug: capaccio-poseidonia-paestum
+  region: Lucania et Bruttium
+  n: 78
+  date_min: -600
   date_max: -1
 - name: Pyrgi
   slug: pyrgi
@@ -817,6 +960,12 @@ top_places:
   n: 77
   date_min: -600
   date_max: -1
+- name: Asisium (Assisi), near
+  slug: asisium-assisi-near
+  region: Umbria
+  n: 75
+  date_min: -275
+  date_max: -1
 - name: Sarteano
   slug: sarteano
   region: Etruria Settentrionale
@@ -829,11 +978,11 @@ top_places:
   n: 73
   date_min: -650
   date_max: -1
-- name: Assisi / Asisium
-  slug: assisi-asisium
-  region: Umbria
+- name: Termini Imerese / Thermae Himeraeae
+  slug: termini-imerese-thermae-himeraeae
+  region: Sicily
   n: 71
-  date_min: -200
+  date_min: -600
   date_max: -1
 - name: Gela
   slug: gela
@@ -847,17 +996,10 @@ top_places:
   n: 71
   date_min: -400
   date_max: -1
-- name: Termini Imerese / Thermae Himeraeae
-  slug: termini-imerese-thermae-himeraeae
-  region: Sicily
-  n: 69
-  date_min: -600
-  date_max: -1
-- name: Catina
-  slug: catina
-  region: Sicily
-  n: 67
-  date_min: -475
-  date_max: -276
 warnings:
+- repaired the character encoding of 667 field(s)
+- '1 field(s) in 1 distinct string(s) still contain an unrecoverable character: ''a e v � c''. Add them to scripts/text_repairs.yml'
 - assigned surrogate ids to 74 row(s) with an empty ID_Internal
+- lifted 184 uncertain-attribution and 118 'found & written' marker(s) out of the findspot names into columns
+- 10 use code(s) have no label in scripts/codebook.yml
+- 31 object_type code(s) have no label in scripts/codebook.yml

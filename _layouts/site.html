@@ -5,11 +5,38 @@ layout: default
 
 <main class="page-wrap wide">
   <p class="eyebrow" style="margin-bottom:.3rem">
-    Findspot{% if page.region %} &middot; {{ page.region }}{% endif %}
+    {{ page.level | default: "findspot" | capitalize }}{% if page.region %} &middot; {{ page.region }}{% endif %}
+    {%- if page.parent_slug %} &middot; part of
+    <a href="{{ '/place/' | append: page.parent_slug | append: '/' | relative_url }}">{{ page.parent_name }}</a>
+    {%- endif %}
   </p>
   <div class="place-head">
     <h1 style="margin:0">{{ page.title }}</h1>
   </div>
+
+  {% if page.aliases %}
+  <p class="empty" style="padding:.2rem 0">
+    Also recorded as {{ page.aliases | join: "; " }}.
+  </p>
+  {% endif %}
+
+  {% if page.links %}
+  <h2 style="margin-bottom:0">Authority records</h2>
+  <p class="empty" style="padding:.2rem 0">
+    Matched automatically by <code>scripts/link_authorities.py</code>; the score
+    and distance say how confident the match is. Dashed borders are searches,
+    not resolved records.
+  </p>
+  <ul class="links-list">
+    {% for link in page.links %}
+    <li{% if link.method == "search" %} class="is-search"{% endif %}>
+      <span class="authority">{{ link.authority }}</span>
+      <a href="{{ link.uri }}" target="_blank" rel="noopener">{{ link.label | default: link.identifier | default: link.uri }}</a>
+      {% if link.score %}<span class="score">{{ link.score }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 
   <div class="stat-grid">
     <div class="stat">
@@ -31,6 +58,16 @@ layout: default
   </div>
 
   <div class="place-map" id="place-map"></div>
+
+  {% if page.children %}
+  <h2>Sub-findspots <span class="count">{{ page.n_descendants }} inscriptions across {{ page.children | size }}</span></h2>
+  <ul class="child-list">
+    {% for child in page.children %}
+    <li><a href="{{ '/place/' | append: child.slug | append: '/' | relative_url }}">{{ child.name }}</a>
+      <span class="score">{{ child.n }}</span></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 
   <h2>Records</h2>
   <p class="empty" id="p-status">Loading&hellip;</p>

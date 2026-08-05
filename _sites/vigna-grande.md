@@ -2,11 +2,14 @@
 layout: site
 title: Vigna Grande
 slug: vigna-grande
-place_id: 910
-region: Etruria Settentrionale
-latitude: 43.01533
-longitude: 11.947702
-n_inscriptions: 21
-date_min: -525
-date_max: -1
+place_id: 1047
+region: Etruria Meridionale
+latitude: 41.99625
+longitude: 12.096662
+n_inscriptions: 1
+date_min: -475
+date_max: -451
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

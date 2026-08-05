@@ -2,11 +2,14 @@
 layout: site
 title: Montecchio
 slug: montecchio
-place_id: 1006
-region: Etruria Settentrionale
-latitude: 43.233852
-longitude: 11.929296
-n_inscriptions: 3
-date_min: -400
-date_max: -1
+place_id: 1127
+region: Aemilia
+latitude: 44.698009
+longitude: 10.448902
+n_inscriptions: 1
+date_min: -500
+date_max: -401
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

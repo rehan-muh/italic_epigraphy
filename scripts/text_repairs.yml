@@ -1,0 +1,34 @@
+# Strings whose non-ASCII bytes were destroyed before this CSV was written.
+#
+# They arrive as U+FFFD (the replacement character) and no decoder can recover
+# them, so they are substituted literally. The key is the string as it looks
+# after scripts/textfix.py has done everything a decoder can do; the "\uFFFD"
+# escape below is that replacement character.
+#
+# To find new ones after the CSV changes:
+#
+#     python3 scripts/textfix.py
+#
+# Anything still unrecovered is also reported as a build warning and shown on
+# the About page.
+
+replace:
+  "Area della Citt\uFFFD": "Area della Città"
+  "area della Citt\uFFFD": "area della Città"
+  "Banditelle (Area della Citt\uFFFD)": "Banditelle (Area della Città)"
+  "Orvieto, Area della citt\uFFFD (S Giovanni)": "Orvieto, Area della città (S Giovanni)"
+  "Citt\uFFFD della Pieve": "Città della Pieve"
+  "Citt\uFFFD di Castello": "Città di Castello"
+  "Mantova, citt\uFFFD": "Mantova, città"
+  "Tomba Fran\uFFFDois": "Tomba François"
+  "La Trinit\uFFFD": "La Trinità"
+
+  # Uncertain. The locality near Tuscania is written both "Civita d'Arlena" and
+  # "Cività d'Arlena"; the lost byte was an accent, so the accented form is
+  # assumed here. Change it if the source publication says otherwise.
+  "Civit\uFFFD d'Arlena": "Cività d'Arlena"
+
+  # Not repaired, and deliberately left out: one Notes field reads
+  # "a e v \uFFFD c". The lost character is probably a tilde or an arrow, but
+  # nothing in the file determines it. It will show up in the build warnings
+  # until someone checks the source.

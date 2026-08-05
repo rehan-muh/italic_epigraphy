@@ -9,4 +9,7 @@ longitude: 33.21883
 n_inscriptions: 630
 date_min: -700
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

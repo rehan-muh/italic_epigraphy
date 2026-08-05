@@ -2,11 +2,14 @@
 layout: site
 title: Villafranca in Lunigiana
 slug: villafranca-in-lunigiana
-place_id: 1799
+place_id: 1778
 region: Etruria Settentrionale
 latitude: 44.302
 longitude: 9.961
 n_inscriptions: 1
 date_min: -575
 date_max: -501
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

@@ -2,11 +2,16 @@
 layout: site
 title: Costa Murata
 slug: costa-murata
-place_id: 1360
+place_id: 1358
 region: Etruria Settentrionale
 latitude: 42.859455
 longitude: 10.972109
 n_inscriptions: 3
 date_min: -525
 date_max: -1
+level: locality
+coord_shared: 9
+n_descendants: 0
+parent_name: Ripaie
+parent_slug: ripaie
 ---

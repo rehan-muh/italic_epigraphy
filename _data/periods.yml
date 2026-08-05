@@ -1,0 +1,1950 @@
+periods:
+- uri: p09hq4nzw5p
+  label: Âge du Bronze
+  start: -2199
+  stop: -800
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0ctc35hdbp
+  label: Bronze Age
+  start: -1799
+  stop: -669
+  coverage: France Switzerland Italy
+  source: ''
+- uri: p09hq4nn4n5
+  label: Bronze final
+  start: -1349
+  stop: -800
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0zj6g8kfph
+  label: Iron Age
+  start: -1200
+  stop: 106
+  coverage: Romania
+  source: ''
+- uri: p0vpm8v4wff
+  label: Pantalica North
+  start: -1199
+  stop: -899
+  coverage: Sicily
+  source: ''
+- uri: p0vpm8v7f92
+  label: Late Bronze Age
+  start: -1199
+  stop: -899
+  coverage: Sicily
+  source: ''
+- uri: p08nrfcpmcf
+  label: Proto-Villanovan
+  start: -1199
+  stop: -899
+  coverage: Italy
+  source: ''
+- uri: p09hq4n2cvx
+  label: Proto-archaïque
+  start: -1199
+  stop: -800
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06vx8j3zzs
+  label: Prima Epoca A Fierului
+  start: -1149
+  stop: -449
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p0qhb667jk4
+  label: Prima Epocă a Fierului
+  start: -1050
+  stop: -451
+  coverage: Romania
+  source: ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation.
+- uri: p0qhb66twkg
+  label: Epoca Fierului
+  start: -1050
+  stop: 106
+  coverage: Romania
+  source: ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation.
+- uri: p09hq4n8rgv
+  label: Bronze final 3
+  start: -1049
+  stop: -800
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p03wskdk2k5
+  label: Iron Age Italy (Latial Culture I, 1000-900 BC)
+  start: -1000
+  stop: -900
+  coverage: Italy
+  source: ''
+- uri: p06v8w4mwbd
+  label: Early Iron Age
+  start: -1000
+  stop: -500
+  coverage: Romania
+  source: ''
+- uri: p08m57hbsw8
+  label: Early Iron Age early
+  start: -999
+  stop: -879
+  coverage: Italy
+  source: ''
+- uri: p08m57hj8vd
+  label: Proto-Etruscan
+  start: -999
+  stop: -779
+  coverage: Italy
+  source: ''
+- uri: p06v8w4z9mm
+  label: Iron Age
+  start: -999
+  stop: -751
+  coverage: Italy
+  source: ''
+- uri: p0wz8jkwg9v
+  label: Früheisenzeit
+  start: -999
+  stop: -619
+  coverage: Italy
+  source: ''
+- uri: p08m57hmxmp
+  label: Classical World
+  start: -999
+  stop: 400
+  coverage: Mediterranean Basin
+  source: ''
+- uri: p09hq4nr7c7
+  label: Bronze final 3b
+  start: -949
+  stop: -800
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p03wskdr3vd
+  label: Early Geometric (Greek; 900-850 BC)
+  start: -900
+  stop: -850
+  coverage: Greece Italy Syria Turkey
+  source: ''
+- uri: p08m57h4q9c
+  label: Early Iron Age late
+  start: -899
+  stop: -779
+  coverage: Italy
+  source: ''
+- uri: p0bd66442fn
+  label: Villanovan period
+  start: -899
+  stop: -759
+  coverage: Italy
+  source: ''
+- uri: p08nrfc2m7f
+  label: Villanovan
+  start: -899
+  stop: -749
+  coverage: Italy
+  source: ''
+- uri: p0vpm8v8c6p
+  label: Cassabile
+  start: -899
+  stop: -733
+  coverage: Sicily
+  source: ''
+- uri: p0vpm8v82h2
+  label: Early Iron Age (I)
+  start: -899
+  stop: -733
+  coverage: Sicily
+  source: ''
+- uri: p03wskdjcqv
+  label: Middle Geometric (Greek; 850-750 BC)
+  start: -850
+  stop: -750
+  coverage: Greece Italy Turkey
+  source: ''
+- uri: p09hq4nvft9
+  label: Hallstatt C1a
+  start: -799
+  stop: -750
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nf9n4
+  label: Hallstatt C1
+  start: -799
+  stop: -725
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0ccnvbw8ps
+  label: Villanovan Geometric
+  start: -799
+  stop: -724
+  coverage: Italy
+  source: ''
+- uri: p09hq4nx7cb
+  label: Hallstatt C
+  start: -799
+  stop: -620
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4n9v9d
+  label: Archaïque
+  start: -799
+  stop: -500
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4ncspk
+  label: Âge du Fer
+  start: -799
+  stop: -25
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p08nrfcq7kf
+  label: Iron Age
+  start: -752
+  stop: -579
+  coverage: Italy
+  source: ''
+- uri: p0jf288j39s
+  label: Ancient History, Period V
+  start: -751
+  stop: -322
+  coverage: Egypt Israel Greece State of Palestine Italy Syria Iran Iraq Turkey
+  source: ''
+- uri: p03wskdnwd4
+  label: Archaic (Greco-Roman; 750-550 BCE/BC)
+  start: -750
+  stop: -550
+  coverage: 'Albania Algeria Armenia Bulgaria Cyprus Egypt France Georgia Germany
+    Greece Iran Iraq Israel Italy Jordan Kosovo Kuwait '
+  source: ''
+- uri: p09hq4ngvjk
+  label: Hallstatt C1b
+  start: -749
+  stop: -725
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06v8w45852
+  label: Orientalizing
+  start: -749
+  stop: -581
+  coverage: Italy
+  source: ''
+- uri: p0vpm8vctxb
+  label: Finocchito
+  start: -733
+  stop: -649
+  coverage: Sicily
+  source: ''
+- uri: p0vpm8v5gds
+  label: Iron Age II
+  start: -733
+  stop: -449
+  coverage: Sicily
+  source: ''
+- uri: p09hq4nk8b3
+  label: Hallstatt C2
+  start: -724
+  stop: -620
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p077pzfmvpf
+  label: Orientalizing
+  start: -724
+  stop: -579
+  coverage: Italy
+  source: ''
+- uri: p0z5nvhp6sr
+  label: Etruscan Supremacy
+  start: -699
+  stop: -508
+  coverage: Italy
+  source: ''
+- uri: p044mt9z8hr
+  label: La première époque
+  start: -699
+  stop: -449
+  coverage: Italy Greece
+  source: ''
+- uri: p0ccnvbkmr4
+  label: Orientalizing
+  start: -679
+  stop: -599
+  coverage: Italy
+  source: ''
+- uri: p0ctc358p9w
+  label: Iron Age
+  start: -669
+  stop: -54
+  coverage: France Switzerland Italy Germany
+  source: ''
+- uri: p0zj6g892zt
+  label: Greek
+  start: -650
+  stop: -30
+  coverage: Romania
+  source: ''
+- uri: p06vx8jqjht
+  label: Hallstatt târziu
+  start: -649
+  stop: -449
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p02kbfnbsw5
+  label: Middle Archaic
+  start: -619
+  stop: -559
+  coverage: Romania
+  source: Institute of Archaeology "Vasile Pârvan". Romanian Dobruja periodization
+    for ARIADNEplus. 2020.
+- uri: p09hq4n77cv
+  label: Hallstatt D1
+  start: -619
+  stop: -530
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0wz8jkpts9
+  label: Archaische Zeit
+  start: -619
+  stop: -508
+  coverage: Italy
+  source: ''
+- uri: p09hq4n76xc
+  label: Hallstatt D
+  start: -619
+  stop: -480
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0244q7v2hf
+  label: Etruscan
+  start: -615
+  stop: -508
+  coverage: Italy
+  source: ''
+- uri: p0ccnvb84cx
+  label: Early Archaic
+  start: -599
+  stop: -549
+  coverage: Italy
+  source: ''
+- uri: p0mrv3s6r78
+  label: 'I periodo '
+  start: -599
+  stop: -500
+  coverage: Italy
+  source: ''
+- uri: p0pv57g39b4
+  label: Persian Period
+  start: -587
+  stop: -329
+  coverage: Italy
+  source: ''
+- uri: p06v8w4g9dz
+  label: Archaic
+  start: -579
+  stop: -481
+  coverage: Italy
+  source: ''
+- uri: p077pzf5t94
+  label: Archaic
+  start: -579
+  stop: -479
+  coverage: Italy
+  source: ''
+- uri: p03wskd389m
+  label: Classical (Greco-Roman; 550 BC-330 BC)
+  start: -550
+  stop: -330
+  coverage: Afghanistan Albania Algeria Armenia Austria Azerbaijan Bosnia and Herzegovina
+    Bulgaria Croatia Cyprus Czech Republic Egy
+  source: ''
+- uri: p0ccnvbfhb6
+  label: Middle Archaic
+  start: -549
+  stop: -519
+  coverage: Italy
+  source: ''
+- uri: p09hq4nfggw
+  label: Hallstatt D2
+  start: -529
+  stop: -500
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0ccnvbqx6g
+  label: Late Archaic
+  start: -519
+  stop: -469
+  coverage: Italy
+  source: ''
+- uri: p06c6g36mkq
+  label: Republic, 510-265 B.C
+  start: -509
+  stop: -264
+  coverage: Roman Republic
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3p3g3
+  label: Republic, 510-30 B.C
+  start: -509
+  stop: -29
+  coverage: Roman Republic
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p08m57h65c8
+  label: Roman Republican
+  start: -509
+  stop: -26
+  coverage: ancient Rome Roman Republic
+  source: ''
+- uri: p0wz8jk3mrn
+  label: frührepublikanisch
+  start: -508
+  stop: -366
+  coverage: Italy
+  source: ''
+- uri: p0wz8jkhnwr
+  label: Republikanische Zeit
+  start: -508
+  stop: -30
+  coverage: Italy
+  source: ''
+- uri: p0jrrjb66p3
+  label: Roman Republic
+  start: -508
+  stop: -26
+  coverage: Italy
+  source: Epigraphische Datenbank Heidelberg. Heidelberger Akademie der Wissenschaften,
+    2017. http://edh-www.adw.uni-heidelberg.de/.
+- uri: p0z5nvhdfh4
+  label: Roman Republic
+  start: -508
+  stop: -26
+  coverage: Italy Tunisia France Spain
+  source: ''
+- uri: p06v8w4ssdg
+  label: Late Iron Age
+  start: -500
+  stop: -1
+  coverage: Romania
+  source: ''
+- uri: p09hq4nbzwf
+  label: Hallstatt D3
+  start: -499
+  stop: -480
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0dntkb67vz
+  label: Fase III
+  start: -499
+  stop: -399
+  coverage: Sicily
+  source: ''
+- uri: p09hq4n8z7c
+  label: Classique
+  start: -499
+  stop: -325
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4n7gkg
+  label: La Tène A1a
+  start: -479
+  stop: -450
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0ccnvbpfm3
+  label: Transitional
+  start: -479
+  stop: -449
+  coverage: Italy
+  source: ''
+- uri: p09hq4nndw9
+  label: La Tène A1
+  start: -479
+  stop: -420
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4ntk3v
+  label: La Tène A
+  start: -479
+  stop: -380
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06v8w4kg5w
+  label: Classical
+  start: -479
+  stop: -351
+  coverage: Italy
+  source: ''
+- uri: p0ccnvb793h
+  label: Classical
+  start: -479
+  stop: -329
+  coverage: Italy
+  source: ''
+- uri: p0mrv3spd6g
+  label: epoca di costruzione
+  start: -473
+  stop: -429
+  coverage: Italy
+  source: ''
+- uri: p0mrv3spnvw
+  label: I Fase
+  start: -473
+  stop: -419
+  coverage: Italy
+  source: ''
+- uri: p0mrv3sn822
+  label: Periodo osco
+  start: -473
+  stop: -419
+  coverage: Italy
+  source: ''
+- uri: p0qhb66gjgr
+  label: A Doua Epocă a Fierului
+  start: -450
+  stop: 106
+  coverage: Romania
+  source: ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation.
+- uri: p09hq4n43g3
+  label: La Tène A1b
+  start: -449
+  stop: -420
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0ccnvbcdnr
+  label: Classical
+  start: -449
+  stop: -399
+  coverage: Italy
+  source: ''
+- uri: p02kbfnz6hg
+  label: High Classical
+  start: -449
+  stop: -399
+  coverage: Romania
+  source: Institute of Archaeology "Vasile Pârvan". Romanian Dobruja periodization
+    for ARIADNEplus. 2020.
+- uri: p06vx8j4cxb
+  label: Latene timpuriu
+  start: -449
+  stop: -299
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p06vx8jcb7p
+  label: 'A Doua Epoca A Fierului '
+  start: -449
+  stop: 106
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p09hq4n54cn
+  label: La Tène A2
+  start: -419
+  stop: -380
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0znh3tjqgh
+  label: Decadence
+  start: -403
+  stop: -199
+  coverage: Italy Greece
+  source: ''
+- uri: p09hq4n87jk
+  label: IVe siècle AEC - Fin Classique
+  start: -399
+  stop: -325
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0s7jn85n7t
+  label: Late Classical
+  start: -399
+  stop: -322
+  coverage: Sicily
+  source: ''
+- uri: p02kbfnfj9x
+  label: Late Classical
+  start: -399
+  stop: -322
+  coverage: Romania
+  source: Institute of Archaeology "Vasile Pârvan". Romanian Dobruja periodization
+    for ARIADNEplus. 2020.
+- uri: p0ccnvbvhv9
+  label: Late Classical
+  start: -399
+  stop: -299
+  coverage: Italy
+  source: ''
+- uri: p0mrv3sfqqp
+  label: Periodo sannitico primo
+  start: -399
+  stop: -299
+  coverage: Italy
+  source: ''
+- uri: p0mrv3sczq3
+  label: II Fase
+  start: -399
+  stop: -89
+  coverage: Italy
+  source: ''
+- uri: p09hq4ntkss
+  label: La Tène B1a
+  start: -379
+  stop: -350
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nw4zc
+  label: La Tène B1
+  start: -379
+  stop: -320
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nj4h9
+  label: La Tène B
+  start: -379
+  stop: -260
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0wz8jksgfd
+  label: mittelrepublikanisch
+  start: -366
+  stop: -201
+  coverage: Italy
+  source: ''
+- uri: p09hq4n5n2v
+  label: La Tène B1b
+  start: -349
+  stop: -320
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06v8w4k77h
+  label: Roman Republican
+  start: -349
+  stop: 29
+  coverage: Italy
+  source: ''
+- uri: p03wskd55sw
+  label: Hellenistic Greek, Roman Republic (330 BC-30 BC)
+  start: -330
+  stop: -30
+  coverage: Afghanistan Turkey Egypt Albania Algeria Andorra Armenia Austria Azerbaijan
+    Bahrain Bangladesh Belgium Bosnia and Herzeg
+  source: ''
+- uri: p03wskd825s
+  label: Hellenistic-Roman Early Empire (330 BC - AD 300)
+  start: -330
+  stop: 300
+  coverage: Albania Cyprus Egypt France Germany Greece Israel Italy Jordan Lebanon
+    Libya Luxembourg Morocco Palestine Spain Syria Tu
+  source: ''
+- uri: p09hq4nqdrj
+  label: Hellénistique
+  start: -324
+  stop: -25
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0s7jn8xtgc
+  label: Hellenistic
+  start: -322
+  stop: -240
+  coverage: Sicily
+  source: ''
+- uri: p03tqbzvh6x
+  label: Hellenistic
+  start: -322
+  stop: -30
+  coverage: Italy
+  source: ''
+- uri: p0jf288v3p3
+  label: Ancient History, Period VI
+  start: -322
+  stop: 1
+  coverage: 'Egypt Syria Greece Italy Armenia Spain Israel State of Palestine Turkey
+    Bulgaria Tunisia Morocco Algeria France England '
+  source: ''
+- uri: p09hq4n67mq
+  label: La Tène B2
+  start: -319
+  stop: -260
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0znh3t4t68
+  label: Florid Style
+  start: -318
+  stop: -271
+  coverage: Italy Greece
+  source: ''
+- uri: p0mrv3scmp6
+  label: Periodo sannitico secondo
+  start: -299
+  stop: -179
+  coverage: Italy
+  source: ''
+- uri: p0ccnvbps4c
+  label: Hellenistic
+  start: -299
+  stop: -99
+  coverage: Italy
+  source: ''
+- uri: p077pzf85fk
+  label: Republican
+  start: -271
+  stop: -141
+  coverage: Roman Empire
+  source: ''
+- uri: p06c6g3hb99
+  label: Republic, 265-30 B.C
+  start: -264
+  stop: -29
+  coverage: Roman Republic
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p09hq4ns5qv
+  label: La Tène C1a
+  start: -259
+  stop: -225
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nqv7g
+  label: La Tène C1
+  start: -259
+  stop: -200
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nb7qh
+  label: La Tène C
+  start: -259
+  stop: -150
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nwvtm
+  label: La Tène C1b
+  start: -224
+  stop: -200
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0wz8jkj3rn
+  label: spätrepublikanisch
+  start: -201
+  stop: -30
+  coverage: Italy Turkey Greece Spain France Tunisia Roman Republic
+  source: ''
+- uri: p09hq4nr4f2
+  label: La Tène C2a
+  start: -199
+  stop: -175
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nxcb3
+  label: La Tène C2
+  start: -199
+  stop: -150
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p02kbfnzcw2
+  label: Middle Hellenistic II
+  start: -199
+  stop: -99
+  coverage: Romania
+  source: Institute of Archaeology "Vasile Pârvan". Romanian Dobruja periodization
+    for ARIADNEplus. 2020.
+- uri: p03xjrfz36p
+  label: Incrustation Style
+  start: -199
+  stop: -89
+  coverage: Italy
+  source: ''
+- uri: p03xjrfd793
+  label: The third period
+  start: -199
+  stop: -89
+  coverage: Italy
+  source: ''
+- uri: p0mrv3stgmf
+  label: 3° periodo
+  start: -199
+  stop: -89
+  coverage: Italy
+  source: ''
+- uri: p06vx8j7pf6
+  label: Poienesti-Lukasevka
+  start: -199
+  stop: -19
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p0jqmd78gc8
+  label: Roman Climate Optimum
+  start: -199
+  stop: 150
+  coverage: Roman Empire Europe
+  source: 'Harper, K. 2017. The Fate of Rome: Climate, Disease, and the End of an
+    Empire. Princeton N. J.: Princeton University Press.
+
+    '
+- uri: p09hq4nnc2w
+  label: La Tène C2b
+  start: -174
+  stop: -150
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06vx8jwc79
+  label: cultura geto-dacica clasica
+  start: -174
+  stop: 106
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p09hq4n59r7
+  label: La Tène D1a
+  start: -149
+  stop: -125
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4npvrp
+  label: La Tène D1
+  start: -149
+  stop: -75
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4n3gn6
+  label: La Tène D
+  start: -149
+  stop: -25
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0jrrjbchh2
+  label: Late Roman Republic
+  start: -145
+  stop: -26
+  coverage: Italy
+  source: Epigraphische Datenbank Heidelberg. Heidelberger Akademie der Wissenschaften,
+    2017. http://edh-www.adw.uni-heidelberg.de/.
+- uri: p09hq4nct5d
+  label: La Tène D1b
+  start: -124
+  stop: -75
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0mrv3s65z3
+  label: Periodo sannitico terzo
+  start: -119
+  stop: -89
+  coverage: Italy
+  source: ''
+- uri: p0mrv3s7t44
+  label: '4° periodo   '
+  start: -79
+  stop: -27
+  coverage: Italy
+  source: ''
+- uri: p03xjrf7pkp
+  label: Architectural Style
+  start: -79
+  stop: -26
+  coverage: Italy
+  source: ''
+- uri: p03xjrfz228
+  label: The fourth period
+  start: -79
+  stop: -26
+  coverage: Italy
+  source: ''
+- uri: p0mrv3s24cv
+  label: 'III Fase '
+  start: -79
+  stop: 79
+  coverage: Italy
+  source: ''
+- uri: p0mrv3spzxt
+  label: Epoca romana
+  start: -79
+  stop: 79
+  coverage: Italy
+  source: ''
+- uri: p09hq4ntxph
+  label: La Tène D2a
+  start: -74
+  stop: -50
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4n2bmm
+  label: La Tène D2
+  start: -74
+  stop: -25
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nng3z
+  label: La Tène D2b
+  start: -49
+  stop: -25
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0ff3dtthgg
+  label: Romano-Celtic
+  start: -49
+  stop: 300
+  coverage: Italy
+  source: ''
+- uri: p0s84tq9w22
+  label: Roman antiquity (Roman Noricum)
+  start: -49
+  stop: 500
+  coverage: Austria Slovenia Germany Italy
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p0wz8jk87w4
+  label: Frühe Kaiserzeit
+  start: -30
+  stop: 68
+  coverage: Italy France Spain Greece Turkey Egypt Libya Tunisia Algeria Morocco United
+    Kingdom Syria Lebanon Albania Croatia Sloven
+  source: ''
+- uri: p0wz8jkh2sg
+  label: Iulisch-claudisch
+  start: -30
+  stop: 68
+  coverage: Italy Greece Turkey Spain France United Kingdom Albania Bulgaria Croatia
+    Slovenia Serbia Montenegro Bosnia and Herzegovi
+  source: ''
+- uri: p03wskdxnzf
+  label: Roman, early Empire (30 BC-AD 300)
+  start: -30
+  stop: 300
+  coverage: Afghanistan Albania Algeria Andorra Armenia Austria Azerbaijan Bahrain
+    Bangladesh Belgium Bosnia and Herzegovina Bulgari
+  source: ''
+- uri: p03wskdcctk
+  label: Roman Early Empire-Late Antique (30 BC - AD 640)
+  start: -30
+  stop: 640
+  coverage: Albania Algeria Croatia Egypt France Germany Greece Hungary Israel Italy
+    Lebanon Libya Morocco Netherlands Palestine Por
+  source: ''
+- uri: p06c6g3xnmx
+  label: Augustus, 30 B.C.-14 A.D
+  start: -29
+  stop: 14
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3szb2
+  label: Julio-Claudians, 30 B.C.-68 A.D
+  start: -29
+  stop: 68
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g33wp2
+  label: Empire, 30 B.C.-284 A.D
+  start: -29
+  stop: 284
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g33gpw
+  label: Empire, 30 B.C.-476 A.D
+  start: -29
+  stop: 476
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06vx8jz638
+  label: Regatul Traciei
+  start: -27
+  stop: 46
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p077pzfw3mb
+  label: Augustan
+  start: -26
+  stop: 14
+  coverage: Roman Empire
+  source: ''
+- uri: p03xjrf8ccs
+  label: Ornate Style
+  start: -26
+  stop: 50
+  coverage: Italy
+  source: ''
+- uri: p0mrv3s7n99
+  label: '5° periodo '
+  start: -26
+  stop: 63
+  coverage: Italy
+  source: ''
+- uri: p0s84tqd3cd
+  label: Julio-Claudian dynasty (Roman Noricum)
+  start: -26
+  stop: 68
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p0z5nvhvv7c
+  label: Early Empire
+  start: -26
+  stop: 96
+  coverage: Italy Tunisia France Spain Portugal Egypt Israel Turkey Greece United
+    Kingdom
+  source: ''
+- uri: p0z5nvh9k86
+  label: Roman Empire
+  start: -26
+  stop: 395
+  coverage: Italy Tunisia France Spain Portugal Egypt Israel Turkey Greece United
+    Kingdom
+  source: ''
+- uri: p077pzf9m52
+  label: Imperial
+  start: -26
+  stop: 476
+  coverage: Roman Empire
+  source: ''
+- uri: p09hq4n8mnb
+  label: ' Époque augustéenne'
+  start: -24
+  stop: 14
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4ndnxt
+  label: Empire romain
+  start: -24
+  stop: 395
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0s84tqkhhs
+  label: Early period (Roman Noricum)
+  start: -14
+  stop: 117
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p06v8w4xzmz
+  label: Roman Period
+  start: -1
+  stop: 300
+  coverage: Romania
+  source: ''
+- uri: p09hq4n5kfm
+  label: Début Ier siècle apr. J.-C. - Fin époque augustéenne
+  start: 1
+  stop: 14
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06vx8j49h8
+  label: Lipita
+  start: 1
+  stop: 200
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p06c6g34dd8
+  label: Tiberius, 14-37
+  start: 14
+  stop: 37
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p077pzfpw3k
+  label: Julio-Claudian
+  start: 14
+  stop: 69
+  coverage: Roman Empire
+  source: ''
+- uri: p083p5rzt33
+  label: Julio-Claudians
+  start: 14
+  stop: 69
+  coverage: Roman Empire
+  source: ''
+- uri: p09hq4njk9v
+  label: 1e moitié Ier siècle apr. J.-C. - Début Haut-Empire
+  start: 15
+  stop: 50
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4ns689
+  label: Ier siècle apr. J.-C. - Début Haut-Empire
+  start: 15
+  stop: 100
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nsgxz
+  label: Haut-Empire
+  start: 15
+  stop: 235
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06c6g3ssjh
+  label: Primitive and early church, ca. 30-600
+  start: 30
+  stop: 600
+  coverage: Roman Empire Byzantine Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06v8w43gnx
+  label: Roman Imperial
+  start: 31
+  stop: 399
+  coverage: Italy
+  source: ''
+- uri: p06c6g34hw6
+  label: Caligula, 37-41
+  start: 37
+  stop: 41
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3w825
+  label: Claudius, 41-54
+  start: 41
+  stop: 54
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06vx8jw8dz
+  label: Epoca Romană
+  start: 46
+  stop: 620
+  coverage: Romania
+  source: 'Institutul Național al Patrimoniului periodizare. 2023. '
+- uri: p03xjrf63k3
+  label: Intricate Style
+  start: 50
+  stop: 79
+  coverage: Italy
+  source: ''
+- uri: p06c6g3365d
+  label: Nero, 54-68
+  start: 54
+  stop: 68
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p03xjrfrq35
+  label: The sixth period
+  start: 63
+  stop: 79
+  coverage: Italy
+  source: ''
+- uri: p0mrv3sjb63
+  label: 6° periodo
+  start: 63
+  stop: 79
+  coverage: Italy
+  source: ''
+- uri: p06c6g3zwxn
+  label: Civil War, 68-69
+  start: 68
+  stop: 69
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0wz8jkfn27
+  label: Vierkaiserjahr
+  start: 68
+  stop: 69
+  coverage: Italy Greece Turkey Syria Spain France United Kingdom Albania Bulgaria
+    Serbia Montenegro Croatia Slovenia Kosovo North M
+  source: ''
+- uri: p0s84tq3x38
+  label: Year of the Four Emperors (Roman Noricum)
+  start: 68
+  stop: 69
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p06c6g3k5jh
+  label: Vitellius, 69
+  start: 69
+  stop: 69
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3gxfn
+  label: Revolt of Civilis, 69-70
+  start: 69
+  stop: 70
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3mtt2
+  label: Vespasian, 69-79
+  start: 69
+  stop: 79
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p077pzfw49m
+  label: Flavian
+  start: 69
+  stop: 96
+  coverage: Roman Empire
+  source: ''
+- uri: p06c6g3xxkq
+  label: Flavians, 69-96
+  start: 69
+  stop: 96
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p05xnzq8jrm
+  label: The Flavians
+  start: 69
+  stop: 96
+  coverage: Italy
+  source: ''
+- uri: p083p5r5qm7
+  label: Flavians
+  start: 69
+  stop: 96
+  coverage: Roman Empire
+  source: ''
+- uri: p0wz8jkr22s
+  label: Flavische Dynastie
+  start: 69
+  stop: 96
+  coverage: Italy Greece Turkey Syria Spain France United Kingdom Germany Belgium
+    Netherlands Austria Hungary Croatia Slovenia Serbi
+  source: ''
+- uri: p0s84tqgp9n
+  label: Flavian dynasty (Roman Noricum)
+  start: 69
+  stop: 96
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p0wz8jk25n6
+  label: Mittlere Kaiserzeit
+  start: 69
+  stop: 192
+  coverage: Italy Greece Turkey Spain France United Kingdom Albania Bulgaria Romania
+    Hungary Serbia Kosovo Montenegro North Macedoni
+  source: ''
+- uri: p06c6g3sp5g
+  label: Titus, 79-81
+  start: 79
+  stop: 81
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g38bnp
+  label: Domitian, 81-96
+  start: 81
+  stop: 96
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p09hq4n9xb7
+  label: Nerva
+  start: 96
+  stop: 98
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p05xnzqf2tf
+  label: High Empire
+  start: 96
+  stop: 180
+  coverage: Italy
+  source: ''
+- uri: p06c6g34zjk
+  label: Antonines, 96-192
+  start: 96
+  stop: 192
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0z5nvhm8d6
+  label: High Empire
+  start: 96
+  stop: 192
+  coverage: Italy Tunisia France Spain Portugal Egypt Israel Turkey Greece United
+    Kingdom
+  source: ''
+- uri: p0wz8jkr7qq
+  label: '''Adoptivkaiser'''
+  start: 96
+  stop: 192
+  coverage: Italy Greece Turkey Spain France Belgium Netherlands United Kingdom Germany
+    Austria Hungary Romania Serbia Bulgaria Alba
+  source: ''
+- uri: p0s84tqq9bn
+  label: Adpotive Emperors/Antonine dynasty (Roman Noricum)
+  start: 96
+  stop: 192
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p077pzfjkdv
+  label: High Empire
+  start: 96
+  stop: 193
+  coverage: Roman Empire
+  source: ''
+- uri: p083p5rcq8f
+  label: High Empire
+  start: 96
+  stop: 193
+  coverage: Roman Empire
+  source: ''
+- uri: p077pzf9gq6
+  label: Trajanic
+  start: 98
+  stop: 117
+  coverage: Roman Empire
+  source: ''
+- uri: p06c6g36f66
+  label: Trajan, 98-117
+  start: 98
+  stop: 117
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0zj6g8pr5x
+  label: Roman
+  start: 106
+  stop: 602
+  coverage: Romania
+  source: ''
+- uri: p0qhb66kqd5
+  label: Epoca Romană
+  start: 107
+  stop: 274
+  coverage: Romania
+  source: ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation.
+- uri: p077pzfwxfr
+  label: Hadrianic
+  start: 117
+  stop: 138
+  coverage: Roman Empire
+  source: ''
+- uri: p06c6g34bwv
+  label: Hadrian, 117-138
+  start: 117
+  stop: 138
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0s84tqhf4k
+  label: Imperial period (Roman Noricum)
+  start: 117
+  stop: 284
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p06c6g3drk4
+  label: Antoninus Pius, 138-161
+  start: 138
+  stop: 161
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p077pzfpvh9
+  label: Antonine
+  start: 138
+  stop: 192
+  coverage: Roman Empire
+  source: ''
+- uri: p0jqmd7ftd8
+  label: Roman Transitional Period
+  start: 150
+  stop: 450
+  coverage: Europe Roman Empire
+  source: 'Harper, K. 2017. The Fate of Rome: Climate, Disease, and the End of an
+    Empire. Princeton N. J.: Princeton University Press.
+
+    '
+- uri: p09hq4nt7kf
+  label: Lucius Aurelius Verus
+  start: 161
+  stop: 169
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06c6g3qr2n
+  label: Marcus Aurelius, 161-180
+  start: 161
+  stop: 180
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3ksqn
+  label: Commodus, 180-192
+  start: 180
+  stop: 192
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p03tqbzrjp5
+  label: Late Empire
+  start: 192
+  stop: 421
+  coverage: Italy
+  source: ''
+- uri: p0z5nvh4nz5
+  label: Late Empire
+  start: 192
+  stop: 476
+  coverage: Italy Tunisia France Spain Portugal Egypt Israel Turkey Greece United
+    Kingdom
+  source: ''
+- uri: p0s84tqd2z6
+  label: Second Year of the Four Emperors (Roman Noricum)
+  start: 193
+  stop: 193
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p06c6g3pn3x
+  label: Lucius Septimus Severus, 193-211
+  start: 193
+  stop: 211
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p077pzfr5f7
+  label: Severan
+  start: 193
+  stop: 235
+  coverage: Roman Empire
+  source: ''
+- uri: p06c6g32pmn
+  label: Severans, 193-235
+  start: 193
+  stop: 235
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p083p5rvfkp
+  label: Severans
+  start: 193
+  stop: 235
+  coverage: Roman Empire
+  source: ''
+- uri: p0wz8jkvvm6
+  label: Severer
+  start: 193
+  stop: 235
+  coverage: Italy Greece Turkey Syria Spain France Romania Hungary Serbia Bulgaria
+    Albania North Macedonia Montenegro Bosnia and Her
+  source: ''
+- uri: p0s84tq37hm
+  label: Severan dynasty (Roman Noricum)
+  start: 193
+  stop: 235
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p05xnzq944b
+  label: The Severans
+  start: 193
+  stop: 238
+  coverage: Italy
+  source: ''
+- uri: p06c6g3h89r
+  label: Plague, 3rd century
+  start: 200
+  stop: 300
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p09hq4nwgzx
+  label: IIIe siècle apr. J.-C. - Fin Haut-Empire
+  start: 201
+  stop: 235
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4ndjhh
+  label: Caracalla
+  start: 211
+  stop: 216
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06c6g368qb
+  label: Macrinus, 217-218
+  start: 217
+  stop: 218
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3w6c9
+  label: Elagabalus, 218-222
+  start: 218
+  stop: 222
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3chc9
+  label: Severus Alexander, 222-235
+  start: 222
+  stop: 235
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3wdzv
+  label: Maximinus, 235-238
+  start: 235
+  stop: 238
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3kmjv
+  label: Period of military anarchy, 235-284
+  start: 235
+  stop: 284
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0pt6d8krhh
+  label: The Soldier Emperors
+  start: 235
+  stop: 284
+  coverage: Italy Greece Turkey
+  source: ''
+- uri: p0wz8jk7ndt
+  label: Soldatenkaiser
+  start: 235
+  stop: 284
+  coverage: Italy Greece Turkey Israel State of Palestine Egypt Libya Tunisia Algeria
+    Morocco Spain United Kingdom Romania Hungary S
+  source: ''
+- uri: p0s84tqtv24
+  label: Barracks Emperors (Roman Noricum)
+  start: 235
+  stop: 284
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p077pzfxk2d
+  label: Late Roman
+  start: 235
+  stop: 410
+  coverage: Roman Empire
+  source: ''
+- uri: p09hq4nmbfp
+  label: 1e moitié IIIe siècle apr. J.-C. - Bas-Empire
+  start: 236
+  stop: 250
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nfttg
+  label: IIIe siècle apr. J.-C. - Début Bas-Empire
+  start: 236
+  stop: 300
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nf6jf
+  label: Bas-Empire
+  start: 236
+  stop: 395
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06c6g3srsb
+  label: Gordianus III, 238-244
+  start: 238
+  stop: 244
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3m7bg
+  label: Decius, 249-251
+  start: 249
+  stop: 251
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3cbtt
+  label: Gallienus, 260-268
+  start: 260
+  stop: 268
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3jt68
+  label: Claudius II, 268-270?
+  start: 268
+  stop: 270
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g39gzm
+  label: Aurelian, 270-275
+  start: 270
+  stop: 275
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0qhb66hsr6
+  label: Epoca Post Romană
+  start: 275
+  stop: 373
+  coverage: Romania
+  source: ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation.
+- uri: p06v8w4k7fh
+  label: Migrations Period
+  start: 275
+  stop: 1200
+  coverage: Romania
+  source: ''
+- uri: p06c6g3m22s
+  label: Probus, 276-282
+  start: 276
+  stop: 282
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3ttjz
+  label: Diocletian, 284-305
+  start: 284
+  stop: 305
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0pt6d8xqgg
+  label: The Tetrarchs
+  start: 284
+  stop: 312
+  coverage: Italy Greece Turkey
+  source: ''
+- uri: p0s84tqkzfk
+  label: Tetrarchy (Roman Noricum)
+  start: 284
+  stop: 313
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p06c6g38t56
+  label: Empire, 284-476
+  start: 284
+  stop: 476
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0s84tqvjs7
+  label: Late antiquity (Roman Noricum)
+  start: 284
+  stop: 488
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p08m57h5vpv
+  label: Late Roman
+  start: 293
+  stop: 476
+  coverage: Italy France Belgium Luxembourg Spain Portugal Switzerland Germany England
+    Morocco Algeria Tunisia Libya Austria Hungary
+  source: ''
+- uri: p06v8w4ksmw
+  label: Early Roman Period
+  start: 300
+  stop: 476
+  coverage: Romania
+  source: ''
+- uri: p03wskd6psm
+  label: Late Antique (AD 300-AD 640)
+  start: 300
+  stop: 640
+  coverage: Afghanistan Albania Algeria Andorra Armenia Austria Azerbaijan Bahrain
+    Bangladesh Belgium Bosnia and Herzegovina Bulgari
+  source: ''
+- uri: p09hq4npdfn
+  label: IVe siècle EC - Fin Empire romain
+  start: 301
+  stop: 395
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4ntp85
+  label: Constance 1er Chlore (Occident) - Galère (Orient)
+  start: 305
+  stop: 306
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06c6g3m7cr
+  label: Constantine I, the Great, 306-337
+  start: 306
+  stop: 337
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g37rfs
+  label: Constantines, 306-363
+  start: 306
+  stop: 363
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0wz8jkqg76
+  label: Spätantike
+  start: 306
+  stop: 395
+  coverage: Italy Greece Turkey Syria Lebanon Israel State of Palestine Egypt Libya
+    Tunisia Algeria Morocco Spain France Serbia Hung
+  source: ''
+- uri: p0pt6d8n4tp
+  label: Constantine
+  start: 307
+  stop: 337
+  coverage: Italy Greece Turkey
+  source: ''
+- uri: p0s84tqb97b
+  label: Constantinian dynasty (Roman Noricum)
+  start: 307
+  stop: 364
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p02kbfnp5nm
+  label: Late Roman
+  start: 330
+  stop: 641
+  coverage: Romania
+  source: Institute of Archaeology "Vasile Pârvan". Romanian Dobruja periodization
+    for ARIADNEplus. 2020.
+- uri: p06c6g357gr
+  label: Constantius II, 337-361
+  start: 337
+  stop: 361
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p09hq4nx3nn
+  label: 2e moitié IVe siècle EC – Fin Empire romain
+  start: 351
+  stop: 395
+  coverage: Roman Empire
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p0zj6g8hh8k
+  label: Early Medieval
+  start: 353
+  stop: 900
+  coverage: Romania
+  source: ''
+- uri: p06c6g3xx4v
+  label: Julian, 361-363
+  start: 361
+  stop: 363
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3hvzs
+  label: Valentinian I, 364-375
+  start: 364
+  stop: 375
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0s84tqzcgw
+  label: Valentinian dynasty (Roman Noricum)
+  start: 364
+  stop: 392
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p0qhb665crt
+  label: Epoca Migraţiilor
+  start: 374
+  stop: 799
+  coverage: Romania
+  source: ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation.
+- uri: p06c6g3754q
+  label: Theodosius I, the Great, 379-395
+  start: 379
+  stop: 395
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p06c6g3xq8h
+  label: Theodosians, 379-455
+  start: 379
+  stop: 455
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0s84tqf84t
+  label: Theodosian period (Roman Noricum)
+  start: 392
+  stop: 456
+  coverage: Austria Slovenia Germany Italy Roman Empire
+  source: 'Hagmann, Dominik (2021): A Controlled Vocabulary for a Simple and Basic
+    Chronology for the Roman Province of Noricum'
+- uri: p06c6g3kwhn
+  label: Honorius, 395-423
+  start: 395
+  stop: 423
+  coverage: Roman Empire
+  source: '“Library of Congress Subject Headings - LC Linked Data Service (Library
+    of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015.
+
+    '
+- uri: p0jf288ww4h
+  label: Middle History, Period II
+  start: 395
+  stop: 622
+  coverage: France Spain Italy Greece Iran Iraq Morocco Tunisia Libya Algeria Egypt
+    England
+  source: ''
+- uri: p09hq4nz986
+  label: IVe siècle EC – début Empire romain d'Occident
+  start: 396
+  stop: 400
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4nx33w
+  label: IVe siècle EC - Début Empire romain d'Orient
+  start: 396
+  stop: 400
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4n72qj
+  label: Empire romain d'Occident
+  start: 396
+  stop: 476
+  coverage: France Germany England Belgium Netherlands Switzerland Austria Czech Republic
+    Slovakia Poland Ukraine Romania Hungary It
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p09hq4n4drr
+  label: Empire romain d'Orient
+  start: 396
+  stop: 636
+  coverage: Portugal Spain France Monaco Italy Slovenia Croatia Bosnia and Herzegovina
+    Montenegro Albania Greece North Macedonia Kos
+  source: ArkeOpen chronology periods made and/or used by ArkeoGIS authors https://arkeogis.org/liste-chronologie/
+- uri: p06v8w4mbjn
+  label: Late Roman Period
+  start: 400
+  stop: 700
+  coverage: Romania
+  source: ''

@@ -1,0 +1,372 @@
+# Catalogue of external geography for scripts/enrich_geo.py.
+#
+# Every entry becomes one toggleable layer in the atlas and one file under
+# assets/data/layers/. Adding a source is an edit here, not a code change.
+#
+#   id           file name and DOM id; keep it stable, the front end remembers it
+#   group        heading the layer is filed under in the map's Layers panel
+#   name         what the reader sees
+#   adapter      geojson | ndjson | pleiades | overpass | wikidata
+#   kind         drives the drawing style: see STYLE_KINDS in enrich_geo.py
+#   default      true to load the layer on first paint; everything else is
+#                fetched only when the reader switches it on
+#   simplify     Douglas-Peucker tolerance in degrees, 0 to keep full detail
+#   max_features cap, applied after sorting by rank then by size
+#   licence      shown in the panel; ODbL layers are kept in their own files so
+#                the share-alike obligation does not attach to the whole corpus
+#
+# Sizes below are the download, not the published layer: everything is clipped
+# to the corpus bounding box and simplified before it is written.
+
+sources:
+
+  # ---- hydrography and relief -------------------------------------------
+  - id: ne-rivers
+    group: Hydrography
+    name: Rivers
+    adapter: geojson
+    url: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson
+    extra_urls:
+      - https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_europe.geojson
+    kind: river
+    name_fields: [name_en, name, label]
+    rank_field: scalerank
+    simplify: 0.002
+    default: true
+    licence: Public domain
+    attribution: Natural Earth 10m
+
+  - id: ne-lakes
+    group: Hydrography
+    name: Lakes
+    adapter: geojson
+    url: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson
+    extra_urls:
+      - https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes_europe.geojson
+    kind: lake
+    name_fields: [name_en, name]
+    simplify: 0.002
+    default: true
+    licence: Public domain
+    attribution: Natural Earth 10m
+
+  - id: ne-regions
+    group: Relief
+    name: Named ranges and physical regions
+    adapter: geojson
+    url: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_polys.geojson
+    kind: range
+    name_fields: [name_en, name]
+    require_name: true
+    drop_classes: [continent, island, islands, island group]
+    simplify: 0.004
+    default: true
+    licence: Public domain
+    attribution: Natural Earth 10m
+
+  - id: ne-elevation-points
+    group: Relief
+    name: Named peaks and passes
+    adapter: geojson
+    url: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_elevation_points.geojson
+    kind: peak
+    name_fields: [name_en, name]
+    require_name: true
+    default: false
+    licence: Public domain
+    attribution: Natural Earth 10m
+
+  # ---- ancient geography -------------------------------------------------
+  - id: pleiades-places
+    group: Ancient geography
+    name: Pleiades places
+    adapter: pleiades
+    part: points
+    kind: ancient-place
+    default: true
+    licence: CC BY 3.0
+    attribution: Pleiades, ISAW
+
+  - id: pleiades-polygons
+    group: Ancient geography
+    name: Pleiades footprints and territories
+    adapter: pleiades
+    part: polygons
+    kind: ancient-footprint
+    simplify: 0.0005
+    default: false
+    licence: CC BY 3.0
+    attribution: Pleiades, ISAW
+
+  - id: awmc-shoreline
+    group: Ancient geography
+    name: Ancient shoreline
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Physical%20Data/shoreline/shoreline.geojson
+    kind: coastline
+    simplify: 0.002
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-inland-water
+    group: Hydrography
+    name: Inland water (AWMC)
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Physical%20Data/inland_water/inland-water-OSM.geojson
+    kind: lake
+    name_fields: [title, name]
+    simplify: 0.002
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-urban
+    group: Ancient geography
+    name: Urban areas
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/urban_areas/urban_areas.geojson
+    kind: urban-area
+    name_fields: [title, name]
+    keep_fields: [pid, type]
+    simplify: 0.0004
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-walls
+    group: Ancient geography
+    name: City walls
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/walls/walls.geojson
+    kind: wall
+    name_fields: [title, name]
+    keep_fields: [pid, type]
+    simplify: 0.0004
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-provinces-60bc
+    group: Ancient geography
+    name: Roman territory, 60 BC
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/political_shading/roman_empire_bce_60/roman_empire_bce_60.geojson
+    kind: province
+    name_fields: [title, name]
+    keep_fields: [pid]
+    simplify: 0.004
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-provinces-200ce
+    group: Ancient geography
+    name: Roman provinces, AD 200
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/political_shading/roman_empire_ce_200_provinces/roman_empire_ce_200_provinces.geojson
+    kind: province
+    name_fields: [title, name, province]
+    keep_fields: [pid]
+    simplify: 0.004
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-regional-names
+    group: Ancient geography
+    name: Regional and ethnic names (Barrington)
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/regional_name_linework/regional_names_linework.geojson
+    kind: cultural-region
+    name_fields: [title, name, label]
+    keep_fields: [pid, type, p_min_date, p_max_date]
+    require_name: true
+    simplify: 0.003
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-roads
+    group: Movement
+    name: Roads (Barrington / AWMC)
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/roads/roads.geojson
+    kind: road
+    name_fields: [title, name]
+    keep_fields: [pid, type, certainty]
+    simplify: 0.001
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-aqueducts
+    group: Movement
+    name: Aqueducts
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/aqueducts/aqueducts.geojson
+    kind: aqueduct
+    name_fields: [title, name]
+    keep_fields: [pid]
+    simplify: 0.001
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: awmc-canals
+    group: Movement
+    name: Canals
+    adapter: geojson
+    url: https://raw.githubusercontent.com/AWMC/geodata/master/Cultural-Data/canals/canals.geojson
+    kind: aqueduct
+    name_fields: [title, name]
+    keep_fields: [pid]
+    simplify: 0.001
+    default: false
+    licence: ODbL
+    attribution: Ancient World Mapping Center
+
+  - id: itinere-roads
+    group: Movement
+    name: Roman roads (Itiner-e)
+    adapter: geojson
+    # de Soto, Pazout, Brughmans et al., Sci Data 12:1731 (2025).
+    # Zenodo: https://doi.org/10.5281/zenodo.17122148
+    url: https://api.nakala.fr/data/10.34847/nkl.4a6a7t4l/f2fede84f203e4ccc56e45f3fee20ac77a9b62cc
+    kind: roman-road
+    name_fields: [name, road_name, label]
+    keep_fields: [certainty, pleiadesPlaces, id]
+    simplify: 0.0008
+    default: false
+    licence: CC BY 4.0
+    attribution: Itiner-e, de Soto et al. 2025
+
+  # ---- excavated footprints from OpenStreetMap --------------------------
+  # Ways and relations, not just nodes: this is where the real site outlines
+  # come from, Pompeii and the Tarquinia necropoleis included.
+  - id: osm-archaeology
+    group: Excavated footprints
+    name: Archaeological sites (OSM)
+    adapter: overpass
+    kind: excavation
+    default: false
+    tile: 1.5
+    simplify: 0.00005
+    licence: ODbL
+    attribution: OpenStreetMap contributors
+    query: |
+      [out:json][timeout:{t}];
+      (
+        way["historic"="archaeological_site"]({s},{w},{n},{e});
+        relation["historic"="archaeological_site"]({s},{w},{n},{e});
+        way["historic"="city_walls"]({s},{w},{n},{e});
+      );
+      out geom qt;
+
+  - id: osm-tombs
+    group: Excavated footprints
+    name: Tombs and tumuli (OSM)
+    adapter: overpass
+    kind: tomb
+    default: false
+    tile: 1.5
+    licence: ODbL
+    attribution: OpenStreetMap contributors
+    query: |
+      [out:json][timeout:{t}];
+      (
+        node["historic"="tomb"]({s},{w},{n},{e});
+        way["historic"="tomb"]({s},{w},{n},{e});
+        way["historic"="tumulus"]({s},{w},{n},{e});
+      );
+      out geom qt;
+
+  - id: osm-summits
+    group: Relief
+    name: Peaks, volcanoes and passes (OSM)
+    adapter: overpass
+    kind: peak
+    default: false
+    tile: 2.0
+    licence: ODbL
+    attribution: OpenStreetMap contributors
+    query: |
+      [out:json][timeout:{t}];
+      (
+        node["natural"="peak"]["name"]({s},{w},{n},{e});
+        node["natural"="volcano"]["name"]({s},{w},{n},{e});
+        node["mountain_pass"="yes"]["name"]({s},{w},{n},{e});
+      );
+      out body qt;
+
+  # ---- modern reference --------------------------------------------------
+  - id: wikidata-sites
+    group: Ancient geography
+    name: Archaeological sites (Wikidata)
+    adapter: wikidata
+    kind: archaeological-site
+    default: false
+    licence: CC0
+    attribution: Wikidata
+
+  - id: istat-comuni
+    group: Modern reference
+    name: Comuni (ISTAT boundaries)
+    adapter: geojson
+    url: https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_municipalities.geojson
+    kind: admin
+    name_fields: [name, comune, prov_name]
+    simplify: 0.002
+    default: false
+    licence: CC BY 4.0
+    attribution: ISTAT via openpolis/geojson-italy
+
+  - id: istat-province
+    group: Modern reference
+    name: Province (ISTAT boundaries)
+    adapter: geojson
+    url: https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_provinces.geojson
+    kind: admin
+    name_fields: [prov_name, name]
+    simplify: 0.003
+    default: false
+    licence: CC BY 4.0
+    attribution: ISTAT via openpolis/geojson-italy
+
+# Layers that need a manual download, because the publisher puts them behind a
+# form or a viewer rather than a stable file URL. Drop the file into .cache/
+# under the name given and re-run; enrich_geo.py picks it up automatically.
+#
+#   Itiner-e, if api.nakala.fr will not verify on your network
+#     https://doi.org/10.5281/zenodo.17122148  ->  .cache/local-itinere.geojson
+#   HydroBASINS / HydroRIVERS (catchment polygons, Strahler order)
+#     https://www.hydrosheds.org/products  ->  .cache/local-hydrobasins.geojson
+#   Carta Geologica d'Italia 1:100k (lithology polygons)
+#     https://www.isprambiente.gov.it/     ->  .cache/local-geology.geojson
+#
+local_sources:
+  - id: local-itinere
+    group: Movement
+    name: Roman roads (Itiner-e, local copy)
+    kind: roman-road
+    name_fields: [name, road_name, label]
+    simplify: 0.0008
+    licence: CC BY 4.0
+    attribution: Itiner-e, de Soto et al. 2025
+
+  - id: local-hydrobasins
+    group: Hydrography
+    name: Catchments (HydroBASINS)
+    kind: basin
+    simplify: 0.003
+    licence: Free for non-commercial and academic use
+    attribution: HydroSHEDS / WWF
+
+  - id: local-geology
+    group: Physical setting
+    name: Bedrock geology
+    kind: geology
+    simplify: 0.001
+    name_fields: [descr, litologia, name]
+    licence: Check the publisher
+    attribution: ISPRA

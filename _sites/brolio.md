@@ -2,11 +2,14 @@
 layout: site
 title: Brolio
 slug: brolio
-place_id: 756
+place_id: 754
 region: Etruria Settentrionale
 latitude: 43.300615
 longitude: 11.855344
 n_inscriptions: 1
 date_min: -700
 date_max: -401
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

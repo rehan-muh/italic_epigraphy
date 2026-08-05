@@ -34,7 +34,9 @@
       var pending;
       global.addEventListener('resize', function () {
         clearTimeout(pending);
-        pending = setTimeout(function () { self.render(self.lastCounts, self.lastWindow); }, 120);
+        pending = setTimeout(function () {
+          self.render(self.lastCounts, self.lastWindow, self.lastBand);
+        }, 120);
       });
     },
 
@@ -75,13 +77,17 @@
     },
 
     /**
-     * counts: Map(quarterEdge -> {languageId: n})
+     * counts: Map(quarterEdge -> {languageId: n}); n may be fractional in
+     *         aoristic mode, where a record is shared across the quarters its
+     *         date interval covers
      * window: [minEdge, maxEdge] or null
+     * band:   optional {sd: [...]} drawn as an uncertainty whisker per bin
      */
-    render: function (counts, window_) {
+    render: function (counts, window_, band) {
       if (!counts) return;
       this.lastCounts = counts;
       this.lastWindow = window_;
+      this.lastBand = band || null;
 
       var L = this.layout();
       this.geometry = L.geom;
@@ -97,7 +103,7 @@
         if (t > max) max = t;
       });
 
-      var scale = function (v) { return Math.sqrt(v / max) * L.barH; };
+      var scale = function (v) { return Math.sqrt(Math.max(v, 0) / max) * L.barH; };
 
       // baselines and the turn marks that make the serpentine legible
       for (var r = 0; r < L.rows; r++) {
@@ -147,6 +153,24 @@
           }));
         });
 
+        // the analytic standard deviation of the Poisson binomial implied by
+        // the aoristic weights: how much of this bar's height is an artefact of
+        // the dating intervals rather than of the corpus
+        if (band && band.sd && band.sd[i] > 0 && total > 0) {
+          var sd = band.sd[i] * (band.scale || 1);
+          var top = g.baseline - scale(total);
+          var hi = g.baseline - scale(total + sd);
+          var lo = g.baseline - scale(Math.max(total - sd, 0));
+          var cx = g.x + g.w / 2;
+          group.appendChild(el('line', {
+            class: 'band', x1: cx, x2: cx, y1: hi, y2: lo
+          }));
+          group.appendChild(el('line', {
+            class: 'band', x1: cx - 2, x2: cx + 2, y1: hi, y2: hi
+          }));
+          void top;
+        }
+
         if (total === 0) {
           group.appendChild(el('rect', {
             class: 'seg', x: g.x + 1, y: g.baseline - 1.5,
@@ -173,8 +197,11 @@
         });
         hit.setAttribute('data-index', i);
         var title = el('title');
-        title.textContent = global.Corpus.fmt.quarter(edge) + ' \u00b7 ' +
-          global.Corpus.fmt.n(total) + (total === 1 ? ' inscription' : ' inscriptions');
+        var shown = total < 10 && total % 1 !== 0
+          ? total.toFixed(1) : global.Corpus.fmt.n(Math.round(total));
+        title.textContent = global.Corpus.fmt.quarter(edge) + ' \u00b7 ' + shown +
+          (Math.round(total) === 1 ? ' inscription' : ' inscriptions') +
+          (band && band.sd && band.sd[i] ? ' \u00b1 ' + band.sd[i].toFixed(1) : '');
         hit.appendChild(title);
         group.appendChild(hit);
 

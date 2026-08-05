@@ -2,11 +2,14 @@
 layout: site
 title: Navelli / Peltuinum
 slug: navelli-peltuinum
-place_id: 558
+place_id: 556
 region: Samnium
 latitude: 42.23644
 longitude: 13.730754
 n_inscriptions: 1
 date_min: -150
 date_max: -101
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

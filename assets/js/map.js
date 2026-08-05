@@ -63,7 +63,6 @@
       });
 
       sources.places = { type: 'geojson', data: { type: 'FeatureCollection', features: [] } };
-      sources.geofeatures = { type: 'geojson', data: { type: 'FeatureCollection', features: [] } };
 
       this.map = new maplibregl.Map({
         container: containerId,
@@ -93,90 +92,10 @@
     addDataLayers: function () {
       var map = this.map;
 
-      // --- enriched geography, underneath the corpus -----------------------
-      // named physical regions: Alps, Appennino Ligure, Calabria, and so on
-      map.addLayer({
-        id: 'geo-range-fill', type: 'fill', source: 'geofeatures',
-        filter: ['==', ['get', 'kind'], 'range'],
-        paint: { 'fill-color': '#6b6250', 'fill-opacity': 0.1 }
-      });
-      map.addLayer({
-        id: 'geo-range-label', type: 'symbol', source: 'geofeatures',
-        filter: ['in', ['get', 'kind'], ['literal', ['range', 'region']]],
-        minzoom: 4.5,
-        layout: {
-          'text-field': ['get', 'name'],
-          'text-font': ['Open Sans Italic'],
-          'text-size': ['interpolate', ['linear'], ['zoom'], 5, 11, 9, 16],
-          'text-letter-spacing': 0.22,
-          'text-transform': 'uppercase',
-          'text-max-width': 8,
-          'text-optional': true
-        },
-        paint: {
-          'text-color': '#b6ad97',
-          'text-halo-color': '#10130f',
-          'text-halo-width': 1.6,
-          'text-opacity': 0.85
-        }
-      });
-
-      map.addLayer({
-        id: 'geo-lakes', type: 'fill', source: 'geofeatures',
-        filter: ['==', ['get', 'kind'], 'lake'],
-        paint: { 'fill-color': '#2f5a6b', 'fill-opacity': 0.42 }
-      });
-      map.addLayer({
-        id: 'geo-rivers', type: 'line', source: 'geofeatures',
-        filter: ['==', ['get', 'kind'], 'river'],
-        paint: {
-          'line-color': '#4d7f96',
-          'line-opacity': 0.75,
-          'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.5, 9, 1.4, 13, 2.6]
-        }
-      });
-      map.addLayer({
-        id: 'geo-rivers-label', type: 'symbol', source: 'geofeatures',
-        filter: ['all', ['==', ['get', 'kind'], 'river'], ['has', 'name']],
-        minzoom: 8,
-        layout: {
-          'symbol-placement': 'line',
-          'text-field': ['get', 'name'],
-          'text-font': ['Open Sans Italic'],
-          'text-size': 11,
-          'text-max-angle': 40
-        },
-        paint: { 'text-color': '#9fc4d4', 'text-halo-color': '#10130f', 'text-halo-width': 1.4 }
-      });
-      map.addLayer({
-        id: 'geo-points', type: 'circle', source: 'geofeatures',
-        filter: ['in', ['get', 'kind'],
-                 ['literal', ['peak', 'volcano', 'pass', 'landmark', 'ancient-place', 'archaeological-site']]],
-        minzoom: 6.5,
-        paint: {
-          'circle-radius': 2.4,
-          'circle-color': ['match', ['get', 'kind'],
-            'peak', '#c9c0ac', 'volcano', '#d3703f', 'pass', '#c9c0ac',
-            'landmark', '#9db3a8', 'ancient-place', '#d3a04a', '#8fa39a'],
-          'circle-opacity': 0.85
-        }
-      });
-      map.addLayer({
-        id: 'geo-points-label', type: 'symbol', source: 'geofeatures',
-        filter: ['in', ['get', 'kind'],
-                 ['literal', ['peak', 'volcano', 'pass', 'landmark', 'ancient-place', 'archaeological-site']]],
-        minzoom: 8.5,
-        layout: {
-          'text-field': ['get', 'name'],
-          'text-font': ['Open Sans Regular'],
-          'text-size': 10,
-          'text-offset': [0, 0.8],
-          'text-anchor': 'top',
-          'text-optional': true
-        },
-        paint: { 'text-color': '#b9b2a2', 'text-halo-color': '#10130f', 'text-halo-width': 1.4 }
-      });
-
+      // The enriched geography is no longer one baked-in source. Layers are
+      // declared in scripts/geosources.yml, listed in assets/data/layers.json,
+      // and added here the first time the reader switches one on. Everything
+      // sits below 'places-heat', which is the first corpus layer.
       // --- corpus ---------------------------------------------------------
       map.addLayer({
         id: 'places-heat', type: 'heatmap', source: 'places',
@@ -274,6 +193,10 @@
       var bits = [];
       if (props.region) bits.push(escapeHTML(props.region));
       bits.push(C.fmt.n(props.n) + (props.n === 1 ? ' inscription' : ' inscriptions'));
+      if (props.rolled > 0) {
+        bits.push('including ' + props.rolled +
+          (props.rolled === 1 ? ' sub-findspot' : ' sub-findspots'));
+      }
       var span = C.fmt.span(
         props.date_min === undefined ? null : props.date_min,
         props.date_max === undefined ? null : props.date_max);
@@ -309,6 +232,8 @@
             date_min: rec.dmin,
             date_max: rec.dmax,
             langs: rec.langs,
+            level: base.properties.level,
+            rolled: rec.rolled || 0,
             color: dominant ? C.languageColor(Number(dominant)) : '#7a827d'
           }
         });
@@ -318,9 +243,161 @@
       return features.length;
     },
 
-    setGeoFeatures: function (fc) {
-      if (!fc) return;
-      this.map.getSource('geofeatures').setData(fc);
+    // ---- external layers ------------------------------------------------
+
+    /* One entry per feature kind. Polygons get a fill and a casing, lines get a
+     * stroke, points get a dot; the same three maplibre layers serve every
+     * source, so adding a source to the catalogue needs no code here. */
+    STYLES: {
+      river:            { color: '#4d7f96', width: [0.5, 1.4, 2.6], label: 'line' },
+      lake:             { color: '#2f5a6b', fill: 0.42 },
+      coastline:        { color: '#8fa39a', width: [0.4, 0.8, 1.2] },
+      basin:            { color: '#4f7f6b', fill: 0.10, casing: 0.5 },
+      range:            { color: '#6b6250', fill: 0.10, label: 'area' },
+      geology:          { color: '#8a6a4a', fill: 0.22 },
+      province:         { color: '#9a7f5f', fill: 0.10, casing: 0.9, label: 'area' },
+      'cultural-region':{ color: '#b08a6a', fill: 0.10, casing: 0.8, label: 'area' },
+      'urban-area':     { color: '#d3a04a', fill: 0.30, casing: 0.8, label: 'area' },
+      wall:             { color: '#cd8a4a', width: [0.8, 1.6, 3] },
+      excavation:       { color: '#c8562b', fill: 0.28, casing: 1 },
+      tomb:             { color: '#a8523f', fill: 0.35, casing: 0.6, radius: 2.2 },
+      road:             { color: '#b0a189', width: [0.4, 0.9, 1.8], label: 'line' },
+      'roman-road':     { color: '#d9b06a', width: [0.5, 1.1, 2.2], label: 'line' },
+      aqueduct:         { color: '#7fa8b8', width: [0.4, 0.9, 1.6], label: 'line' },
+      peak:             { color: '#c9c0ac', radius: 2.4, label: 'point' },
+      admin:            { color: '#6b7f8a', fill: 0.05, casing: 0.5 },
+      'ancient-place':  { color: '#d3a04a', radius: 2.4, label: 'point' },
+      'ancient-footprint': { color: '#d3a04a', fill: 0.20, casing: 0.7, label: 'area' },
+      'archaeological-site': { color: '#8fa39a', radius: 2.4, label: 'point' },
+      feature:          { color: '#8fa39a', radius: 2.2, label: 'point' }
+    },
+
+    activeLayers: {},
+
+    layerIds: function (id) {
+      return ['gx-' + id + '-fill', 'gx-' + id + '-line',
+              'gx-' + id + '-point', 'gx-' + id + '-label'];
+    },
+
+    /** Add one catalogue layer to the map. Idempotent. */
+    addExternalLayer: function (entry, data) {
+      if (this.activeLayers[entry.id] || !data) return;
+      var map = this.map;
+      var style = this.STYLES[entry.kind] || this.STYLES.feature;
+      var src = 'gx-' + entry.id;
+      var ids = this.layerIds(entry.id);
+      var before = map.getLayer('places-heat') ? 'places-heat' : undefined;
+
+      map.addSource(src, { type: 'geojson', data: data });
+
+      map.addLayer({
+        id: ids[0], type: 'fill', source: src,
+        filter: ['==', ['geometry-type'], 'Polygon'],
+        paint: { 'fill-color': style.color, 'fill-opacity': style.fill || 0.14 }
+      }, before);
+
+      map.addLayer({
+        id: ids[1], type: 'line', source: src,
+        filter: ['any', ['==', ['geometry-type'], 'LineString'],
+                        ['==', ['geometry-type'], 'Polygon']],
+        paint: {
+          'line-color': style.color,
+          'line-opacity': 0.8,
+          'line-width': ['interpolate', ['linear'], ['zoom'],
+            5, (style.width || [0.3, 0.6, 1])[0] || style.casing || 0.4,
+            9, (style.width || [0.3, 0.6, 1])[1] || style.casing || 0.7,
+            13, (style.width || [0.3, 0.6, 1])[2] || style.casing || 1.2]
+        }
+      }, before);
+
+      map.addLayer({
+        id: ids[2], type: 'circle', source: src,
+        filter: ['==', ['geometry-type'], 'Point'],
+        minzoom: entry.features > 3000 ? 6.5 : 4,
+        paint: {
+          'circle-radius': style.radius || 2.4,
+          'circle-color': style.color,
+          'circle-opacity': 0.85
+        }
+      }, before);
+
+      if (style.label) {
+        var layout = {
+          'text-field': ['coalesce', ['get', 'name'], ''],
+          'text-font': [style.label === 'area' ? 'Open Sans Italic' : 'Open Sans Regular'],
+          'text-size': 11,
+          'text-optional': true
+        };
+        if (style.label === 'line') {
+          layout['symbol-placement'] = 'line';
+          layout['text-max-angle'] = 40;
+        } else if (style.label === 'area') {
+          layout['text-transform'] = 'uppercase';
+          layout['text-letter-spacing'] = 0.18;
+          layout['text-max-width'] = 8;
+        } else {
+          layout['text-offset'] = [0, 0.8];
+          layout['text-anchor'] = 'top';
+        }
+        map.addLayer({
+          id: ids[3], type: 'symbol', source: src,
+          filter: ['has', 'name'],
+          minzoom: style.label === 'area' ? 4.5 : 8.5,
+          layout: layout,
+          paint: {
+            'text-color': style.color,
+            'text-halo-color': '#10130f',
+            'text-halo-width': 1.5,
+            'text-opacity': 0.9
+          }
+        }, before);
+      }
+
+      this.activeLayers[entry.id] = true;
+      this.bindExternalPopup(ids[0]);
+      this.bindExternalPopup(ids[2]);
+    },
+
+    bindExternalPopup: function (layerId) {
+      var map = this.map;
+      if (!map.getLayer(layerId)) return;
+      map.on('click', layerId, function (e) {
+        if (!e.features.length) return;
+        var p = e.features[0].properties || {};
+        if (!p.name && !p.uri) return;
+        var bits = [];
+        if (p.kind) bits.push(escapeHTML(String(p.kind).replace(/-/g, ' ')));
+        if (p.types) bits.push(escapeHTML(String(p.types).replace(/[\[\]"]/g, '')));
+        if (p.elevation) bits.push(escapeHTML(p.elevation) + ' m');
+        var link = p.uri ? '<a href="' + escapeHTML(p.uri) +
+          '" target="_blank" rel="noopener">' + escapeHTML(p.uri.replace(/^https?:\/\//, '')) +
+          '</a>' : '';
+        new maplibregl.Popup({ offset: 10, maxWidth: '18rem' })
+          .setLngLat(e.lngLat)
+          .setHTML('<h3 class="pop-title">' + escapeHTML(p.name || 'unnamed') + '</h3>' +
+                   '<p class="pop-meta">' + bits.join(' &middot; ') + '</p>' + link)
+          .addTo(map);
+      });
+    },
+
+    setLayerVisible: function (entry, on) {
+      var self = this;
+      if (!on) {
+        this.layerIds(entry.id).forEach(function (id) {
+          if (self.map.getLayer(id)) self.map.setLayoutProperty(id, 'visibility', 'none');
+        });
+        return Promise.resolve(false);
+      }
+      if (this.activeLayers[entry.id]) {
+        this.layerIds(entry.id).forEach(function (id) {
+          if (self.map.getLayer(id)) self.map.setLayoutProperty(id, 'visibility', 'visible');
+        });
+        return Promise.resolve(true);
+      }
+      return global.Corpus.layer(entry.id).then(function (data) {
+        self.addExternalLayer(entry, data);
+        return !!data;
+      });
     },
 
     setMode: function (mode) {
@@ -351,14 +428,16 @@
       }
     },
 
-    setGeoVisible: function (on) {
-      ['geo-range-fill', 'geo-range-label', 'geo-lakes', 'geo-rivers',
-       'geo-rivers-label', 'geo-points', 'geo-points-label']
-        .forEach(function (id) {
-          if (this.map.getLayer(id)) {
-            this.map.setLayoutProperty(id, 'visibility', on ? 'visible' : 'none');
-          }
-        }, this);
+    /** Zoom threshold below which children are folded into their parent. */
+    ROLLUP_ZOOM: 10.5,
+
+    onZoom: function (fn) {
+      var map = this.map, last = null;
+      map.on('zoomend', function () {
+        var rolled = map.getZoom() < AtlasMap.ROLLUP_ZOOM;
+        if (rolled !== last) { last = rolled; fn(rolled); }
+      });
+      return map.getZoom() < AtlasMap.ROLLUP_ZOOM;
     }
   };
 

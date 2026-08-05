@@ -2,11 +2,14 @@
 layout: site
 title: Mechel
 slug: mechel
-place_id: 1965
+place_id: 1942
 region: Venetia et Histria
 latitude: 46.35
 longitude: 11.02
 n_inscriptions: 8
 date_min: -525
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

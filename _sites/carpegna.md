@@ -2,11 +2,14 @@
 layout: site
 title: Carpegna
 slug: carpegna
-place_id: 1307
+place_id: 1305
 region: Umbria
 latitude: 43.781434
 longitude: 12.336395
 n_inscriptions: 1
 date_min: -400
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

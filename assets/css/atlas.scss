@@ -500,3 +500,89 @@ h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
   .build-stamp { display: none; }
   .legend { display: none; }
 }
+
+/* ---- layer panel ------------------------------------------------------- */
+
+.layer-groups {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+.layer-group h3 {
+  margin: 0 0 .25rem;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--tufa);
+}
+
+.layer-row .n {
+  font-variant-numeric: tabular-nums;
+  opacity: .55;
+}
+
+/* a layer's GeoJSON is fetched on first use, so the row reports that it is
+   working rather than appearing to do nothing */
+.layer-row.is-loading .label { opacity: .5; }
+.layer-row.is-loading .n::after {
+  content: '\2026';
+  margin-left: .2rem;
+}
+
+.timeline-modes {
+  margin-left: auto;
+  margin-right: .8rem;
+}
+
+/* the aoristic uncertainty whisker */
+#timeline .band {
+  stroke: rgba(236, 229, 216, .55);
+  stroke-width: 1;
+  pointer-events: none;
+}
+
+/* ---- authority links on a findspot page -------------------------------- */
+
+.links-list {
+  list-style: none;
+  margin: .4rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .6rem;
+}
+
+.links-list li {
+  display: flex;
+  align-items: baseline;
+  gap: .35rem;
+  padding: .25rem .55rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: .82rem;
+}
+
+.links-list .authority {
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  font-size: .64rem;
+  opacity: .7;
+}
+
+.links-list .score {
+  font-variant-numeric: tabular-nums;
+  font-size: .68rem;
+  opacity: .5;
+}
+
+.links-list li.is-search { border-style: dashed; }
+
+.child-list {
+  columns: 2;
+  column-gap: 2rem;
+  list-style: none;
+  padding: 0;
+  font-size: .88rem;
+}

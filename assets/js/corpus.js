@@ -19,7 +19,9 @@
     col: {},         // columnar data
     lookups: {},     // id -> label maps
     places: null,    // GeoJSON FeatureCollection, one point per findspot
-    features: null,  // enriched geography, may be empty
+    dicts: {},       // dictionary-encoded string columns
+    manifest: null,  // the enriched-geography layer catalogue
+    layerCache: {},  // id -> GeoJSON, fetched the first time a layer is shown
     timeline: null,
     placeIndex: {},  // place id -> GeoJSON feature
     listeners: [],
@@ -37,11 +39,15 @@
 
     load: function () {
       var self = this;
+      // Only the three corpus files are fetched up front. The geography is a
+      // manifest of a few hundred bytes; each layer's GeoJSON is downloaded the
+      // first time the reader switches that layer on, which is what stops a
+      // dozen polygon sources from delaying the first paint.
       var wanted = [
         fetch(url('/assets/data/corpus.json')).then(function (r) { return r.json(); }),
         fetch(url('/assets/data/places.geojson')).then(function (r) { return r.json(); }),
         fetch(url('/assets/data/timeline.json')).then(function (r) { return r.json(); }),
-        fetch(url('/assets/data/features.geojson'))
+        fetch(url('/assets/data/layers.json'))
           .then(function (r) { return r.ok ? r.json() : null; })
           .catch(function () { return null; })
       ];
@@ -50,24 +56,37 @@
         self.n = corpus.n;
         self.col = corpus.columns;
         self.lookups = corpus.lookups;
+        self.dicts = corpus.dicts || { notes: [''], script: [''] };
         self.places = res[1];
         self.timeline = res[2];
-        self.features = res[3] && res[3].features && res[3].features.length ? res[3] : null;
+        self.manifest = res[3] && res[3].layers && res[3].layers.length ? res[3] : null;
+
+        self.qIndex = {};
+        (self.timeline.quarters || []).forEach(function (edge, i) { self.qIndex[edge] = i; });
 
         self.places.features.forEach(function (f) {
           self.placeIndex[f.properties.id] = f;
         });
 
-        // a lower-cased haystack per row, built once, for the search box
-        self.haystack = new Array(self.n);
+        // A lower-cased haystack per row for the search box. notes and script
+        // are dictionary indices, and the dictionaries are small, so the folded
+        // strings are built once per distinct value rather than once per row.
+        var foldedNotes = (self.dicts.notes || []).map(function (v) { return v.toLowerCase(); });
+        var foldedScript = (self.dicts.script || []).map(function (v) { return v.toLowerCase(); });
         var placeNames = self.lookups.places || {};
+        var foldedPlaces = {};
+        Object.keys(placeNames).forEach(function (k) {
+          foldedPlaces[k] = String(placeNames[k]).toLowerCase();
+        });
+
+        self.haystack = new Array(self.n);
         for (var i = 0; i < self.n; i++) {
           self.haystack[i] = (
-            (self.col.ref[i] || '') + ' ' +
-            (placeNames[self.col.place[i]] || '') + ' ' +
-            (self.col.notes[i] || '') + ' ' +
-            (self.col.script[i] || '')
-          ).toLowerCase();
+            (self.col.ref[i] || '').toLowerCase() + ' ' +
+            (foldedPlaces[self.col.place[i]] || '') + ' ' +
+            (foldedNotes[self.col.notes[i]] || '') + ' ' +
+            (foldedScript[self.col.script[i]] || '')
+          );
         }
 
         self.ready = true;
@@ -76,6 +95,30 @@
     },
 
     // ---- vocabulary helpers --------------------------------------------
+
+    /** A dictionary-encoded string column, decoded for one row. */
+    text: function (field, i) {
+      var table = this.dicts[field];
+      if (!table) return '';
+      return table[this.col[field][i]] || '';
+    },
+
+    /** GeoJSON for one enriched-geography layer, fetched at most once. */
+    layer: function (id) {
+      var self = this;
+      if (this.layerCache[id]) return Promise.resolve(this.layerCache[id]);
+      var entry = (this.manifest && this.manifest.layers || []).filter(function (l) {
+        return l.id === id;
+      })[0];
+      if (!entry) return Promise.resolve(null);
+      return fetch(url('/assets/data/' + entry.file))
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) {
+          if (data) self.layerCache[id] = data;
+          return data;
+        })
+        .catch(function () { return null; });
+    },
 
     label: function (kind, id) {
       var table = this.lookups[kind] || {};
@@ -141,21 +184,90 @@
       return counts;
     },
 
-    /** Per-quarter, per-language counts under everything except the time window. */
-    timelineCounts: function () {
+    /** Per-quarter, per-language counts under everything except the time window.
+     *
+     * mode 'start' bins each record on the quarter its Date.Start falls in,
+     * which is what epigraphic databases usually show and what produces the
+     * spikes on the round century edges. mode 'aoristic' spreads each record
+     * evenly over the quarters its date interval covers, so a record dated
+     * 400 to 1 BC contributes a sixteenth to each of sixteen bins instead of a
+     * whole inscription to the first one.
+     */
+    timelineCounts: function (mode) {
       var saved = this.state.quarters;
       this.state.quarters = null;
       var rows = this.select();
       this.state.quarters = saved;
-      var c = this.col, out = new Map();
+
+      var c = this.col, out = new Map(), qs = this.timeline.quarters, qi = this.qIndex;
+      var aoristic = mode === 'aoristic';
+      // variance of the Poisson binomial the weights imply, accumulated for the
+      // current selection rather than read off the whole-corpus figure
+      var variance = new Float64Array(qs.length);
+
       for (var k = 0; k < rows.length; k++) {
-        var i = rows[k], q = c.q[i];
-        if (q === null) continue;
-        var bucket = out.get(q);
-        if (!bucket) { bucket = {}; out.set(q, bucket); }
-        var l = c.lang[i];
-        if (l !== null) bucket[l] = (bucket[l] || 0) + 1;
+        var i = rows[k], l = c.lang[i];
+        if (!aoristic) {
+          var q = c.q[i];
+          if (q === null) continue;
+          add(q, l, 1);
+          continue;
+        }
+        // A few records are dated past the end of the axis; the build clamps
+        // them to it rather than stretching the timeline by forty empty bins,
+        // and the browser has to clamp the same way.
+        var a = qi[c.q[i]], b = qi[c.qe[i]];
+        if (a === undefined) a = c.q[i] < qs[0] ? 0 : qs.length - 1;
+        if (b === undefined) b = c.qe[i] > qs[qs.length - 1] ? qs.length - 1 : 0;
+        if (c.q[i] === null || c.qe[i] === null) continue;
+        if (a > b) { var t = a; a = b; b = t; }
+        var w = 1 / (c.nq[i] || (b - a + 1));
+        for (var j = a; j <= b; j++) {
+          add(qs[j], l, w);
+          variance[j] += w * (1 - w);
+        }
       }
+
+      this.lastSd = aoristic
+        ? Array.prototype.map.call(variance, function (v) { return Math.sqrt(v); })
+        : null;
+
+      // records with no language recorded are still inscriptions, so they are
+      // stacked under id 0, which has no colour of its own and falls back to
+      // the neutral grey
+      function add(edge, lang, weight) {
+        var bucket = out.get(edge);
+        if (!bucket) { bucket = {}; out.set(edge, bucket); }
+        var key = lang === null ? 0 : lang;
+        bucket[key] = (bucket[key] || 0) + weight;
+      }
+      return out;
+    },
+
+    /** Fold child findspots into their parent, for the zoomed-out map.
+     *
+     * Forty-two Monterozzi tombs share one coordinate to four decimals. Drawn
+     * separately they are forty-two dots on one pixel; folded into Monterozzi
+     * they are one dot the size of the whole necropolis.
+     */
+    rollup: function (byPlace) {
+      var parents = this.lookups.place_parents || {};
+      var out = new Map();
+      byPlace.forEach(function (rec, pid) {
+        var target = parents[pid] !== undefined ? parents[pid] : pid;
+        var into = out.get(target);
+        if (!into) {
+          into = { n: 0, langs: {}, dmin: null, dmax: null, rolled: 0 };
+          out.set(target, into);
+        }
+        into.n += rec.n;
+        if (target !== pid) into.rolled++;
+        Object.keys(rec.langs).forEach(function (l) {
+          into.langs[l] = (into.langs[l] || 0) + rec.langs[l];
+        });
+        if (rec.dmin !== null && (into.dmin === null || rec.dmin < into.dmin)) into.dmin = rec.dmin;
+        if (rec.dmax !== null && (into.dmax === null || rec.dmax > into.dmax)) into.dmax = rec.dmax;
+      });
       return out;
     },
 

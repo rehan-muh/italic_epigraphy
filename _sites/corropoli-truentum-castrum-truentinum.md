@@ -2,11 +2,14 @@
 layout: site
 title: Corropoli / Truentum / Castrum Truentinum
 slug: corropoli-truentum-castrum-truentinum
-place_id: 430
+place_id: 428
 region: Picenum
 latitude: 42.91371
 longitude: 13.904355
 n_inscriptions: 4
 date_min: -100
 date_max: -76
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

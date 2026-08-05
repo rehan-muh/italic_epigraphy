@@ -2,11 +2,14 @@
 layout: site
 title: Ponte a Moriano
 slug: ponte-a-moriano
-place_id: 1098
+place_id: 1096
 region: Etruria Settentrionale
 latitude: 43.910256
 longitude: 10.527909
 n_inscriptions: 5
 date_min: -400
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

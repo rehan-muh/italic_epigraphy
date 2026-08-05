@@ -88,7 +88,7 @@
         '<td>' + esc(C.label('directions', C.col.dir[i])) + '</td>' +
         '<td class="num">' + esc(C.fmt.year(C.col.ds[i])) + '</td>' +
         '<td class="num">' + esc(C.fmt.year(C.col.de[i])) + '</td>' +
-        '<td title="' + esc(C.col.notes[i]) + '">' + esc(C.col.notes[i]) + '</td>' +
+        '<td title="' + esc(C.text('notes', i)) + '">' + esc(C.text('notes', i)) + '</td>' +
         '</tr>';
     }).join('');
 

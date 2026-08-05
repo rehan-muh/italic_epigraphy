@@ -2,11 +2,14 @@
 layout: site
 title: Cetamura in Chianti
 slug: cetamura-in-chianti
-place_id: 1438
+place_id: 1436
 region: Etruria Settentrionale
 latitude: 43.492718
 longitude: 11.433276
 n_inscriptions: 7
 date_min: -400
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

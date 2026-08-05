@@ -2,11 +2,14 @@
 layout: site
 title: Colline del Lago
 slug: colline-del-lago
-place_id: 943
+place_id: 941
 region: Etruria Settentrionale
 latitude: 43.06817
 longitude: 11.959367
 n_inscriptions: 21
 date_min: -400
 date_max: -1
+level: site
+coord_shared: 1
+n_descendants: 0
 ---

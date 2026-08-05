@@ -121,12 +121,101 @@
     }).join('');
   }
 
+  var timelineMode = 'aoristic';
+  var rollup = true;
+  var mapRolled = true;
+
   function refresh(rows) {
     var byPlace = C.aggregate(rows);
+    if (rollup && mapRolled) byPlace = C.rollup(byPlace);
     var shown = M.setPlaces(byPlace);
     renderReadout(rows, shown);
     FACETS.forEach(buildFacet);
-    T.render(C.timelineCounts(), C.state.quarters);
+    var counts = C.timelineCounts(timelineMode);
+    T.render(counts, C.state.quarters, C.lastSd ? { sd: C.lastSd } : null);
+  }
+
+  // ---- the layer panel ---------------------------------------------------
+
+  function buildLayerPanel() {
+    var host = el('layer-groups');
+    var manifest = C.manifest;
+    if (!manifest) return;
+
+    var groups = {}, order = [];
+    manifest.layers.forEach(function (entry) {
+      if (!groups[entry.group]) { groups[entry.group] = []; order.push(entry.group); }
+      groups[entry.group].push(entry);
+    });
+
+    host.innerHTML = '';
+    order.forEach(function (name) {
+      var section = document.createElement('div');
+      section.className = 'layer-group';
+      var head = document.createElement('h3');
+      head.textContent = name;
+      section.appendChild(head);
+
+      var ul = document.createElement('ul');
+      ul.className = 'facet-list';
+      groups[name].forEach(function (entry) {
+        var li = document.createElement('li');
+        li.className = 'facet layer-row';
+
+        var box = document.createElement('input');
+        box.type = 'checkbox';
+        box.id = 'layer-' + entry.id;
+        box.checked = !!entry.default;
+
+        var label = document.createElement('label');
+        label.className = 'label';
+        label.htmlFor = box.id;
+        var swatch = document.createElement('i');
+        swatch.className = 'swatch';
+        swatch.style.background = (M.STYLES[entry.kind] || M.STYLES.feature).color;
+        label.appendChild(swatch);
+        var text = document.createElement('span');
+        text.textContent = entry.name;
+        text.title = entry.features.toLocaleString('en-US') + ' features, ' +
+          (entry.bytes / 1e6).toFixed(2) + ' MB, ' + (entry.licence || 'licence unstated') +
+          (entry.attribution ? ' \u00b7 ' + entry.attribution : '');
+        label.appendChild(text);
+
+        var size = document.createElement('span');
+        size.className = 'n';
+        size.textContent = entry.bytes > 5e5
+          ? (entry.bytes / 1e6).toFixed(1) + ' MB'
+          : Math.round(entry.bytes / 1024) + ' kB';
+
+        box.addEventListener('change', function () {
+          li.classList.add('is-loading');
+          M.setLayerVisible(entry, box.checked).then(function (ok) {
+            li.classList.remove('is-loading');
+            if (!ok && box.checked) {
+              box.checked = false;
+              li.classList.add('is-empty');
+              text.title = 'This layer could not be loaded.';
+            }
+          });
+        });
+
+        li.appendChild(box);
+        li.appendChild(label);
+        li.appendChild(size);
+        ul.appendChild(li);
+      });
+      section.appendChild(ul);
+      host.appendChild(section);
+    });
+
+    var eager = manifest.layers.filter(function (l) { return l.default; });
+    var bytes = eager.reduce(function (t, l) { return t + l.bytes; }, 0);
+    el('layer-note').textContent = manifest.layers.length + ' available, ' +
+      Math.round(bytes / 1024) + ' kB loaded';
+
+    // the default layers, added once the map is ready; everything else waits
+    // for the reader to ask for it
+    eager.forEach(function (entry) { M.setLayerVisible(entry, true); });
   }
 
   // ------------------------------------------------------------------------
@@ -166,13 +255,20 @@
 
     chip('toggle-hillshade', true, function (on) { M.setHillshade(on); });
     chip('toggle-terrain', false, function (on) { M.setTerrain(on); });
+    chip('toggle-rollup', true, function (on) {
+      rollup = on;
+      C.emit();
+    });
 
-    var featureChip = chip('show-features', true, function (on) { M.setGeoVisible(on); });
-    if (!C.features) {
-      featureChip.disabled = true;
-      featureChip.setAttribute('aria-pressed', 'false');
-      featureChip.title = 'No enriched geography yet. Run: python3 scripts/enrich_geo.py';
+    var aor = el('mode-aoristic'), start = el('mode-start');
+    function setTimelineMode(mode) {
+      timelineMode = mode;
+      aor.setAttribute('aria-pressed', String(mode === 'aoristic'));
+      start.setAttribute('aria-pressed', String(mode === 'start'));
+      C.emit();
     }
+    aor.addEventListener('click', function () { setTimelineMode('aoristic'); });
+    start.addEventListener('click', function () { setTimelineMode('start'); });
 
     var pts = el('mode-points'), heat = el('mode-heat');
     function setMode(mode) {
@@ -189,7 +285,11 @@
   C.load().then(function () {
     return M.init('map', null);
   }).then(function () {
-    M.setGeoFeatures(C.features || { type: 'FeatureCollection', features: [] });
+    buildLayerPanel();
+    mapRolled = M.onZoom(function (rolled) {
+      mapRolled = rolled;
+      C.emit();
+    });
 
     T.init(el('timeline'), C.timeline.quarters, function (window_) {
       C.set({ quarters: window_ });

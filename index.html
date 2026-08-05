@@ -65,7 +65,15 @@ title: "Atlas"
       <div class="toggle-row">
         <button class="chip" id="mode-points"  aria-pressed="true">Findspots</button>
         <button class="chip" id="mode-heat"    aria-pressed="false">Density</button>
-        <button class="chip" id="show-features" aria-pressed="true">Rivers &amp; relief names</button>
+        <button class="chip" id="toggle-rollup" aria-pressed="true">Group sub&#8209;findspots</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Layers <span class="count" id="layer-note"></span></h2>
+      <div id="layer-groups" class="layer-groups">
+        <p class="empty">No external geography yet. Run
+          <code>python3 scripts/enrich_geo.py</code>.</p>
       </div>
     </section>
 
@@ -112,6 +120,12 @@ title: "Atlas"
         Quarter centuries, written boustrophedon
         <span class="count">drag to select a window, double&#8209;click to clear</span>
       </h2>
+      <div class="toggle-row timeline-modes">
+        <button class="chip" id="mode-aoristic" aria-pressed="true"
+                title="Each record is spread evenly over the quarters its date interval covers, with a band showing the uncertainty that implies">Aoristic</button>
+        <button class="chip" id="mode-start" aria-pressed="false"
+                title="Each record is counted in the quarter its Date.Start falls in, which piles a third of the corpus onto the round century edges">Start date</button>
+      </div>
       <span class="timeline-range" id="timeline-range"></span>
     </div>
     <svg id="timeline" role="img" aria-label="Inscriptions per quarter century, laid out boustrophedon"></svg>
