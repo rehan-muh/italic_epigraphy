@@ -339,7 +339,10 @@ sources:
 #
 #   Itiner-e, if api.nakala.fr will not verify on your network
 #     https://doi.org/10.5281/zenodo.17122148  ->  .cache/local-itinere.geojson
-#   HydroBASINS / HydroRIVERS (catchment polygons, Strahler order)
+#   HydroBASINS (catchment polygons). Take Standard / Europe and Middle East,
+#   level 6 for a spatial unit and level 8 for a finer one. It ships as a
+#   shapefile, so convert it first:
+#     python3 scripts/shapefile_to_layer.py hybas_eu_lev06_v1c.shp local-hydrobasins
 #     https://www.hydrosheds.org/products  ->  .cache/local-hydrobasins.geojson
 #   Carta Geologica d'Italia 1:100k (lithology polygons)
 #     https://www.isprambiente.gov.it/     ->  .cache/local-geology.geojson
@@ -356,11 +359,21 @@ local_sources:
 
   - id: local-hydrobasins
     group: Hydrography
-    name: Catchments (HydroBASINS)
+    name: Catchments, level 6 (HydroBASINS)
     kind: basin
-    simplify: 0.003
-    licence: Free for non-commercial and academic use
-    attribution: HydroSHEDS / WWF
+    keep_fields: [hybas_id, pfaf_id, sub_area, up_area, next_down, main_bas]
+    simplify: 0.002
+    licence: Free for scientific, educational and commercial use, with attribution
+    attribution: HydroSHEDS, Lehner and Grill 2013
+
+  - id: local-hydrobasins-8
+    group: Hydrography
+    name: Catchments, level 8 (HydroBASINS)
+    kind: basin
+    keep_fields: [hybas_id, pfaf_id, sub_area, up_area, next_down, main_bas]
+    simplify: 0.0015
+    licence: Free for scientific, educational and commercial use, with attribution
+    attribution: HydroSHEDS, Lehner and Grill 2013
 
   - id: local-geology
     group: Physical setting

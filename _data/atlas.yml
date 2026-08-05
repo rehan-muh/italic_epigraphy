@@ -4,7 +4,7 @@ build:
   source_csv: database_preliminary.csv
   source_sha256: af3b25910fc043505fdf5db180a5d0f1e1c8d54541943962c2c263f86b9dff5b
   source_encoding: mixed, repaired per field
-  built_at: '2026-08-05T06:32:20+00:00'
+  built_at: '2026-08-05T06:55:48+00:00'
   script_version: 2.0.0
   row_count: '22011'
   place_count: '1768'

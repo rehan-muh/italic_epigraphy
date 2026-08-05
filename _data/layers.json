@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T06:32:17Z",
+ "generated": "2026-08-05T06:55:32Z",
  "bbox": [
   8.0916112,
   36.37187849,
@@ -78,6 +78,18 @@
    "default": false,
    "licence": "CC BY 3.0",
    "attribution": "Pleiades, ISAW"
+  },
+  {
+   "id": "awmc-shoreline",
+   "group": "Ancient geography",
+   "name": "Ancient shoreline",
+   "kind": "coastline",
+   "file": "layers/awmc-shoreline.geojson",
+   "features": 279,
+   "bytes": 208981,
+   "default": false,
+   "licence": "ODbL",
+   "attribution": "Ancient World Mapping Center"
   },
   {
    "id": "awmc-inland-water",
@@ -222,6 +234,30 @@
    "default": false,
    "licence": "CC BY 4.0",
    "attribution": "ISTAT via openpolis/geojson-italy"
+  },
+  {
+   "id": "local-hydrobasins",
+   "group": "Hydrography",
+   "name": "Catchments, level 6 (HydroBASINS)",
+   "kind": "basin",
+   "file": "layers/local-hydrobasins.geojson",
+   "features": 76,
+   "bytes": 777957,
+   "default": false,
+   "licence": "Free for scientific, educational and commercial use, with attribution",
+   "attribution": "HydroSHEDS, Lehner and Grill 2013"
+  },
+  {
+   "id": "local-hydrobasins-8",
+   "group": "Hydrography",
+   "name": "Catchments, level 8 (HydroBASINS)",
+   "kind": "basin",
+   "file": "layers/local-hydrobasins-8.geojson",
+   "features": 701,
+   "bytes": 2086823,
+   "default": false,
+   "licence": "Free for scientific, educational and commercial use, with attribution",
+   "attribution": "HydroSHEDS, Lehner and Grill 2013"
   }
  ]
 }

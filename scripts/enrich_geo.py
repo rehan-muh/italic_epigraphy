@@ -860,6 +860,7 @@ def adapt_local(spec, bbox, opts):
     except (OSError, json.JSONDecodeError) as exc:
         log(f"    {path.name}: {exc}")
         return []
+    keep_fields = spec.get("keep_fields") or []
     out = []
     for f in payload.get("features") or []:
         geom = f.get("geometry")
@@ -869,7 +870,15 @@ def adapt_local(spec, bbox, opts):
         if not gb or not intersects(gb, bbox):
             continue
         props = f.get("properties") or {}
-        out.append((geom, {"name": prop(props, spec.get("name_fields") or ["name"])}, 50.0))
+        # a converted shapefile carries its attribute columns, and for
+        # HydroBASINS those columns are the point: HYBAS_ID is the join key and
+        # PFAF_ID is what lets you walk the basin hierarchy
+        attrs = {"name": prop(props, spec.get("name_fields") or ["name"])}
+        for field in keep_fields or props.keys():
+            value = prop(props, [field])
+            if value not in (None, ""):
+                attrs[field.lower()] = value
+        out.append((geom, attrs, 50.0))
     return out
 
 
@@ -1024,6 +1033,39 @@ def main() -> int:
             existing = {l["id"]: l for l in json.loads(MANIFEST.read_text())["layers"]}
         except (json.JSONDecodeError, KeyError, OSError):
             existing = {}
+
+    # Adopt any layer file on disk that the manifest does not mention. The
+    # manifest is a cache of the directory, not the authority for it: replacing
+    # the file, as an unzip over the project does, would otherwise hide a layer
+    # that is sitting right there and make it look like the build had failed.
+    by_id = {spec["id"]: spec for spec in catalogue}
+    adopted = []
+    if LAYER_DIR.exists():
+        for path in sorted(LAYER_DIR.glob("*.geojson")):
+            layer_id = path.stem
+            if layer_id in existing or layer_id not in by_id:
+                continue
+            spec = by_id[layer_id]
+            try:
+                count = len(json.loads(path.read_text(encoding="utf-8"))["features"])
+            except (json.JSONDecodeError, KeyError, OSError):
+                continue
+            existing[layer_id] = {
+                "id": layer_id,
+                "group": spec.get("group") or "Other",
+                "name": spec.get("name") or layer_id,
+                "kind": spec.get("kind") or "feature",
+                "file": f"layers/{layer_id}.geojson",
+                "features": count,
+                "bytes": path.stat().st_size,
+                "default": bool(spec.get("default")),
+                "licence": spec.get("licence"),
+                "attribution": spec.get("attribution"),
+            }
+            adopted.append(layer_id)
+    if adopted:
+        log(f"adopted {len(adopted)} layer file(s) missing from the manifest: "
+            + ", ".join(adopted))
 
     built = 0
     for spec in wanted:
