@@ -2,7 +2,7 @@ build:
   source_csv: database_preliminary.csv
   source_sha256: af3b25910fc043505fdf5db180a5d0f1e1c8d54541943962c2c263f86b9dff5b
   source_encoding: cp1252
-  built_at: '2026-08-05T03:23:52+00:00'
+  built_at: '2026-08-05T04:15:36+00:00'
   script_version: 1.2.0
   row_count: '22011'
   place_count: '1989'
@@ -97,123 +97,123 @@ languages:
 alphabets:
 - id: 1
   code: 0
-  label: Alphabet 0
+  label: Etruscan alphabet (unspecified variety)
   count: 3464
 - id: 2
   code: 1
-  label: Alphabet 1
+  label: Southern Etruscan alphabet
   count: 2751
 - id: 3
   code: 2
-  label: Alphabet 2
+  label: Northern Etruscan alphabet
   count: 3473
 - id: 4
   code: 3
-  label: Alphabet 3
+  label: Etruscan alphabet (7th century BCE)
   count: 11
 - id: 5
   code: 4
-  label: Alphabet 4
+  label: Mixed Etruscan alphabet
   count: 321
 - id: 6
   code: 5
-  label: Alphabet 5
+  label: Republican Latin alphabet
   count: 7003
 - id: 7
   code: 6
-  label: Alphabet 6
+  label: Archaic Latin alphabet
   count: 378
 - id: 8
   code: 7
-  label: Alphabet 7
+  label: Etruscan–Latin dual script
   count: 45
 - id: 9
   code: 8
-  label: Alphabet 8
+  label: Faliscan alphabet
   count: 286
 - id: 10
   code: 9
-  label: Alphabet 9
+  label: Umbrian alphabet
   count: 42
 - id: 11
   code: 10
-  label: Alphabet 10
+  label: South Picene alphabet
   count: 25
 - id: 12
   code: 11
-  label: Alphabet 11
+  label: Nocera alphabet
   count: 3
 - id: 13
   code: 13
-  label: Alphabet 13
+  label: Oscan alphabet
   count: 656
 - id: 14
   code: 15
-  label: Alphabet 15
+  label: Greek–Oscan dual script
   count: 3
 - id: 15
   code: 16
-  label: Alphabet 16
+  label: Elymian alphabet
   count: 404
 - id: 16
   code: 17
-  label: Alphabet 17
+  label: Oscan–Latin dual script
   count: 1
 - id: 17
   code: 18
-  label: Alphabet 18
+  label: Messapic alphabet
   count: 591
 - id: 18
   code: 19
-  label: Alphabet 19
+  label: Venetic alphabet
   count: 222
 - id: 19
   code: 20
-  label: Alphabet 20
+  label: Latin–Venetic dual script
   count: 2
 - id: 20
   code: 21
-  label: Alphabet 21
+  label: Greek alphabet (red type)
   count: 242
 - id: 21
   code: 22
-  label: Alphabet 22
+  label: Greek–Latin dual script
   count: 5
 - id: 22
   code: 23
-  label: Alphabet 23
+  label: Various or mixed alphabets
   count: 9
 - id: 23
   code: 24
-  label: Alphabet 24
+  label: Greek alphabet (unspecified local variety)
   count: 803
 - id: 24
   code: 25
-  label: Alphabet 25
+  label: Greek alphabet (blue type)
   count: 193
 - id: 25
   code: 27
-  label: Alphabet 27
+  label: Magrè alphabet
   count: 89
 - id: 26
   code: 28
-  label: Alphabet 28
+  label: Raetic alphabet (unspecified variety)
   count: 107
 - id: 27
   code: 29
-  label: Alphabet 29
+  label: Sanzeno alphabet
   count: 137
 - id: 28
   code: 30
-  label: Alphabet 30
+  label: Camunic alphabet
   count: 108
 - id: 29
   code: 32
-  label: Alphabet 32
+  label: Lepontic alphabet
   count: 414
 - id: 30
   code: 35
-  label: Alphabet 35
+  label: Este alphabet
   count: 1
 regions:
 - id: 1
@@ -861,7 +861,3 @@ top_places:
   date_max: -276
 warnings:
 - assigned surrogate ids to 74 row(s) with an empty ID_Internal
-- '30 alphabet code(s) have no label in scripts/codebook.yml: Alphabet 0, Alphabet 1, Alphabet 2, Alphabet 3, Alphabet 4,
-  Alphabet 5, Alphabet 6, Alphabet 7, Alphabet 8, Alphabet 9, Alphabet 10, Alphabet 11, Alphabet 13, Alphabet 15, Alphabet
-  16, Alphabet 17, Alphabet 18, Alphabet 19, Alphabet 20, Alphabet 21, Alphabet 22, Alphabet 23, Alphabet 24, Alphabet 25,
-  Alphabet 27, Alphabet 28, Alphabet 29, Alphabet 30, Alphabet 32, Alphabet 35'
