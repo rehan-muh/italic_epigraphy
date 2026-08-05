@@ -1,0 +1,95 @@
+# Codebook for the numeric code columns in database_preliminary.csv.
+#
+# The CSV stores Alphabet, Inscription.Use, Alphabet.Direction, Groundedness and
+# Pleiades as integer codes. Nothing in the CSV records what the integers mean,
+# so the labels below are placeholders. Fill them in and re-run
+# `python3 scripts/build_db.py --force`; every label propagates to the SQLite
+# lookup tables, the map legend, the facet panel and the site pages.
+#
+# Any code that appears in the CSV but is missing here is rendered as
+# "<field> <code>" (e.g. "Alphabet 24") and flagged on the About page.
+
+alphabet:
+  0:  ""
+  1:  ""
+  2:  ""
+  3:  ""
+  4:  ""
+  5:  ""
+  6:  ""
+  7:  ""
+  8:  ""
+  9:  ""
+  10: ""
+  11: ""
+  13: ""
+  15: ""
+  16: ""
+  17: ""
+  18: ""
+  19: ""
+  20: ""
+  21: ""
+  22: ""
+  23: ""
+  24: ""
+  25: ""
+  27: ""
+  28: ""
+  29: ""
+  30: ""
+  32: ""
+  35: ""
+
+# Direction of writing. Codes 0-3 plus the literal string "both" occur.
+direction:
+  0: ""
+  1: ""
+  2: ""
+  3: ""
+  both: "Both directions"
+
+# Inscription.Use mixes integer codes 0-9 with free-text values
+# ("honorary", "dedicatory", "building", ...). Free text is passed through
+# unchanged; only the integers need labels.
+use:
+  0: ""
+  1: ""
+  2: ""
+  3: ""
+  4: ""
+  5: ""
+  6: ""
+  7: ""
+  8: ""
+  9: ""
+
+groundedness:
+  0: "Not grounded"
+  1: "Grounded"
+
+# Column named "Pleiades" in the CSV. Its values are 0, 1, 2 and 11, i.e. a
+# small code set, not Pleiades place URIs. Treated as a geo-resolution code.
+pleiades:
+  0: ""
+  1: ""
+  2: ""
+  11: ""
+
+# Display colours, keyed by language. Any language without an entry falls back
+# to a generated hue. Values must be hex.
+language_colors:
+  Etruscan:          "#c8442b"
+  Latin:             "#d9a441"
+  Greek:             "#4f8fa8"
+  Oscan:             "#6d8f4a"
+  Messapic:          "#9a5fa8"
+  "Cisalpine Celtic": "#3f7a6b"
+  Elymian:           "#b4693f"
+  Raetic:            "#7b6fa8"
+  Faliscan:          "#c07a9a"
+  Venetic:           "#4a6f9a"
+  Camunic:           "#8a8f4a"
+  Umbrian:           "#a8523f"
+  "Other Sabellic":  "#6b7f8a"
+  "Latin/Greek":     "#9a8f6b"

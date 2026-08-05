@@ -1,0 +1,82 @@
+---
+layout: page
+permalink: /browse/
+nav: browse
+title: "Browse the corpus"
+width: wide
+lede: "Every record, filterable in the table, or queried directly. The SQL console runs the generated SQLite database inside your browser: nothing is uploaded, and edits are discarded on reload."
+---
+
+<div class="browse-grid">
+
+  <section>
+    <h2>Records</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.6rem 0">
+      <input type="search" class="search-input" id="t-q" style="max-width:22rem"
+             placeholder="reference, findspot, note, script" autocomplete="off">
+      <select class="control" id="t-lang" style="max-width:12rem"><option value="">Any language</option></select>
+      <select class="control" id="t-region" style="max-width:14rem"><option value="">Any region</option></select>
+      <button class="btn ghost" id="t-csv">Download filtered CSV</button>
+    </div>
+    <p class="empty" id="t-status">Loading the corpus&hellip;</p>
+    <div class="result-wrap">
+      <table id="t-table">
+        <thead>
+          <tr>
+            <th data-sort="ref">Reference</th>
+            <th data-sort="place">Findspot</th>
+            <th data-sort="region">Region</th>
+            <th data-sort="lang">Language</th>
+            <th data-sort="alpha">Alphabet</th>
+            <th data-sort="dir">Direction</th>
+            <th data-sort="ds">From</th>
+            <th data-sort="de">To</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div style="display:flex;gap:.6rem;align-items:center;margin-top:.7rem">
+      <button class="btn ghost" id="t-prev">Previous</button>
+      <span class="empty" id="t-page" style="padding:0"></span>
+      <button class="btn ghost" id="t-next">Next</button>
+    </div>
+  </section>
+
+  <section class="sql-console">
+    <h2>SQL</h2>
+    <p class="lede" style="font-size:.92rem">
+      Tables: <code>inscriptions</code>, <code>places</code>, <code>regions</code>,
+      <code>languages</code>, <code>alphabets</code>, <code>directions</code>,
+      <code>uses</code>, <code>object_types</code>, <code>meta</code>.
+      Views: <code>v_inscriptions</code>, <code>v_place_counts</code>, <code>v_timeline</code>.
+      Full-text index: <code>inscriptions_fts</code>.
+    </p>
+
+    <textarea id="sql" spellcheck="false">SELECT language, COUNT(*) AS n,
+       MIN(date_start) AS earliest,
+       MAX(date_end)   AS latest
+FROM v_inscriptions
+GROUP BY language
+ORDER BY n DESC;</textarea>
+
+    <div style="display:flex;gap:.6rem;align-items:center;margin:.6rem 0">
+      <button class="btn" id="sql-run" disabled>Run query</button>
+      <span class="empty" id="sql-status" style="padding:0">Loading the database&hellip;</span>
+    </div>
+
+    <div class="query-samples" id="sql-samples"></div>
+
+    <div class="result-wrap" style="margin-top:.9rem">
+      <table id="sql-table"><thead></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  window.ATLAS_CONFIG = { baseurl: {{ site.baseurl | jsonify }} };
+</script>
+<script src="{{ '/assets/js/corpus.js' | relative_url }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js"></script>
+<script src="{{ '/assets/js/browse.js' | relative_url }}"></script>

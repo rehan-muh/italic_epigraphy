@@ -1,0 +1,48 @@
+---
+layout: page
+permalink: /places/
+nav: places
+title: "Gazetteer"
+width: wide
+lede: "Every findspot with coordinates, by region and by weight in the corpus."
+---
+
+<div class="stat-grid">
+  <div class="stat"><span class="n">{{ site.data.atlas.stats.places }}</span><span class="k">Findspots</span></div>
+  <div class="stat"><span class="n">{{ site.data.atlas.stats.located }}</span><span class="k">Located records</span></div>
+  <div class="stat"><span class="n">{{ site.data.atlas.stats.unlocated }}</span><span class="k">Without coordinates</span></div>
+  <div class="stat"><span class="n">{{ site.data.atlas.stats.regions }}</span><span class="k">Regions</span></div>
+</div>
+
+<h2>By weight in the corpus</h2>
+<table>
+  <thead><tr><th>Findspot</th><th>Region</th><th>Records</th><th>Attested range</th></tr></thead>
+  <tbody>
+  {% for p in site.data.atlas.top_places %}
+    <tr>
+      <td><a href="{{ '/place/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }}</a></td>
+      <td>{{ p.region }}</td>
+      <td class="num">{{ p.n }}</td>
+      <td class="num">
+        {%- if p.date_min -%}
+          {%- if p.date_min < 0 %}{{ p.date_min | times: -1 }} BC{% else %}AD {{ p.date_min }}{% endif -%}
+          &nbsp;&ndash;&nbsp;
+          {%- if p.date_max < 0 %}{{ p.date_max | times: -1 }} BC{% else %}AD {{ p.date_max }}{% endif -%}
+        {%- else -%}&mdash;{%- endif -%}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>All findspots, by region</h2>
+{% assign by_region = site.sites | group_by: "region" | sort: "name" %}
+{% for group in by_region %}
+  <h3>{{ group.name | default: "Region not recorded" }} <span class="build-stamp">{{ group.items | size }} findspots</span></h3>
+  <div class="gaz-columns">
+    {% assign sorted = group.items | sort: "title" %}
+    {% for s in sorted %}
+      <a href="{{ s.url | relative_url }}">{{ s.title }} <span class="n">{{ s.n_inscriptions }}</span></a>
+    {% endfor %}
+  </div>
+{% endfor %}

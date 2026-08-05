@@ -1,0 +1,18 @@
+<header class="masthead">
+  <a class="wordmark" href="{{ '/' | relative_url }}" title="{{ site.title }}">
+    <span class="retrograde">Atlas</span>
+    <span class="turn">&#8617;</span>
+    <span>Epigraphicus</span>
+  </a>
+  <nav>
+    <a href="{{ '/' | relative_url }}"        {% if page.nav == 'atlas'  %}aria-current="page"{% endif %}>Atlas</a>
+    <a href="{{ '/browse/' | relative_url }}" {% if page.nav == 'browse' %}aria-current="page"{% endif %}>Browse</a>
+    <a href="{{ '/places/' | relative_url }}" {% if page.nav == 'places' %}aria-current="page"{% endif %}>Gazetteer</a>
+    <a href="{{ '/about/' | relative_url }}"  {% if page.nav == 'about'  %}aria-current="page"{% endif %}>About</a>
+  </nav>
+  <span class="spacer"></span>
+  <span class="build-stamp">
+    {{ site.data.atlas.stats.inscriptions }} inscriptions &middot;
+    built {{ site.data.atlas.build.built_at | slice: 0, 10 }}
+  </span>
+</header>

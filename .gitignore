@@ -1,0 +1,20 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.cache/
+vendor/
+Gemfile.lock
+
+# Generated. Rebuild with: make db
+db/atlas.sqlite
+db/atlas.dump.sql
+db/schema.sql
+db/.build-stamp.json
+assets/data/atlas.sqlite
+assets/data/corpus.json
+assets/data/places.geojson
+assets/data/timeline.json
+assets/data/features.geojson
+_data/atlas.yml
+_sites/

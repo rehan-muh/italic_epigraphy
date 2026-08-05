@@ -1,0 +1,84 @@
+title: "Epigraphic Atlas of Ancient Italy"
+short_title: "Epigraphic Atlas"
+description: >-
+  A spatial and temporal atlas of the pre-Roman and Republican inscriptions of
+  Italy: findspots, dating, language and alphabet, mapped on topography.
+lang: en
+timezone: America/Los_Angeles
+
+# Change to your GitHub Pages URL before deploying.
+url: ""
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - data/
+  - db/
+  - .cache/
+  - vendor/
+  - node_modules/
+
+collections:
+  sites:
+    output: true
+    permalink: /place/:name/
+
+defaults:
+  - scope: { path: "", type: "sites" }
+    values:
+      layout: site
+  - scope: { path: "" }
+    values:
+      layout: page
+
+# Atlas options. Everything else is generated into _data/atlas.yml.
+atlas:
+  center: [12.6, 42.6]
+  zoom: 5.4
+  min_zoom: 3
+  max_zoom: 16
+  terrain_exaggeration: 1.4
+
+  # Base layers, first is the default. No API keys required.
+  basemaps:
+    - id: opentopo
+      name: "OpenTopoMap"
+      tiles: "https://a.tile.opentopomap.org/{z}/{x}/{y}.png"
+      max_zoom: 16
+      attribution: "&copy; OpenStreetMap contributors, SRTM | OpenTopoMap (CC-BY-SA)"
+    - id: shaded-relief
+      name: "Shaded relief"
+      tiles: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
+      max_zoom: 13
+      attribution: "Esri, DeLorme, NAVTEQ"
+    - id: physical
+      name: "Physical"
+      tiles: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}"
+      max_zoom: 8
+      attribution: "Esri, US National Park Service"
+    - id: osm
+      name: "OpenStreetMap"
+      tiles: "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      max_zoom: 19
+      attribution: "&copy; OpenStreetMap contributors"
+
+  # Elevation tiles used for hillshade and the 3-D terrain toggle.
+  dem:
+    tiles: "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+    encoding: terrarium
+    max_zoom: 13
+    attribution: "AWS Terrain Tiles (Mapzen, SRTM, GMTED)"

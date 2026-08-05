@@ -1,0 +1,502 @@
+---
+# Front matter required so Jekyll runs this through Sass.
+---
+
+/* ==========================================================================
+   Epigraphic Atlas of Ancient Italy
+   Palette taken from the materials of the corpus: bucchero black, tufa buff,
+   the cinnabar that filled incised letters, oxidised bronze.
+   ========================================================================== */
+
+:root {
+  --ink:       #0f1211;
+  --ink-2:     #171b19;
+  --ink-3:     #1f2523;
+  --ink-4:     #2a312e;
+  --rule:      #343d39;
+  --chalk:     #ece5d8;
+  --tufa:      #97a09a;
+  --cinnabar:  #cd4a2c;
+  --cinnabar-d:#8f2f1a;
+  --verdigris: #4f8b78;
+  --bronze:    #d3a04a;
+
+  --display: "Cinzel", "Trajan Pro", "Optima", Georgia, serif;
+  --body: "Spectral", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --mono: "IBM Plex Mono", "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace;
+
+  --rail: 19rem;
+  --masthead-h: 3.25rem;
+  --timeline-h: 11.5rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--ink);
+  color: var(--chalk);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--chalk); text-decoration-color: var(--cinnabar); text-underline-offset: .18em; }
+a:hover { color: #fff; }
+
+:focus-visible {
+  outline: 2px solid var(--bronze);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+
+/* --------------------------------------------------------------------------
+   Masthead. The wordmark is set retrograde, right to left with mirrored
+   glyphs, the way most of the inscriptions in this corpus are written.
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: var(--masthead-h);
+  padding: 0 1rem;
+  background: var(--ink);
+  border-bottom: 1px solid var(--rule);
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  gap: .5rem;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: .95rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.wordmark .retrograde {
+  display: inline-block;
+  transform: scaleX(-1);
+  color: var(--cinnabar);
+}
+
+.wordmark .turn {
+  color: var(--tufa);
+  font-family: var(--mono);
+  font-size: .8em;
+}
+
+.masthead nav {
+  display: flex;
+  gap: 1.25rem;
+  font-family: var(--mono);
+  font-size: .72rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.masthead nav a { color: var(--tufa); text-decoration: none; padding-bottom: .15rem; }
+.masthead nav a:hover { color: var(--chalk); }
+.masthead nav a[aria-current="page"] {
+  color: var(--chalk);
+  border-bottom: 2px solid var(--cinnabar);
+}
+
+.masthead .spacer { flex: 1; }
+
+.build-stamp {
+  font-family: var(--mono);
+  font-size: .66rem;
+  color: #5e6863;
+  letter-spacing: .04em;
+}
+
+/* --------------------------------------------------------------------------
+   Atlas shell: rail + map + timeline
+   -------------------------------------------------------------------------- */
+
+.atlas {
+  display: grid;
+  grid-template-columns: var(--rail) 1fr;
+  grid-template-rows: 1fr var(--timeline-h);
+  height: calc(100vh - var(--masthead-h));
+}
+
+.rail {
+  grid-row: 1 / span 2;
+  overflow-y: auto;
+  border-right: 1px solid var(--rule);
+  background: var(--ink-2);
+  padding: 0 0 3rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ink-4) var(--ink-2);
+}
+
+.map-shell { position: relative; }
+#map { position: absolute; inset: 0; background: var(--ink-3); }
+
+.timeline-shell {
+  border-top: 1px solid var(--rule);
+  background: var(--ink-2);
+  padding: .5rem .9rem .6rem;
+  overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   Rail widgets
+   -------------------------------------------------------------------------- */
+
+.rail section { border-bottom: 1px solid var(--rule); padding: .9rem 1rem 1rem; }
+
+.eyebrow {
+  font-family: var(--display);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin: 0 0 .55rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.eyebrow .count { font-family: var(--mono); color: var(--tufa); letter-spacing: 0; font-weight: 400; }
+
+.readout {
+  font-family: var(--mono);
+  font-size: .74rem;
+  line-height: 1.7;
+  color: var(--tufa);
+}
+
+.readout b { color: var(--chalk); font-weight: 500; }
+
+.readout .big {
+  display: block;
+  font-size: 1.9rem;
+  line-height: 1.1;
+  color: var(--chalk);
+  font-variant-numeric: tabular-nums;
+}
+
+.facet-list { max-height: 15rem; overflow-y: auto; margin: 0; padding: 0; list-style: none; }
+
+.facet {
+  display: grid;
+  grid-template-columns: .85rem 1fr auto;
+  align-items: center;
+  gap: .5rem;
+  padding: .16rem .1rem;
+  cursor: pointer;
+  font-size: .82rem;
+  border-radius: 2px;
+}
+
+.facet:hover { background: var(--ink-3); }
+.facet input { accent-color: var(--cinnabar); margin: 0; }
+.facet .swatch { width: .6rem; height: .6rem; border-radius: 50%; display: inline-block; }
+.facet .label { display: flex; align-items: center; gap: .4rem; min-width: 0; }
+.facet .label span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.facet .n { font-family: var(--mono); font-size: .7rem; color: var(--tufa); font-variant-numeric: tabular-nums; }
+.facet.is-empty { opacity: .38; }
+
+.facet-actions {
+  display: flex;
+  gap: .5rem;
+  margin-top: .5rem;
+  font-family: var(--mono);
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+button.link {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--tufa);
+  cursor: pointer;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+}
+button.link:hover { color: var(--cinnabar); }
+
+.search-input, select.control {
+  width: 100%;
+  background: var(--ink-3);
+  border: 1px solid var(--rule);
+  color: var(--chalk);
+  font-family: var(--mono);
+  font-size: .78rem;
+  padding: .4rem .5rem;
+  border-radius: 2px;
+}
+.search-input::placeholder { color: #5e6863; }
+
+.toggle-row { display: flex; flex-wrap: wrap; gap: .35rem; }
+
+.chip {
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .04em;
+  padding: .25rem .5rem;
+  border: 1px solid var(--rule);
+  background: var(--ink-3);
+  color: var(--tufa);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.chip[aria-pressed="true"] {
+  border-color: var(--cinnabar);
+  color: var(--chalk);
+  background: rgba(205, 74, 44, .16);
+}
+
+/* --------------------------------------------------------------------------
+   Boustrophedon timeline. Quarter-century bins run left to right, then turn
+   and run right to left, the way the corpus itself is written. Order along the
+   path is chronological throughout.
+   -------------------------------------------------------------------------- */
+
+.timeline-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: .3rem;
+}
+
+.timeline-range {
+  font-family: var(--mono);
+  font-size: .74rem;
+  color: var(--chalk);
+  font-variant-numeric: tabular-nums;
+}
+
+#timeline { width: 100%; display: block; }
+#timeline .bin-hit { fill: transparent; cursor: pointer; }
+#timeline .bin-hit:hover { fill: rgba(236, 229, 216, .07); }
+#timeline .seg { shape-rendering: crispEdges; }
+#timeline .bin.out .seg { opacity: .22; }
+#timeline .rail-line { stroke: var(--rule); stroke-width: 1; fill: none; }
+#timeline .turn-mark { fill: none; stroke: var(--cinnabar); stroke-width: 1.2; opacity: .75; }
+#timeline .tick {
+  font-family: var(--mono);
+  font-size: 8px;
+  fill: var(--tufa);
+}
+#timeline .tick.major { fill: var(--chalk); }
+#timeline .brush { fill: rgba(211, 160, 74, .12); stroke: var(--bronze); stroke-width: 1; }
+
+/* --------------------------------------------------------------------------
+   Map furniture
+   -------------------------------------------------------------------------- */
+
+.map-controls {
+  position: absolute;
+  top: .75rem;
+  left: .75rem;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  align-items: flex-start;
+}
+
+.map-panel {
+  background: rgba(15, 18, 17, .88);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: .45rem .55rem;
+  font-family: var(--mono);
+  font-size: .7rem;
+}
+
+.map-panel label { display: block; color: var(--tufa); margin-bottom: .25rem; letter-spacing: .06em; }
+
+.legend {
+  position: absolute;
+  right: .75rem;
+  bottom: 1.6rem;
+  z-index: 5;
+  max-width: 13rem;
+}
+
+.legend ul { list-style: none; margin: .2rem 0 0; padding: 0; }
+.legend li { display: flex; align-items: center; gap: .4rem; line-height: 1.5; }
+.legend .swatch { width: .55rem; height: .55rem; border-radius: 50%; }
+.legend .sizes { display: flex; align-items: flex-end; gap: .35rem; margin-top: .45rem; color: var(--tufa); }
+.legend .sizes i { display: block; border: 1px solid var(--chalk); border-radius: 50%; opacity: .7; }
+
+.maplibregl-popup-content {
+  background: var(--ink-2);
+  color: var(--chalk);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  font-family: var(--body);
+  padding: .7rem .8rem;
+  max-width: 17rem;
+}
+.maplibregl-popup-tip { border-top-color: var(--ink-2) !important; border-bottom-color: var(--ink-2) !important; }
+.maplibregl-popup-close-button { color: var(--tufa); font-size: 1.1rem; }
+.maplibregl-ctrl-attrib { font-size: 10px; }
+
+.pop-title { font-family: var(--display); font-size: .95rem; letter-spacing: .04em; margin: 0 0 .1rem; }
+.pop-meta { font-family: var(--mono); font-size: .68rem; color: var(--tufa); margin: 0 0 .45rem; }
+.pop-bars { display: grid; gap: .18rem; margin: 0 0 .5rem; }
+.pop-bar { display: grid; grid-template-columns: 5.4rem 1fr 1.9rem; gap: .35rem; align-items: center; font-size: .72rem; }
+.pop-bar .track { height: .42rem; background: var(--ink-4); }
+.pop-bar .fill { height: 100%; }
+.pop-bar .n { font-family: var(--mono); font-size: .66rem; color: var(--tufa); text-align: right; }
+
+/* --------------------------------------------------------------------------
+   Ordinary document pages
+   -------------------------------------------------------------------------- */
+
+.page-wrap { max-width: 54rem; margin: 0 auto; padding: 2.5rem 1.25rem 6rem; }
+.page-wrap.wide { max-width: 78rem; }
+
+h1, h2, h3 { font-family: var(--body); font-weight: 600; line-height: 1.2; }
+h1 { font-size: 2.1rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+h2 { font-size: 1.25rem; margin: 2.2rem 0 .6rem; }
+h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
+
+.lede { color: var(--tufa); font-size: 1.05rem; max-width: 42rem; }
+
+.page-wrap table { border-collapse: collapse; width: 100%; font-size: .84rem; }
+.page-wrap th, .page-wrap td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--rule); }
+.page-wrap th { font-family: var(--mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--bronze); }
+.page-wrap td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+
+.page-wrap code, .page-wrap pre { font-family: var(--mono); font-size: .8rem; }
+.page-wrap pre { background: var(--ink-2); border: 1px solid var(--rule); padding: .8rem 1rem; overflow-x: auto; border-radius: 3px; }
+.page-wrap :not(pre) > code { background: var(--ink-3); padding: .1em .3em; border-radius: 2px; }
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  margin: 1.5rem 0;
+}
+.stat { background: var(--ink-2); padding: .9rem 1rem; }
+.stat .n { display: block; font-family: var(--mono); font-size: 1.5rem; color: var(--chalk); font-variant-numeric: tabular-nums; }
+.stat .k { font-family: var(--mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .1em; color: var(--tufa); }
+
+.notice {
+  border-left: 3px solid var(--bronze);
+  background: var(--ink-2);
+  padding: .7rem .9rem;
+  font-size: .86rem;
+  margin: 1.2rem 0;
+}
+.notice.warn { border-left-color: var(--cinnabar); }
+
+/* Browse page */
+.browse-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+.sql-console textarea {
+  width: 100%;
+  min-height: 7rem;
+  background: var(--ink-2);
+  border: 1px solid var(--rule);
+  color: var(--chalk);
+  font-family: var(--mono);
+  font-size: .8rem;
+  padding: .7rem;
+  border-radius: 3px;
+  resize: vertical;
+}
+.btn {
+  font-family: var(--mono);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: var(--cinnabar);
+  color: #fff;
+  border: 0;
+  padding: .5rem .9rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn:hover { background: var(--cinnabar-d); }
+.btn.ghost { background: transparent; border: 1px solid var(--rule); color: var(--tufa); }
+.btn.ghost:hover { color: var(--chalk); border-color: var(--tufa); }
+.btn[disabled] { opacity: .45; cursor: not-allowed; }
+
+.result-wrap { max-height: 34rem; overflow: auto; border: 1px solid var(--rule); }
+.result-wrap table { font-size: .78rem; }
+.result-wrap th { position: sticky; top: 0; background: var(--ink-2); z-index: 1; }
+.result-wrap td { white-space: nowrap; max-width: 26rem; overflow: hidden; text-overflow: ellipsis; }
+
+.query-samples { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 0; }
+
+/* Place pages */
+.place-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 1rem; }
+.place-map { height: 22rem; border: 1px solid var(--rule); margin: 1.4rem 0; }
+
+.gaz-columns { column-width: 15rem; column-gap: 2rem; font-size: .86rem; }
+.gaz-columns a { display: block; break-inside: avoid; padding: .1rem 0; text-decoration: none; }
+.gaz-columns a:hover { color: var(--cinnabar); }
+.gaz-columns .n { font-family: var(--mono); font-size: .7rem; color: var(--tufa); }
+
+/* --------------------------------------------------------------------------
+   Loading and empty states
+   -------------------------------------------------------------------------- */
+
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  gap: .6rem;
+  justify-items: center;
+  background: var(--ink);
+  z-index: 20;
+  font-family: var(--mono);
+  font-size: .74rem;
+  color: var(--tufa);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.loading[hidden] { display: none; }
+.loading .bar { width: 9rem; height: 2px; background: var(--ink-4); overflow: hidden; }
+.loading .bar i { display: block; height: 100%; width: 30%; background: var(--cinnabar); animation: sweep 1.1s ease-in-out infinite alternate; }
+@keyframes sweep { from { transform: translateX(-25%); } to { transform: translateX(260%); } }
+
+.empty { font-family: var(--mono); font-size: .78rem; color: var(--tufa); padding: 1rem 0; }
+
+/* --------------------------------------------------------------------------
+   Narrow screens: the map keeps the space, the rail becomes a drawer.
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+  :root { --timeline-h: 9rem; }
+  .atlas { grid-template-columns: 1fr; grid-template-rows: auto 1fr var(--timeline-h); }
+  .rail {
+    grid-row: auto;
+    max-height: 40vh;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .masthead { gap: .75rem; }
+  .masthead nav { gap: .75rem; font-size: .66rem; }
+  .build-stamp { display: none; }
+  .legend { display: none; }
+}

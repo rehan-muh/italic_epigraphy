@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.1.0/dist/maplibre-gl.css">
+
+<main class="page-wrap wide">
+  <p class="eyebrow" style="margin-bottom:.3rem">
+    Findspot{% if page.region %} &middot; {{ page.region }}{% endif %}
+  </p>
+  <div class="place-head">
+    <h1 style="margin:0">{{ page.title }}</h1>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat">
+      <span class="n">{{ page.n_inscriptions }}</span>
+      <span class="k">Inscriptions</span>
+    </div>
+    <div class="stat">
+      <span class="n" id="p-span">&mdash;</span>
+      <span class="k">Attested range</span>
+    </div>
+    <div class="stat">
+      <span class="n" id="p-langs">&mdash;</span>
+      <span class="k">Languages</span>
+    </div>
+    <div class="stat">
+      <span class="n" style="font-size:.95rem">{{ page.latitude }}, {{ page.longitude }}</span>
+      <span class="k">Coordinates</span>
+    </div>
+  </div>
+
+  <div class="place-map" id="place-map"></div>
+
+  <h2>Records</h2>
+  <p class="empty" id="p-status">Loading&hellip;</p>
+  <div class="result-wrap">
+    <table id="p-table">
+      <thead>
+        <tr><th>Reference</th><th>Language</th><th>Alphabet</th><th>Direction</th>
+            <th>From</th><th>To</th><th>Notes</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <p style="margin-top:2rem">
+    <a href="{{ '/places/' | relative_url }}">&larr; All findspots</a> &nbsp;&middot;&nbsp;
+    <a href="{{ '/' | relative_url }}">Open in the atlas</a>
+  </p>
+</main>
+
+<script>
+  window.ATLAS_CONFIG = {
+    baseurl: {{ site.baseurl | jsonify }},
+    place: {
+      id: {{ page.place_id }},
+      name: {{ page.title | jsonify }},
+      lat: {{ page.latitude }},
+      lon: {{ page.longitude }}
+    },
+    dem: {{ site.atlas.dem | jsonify }},
+    basemaps: {{ site.atlas.basemaps | jsonify }}
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
+<script src="{{ '/assets/js/corpus.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/place.js'  | relative_url }}"></script>

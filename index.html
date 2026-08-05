@@ -1,0 +1,138 @@
+---
+layout: default
+nav: atlas
+title: "Atlas"
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.1.0/dist/maplibre-gl.css">
+
+<div class="atlas">
+
+  <aside class="rail" aria-label="Filters">
+
+    <section>
+      <h2 class="eyebrow">Selection <span class="count" id="sel-share"></span></h2>
+      <p class="readout">
+        <b class="big" id="sel-inscriptions">&mdash;</b>
+        inscriptions at <b id="sel-places">&mdash;</b> findspots<br>
+        <span id="sel-window">all periods</span>
+      </p>
+      <div class="facet-actions">
+        <button class="link" id="reset-all">Reset every filter</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Find <span class="count">reference, findspot, note</span></h2>
+      <input type="search" class="search-input" id="q" placeholder="e.g. Segesta, Agostiniani, bucchero"
+             autocomplete="off" spellcheck="false">
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Language <span class="count" id="n-lang"></span></h2>
+      <ul class="facet-list" id="facet-lang"></ul>
+      <div class="facet-actions">
+        <button class="link" data-all="lang">All</button>
+        <button class="link" data-none="lang">None</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Alphabet <span class="count" id="n-alpha"></span></h2>
+      <ul class="facet-list" id="facet-alpha"></ul>
+      <div class="facet-actions">
+        <button class="link" data-all="alpha">All</button>
+        <button class="link" data-none="alpha">None</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Region <span class="count" id="n-region"></span></h2>
+      <ul class="facet-list" id="facet-region"></ul>
+      <div class="facet-actions">
+        <button class="link" data-all="region">All</button>
+        <button class="link" data-none="region">None</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Direction of writing</h2>
+      <ul class="facet-list" id="facet-dir"></ul>
+    </section>
+
+    <section>
+      <h2 class="eyebrow">Symbol</h2>
+      <div class="toggle-row">
+        <button class="chip" id="mode-points"  aria-pressed="true">Findspots</button>
+        <button class="chip" id="mode-heat"    aria-pressed="false">Density</button>
+        <button class="chip" id="show-features" aria-pressed="true">Rivers &amp; relief names</button>
+      </div>
+    </section>
+
+  </aside>
+
+  <div class="map-shell">
+    <div id="map"></div>
+
+    <div class="map-controls">
+      <div class="map-panel">
+        <label for="basemap">Base map</label>
+        <select class="control" id="basemap">
+          {% for b in site.atlas.basemaps %}
+          <option value="{{ b.id }}">{{ b.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="map-panel toggle-row">
+        <button class="chip" id="toggle-hillshade" aria-pressed="true">Hillshade</button>
+        <button class="chip" id="toggle-terrain"   aria-pressed="false">3&#8209;D relief</button>
+      </div>
+    </div>
+
+    <div class="map-panel legend" id="legend" aria-label="Legend">
+      <label>Dominant language</label>
+      <ul id="legend-items"></ul>
+      <div class="sizes">
+        <i style="width:6px;height:6px"></i>
+        <i style="width:12px;height:12px"></i>
+        <i style="width:22px;height:22px"></i>
+        <span>1 &rarr; 1000 inscriptions</span>
+      </div>
+    </div>
+
+    <div class="loading" id="loading">
+      <div class="bar"><i></i></div>
+      <span>Reading the corpus</span>
+    </div>
+  </div>
+
+  <div class="timeline-shell">
+    <div class="timeline-head">
+      <h2 class="eyebrow" style="margin:0">
+        Quarter centuries, written boustrophedon
+        <span class="count">drag to select a window, double&#8209;click to clear</span>
+      </h2>
+      <span class="timeline-range" id="timeline-range"></span>
+    </div>
+    <svg id="timeline" role="img" aria-label="Inscriptions per quarter century, laid out boustrophedon"></svg>
+  </div>
+
+</div>
+
+<script>
+  window.ATLAS_CONFIG = {
+    baseurl: {{ site.baseurl | jsonify }},
+    center: {{ site.atlas.center | jsonify }},
+    zoom: {{ site.atlas.zoom }},
+    minZoom: {{ site.atlas.min_zoom }},
+    maxZoom: {{ site.atlas.max_zoom }},
+    exaggeration: {{ site.atlas.terrain_exaggeration }},
+    basemaps: {{ site.atlas.basemaps | jsonify }},
+    dem: {{ site.atlas.dem | jsonify }}
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
+<script src="{{ '/assets/js/corpus.js'   | relative_url }}"></script>
+<script src="{{ '/assets/js/timeline.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/map.js'      | relative_url }}"></script>
+<script src="{{ '/assets/js/atlas.js'    | relative_url }}"></script>
