@@ -160,8 +160,10 @@ file was written. Those strings are substituted by hand in
 python3 scripts/textfix.py
 ```
 
-Anything still unrecovered is reported as a build warning and shown on the About
-page rather than being silently published.
+Anything still unrecovered is reported as a build warning and listed in
+[MAINTENANCE.md](MAINTENANCE.md) rather than being silently repaired. The About
+page states that some characters are unrecoverable, but not which: that is an
+editing job, not something a reader needs.
 
 ---
 
@@ -365,6 +367,7 @@ committed.
 
 ```
 _config.yml            site and map configuration
+MAINTENANCE.md         what still needs fixing before publishing
 Makefile               db / geo / serve / build / clean
 scripts/
   build_db.py          CSV -> SQLite -> SQL -> JSON

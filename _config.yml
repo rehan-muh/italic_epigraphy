@@ -25,6 +25,7 @@ sass:
 exclude:
   - Makefile
   - README.md
+  - MAINTENANCE.md
   - Gemfile
   - Gemfile.lock
   - scripts/
