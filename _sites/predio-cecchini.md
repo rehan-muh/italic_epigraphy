@@ -1,0 +1,12 @@
+---
+layout: site
+title: Predio Cecchini
+slug: predio-cecchini
+place_id: 918
+region: Etruria Settentrionale
+latitude: 43.016515
+longitude: 11.947736
+n_inscriptions: 7
+date_min: -400
+date_max: -1
+---

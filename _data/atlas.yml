@@ -1,0 +1,867 @@
+build:
+  source_csv: database_preliminary.csv
+  source_sha256: af3b25910fc043505fdf5db180a5d0f1e1c8d54541943962c2c263f86b9dff5b
+  source_encoding: cp1252
+  built_at: '2026-08-05T03:23:52+00:00'
+  script_version: 1.2.0
+  row_count: '22011'
+  place_count: '1989'
+  sqlite_version: 3.49.1
+stats:
+  inscriptions: 22011
+  places: 1989
+  located: 21276
+  unlocated: 735
+  dated: 21754
+  regions: 29
+  languages: 14
+  alphabets: 30
+  earliest: 800 BC
+  latest: AD 101–125
+bounds:
+  minx: 1.905412
+  miny: 31.201435
+  maxx: 33.21883025
+  maxy: 53.993
+languages:
+- id: 1
+  name: Camunic
+  slug: camunic
+  color: '#8a8f4a'
+  count: 105
+- id: 2
+  name: Cisalpine Celtic
+  slug: cisalpine-celtic
+  color: '#3f7a6b'
+  count: 484
+- id: 3
+  name: Elymian
+  slug: elymian
+  color: '#b4693f'
+  count: 404
+- id: 4
+  name: Etruscan
+  slug: etruscan
+  color: '#c8442b'
+  count: 10169
+- id: 5
+  name: Faliscan
+  slug: faliscan
+  color: '#c07a9a'
+  count: 330
+- id: 6
+  name: Greek
+  slug: greek
+  color: '#4f8fa8'
+  count: 1130
+- id: 7
+  name: Latin
+  slug: latin
+  color: '#d9a441'
+  count: 7051
+- id: 8
+  name: Latin/Greek
+  slug: latin-greek
+  color: '#9a8f6b'
+  count: 3
+- id: 9
+  name: Messapic
+  slug: messapic
+  color: '#9a5fa8'
+  count: 591
+- id: 10
+  name: Oscan
+  slug: oscan
+  color: '#6d8f4a'
+  count: 886
+- id: 11
+  name: Other Sabellic
+  slug: other-sabellic
+  color: '#6b7f8a'
+  count: 41
+- id: 12
+  name: Raetic
+  slug: raetic
+  color: '#7b6fa8'
+  count: 389
+- id: 13
+  name: Umbrian
+  slug: umbrian
+  color: '#a8523f'
+  count: 66
+- id: 14
+  name: Venetic
+  slug: venetic
+  color: '#4a6f9a'
+  count: 285
+alphabets:
+- id: 1
+  code: 0
+  label: Alphabet 0
+  count: 3464
+- id: 2
+  code: 1
+  label: Alphabet 1
+  count: 2751
+- id: 3
+  code: 2
+  label: Alphabet 2
+  count: 3473
+- id: 4
+  code: 3
+  label: Alphabet 3
+  count: 11
+- id: 5
+  code: 4
+  label: Alphabet 4
+  count: 321
+- id: 6
+  code: 5
+  label: Alphabet 5
+  count: 7003
+- id: 7
+  code: 6
+  label: Alphabet 6
+  count: 378
+- id: 8
+  code: 7
+  label: Alphabet 7
+  count: 45
+- id: 9
+  code: 8
+  label: Alphabet 8
+  count: 286
+- id: 10
+  code: 9
+  label: Alphabet 9
+  count: 42
+- id: 11
+  code: 10
+  label: Alphabet 10
+  count: 25
+- id: 12
+  code: 11
+  label: Alphabet 11
+  count: 3
+- id: 13
+  code: 13
+  label: Alphabet 13
+  count: 656
+- id: 14
+  code: 15
+  label: Alphabet 15
+  count: 3
+- id: 15
+  code: 16
+  label: Alphabet 16
+  count: 404
+- id: 16
+  code: 17
+  label: Alphabet 17
+  count: 1
+- id: 17
+  code: 18
+  label: Alphabet 18
+  count: 591
+- id: 18
+  code: 19
+  label: Alphabet 19
+  count: 222
+- id: 19
+  code: 20
+  label: Alphabet 20
+  count: 2
+- id: 20
+  code: 21
+  label: Alphabet 21
+  count: 242
+- id: 21
+  code: 22
+  label: Alphabet 22
+  count: 5
+- id: 22
+  code: 23
+  label: Alphabet 23
+  count: 9
+- id: 23
+  code: 24
+  label: Alphabet 24
+  count: 803
+- id: 24
+  code: 25
+  label: Alphabet 25
+  count: 193
+- id: 25
+  code: 27
+  label: Alphabet 27
+  count: 89
+- id: 26
+  code: 28
+  label: Alphabet 28
+  count: 107
+- id: 27
+  code: 29
+  label: Alphabet 29
+  count: 137
+- id: 28
+  code: 30
+  label: Alphabet 30
+  count: 108
+- id: 29
+  code: 32
+  label: Alphabet 32
+  count: 414
+- id: 30
+  code: 35
+  label: Alphabet 35
+  count: 1
+regions:
+- id: 1
+  name: Achaia
+  slug: achaia
+  count: 14
+- id: 2
+  name: Aemilia
+  slug: aemilia
+  count: 367
+- id: 3
+  name: Africa
+  slug: africa
+  count: 11
+- id: 4
+  name: Agri Faliscus et Capena
+  slug: agri-faliscus-et-capena
+  count: 525
+- id: 5
+  name: Alpes Cottiae
+  slug: alpes-cottiae
+  count: 1
+- id: 6
+  name: Alpes Graiae et Poeninae
+  slug: alpes-graiae-et-poeninae
+  count: 7
+- id: 7
+  name: Alpes Maritimae
+  slug: alpes-maritimae
+  count: 2
+- id: 8
+  name: Apulia
+  slug: apulia
+  count: 360
+- id: 9
+  name: Campania
+  slug: campania
+  count: 1144
+- id: 10
+  name: Corsica
+  slug: corsica
+  count: 28
+- id: 11
+  name: Etruria Meridionale
+  slug: etruria-meridionale
+  count: 3503
+- id: 12
+  name: Etruria Settentrionale
+  slug: etruria-settentrionale
+  count: 6455
+- id: 13
+  name: Germania Superior
+  slug: germania-superior
+  count: 1
+- id: 14
+  name: Latium
+  slug: latium
+  count: 2422
+- id: 15
+  name: Liguria
+  slug: liguria
+  count: 27
+- id: 16
+  name: Lucania et Bruttium
+  slug: lucania-et-bruttium
+  count: 631
+- id: 17
+  name: Lugdunensis
+  slug: lugdunensis
+  count: 1
+- id: 18
+  name: Messapia
+  slug: messapia
+  count: 522
+- id: 19
+  name: Narbonensis
+  slug: narbonensis
+  count: 7
+- id: 20
+  name: Noricum
+  slug: noricum
+  count: 54
+- id: 21
+  name: Pannonia Superior
+  slug: pannonia-superior
+  count: 1
+- id: 22
+  name: Picenum
+  slug: picenum
+  count: 192
+- id: 23
+  name: Raetia
+  slug: raetia
+  count: 52
+- id: 24
+  name: Samnium
+  slug: samnium
+  count: 1096
+- id: 25
+  name: Sardinia
+  slug: sardinia
+  count: 30
+- id: 26
+  name: Sicily
+  slug: sicily
+  count: 1400
+- id: 27
+  name: Transpadana
+  slug: transpadana
+  count: 446
+- id: 28
+  name: Umbria
+  slug: umbria
+  count: 682
+- id: 29
+  name: Venetia et Histria
+  slug: venetia-et-histria
+  count: 1267
+directions:
+- id: 1
+  code: '0'
+  label: Direction 0
+- id: 2
+  code: '1'
+  label: Direction 1
+- id: 3
+  code: '2'
+  label: Direction 2
+- id: 4
+  code: '3'
+  label: Direction 3
+- id: 5
+  code: both
+  label: Both directions
+uses:
+- id: 1
+  code: '0'
+  label: Use 0
+- id: 2
+  code: '1'
+  label: Use 1
+- id: 3
+  code: '2'
+  label: Use 2
+- id: 4
+  code: '3'
+  label: Use 3
+- id: 5
+  code: '4'
+  label: Use 4
+- id: 6
+  code: '5'
+  label: Use 5
+- id: 7
+  code: '6'
+  label: Use 6
+- id: 8
+  code: '7'
+  label: Use 7
+- id: 9
+  code: '8'
+  label: Use 8
+- id: 10
+  code: '9'
+  label: Use 9
+- id: 11
+  code: both
+  label: both
+- id: 12
+  code: boundary
+  label: boundary
+- id: 13
+  code: boundary stone
+  label: boundary stone
+- id: 14
+  code: building
+  label: building
+- id: 15
+  code: building inscription
+  label: building inscription
+- id: 16
+  code: dedicatory
+  label: dedicatory
+- id: 17
+  code: freed men and women
+  label: freed men and women
+- id: 18
+  code: honorary
+  label: honorary
+- id: 19
+  code: legion inscription
+  label: legion inscription
+- id: 20
+  code: manufacturer
+  label: manufacturer
+- id: 21
+  code: members of senatorial order
+  label: members of senatorial order
+- id: 22
+  code: owner
+  label: owner
+object_types:
+- id: 1
+  name: '1'
+- id: 2
+  name: '10'
+- id: 3
+  name: '11'
+- id: 4
+  name: '12'
+- id: 5
+  name: '13'
+- id: 6
+  name: '14'
+- id: 7
+  name: '15'
+- id: 8
+  name: '16'
+- id: 9
+  name: '17'
+- id: 10
+  name: '18'
+- id: 11
+  name: '19'
+- id: 12
+  name: '2'
+- id: 13
+  name: '20'
+- id: 14
+  name: '21'
+- id: 15
+  name: '22'
+- id: 16
+  name: '23'
+- id: 17
+  name: '24'
+- id: 18
+  name: '25'
+- id: 19
+  name: '26'
+- id: 20
+  name: '27'
+- id: 21
+  name: '28'
+- id: 22
+  name: '29'
+- id: 23
+  name: '3'
+- id: 24
+  name: '31'
+- id: 25
+  name: '32'
+- id: 26
+  name: '4'
+- id: 27
+  name: '5'
+- id: 28
+  name: '6'
+- id: 29
+  name: '7'
+- id: 30
+  name: '8'
+- id: 31
+  name: '9'
+- id: 32
+  name: bronze
+- id: 33
+  name: cippus
+- id: 34
+  name: dedicatory
+- id: 35
+  name: funerary
+- id: 36
+  name: gold
+- id: 37
+  name: lead
+- id: 38
+  name: mark of manufacturer
+- id: 39
+  name: mosaic
+- id: 40
+  name: prob. funerary
+- id: 41
+  name: prob. invocatory
+- id: 42
+  name: prob. mark of manufacturer
+- id: 43
+  name: prob. mark of possessor
+- id: 44
+  name: prob. votive
+- id: 45
+  name: tomb exterior
+- id: 46
+  name: unknown
+- id: 47
+  name: votive
+- id: 48
+  name: wall
+quarters:
+- edge: -800
+  label: 800–776 BC
+  n: 1
+- edge: -750
+  label: 750–726 BC
+  n: 4
+- edge: -725
+  label: 725–701 BC
+  n: 9
+- edge: -700
+  label: 700–676 BC
+  n: 199
+- edge: -675
+  label: 675–651 BC
+  n: 148
+- edge: -650
+  label: 650–626 BC
+  n: 298
+- edge: -625
+  label: 625–601 BC
+  n: 200
+- edge: -600
+  label: 600–576 BC
+  n: 693
+- edge: -575
+  label: 575–551 BC
+  n: 125
+- edge: -550
+  label: 550–526 BC
+  n: 345
+- edge: -525
+  label: 525–501 BC
+  n: 647
+- edge: -500
+  label: 500–476 BC
+  n: 1324
+- edge: -475
+  label: 475–451 BC
+  n: 517
+- edge: -450
+  label: 450–426 BC
+  n: 186
+- edge: -425
+  label: 425–401 BC
+  n: 150
+- edge: -400
+  label: 400–376 BC
+  n: 5540
+- edge: -375
+  label: 375–351 BC
+  n: 65
+- edge: -350
+  label: 350–326 BC
+  n: 298
+- edge: -325
+  label: 325–301 BC
+  n: 467
+- edge: -300
+  label: 300–276 BC
+  n: 1495
+- edge: -275
+  label: 275–251 BC
+  n: 166
+- edge: -250
+  label: 250–226 BC
+  n: 567
+- edge: -225
+  label: 225–201 BC
+  n: 265
+- edge: -200
+  label: 200–176 BC
+  n: 1434
+- edge: -175
+  label: 175–151 BC
+  n: 174
+- edge: -150
+  label: 150–126 BC
+  n: 734
+- edge: -125
+  label: 125–101 BC
+  n: 528
+- edge: -100
+  label: 100–76 BC
+  n: 1842
+- edge: -75
+  label: 75–51 BC
+  n: 697
+- edge: -50
+  label: 50–26 BC
+  n: 2184
+- edge: -25
+  label: 25–1 BC
+  n: 436
+- edge: 1
+  label: AD 1–25
+  n: 4
+- edge: 26
+  label: AD 26–50
+  n: 7
+- edge: 51
+  label: AD 51–75
+  n: 4
+- edge: 101
+  label: AD 101–125
+  n: 1
+top_places:
+- name: Etruria Settentrionale (unspecified findspot)
+  slug: etruria-settentrionale-unspecified-findspot
+  region: Etruria Settentrionale
+  n: 2579
+  date_min: -700
+  date_max: -1
+- name: Roma
+  slug: roma
+  region: Latium
+  n: 1272
+  date_min: -750
+  date_max: -1
+- name: Findspot not recorded
+  slug: findspot-not-recorded
+  region: null
+  n: 630
+  date_min: -700
+  date_max: -1
+- name: Palestrina / Praeneste
+  slug: palestrina-praeneste
+  region: Latium
+  n: 514
+  date_min: -675
+  date_max: -1
+- name: Etruria Meridionale (unspecified findspot)
+  slug: etruria-meridionale-unspecified-findspot
+  region: Etruria Meridionale
+  n: 459
+  date_min: -700
+  date_max: -1
+- name: Cerveteri / Agylla / Caere
+  slug: cerveteri-agylla-caere
+  region: Etruria Meridionale
+  n: 413
+  date_min: -700
+  date_max: -1
+- name: Segesta
+  slug: segesta
+  region: Sicily
+  n: 406
+  date_min: -575
+  date_max: -1
+- name: Palazzone
+  slug: palazzone
+  region: Etruria Settentrionale
+  n: 345
+  date_min: -525
+  date_max: -1
+- name: Pompei
+  slug: pompei
+  region: Campania
+  n: 256
+  date_min: -650
+  date_max: -1
+- name: Perugia / Perusia
+  slug: perugia-perusia
+  region: Etruria Settentrionale
+  n: 247
+  date_min: -200
+  date_max: -1
+- name: Sybaris
+  slug: sybaris
+  region: Lucania et Bruttium
+  n: 217
+  date_min: -625
+  date_max: -401
+- name: Falerii Veteres (Civita Castellana)
+  slug: falerii-veteres-civita-castellana
+  region: Agri Faliscus et Capena
+  n: 213
+  date_min: -700
+  date_max: -1
+- name: Camarina
+  slug: camarina
+  region: Sicily
+  n: 212
+  date_min: -650
+  date_max: -26
+- name: Aquileia
+  slug: aquileia
+  region: Venetia et Histria
+  n: 202
+  date_min: -200
+  date_max: -1
+- name: Capua / Casilinum
+  slug: capua-casilinum
+  region: Campania
+  n: 202
+  date_min: -250
+  date_max: -1
+- name: Banditaccia
+  slug: banditaccia
+  region: Etruria Meridionale
+  n: 182
+  date_min: -700
+  date_max: -1
+- name: Crocifisso del Tufo
+  slug: crocifisso-del-tufo
+  region: Etruria Meridionale
+  n: 173
+  date_min: -700
+  date_max: -1
+- name: Tarquinia / Corneto / Tarquinii
+  slug: tarquinia-corneto-tarquinii
+  region: Etruria Meridionale
+  n: 172
+  date_min: -300
+  date_max: -1
+- name: Chiusi / Clusium
+  slug: chiusi-clusium
+  region: Etruria Settentrionale
+  n: 157
+  date_min: -300
+  date_max: -1
+- name: Veii
+  slug: veii
+  region: Etruria Meridionale
+  n: 127
+  date_min: -675
+  date_max: -1
+- name: Sanzeno
+  slug: sanzeno
+  region: Venetia et Histria
+  n: 123
+  date_min: -700
+  date_max: -1
+- name: Ateste (Este)
+  slug: ateste-este
+  region: Venetia et Histria
+  n: 120
+  date_min: -600
+  date_max: -1
+- name: Corfinio / Pentima / Corfinium
+  slug: corfinio-pentima-corfinium
+  region: Samnium
+  n: 95
+  date_min: -200
+  date_max: -1
+- name: Capua
+  slug: capua
+  region: Campania
+  n: 90
+  date_min: -650
+  date_max: -1
+- name: Falerii Veteres (Civita Castellana) (?)
+  slug: falerii-veteres-civita-castellana-2
+  region: Agri Faliscus et Capena
+  n: 88
+  date_min: -700
+  date_max: -51
+- name: Bruscalupo
+  slug: bruscalupo
+  region: Etruria Settentrionale
+  n: 88
+  date_min: -400
+  date_max: -1
+- name: Area della Cittï¿½
+  slug: area-della-citti12
+  region: Etruria Settentrionale
+  n: 86
+  date_min: -700
+  date_max: -1
+- name: Cuma
+  slug: cuma
+  region: Campania
+  n: 85
+  date_min: -725
+  date_max: -1
+- name: Bevagna / Mevania
+  slug: bevagna-mevania
+  region: Umbria
+  n: 83
+  date_min: -150
+  date_max: -1
+- name: Castelvetrano / Selinus
+  slug: castelvetrano-selinus
+  region: Sicily
+  n: 83
+  date_min: -650
+  date_max: -201
+- name: Valle Trebba
+  slug: valle-trebba
+  region: Aemilia
+  n: 82
+  date_min: -500
+  date_max: -1
+- name: Pyrgi
+  slug: pyrgi
+  region: Etruria Meridionale
+  n: 78
+  date_min: -700
+  date_max: -1
+- name: Catubrium (Cadore)
+  slug: catubrium-cadore
+  region: Venetia et Histria
+  n: 77
+  date_min: -600
+  date_max: -1
+- name: Sarteano
+  slug: sarteano
+  region: Etruria Settentrionale
+  n: 74
+  date_min: -400
+  date_max: -1
+- name: Campochiaro
+  slug: campochiaro
+  region: Samnium
+  n: 73
+  date_min: -650
+  date_max: -1
+- name: Assisi / Asisium
+  slug: assisi-asisium
+  region: Umbria
+  n: 71
+  date_min: -200
+  date_max: -1
+- name: Gela
+  slug: gela
+  region: Sicily
+  n: 71
+  date_min: -600
+  date_max: -251
+- name: Ponticello di Campo
+  slug: ponticello-di-campo
+  region: Etruria Settentrionale
+  n: 71
+  date_min: -400
+  date_max: -1
+- name: Termini Imerese / Thermae Himeraeae
+  slug: termini-imerese-thermae-himeraeae
+  region: Sicily
+  n: 69
+  date_min: -600
+  date_max: -1
+- name: Catina
+  slug: catina
+  region: Sicily
+  n: 67
+  date_min: -475
+  date_max: -276
+warnings:
+- assigned surrogate ids to 74 row(s) with an empty ID_Internal
+- '30 alphabet code(s) have no label in scripts/codebook.yml: Alphabet 0, Alphabet 1, Alphabet 2, Alphabet 3, Alphabet 4,
+  Alphabet 5, Alphabet 6, Alphabet 7, Alphabet 8, Alphabet 9, Alphabet 10, Alphabet 11, Alphabet 13, Alphabet 15, Alphabet
+  16, Alphabet 17, Alphabet 18, Alphabet 19, Alphabet 20, Alphabet 21, Alphabet 22, Alphabet 23, Alphabet 24, Alphabet 25,
+  Alphabet 27, Alphabet 28, Alphabet 29, Alphabet 30, Alphabet 32, Alphabet 35'

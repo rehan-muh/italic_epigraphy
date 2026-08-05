@@ -1,0 +1,12 @@
+---
+layout: site
+title: Garlasco
+slug: garlasco
+place_id: 308
+region: Transpadana
+latitude: 45.197362
+longitude: 8.923746
+n_inscriptions: 7
+date_min: -150
+date_max: -1
+---

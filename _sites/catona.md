@@ -1,0 +1,12 @@
+---
+layout: site
+title: Catona
+slug: catona
+place_id: 758
+region: Etruria Settentrionale
+latitude: 42.966952
+longitude: 11.902532
+n_inscriptions: 1
+date_min: -400
+date_max: -1
+---
