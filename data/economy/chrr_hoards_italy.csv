@@ -1,0 +1,256 @@
+hoard_id,label,findspot,geonames_uri,closing_year,n_coin_types,country,longitude,latitude,findspot_radius_km,dated
+CLV,Calvatone (Italy; CLV),"Calvatone, Italy",https://sws.geonames.org/3181156/,-27.0,176,Italy,10.44057,45.12697,5.0,True
+MIR,Mirabella Imbaccari (Sicily; MIR),"Mirabella Imbaccari, Sicily",https://sws.geonames.org/2524135/,-158.0,11,Sicily,14.44605,37.32702,5.0,True
+MIS,Case Missiroli (Italy; MIS),"Case Missiroli, Italy",https://sws.geonames.org/3179866/,,0,Italy,14.33231,41.07262,5.0,False
+TUF,Tufara (Italy; TUF),"Tufara, Italy",https://sws.geonames.org/6535307/,-74.0,75,Italy,14.94654,41.48203,5.0,True
+MLO,Maleo (Italy; MLO),"Maleo, Italy",https://sws.geonames.org/3174183/,-26.0,59,Italy,9.76241,45.16633,5.0,True
+COD,Monte Codruzzo (Italy; COD),"Monte Codruzzo, Italy",https://sws.geonames.org/3214760/,-80.0,182,Italy,12.24097,44.03042,5.0,True
+VAL,San Pietro Vernotico (Valesio) (Italy; VAL),"San Pietro Vernotico (Valesio), Italy",https://sws.geonames.org/3167811/,-41.0,113,Italy,17.99752,40.4889,5.0,True
+MNF,Manfria (Sicily; MNF),"Manfria, Sicily",https://sws.geonames.org/8504685/,-103.0,25,Sicily,14.12979,37.10065,5.0,True
+MNP,"Naples, National Museum (Italy; MNP)","Naples, National Museum, Italy",https://sws.geonames.org/7303972/,-115.0,25,Italy,14.25049,40.85338,5.0,True
+COM,Compito (Italy; COM),"Compito, Italy",https://sws.geonames.org/3167483/,-55.0,213,Italy,10.55,43.8,5.0,True
+CON,Concordia (Italy; CON),"Concordia, Italy",https://sws.geonames.org/3178203/,,0,Italy,12.82362,45.76118,5.0,False
+MNS,Monselice (Italy; MNS),"Monselice, Italy",https://sws.geonames.org/3173124/,-46.0,4,Italy,11.74984,45.239,5.0,True
+VEL,Velia (Italy; VEL),"Velia, Italy",https://sws.geonames.org/3164641/,,0,Italy,15.15594,40.16061,5.0,False
+MNT,Montiano (Italy; MNT),"Montiano, Italy",https://sws.geonames.org/3172700/,-79.0,45,Italy,12.30455,44.08232,5.0,True
+VEN,Hoard in Venice (Italy; VEN),"Venice, Italy",https://sws.geonames.org/3164603/,,0,Italy,12.33265,45.43713,5.0,False
+COS,Cosa (Italy; COS),"Cosa, Italy",https://sws.geonames.org/3177934/,-74.0,264,Italy,13.31667,41.58333,5.0,True
+VER,Vergnacco (Italy; VER),"Vergnacco, Italy",https://sws.geonames.org/8504684/,,0,Italy,13.24368,46.15915,5.0,False
+MOD,Modena (Italy; MOD),"Modena, Italy",https://sws.geonames.org/3173331/,,0,Italy,10.92539,44.64783,5.0,False
+CPL,Capalbio (Italy; CPL),"Capalbio, Italy",https://sws.geonames.org/3180743/,-81.0,44,Italy,11.42175,42.45342,5.0,True
+CPR,Capranica (Italy; CPR),"Capranica, Italy",https://sws.geonames.org/3180644/,-82.0,24,Italy,12.17278,42.25849,5.0,True
+MOG,Moggio (Italy; MOG),"Moggio, Italy",https://sws.geonames.org/3173320/,-31.0,47,Italy,9.48623,45.93239,5.0,True
+VIG,Vigatto (Italy; VIG),"Vigatto, Italy",https://sws.geonames.org/3164380/,-27.0,273,Italy,10.33037,44.71999,5.0,True
+CPS,Capestrano (Italy; CPS),"Capestrano, Italy",https://sws.geonames.org/3180720/,,0,Italy,13.76779,42.26807,5.0,False
+CR1,Carbonara (Italy; CR1),"Carbonara, Italy",https://sws.geonames.org/3180570/,-48.0,179,Italy,11.22923,45.03537,5.0,True
+CR2,Carbonara (Italy; CR2),"Carbonara, Italy",https://sws.geonames.org/3180570/,-36.0,376,Italy,11.22923,45.03537,5.0,True
+MOR,Morrovalle (Italy; MOR),"Morrovalle, Italy",https://sws.geonames.org/3172564/,-46.0,95,Italy,13.59535,43.3183,5.0,True
+CRA,Carrara (Italy; CRA),"Carrara, Italy",https://sws.geonames.org/3180423/,,0,Italy,10.09789,44.07926,5.0,False
+MRS,Marsala (Sicily; MRS),"Marsala, Sicily",https://sws.geonames.org/2524245/,-42.0,10,Sicily,12.4367,37.7992,5.0,True
+CRG,Crognaleto (Italy; CRG),"Crognaleto, Italy",https://sws.geonames.org/3177759/,-97.0,81,Italy,13.4889,42.58771,5.0,True
+CRL,Carlentini (Sicily; CRL),"Carlentini, Sicily",https://sws.geonames.org/2525349/,-74.0,17,Sicily,15.0102,37.28071,5.0,True
+VPT,Villa Potenza (Italy; VPT),"Villa Potenza, Italy",https://sws.geonames.org/3164162/,-71.0,161,Italy,13.42649,43.32149,5.0,True
+MTD,Montedoro (Italy; MTD),"Montedoro, Italy",https://sws.geonames.org/2524071/,,0,Italy,13.81684,37.45431,5.0,False
+CRO,Crotone (Italy; CRO),"Crotone, Italy",https://sws.geonames.org/2524881/,-45.0,65,Italy,17.12764,39.08077,5.0,True
+MTL,Montella (Italy; MTL),"Montella, Italy",https://sws.geonames.org/6535638/,,0,Italy,15.01785,40.84372,5.0,False
+VRO,Veroli (Italy; VRO),"Veroli, Italy",https://sws.geonames.org/3164528/,,0,Italy,13.41664,41.69433,5.0,False
+CRP,Carpena (Italy; CRP),"Carpena, Italy",https://sws.geonames.org/3214817/,-92.0,32,Italy,12.06429,44.18539,5.0,True
+CRR,Cerriolo (Italy; CRR),"Cerriolo, Italy",https://sws.geonames.org/3179074/,-26.0,31,Italy,7.69953,44.48498,5.0,True
+MTR,Cergnago (Mortara) (Italy; MTR),"Cergnago (Mortara), Italy",https://sws.geonames.org/3179082/,-74.0,170,Italy,8.77164,45.19826,5.0,True
+CRV,Corvaro (Italy; CRV),"Corvaro, Italy",https://sws.geonames.org/3177941/,-79.0,12,Italy,13.26496,42.20538,5.0,True
+CSA,Citta Sant'Angelo (Italy; CSA),"Citta Sant'Angelo, Italy",https://sws.geonames.org/3178613/,,0,Italy,14.06203,42.51254,5.0,False
+ZAR,Zara (Italy; ZAR),"Zara, Italy",https://sws.geonames.org/6486176/,-18.0,177,Italy,14.26913,40.85394,5.0,True
+NAP,Naples (Italy; NAP),"Naples, Italy",https://sws.geonames.org/3172394/,-107.0,7,Italy,14.26811,40.85216,5.0,True
+CSN,Cerreto Sannita (Italy; CSN),"Cerreto Sannita, Italy",https://sws.geonames.org/3179033/,-134.0,17,Italy,14.56147,41.28296,5.0,True
+CSR,Caserta (Italy; CSR),"Caserta, Italy",https://sws.geonames.org/3179866/,,45,Italy,14.33231,41.07262,5.0,False
+CST,Castelnovo (Italy; CST),"Castelnovo, Italy",https://sws.geonames.org/3179546/,-71.0,132,Italy,10.40329,44.43556,5.0,True
+CTG,Contigliano (Italy; CTG),"Contigliano, Italy",https://sws.geonames.org/3178169/,-39.0,242,Italy,12.77202,42.41058,5.0,True
+CTM,Cantone tre Miglia (Italy; CTM),"Cantone tre Miglia, Italy",https://sws.geonames.org/6543193/,,0,Italy,9.14055,45.24066,5.0,False
+NDP,Noventa di Piave (Italy; NDP),"Noventa di Piave, Italy",https://sws.geonames.org/3172175/,,0,Italy,12.53322,45.65981,5.0,False
+CTR,Canturato (Italy; CTR),"Canturato, Italy",https://sws.geonames.org/8504667/,-74.0,33,Italy,17.08468,39.17186,5.0,True
+CUO,Masseria Cuoco (Italy; CUO),"Masseria Cuoco, Italy",https://sws.geonames.org/3173537/,-137.0,9,Italy,17.80774,40.55851,5.0,True
+CUP,San Angelo a Cupolo (Italy; CUP),"San Angelo a Cupolo, Italy",https://sws.geonames.org/6535294/,-170.0,33,Italy,14.80374,41.06912,5.0,True
+NOC,Nociglia (Italy; NOC),"Nociglia, Italy",https://sws.geonames.org/3172239/,-92.0,39,Italy,18.32757,40.03804,5.0,True
+CVC,Caltrano Vicentino (Italy; CVC),"Caltrano Vicentino, Italy",https://sws.geonames.org/3181166/,,0,Italy,11.4557,45.77346,5.0,False
+NOG,San Giorgio di Nogaro (Italy; NOG),"San Giorgio di Nogaro, Italy",https://sws.geonames.org/3168302/,,0,Italy,13.21088,45.82745,5.0,False
+CVE,Cologna Veneta (Italy; CVE),"Cologna Veneta, Italy",https://sws.geonames.org/3178288/,-27.0,80,Italy,11.38032,45.30777,5.0,True
+CVG,Carovigno (Italy; CVG),"Carovigno, Italy",https://sws.geonames.org/3180462/,-100.0,120,Italy,17.65847,40.70626,5.0,True
+OLE,Oleggio (Italy; OLE),"Oleggio, Italy",https://sws.geonames.org/3172079/,-86.0,88,Italy,8.64213,45.59674,5.0,True
+DOM,Santa Domenica di Tropea (Italy; DOM),"Santa Domenica di Tropea, Italy",https://sws.geonames.org/2522847/,-82.0,67,Italy,15.89505,38.67449,5.0,True
+OLM,Olmeneta (Italy; OLM),"Olmeneta, Italy",https://sws.geonames.org/3172041/,-100.0,109,Italy,10.02318,45.2354,5.0,True
+ORS,Orsara (Italy; ORS),"Orsara, Italy",https://sws.geonames.org/3171914/,-137.0,2,Italy,15.26765,41.28163,5.0,True
+OSL,Ossolaro (Italy; OSL),"Ossolaro, Italy",https://sws.geonames.org/3171742/,-45.0,272,Italy,9.92876,45.23797,5.0,True
+ECL,Mirabella Eclano (Italy; ECL),"Mirabella Eclano, Italy",https://sws.geonames.org/3173383/,-46.0,64,Italy,15.00022,41.04496,5.0,True
+OSS,Ossero (Italy; OSS),"Ossero, Italy",https://sws.geonames.org/3193885/,-72.0,150,Italy,14.39333,44.69556,5.0,True
+ELE,Elena (Italy; ELE),"Elena, Italy",https://sws.geonames.org/2523665/,-101.0,42,Italy,9.25004,39.22935,5.0,True
+OVO,Mont'Ovolo (Italy; OVO),"Mont'Ovolo, Italy",https://sws.geonames.org/8504671/,,27,Italy,11.0934,44.21719,5.0,False
+P02,Padova (Italy; P02),"Padova, Italy",https://sws.geonames.org/3171728/,-42.0,16,Italy,11.88586,45.40797,15.0,True
+P03,Padova (Italy; P03),"Padova, Italy",https://sws.geonames.org/3171728/,-42.0,25,Italy,11.88586,45.40797,15.0,True
+P04,Padova (Italy; P04),"Padova, Italy",https://sws.geonames.org/3171728/,-46.0,8,Italy,11.88586,45.40797,15.0,True
+ENE,Enemonzo (Italy; ENE),"Enemonzo, Italy",https://sws.geonames.org/3177392/,-170.0,24,Italy,12.87944,46.40833,5.0,True
+P05,Padova (Italy; P05),"Padova, Italy",https://sws.geonames.org/3171728/,-48.0,8,Italy,11.88586,45.40797,15.0,True
+P06,Padova (Italy; P06),"Padova, Italy",https://sws.geonames.org/3171728/,-48.0,50,Italy,11.88586,45.40797,15.0,True
+P07,Padova (Italy; P07),"Padova, Italy",https://sws.geonames.org/3171728/,-45.0,88,Italy,11.88586,45.40797,15.0,True
+ES1,Este (Italy; ES1),"Este, Italy",https://sws.geonames.org/3177337/,-27.0,60,Italy,11.66379,45.22338,5.0,True
+PAC,Pachino (Sicily; PAC),"Pachino, Sicily",https://sws.geonames.org/2523938/,-138.0,24,Sicily,15.09019,36.71522,5.0,True
+ES2,Este (Italy; ES2),"Este, Italy",https://sws.geonames.org/3177337/,-4.0,157,Italy,11.66379,45.22338,5.0,True
+PAE,Paestum (Italy; PAE),"Paestum, Italy",https://sws.geonames.org/3171709/,-4.0,305,Italy,15.00731,40.4223,5.0,True
+PAN,Panicale (Italy; PAN),"Panicale, Italy",https://sws.geonames.org/3171523/,-89.0,5,Italy,12.09993,43.0283,5.0,True
+PAS,Pasquariello (Italy; PAS),"Pasquariello, Italy",https://sws.geonames.org/3175395/,-43.0,99,Italy,12.83333,42.83333,20.0,True
+PAT,Paterno (Sicily; PAT),"Paterno, Sicily",https://sws.geonames.org/2523866/,-100.0,68,Sicily,14.90254,37.56675,5.0,True
+PCA,Palazzo Canavese (Italy; PCA),"Palazzo Canavese, Italy",https://sws.geonames.org/3171636/,-4.0,111,Italy,7.97776,45.45962,5.0,True
+PDO,Pieve di Olmi (Italy; PDO),"Pieve di Olmi, Italy",https://sws.geonames.org/3170742/,-79.0,14,Italy,10.12368,45.08957,5.0,True
+FAN,Fano (Italy; FAN),"Fano, Italy",https://sws.geonames.org/3177219/,-170.0,23,Italy,13.01665,43.84052,5.0,True
+PET,Petacciato (Italy; PET),"Petacciato, Italy",https://sws.geonames.org/3171114/,-141.0,48,Italy,14.86026,42.00827,5.0,True
+FDP,Fossalta di Piave (Italy; FDP),"Fossalta di Piave, Italy",https://sws.geonames.org/3176646/,,0,Italy,12.50902,45.64497,5.0,False
+PIC,Potenza Picena (Italy; PIC),"Potenza Picena, Italy",https://sws.geonames.org/3170023/,-74.0,141,Italy,13.62249,43.36635,5.0,True
+FEN,Feniglia (Italy; FEN),"Feniglia, Italy",https://sws.geonames.org/8504668/,,0,Italy,11.20962,42.40923,5.0,False
+PIE,Piedimonte d'Alife (Italy; PIE),"Piedimonte d'Alife, Italy",https://sws.geonames.org/3170844/,-42.0,141,Italy,14.36667,41.35,5.0,True
+FER,Ferentino (Italy; FER),"Ferentino, Italy",https://sws.geonames.org/3177102/,-81.0,26,Italy,13.2562,41.69119,5.0,True
+FI2,Fiume (Italy; FI2),"Fiume, Italy",https://sws.geonames.org/3176927/,,0,Italy,12.73811,45.92865,5.0,False
+PIS,Vico Pisano (Italy; PIS),"Vico Pisano, Italy",https://sws.geonames.org/3164396/,4.0,115,Italy,10.58359,43.69305,5.0,True
+FIE,Fiesole (Italy; FIE),"Fiesole, Italy",https://sws.geonames.org/3177019/,-89.0,146,Italy,11.29487,43.80455,5.0,True
+PL1,Palestrina (Italy; PL1),"Palestrina, Italy",https://sws.geonames.org/3171606/,-80.0,34,Italy,12.88178,41.83274,5.0,True
+FIL,Filogaso (Italy; FIL),"Filogaso, Italy",https://sws.geonames.org/2524751/,,0,Italy,16.22584,38.68287,5.0,False
+PL2,Palestrina (Italy; PL2),"Palestrina, Italy",https://sws.geonames.org/3171606/,-74.0,146,Italy,12.88178,41.83274,5.0,True
+FIR,Firenze (Italy; FIR),"Firenze, Italy",https://sws.geonames.org/3176959/,-43.0,121,Italy,11.24626,43.77925,5.0,True
+PLC,Policoro (Italy; PLC),"Policoro, Italy",https://sws.geonames.org/3170384/,-72.0,143,Italy,16.67795,40.2128,5.0,True
+PLI,Policoro (Italy; PLI),"Policoro, Italy",https://sws.geonames.org/3170384/,-45.0,44,Italy,16.67795,40.2128,5.0,True
+FOL,Foligno (Italy; FOL),"Foligno, Italy",https://sws.geonames.org/3176854/,,0,Italy,12.70268,42.95488,5.0,False
+FON,Fontanarosa (Italy; FON),"Fontanarosa, Italy",https://sws.geonames.org/3176818/,,0,Italy,15.02055,41.01812,5.0,False
+FOR,Forli (Italy; FOR),"Forli, Italy",https://sws.geonames.org/3176746/,,0,Italy,12.04144,44.22177,5.0,False
+FOS,Fossombrone (Italy; FOS),"Fossombrone, Italy",https://sws.geonames.org/3176630/,-121.0,59,Italy,12.81173,43.69017,5.0,True
+POG,Poggio Picenze (Italy; POG),"Poggio Picenze, Italy",https://sws.geonames.org/3170450/,,0,Italy,13.54036,42.32061,5.0,False
+FRA,Fragagnano (Italy; FRA),"Fragagnano, Italy",https://sws.geonames.org/3176616/,-79.0,62,Italy,17.47553,40.4302,5.0,True
+POM,Pompeii (Italy; POM),"Pompeii, Italy",https://sws.geonames.org/3170336/,,0,Italy,14.48333,40.75,5.0,False
+PON,Pontecorvo (Italy; PON),"Pontecorvo, Italy",https://sws.geonames.org/3170286/,-74.0,234,Italy,13.66618,41.45861,5.0,True
+POP,Populonia (Italy; POP),"Populonia, Italy",https://sws.geonames.org/3170169/,,0,Italy,10.49154,42.98948,5.0,False
+FSL,Fossalta (Portogruaro) (Italy; FSL),"Fossalta (Portogruaro), Italy",https://sws.geonames.org/3176645/,-82.0,77,Italy,12.90998,45.79329,5.0,True
+POT,Potenza (Italy; POT),"Potenza, Italy",https://sws.geonames.org/3170027/,-43.0,164,Italy,15.80794,40.64175,5.0,True
+FUS,Fuscaldo (Italy; FUS),"Fuscaldo, Italy",https://sws.geonames.org/2524691/,-90.0,147,Italy,16.02839,39.41421,5.0,True
+PQU,Pieve-Quinta (Italy; PQU),"Pieve-Quinta, Italy",https://sws.geonames.org/3215244/,-42.0,247,Italy,12.15277,44.23819,5.0,True
+GAL,Gallignano (Italy; GAL),"Gallignano, Italy",https://sws.geonames.org/3176372/,-4.0,216,Italy,9.83761,45.43768,5.0,True
+PRC,Monte Porcaro (Italy; PRC),"Monte Porcaro, Italy",https://sws.geonames.org/8740449/,-48.0,41,Italy,13.16141,41.89902,5.0,True
+GAM,Gambolo (Italy; GAM),"Gambolo, Italy",https://sws.geonames.org/3176333/,,0,Italy,8.8582,45.26209,5.0,False
+ADM,Alba di Massa (Italy; ADM),"Alba di Massa, Italy",https://sws.geonames.org/3173765/,-77.0,71,Italy,13.39429,42.10723,5.0,True
+GDM,Gioia dei Marsi (Italy; GDM),"Gioia dei Marsi, Italy",https://sws.geonames.org/3176091/,-97.0,85,Italy,13.69057,41.95697,5.0,True
+GER,Gerenzago (Italy; GER),"Gerenzago, Italy",https://sws.geonames.org/3176196/,-118.0,33,Italy,9.36137,45.20633,5.0,True
+PT1,Potenza (Italy; PT1),"Potenza, Italy",https://sws.geonames.org/3170027/,,0,Italy,15.80794,40.64175,5.0,False
+AGG,Aggius (Sardinia; AGG),"Aggius, Sardinia",https://sws.geonames.org/3183443/,4.0,16,Sardinia,9.06517,40.92995,5.0,True
+PTA,Patrica (Italy; PTA),"Patrica, Italy",https://sws.geonames.org/3171378/,-119.0,50,Italy,13.24363,41.59085,5.0,True
+AGN,Agnona (Italy; AGN),"Agnona, Italy",https://sws.geonames.org/6693917/,-41.0,133,Italy,8.25957,45.72602,5.0,True
+GIL,Giulianova (Italy; GIL),"Giulianova, Italy",https://sws.geonames.org/3176053/,,0,Italy,13.9665,42.75381,5.0,False
+PTR,Pietrabbondante (Italy; PTR),"Pietrabbondante, Italy",https://sws.geonames.org/3170820/,,0,Italy,14.3848,41.74527,5.0,False
+GIU,San Giuliano Vecchio (Italy; GIU),"San Giuliano Vecchio, Italy",https://sws.geonames.org/3168220/,,0,Italy,8.76057,44.88902,5.0,False
+GOT,Gottolengo (Italy; GOT),"Gottolengo, Italy",https://sws.geonames.org/3175971/,-49.0,6,Italy,10.26855,45.29278,5.0,True
+ALI,Alife (Italy; ALI),"Alife, Italy",https://sws.geonames.org/3183273/,-87.0,32,Italy,14.33403,41.32612,5.0,True
+ALL,Allein (Italy; ALL),"Allein, Italy",https://sws.geonames.org/6535069/,-27.0,126,Italy,7.27262,45.80723,5.0,True
+GRA,Grazzanise (Italy; GRA),"Grazzanise, Italy",https://sws.geonames.org/6299626/,-54.0,142,Italy,14.08194,41.06083,5.0,True
+GRE,San Gregorio di Sassola (Italy; GRE),"San Gregorio di Sassola, Italy",https://sws.geonames.org/3168190/,-58.0,172,Italy,12.87447,41.91881,5.0,True
+ALT,Altamura (Italy; ALT),"Altamura, Italy",https://sws.geonames.org/3183178/,,0,Italy,16.54952,40.82664,5.0,False
+RAN,Randazzo (Sicily; RAN),"Randazzo, Sicily",https://sws.geonames.org/2523641/,-77.0,26,Sicily,14.95012,37.87736,5.0,True
+RAV,Ravenna (Italy; RAV),"Ravenna, Italy",https://sws.geonames.org/3169561/,,0,Italy,12.20121,44.41344,5.0,False
+ALV,Alvignano (Italy; ALV),"Alvignano, Italy",https://sws.geonames.org/3183140/,-40.0,301,Italy,14.33671,41.24427,5.0,True
+RCN,Ricina (Italy; RCN),"Ricina, Italy",https://sws.geonames.org/3164162/,-101.0,110,Italy,13.42649,43.32149,5.0,True
+AMA,Amaseno (Italy; AMA),"Amaseno, Italy",https://sws.geonames.org/3183124/,-79.0,68,Italy,13.33457,41.46705,5.0,True
+RIC,Riccia (Italy; RIC),"Riccia, Italy",https://sws.geonames.org/3169430/,-126.0,115,Italy,14.83181,41.48314,5.0,True
+AME,Lacco Ameno (Italy; AME),"Lacco Ameno, Italy",https://sws.geonames.org/3175335/,-144.0,22,Italy,13.88718,40.74901,5.0,True
+RIG,Rignano (Italy; RIG),"Rignano, Italy",https://sws.geonames.org/3169395/,-74.0,51,Italy,12.48068,42.2055,5.0,True
+RMA,Roma (Italy; RMA),"Roma, Italy",https://sws.geonames.org/3169070/,,0,Italy,12.51133,41.89193,10.0,False
+AN1,Ancona (Italy; AN1),"Ancona, Italy",https://sws.geonames.org/3183089/,-55.0,36,Italy,13.50337,43.5942,5.0,True
+RME,Rome (Italy; RME),"Rome, Italy",https://sws.geonames.org/3169070/,,0,Italy,12.51133,41.89193,10.0,False
+AN2,Ancona (Italy; AN2),"Ancona, Italy",https://sws.geonames.org/3183089/,-90.0,86,Italy,13.50337,43.5942,5.0,True
+ANA,Santa Anna (Italy; ANA),"Santa Anna, Italy",https://sws.geonames.org/3167431/,-42.0,286,Italy,10.48333,43.83333,5.0,True
+RNC,Roncarolo (Italy; RNC),"Roncarolo, Italy",https://sws.geonames.org/8740441/,,43,Italy,9.84426,45.06479,5.0,False
+ANS,Ansedonia (Italy; ANS),"Ansedonia, Italy",https://sws.geonames.org/3183046/,,0,Italy,11.28365,42.40977,5.0,False
+AQ1,Aquileia (Italy; AQ1),"Aquileia, Italy",https://sws.geonames.org/3182943/,,0,Italy,13.36779,45.7683,5.0,False
+HF2,Hoffmann (Italy; HF2),Italy,https://sws.geonames.org/3175395/,,0,Italy,12.83333,42.83333,20.0,False
+ROC,Rochetta a Volturno (Italy; ROC),"Rochetta a Volturno, Italy",https://sws.geonames.org/3179545/,,0,Italy,14.04396,41.6222,5.0,False
+AQU,Aquileia (Italy; AQU),"Aquileia, Italy",https://sws.geonames.org/3182943/,14.0,228,Italy,13.36779,45.7683,5.0,True
+ROG,Roginenza (Sicily; ROG),"Roginenza, Sicily",https://sws.geonames.org/2525065/,-136.0,6,Sicily,14.84731,37.47169,5.0,True
+ARP,Arpino (Italy; ARP),"Arpino, Italy",https://sws.geonames.org/3182807/,,0,Italy,13.61155,41.64705,5.0,False
+ROM,Rome (Italy; ROM),"Rome, Italy",https://sws.geonames.org/3169070/,-147.0,29,Italy,12.51133,41.89193,10.0,True
+RON,Roncolon (Italy; RON),"Roncolon, Italy",https://sws.geonames.org/8740443/,-61.0,26,Italy,13.3954,45.78524,5.0,True
+ATO,Altino (Italy; ATO),"Altino, Italy",https://sws.geonames.org/3183163/,-42.0,13,Italy,14.33267,42.09954,5.0,True
+RSN,Rossano (Italy; RSN),"Rossano, Italy",https://sws.geonames.org/2523578/,-42.0,76,Italy,16.63447,39.57622,5.0,True
+AVE,Avetrana (Italy; AVE),"Avetrana, Italy",https://sws.geonames.org/3182637/,-38.0,398,Italy,17.7326,40.3507,5.0,True
+AVO,Avola (Sicily; AVO),"Avola, Sicily",https://sws.geonames.org/2525643/,,0,Sicily,15.13937,36.9084,5.0,False
+ICR,Isola Capo Rizzuto (Italy; ICR),"Isola Capo Rizzuto, Italy",https://sws.geonames.org/6299534/,,0,Italy,17.08017,38.99723,5.0,False
+AVV,Avvocata (Italy; AVV),"Avvocata, Italy",https://sws.geonames.org/6945756/,-104.0,20,Italy,14.6729,40.65458,5.0,True
+RUT,Rutigliano (Italy; RUT),"Rutigliano, Italy",https://sws.geonames.org/3168775/,-58.0,62,Italy,17.00558,41.00997,5.0,True
+AVZ,Avezzano (Italy; AVZ),"Avezzano, Italy",https://sws.geonames.org/3182636/,-87.0,100,Italy,13.42641,42.02896,5.0,True
+IMO,Imola (Italy; IMO),"Imola, Italy",https://sws.geonames.org/3175537/,-100.0,118,Italy,11.7132,44.35916,5.0,True
+S01,West Sicily (Sicily; S01),"West Sicily, Sicily",https://sws.geonames.org/2523118/,-146.0,29,Sicily,13.93457,37.62304,10.0,True
+INF,Montoro Inferiore (Italy; INF),"Montoro Inferiore, Italy",https://sws.geonames.org/9881932/,-147.0,34,Italy,14.77465,40.81292,5.0,True
+S02,West Sicily (Sicily; S02),"West Sicily, Sicily",https://sws.geonames.org/2523118/,-29.0,26,Sicily,13.93457,37.62304,10.0,True
+S03,West Sicily (Sicily; S03),"West Sicily, Sicily",https://sws.geonames.org/2523118/,-40.0,102,Sicily,13.93457,37.62304,10.0,True
+ION,Montalbano Ionico (Italy; ION),"Montalbano Ionico, Italy",https://sws.geonames.org/3173098/,-75.0,39,Italy,16.5696,40.28591,5.0,True
+BAG,Bagheria (Sicily; BAG),"Bagheria, Sicily",https://sws.geonames.org/2525628/,4.0,166,Sicily,13.51237,38.07892,5.0,True
+BAN,Banzi (Italy; BAN),"Banzi, Italy",https://sws.geonames.org/3182425/,-130.0,47,Italy,16.00976,40.86063,5.0,True
+BAR,Barrafranca (Sicily; BAR),"Barrafranca, Sicily",https://sws.geonames.org/2525593/,,0,Sicily,14.2027,37.3785,5.0,False
+IT1,Italy (Italy; IT1),Italy,https://sws.geonames.org/3175395/,-126.0,21,Italy,12.83333,42.83333,20.0,True
+IT2,Italy (Italy; IT2),Italy,https://sws.geonames.org/3175395/,-74.0,31,Italy,12.83333,42.83333,20.0,True
+IT3,Italy (Italy; IT3),Italy,https://sws.geonames.org/3175395/,,0,Italy,12.83333,42.83333,20.0,False
+IT4,Central Italy (Italy; IT4),"Central Italy, Italy",https://sws.geonames.org/12089032/,-79.0,46,Italy,12.24145,42.83829,5.0,True
+SBS,San Bartolomeo in Sassoforte (Italy; SBS),"San Bartolomeo in Sassoforte, Italy",https://sws.geonames.org/8629283/,-43.0,174,Italy,10.53941,44.67402,5.0,True
+IT5,Italy (Italy; IT5),Italy,https://sws.geonames.org/3175395/,,0,Italy,12.83333,42.83333,20.0,False
+BDS,Belmonte del Sannio (Italy; BDS),"Belmonte del Sannio, Italy",https://sws.geonames.org/3182205/,-31.0,21,Italy,14.42333,41.82352,5.0,True
+IT6,Italy (Italy; IT6),Italy,https://sws.geonames.org/3175395/,-31.0,170,Italy,12.83333,42.83333,20.0,True
+BEN,Beneventum (Italy; BEN),"Beneventum, Italy",https://sws.geonames.org/3182179/,-47.0,100,Italy,14.77816,41.1307,5.0,True
+BER,Berchidda (Sardinia; BER),"Berchidda, Sardinia",https://sws.geonames.org/3182170/,-82.0,165,Sardinia,9.1651,40.78476,5.0,True
+BEV,Bevagna (Italy; BEV),"Bevagna, Italy",https://sws.geonames.org/3182096/,-116.0,123,Italy,12.61488,42.93748,5.0,True
+SDP,San Dona di Piave (Italy; SDP),"San Dona di Piave, Italy",https://sws.geonames.org/3168429/,,0,Italy,12.5681,45.63019,5.0,False
+JES,Jesi (Italy; JES),"Jesi, Italy",https://sws.geonames.org/3175628/,-117.0,44,Italy,13.24368,43.52142,5.0,True
+JSI,Jesi (Italy; JSI),"Jesi, Italy",https://sws.geonames.org/3175628/,-45.0,33,Italy,13.24368,43.52142,5.0,True
+BIS,Bisacquino (Sicily; BIS),"Bisacquino, Sicily",https://sws.geonames.org/2525552/,,0,Sicily,13.26051,37.70352,5.0,False
+SES,Romagnano Sesia (Italy; SES),"Romagnano Sesia, Italy",https://sws.geonames.org/3169064/,-87.0,105,Italy,8.38697,45.63279,5.0,True
+BLC,Bellicello (Castelvetrano) (Sicily; BLC),"Bellicello (Castelvetrano), Sicily",https://sws.geonames.org/2525083/,-81.0,28,Sicily,12.79194,37.68081,5.0,True
+BLF,Belfiore (Italy; BLF),"Belfiore, Italy",https://sws.geonames.org/3182242/,-127.0,7,Italy,11.21085,45.38189,5.0,True
+BLG,Bologna (Italy; BLG),"Bologna, Italy",https://sws.geonames.org/3181928/,-100.0,53,Italy,11.33875,44.49381,5.0,True
+SGI,San Giovanni Incarico (Italy; SGI),"San Giovanni Incarico, Italy",https://sws.geonames.org/3168243/,-125.0,63,Italy,13.55864,41.50001,5.0,True
+BOI,Boiano (Italy; BOI),"Boiano, Italy",https://sws.geonames.org/3181939/,,0,Italy,14.47075,41.4853,5.0,False
+SLZ,San Lazzaro (Italy; SLZ),"San Lazzaro, Italy",https://sws.geonames.org/3168175/,,0,Italy,11.40851,44.4705,5.0,False
+BOR,Borzano (Italy; BOR),"Borzano, Italy",https://sws.geonames.org/3181708/,-42.0,227,Italy,10.63675,44.6036,5.0,True
+BRA,Brandosa (Italy; BRA),"Brandosa, Italy",https://sws.geonames.org/8468671/,-49.0,177,Italy,12.30924,42.03721,5.0,True
+SMT,San Miniato al Tedesco (Italy; SMT),"San Miniato al Tedesco, Italy",https://sws.geonames.org/3167953/,-80.0,165,Italy,10.84975,43.67954,5.0,True
+BRE,Brescello (Italy; BRE),"Brescello, Italy",https://sws.geonames.org/3181555/,-39.0,13,Italy,10.51269,44.89531,5.0,True
+BRG,Borgonuovo (Italy; BRG),"Borgonuovo, Italy",https://sws.geonames.org/3181776/,-111.0,66,Italy,10.61667,43.85,5.0,True
+LAR,Larinium (Italy; LAR),"Larinium, Italy",https://sws.geonames.org/3175105/,,0,Italy,14.91843,41.80449,5.0,False
+BRI,Brindisi (Italy; BRI),"Brindisi, Italy",https://sws.geonames.org/3181528/,-34.0,2,Italy,17.93607,40.63215,5.0,True
+LCL,Lucoli (Italy; LCL),"Lucoli, Italy",https://sws.geonames.org/6534803/,-124.0,32,Italy,13.33799,42.29093,5.0,True
+BRO,Broni (Italy; BRO),"Broni, Italy",https://sws.geonames.org/3181507/,-51.0,68,Italy,9.25993,45.06394,5.0,True
+LEG,Legnano (Italy; LEG),"Legnano, Italy",https://sws.geonames.org/3174921/,,0,Italy,8.91506,45.59788,5.0,False
+LIC,Licodia (Sicily; LIC),"Licodia, Sicily",https://sws.geonames.org/2524392/,-74.0,80,Sicily,14.70555,37.15674,5.0,True
+SPN,Spoiano (Italy; SPN),"Spoiano, Italy",https://sws.geonames.org/8504682/,-46.0,130,Italy,11.76842,43.37055,5.0,True
+SPO,Spoleto (Italy; SPO),"Spoleto, Italy",https://sws.geonames.org/3166236/,-79.0,51,Italy,12.73899,42.74071,5.0,True
+BUR,Burgos (Italy; BUR),"Burgos, Italy",https://sws.geonames.org/3181398/,-195.0,4,Italy,8.99558,40.39081,5.0,True
+SSA,Santo Stefano di Arcevia (Italy; SSA),"Santo Stefano di Arcevia, Italy",https://sws.geonames.org/8504681/,,0,Italy,12.9055,43.48425,5.0,False
+BVG,Bevagna (Italy; BVG),"Bevagna, Italy",https://sws.geonames.org/3182096/,-100.0,94,Italy,12.61488,42.93748,5.0,True
+SSR,Santo Stefano Roero (Italy; SSR),"Santo Stefano Roero, Italy",https://sws.geonames.org/6535487/,-18.0,62,Italy,7.94093,44.78844,5.0,True
+SST,Sustinente (Italy; SST),"Sustinente, Italy",https://sws.geonames.org/3166011/,,0,Italy,11.02178,45.07096,5.0,False
+CAD,Cadriano (Italy; CAD),"Cadriano, Italy",https://sws.geonames.org/3164148/,,0,Italy,11.40693,44.553,5.0,False
+CAH,Italy (Italy; CAH),Italy,https://sws.geonames.org/3175395/,-87.0,45,Italy,12.83333,42.83333,20.0,True
+CAI,Caiazzo (Italy; CAI),"Caiazzo, Italy",https://sws.geonames.org/3181267/,,0,Italy,14.35946,41.18435,5.0,False
+LOR,San Lorenzo del Vallo (Italy; LOR),"San Lorenzo del Vallo, Italy",https://sws.geonames.org/2523438/,-102.0,109,Italy,16.29866,39.66739,5.0,True
+CAL,Calvatone (Italy; CAL),"Calvatone, Italy",https://sws.geonames.org/3181156/,-40.0,6,Italy,10.44057,45.12697,5.0,True
+LOS,Mornico Losana (Italy; LOS),"Mornico Losana, Italy",https://sws.geonames.org/6534538/,-38.0,273,Italy,9.20616,45.01016,5.0,True
+LTA,"Largo di Torre Argentina, Rome (Italy; LTA)","Largo di Torre Argentina, Rome, Italy",https://sws.geonames.org/8504670/,-97.0,18,Italy,12.47655,41.89605,5.0,True
+LUC,Luceria (Italy; LUC),"Luceria, Italy",https://sws.geonames.org/3174526/,,0,Italy,15.3391,41.5055,5.0,False
+CAR,Carovilli (Italy; CAR),"Carovilli, Italy",https://sws.geonames.org/3180461/,-81.0,33,Italy,14.29403,41.71348,5.0,True
+STR,Strongoli (Italy; STR),"Strongoli, Italy",https://sws.geonames.org/2522990/,-108.0,8,Italy,17.05413,39.26576,5.0,True
+CAS,Casaleone (Italy; CAS),"Casaleone, Italy",https://sws.geonames.org/3180205/,-51.0,213,Italy,11.19401,45.16821,5.0,True
+LUN,Luni (Italy; LUN),"Luni, Italy",https://sws.geonames.org/6299614/,-89.0,7,Italy,9.98503,44.08546,5.0,True
+CAV,Cavriago (Italy; CAV),"Cavriago, Italy",https://sws.geonames.org/3179254/,-45.0,2,Italy,10.52591,44.69457,5.0,True
+MAC,Maccarese (Italy; MAC),"Maccarese, Italy",https://sws.geonames.org/3174410/,-74.0,189,Italy,12.21975,41.87696,5.0,True
+MAD,Maddaloni (Italy; MAD),"Maddaloni, Italy",https://sws.geonames.org/3174358/,-115.0,113,Italy,14.3823,41.03578,5.0,True
+SUL,Sulmona (Italy; SUL),"Sulmona, Italy",https://sws.geonames.org/3166034/,,0,Italy,13.92578,42.04945,5.0,False
+SUR,Surbo (Italy; SUR),"Surbo, Italy",https://sws.geonames.org/3166021/,-46.0,102,Italy,18.13456,40.39383,5.0,True
+SUS,Sustinenza (Italy; SUS),"Sustinenza, Italy",https://sws.geonames.org/8504683/,-56.0,60,Italy,11.18365,45.15686,5.0,True
+SY2,Syracuse (Sicily; SY2),"Syracuse, Sicily",https://sws.geonames.org/2523083/,-136.0,39,Sicily,15.28664,37.07542,5.0,True
+MAN,San Mango sul Calore (Italy; MAN),"San Mango sul Calore, Italy",https://sws.geonames.org/3168096/,-75.0,65,Italy,14.97251,40.9589,5.0,True
+SYR,Syracuse (Sicily; SYR),"Syracuse, Sicily",https://sws.geonames.org/2523083/,-88.0,164,Sicily,15.28664,37.07542,5.0,True
+MAS,Maserà (Italy; MAS),"Maserà, Italy",https://sws.geonames.org/3173801/,-125.0,142,Italy,8.32526,46.13888,5.0,True
+TAR,Tarentum (Italy; TAR),"Tarentum, Italy",https://sws.geonames.org/3165926/,,0,Italy,17.24707,40.46438,10.0,False
+TDS,Terranova di Sicilia (Sicily; TDS),"Terranova di Sicilia, Sicily",https://sws.geonames.org/2524653/,-118.0,43,Sicily,14.24038,37.07381,5.0,True
+CER,Cervia (Italy; CER),"Cervia, Italy",https://sws.geonames.org/3178998/,-82.0,27,Italy,12.34812,44.26204,5.0,True
+TER,Terranova Pausania (Sardinia; TER),"Terranova Pausania, Sardinia",https://sws.geonames.org/3172086/,,0,Sardinia,9.50528,40.9224,5.0,False
+CES,Cesena (Italy; CES),"Cesena, Italy",https://sws.geonames.org/3178957/,-82.0,33,Italy,12.24315,44.1391,5.0,True
+MCR,Monte Carotto (Italy; MCR),"Monte Carotto, Italy",https://sws.geonames.org/3173007/,,0,Italy,13.06656,43.52828,5.0,False
+CFV,Castel Franco Veneto (Italy; CFV),"Castel Franco Veneto, Italy",https://sws.geonames.org/3179684/,,0,Italy,11.92755,45.67146,5.0,False
+MDI,Monteverde di Fermo (Italy; MDI),"Monteverde di Fermo, Italy",https://sws.geonames.org/3182749/,-92.0,37,Italy,13.57395,42.85351,5.0,True
+CG1,Cerignola (Italy; CG1),"Cerignola, Italy",https://sws.geonames.org/3179075/,-36.0,15,Italy,15.89559,41.26523,5.0,True
+MDP,Musile di Piave (Italy; MDP),"Musile di Piave, Italy",https://sws.geonames.org/3172422/,,0,Italy,12.54177,45.62057,5.0,False
+CG2,Cerignola (Italy; CG2),"Cerignola, Italy",https://sws.geonames.org/3179075/,-100.0,57,Italy,15.89559,41.26523,5.0,True
+CGN,Cergnano (Italy; CGN),"Cergnano, Italy",https://sws.geonames.org/3166708/,,0,Italy,9.70122,45.42755,5.0,False
+ME1,Meolo (Italy; ME1),"Meolo, Italy",https://sws.geonames.org/3173580/,-27.0,209,Italy,12.45236,45.6197,5.0,True
+ME2,Meolo (Albaredo d'Adige) (Italy; ME2),"Meolo (Albaredo d'Adige), Italy",https://sws.geonames.org/3183350/,-39.0,298,Italy,11.27843,45.31859,5.0,True
+CHI,Civitella in Val di Chiana (Italy; CHI),"Civitella in Val di Chiana, Italy",https://sws.geonames.org/3178571/,-42.0,149,Italy,11.7229,43.41731,5.0,True
+MES,Mesagne (Italy; MES),"Mesagne, Italy",https://sws.geonames.org/3173537/,-58.0,307,Italy,17.80774,40.55851,5.0,True
+CIN,Cingoli (Italy; CIN),"Cingoli, Italy",https://sws.geonames.org/3178673/,-87.0,125,Italy,13.20787,43.37573,5.0,True
+CIS,Cisterna di Latina (Italy; CIS),"Cisterna di Latina, Italy",https://sws.geonames.org/3178631/,-41.0,192,Italy,12.82808,41.5908,5.0,True
+TNI,Terni (Italy; TNI),"Terni, Italy",https://sws.geonames.org/3165771/,-42.0,31,Italy,12.64329,42.56335,5.0,True
+TOL,Tolfa (Italy; TOL),"Tolfa, Italy",https://sws.geonames.org/3165593/,-72.0,110,Italy,11.93216,42.15023,5.0,True
+CLA,Claterna (Italy; CLA),"Claterna, Italy",https://sws.geonames.org/3171759/,-92.0,39,Italy,11.47136,44.44279,5.0,True
+MIG,Mignano (Italy; MIG),"Mignano, Italy",https://sws.geonames.org/3173439/,-49.0,32,Italy,13.98552,41.40592,5.0,True
+TR1,Taranto (Italy; TR1),"Taranto, Italy",https://sws.geonames.org/3165926/,-113.0,52,Italy,17.24707,40.46438,10.0,True
+TR2,Taranto (Italy; TR2),"Taranto, Italy",https://sws.geonames.org/3165926/,-49.0,31,Italy,17.24707,40.46438,10.0,True

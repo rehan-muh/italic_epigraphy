@@ -1,0 +1,60 @@
+<!-- The economic-field animation. Pure HTML, no Liquid: this include is also
+     inlined verbatim into the standalone page by
+     scripts/economy_field_animation.py. Wrap it in <div id="economy-app">;
+     assets/js/economy.js fills it from window.ECONOMY_FIELD or data-src. -->
+<div class="econ-controls" role="group" aria-label="Animation controls">
+  <button type="button" class="econ-btn" id="econ-play" aria-pressed="false">Play</button>
+  <div class="econ-scrub">
+    <input id="econ-time" type="range" min="-700" max="-1" step="1" value="-700" aria-label="Year">
+    <div class="econ-year" id="econ-yearlabel">700 BCE</div>
+  </div>
+  <label>Speed
+    <select id="econ-speed"><option value="25">slow</option><option value="50" selected>normal</option><option value="120">fast</option></select>
+  </label>
+  <label><input id="econ-loop" type="checkbox"> loop</label>
+  <label>Layer <select id="econ-layer"></select></label>
+</div>
+
+<div class="econ-grid">
+  <div class="econ-map">
+    <canvas class="econ-canvas" id="econ-map" width="740" height="964" tabindex="0"
+            aria-label="Map of Italy coloured by the latent economic field at the selected year"></canvas>
+    <div class="econ-tip" id="econ-tip" aria-hidden="true"></div>
+  </div>
+  <div class="econ-side">
+    <div class="econ-card">
+      <h2 id="econ-legendtitle">Shared field E, sd units</h2>
+      <div class="econ-ramp" id="econ-ramp"></div>
+      <div class="econ-ticks"><span id="econ-t-lo"></span><span id="econ-t-mid"></span><span id="econ-t-hi"></span></div>
+      <p class="econ-note" id="econ-legendnote"></p>
+    </div>
+    <div class="econ-card">
+      <h2>At this moment</h2>
+      <div class="econ-readout">
+        <div class="big" id="econ-r-year">700 BCE</div>
+        <div class="lbl">Italy-wide mean E <span class="val" id="econ-r-nat"></span></div>
+      </div>
+      <div class="econ-probe">
+        <div class="name" id="econ-p-name">Hover the map, or pin a place</div>
+        <div class="sub" id="econ-p-sub"></div>
+        <div class="econ-doms" id="econ-p-doms"></div>
+      </div>
+      <div class="econ-chips" id="econ-chips" aria-label="Named places"></div>
+    </div>
+    <div class="econ-card">
+      <h2>Trajectory</h2>
+      <svg class="econ-traj" id="econ-traj" viewBox="0 0 520 240" role="img"
+           aria-label="Italy-wide mean of E through time with 95% interval; pinned place shown when selected"></svg>
+      <div class="econ-lgd">
+        <span><i></i>Italy-wide mean, 95% interval</span>
+        <span id="econ-lgd-pin" hidden><i class="pin"></i><span id="econ-lgd-pin-name">Pinned place</span>, 95% interval</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<details class="econ-details">
+  <summary>Data table</summary>
+  <div class="econ-tablebox"><table class="econ-table" id="econ-table"></table></div>
+  <p class="econ-note">Posterior means of the field in standard-deviation units with Laplace 95% intervals. The animation interpolates linearly between 25-year bin midpoints; the table lists the bins themselves.</p>
+</details>

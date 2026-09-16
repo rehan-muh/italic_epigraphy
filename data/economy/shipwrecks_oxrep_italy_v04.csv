@@ -1,0 +1,368 @@
+loc_id,site_id,country,sea_area,sitename,locname,depth_m,wreckage_after,wreckage_before,dated,in_window,latitude,longitude,coord_source,has_coords
+840,1857,Italy,Adriatic,Ancona,Ancona 2,-70.0,-200.0,-175.0,True,True,43.81418,13.60656,oxrep_popup,True
+1047,1305,Italy,Adriatic,Classe (Ravenna),Ravenna,-8.0,400.0,500.0,True,False,,,,False
+1109,1554,Italy,Adriatic,Ostuni,Ostuni,,1100.0,1300.0,False,False,,,,False
+1940,1674,Italy,Adriatic,Brindisi,Brindisi,,1100.0,1200.0,False,False,,,,False
+2029,1857,Italy,Adriatic,Ancona,Ancona,,-150.0,-25.0,True,True,43.81418,13.60656,oxrep_popup,True
+2059,1905,Italy,Adriatic,Grado,Grado (2000),0.0,-300.0,-200.0,True,True,45.71666,13.33333,oxrep_popup,True
+2189,1857,Italy,Adriatic,Ancona,Ancona 3,-70.0,-300.0,-100.0,True,True,43.81418,13.60656,oxrep_popup,True
+2293,1166,Italy,Adriatic,Bari,Bari,,,,False,False,,,,False
+2294,1808,Italy,Adriatic,Caorle,Caorle,-30.0,-125.0,-75.0,True,True,45.49646,12.95288,oxrep_popup,True
+2517,1905,Italy,Adriatic,Grado,Grado (Julia Felix),-15.0,117.0,150.0,True,False,,,,False
+2540,1857,Italy,Adriatic,Ancona,Ancona 1,-70.0,-200.0,-50.0,True,True,43.81418,13.60656,oxrep_popup,True
+520,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino 1 (Natante 2),0.0,300.0,500.0,True,False,,,,False
+547,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino B,,300.0,400.0,True,False,,,,False
+551,1093,Italy,Tyrrhenian Sea,Golfo di Follonica,Golfo di Follonica,0.0,-250.0,-25.0,True,True,,,,False
+575,881,Italy,Tyrrhenian Sea,Capraia,Capraia Roman 2004,-35.0,-300.0,400.0,True,True,43.07225,9.82366,oxrep_popup,True
+592,1746,Italy,Tyrrhenian Sea,Pisa,Pisa Hellenistic ship,0.0,-200.0,-175.0,True,True,43.72388,10.38813,oxrep_popup,True
+631,258,Italy,Tyrrhenian Sea,Ponza,Ponza B,,-175.0,-150.0,True,True,40.88,12.97,oxrep_popup,True
+634,1253,Italy,Tyrrhenian Sea,Bacoli,Marina Grande di Bacoli,0.0,-50.0,100.0,True,True,40.80325,14.08361,oxrep_popup,True
+650,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia Roman Imperial,0.0,60.0,70.0,True,False,,,,False
+701,242,Italy,Tyrrhenian Sea,Anzio,Anzio,,,,False,False,,,,False
+712,1872,Italy,Tyrrhenian Sea,Golfo di Pozzuoli,Golfo di Pozzuoli (Le Crastole),0.0,1.0,300.0,True,False,,,,False
+759,258,Italy,Tyrrhenian Sea,Ponza,Ponza Porto,-7.0,1.0,200.0,True,False,,,,False
+771,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia Late Roman 2,0.0,400.0,500.0,True,False,,,,False
+789,1746,Italy,Tyrrhenian Sea,Pisa,Pisa B,0.0,-12.0,15.0,True,True,43.72388,10.38813,oxrep_popup,True
+822,1253,Italy,Tyrrhenian Sea,Bacoli,Bacoli A,,-50.0,100.0,True,True,40.80325,14.08361,oxrep_popup,True
+824,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino H,,101.0,300.0,True,False,,,,False
+848,2045,Italy,Tyrrhenian Sea,Pozzino,Pozzino,,-140.0,-120.0,True,True,43.0,10.5,v01_geocoded,True
+871,1833,Italy,Tyrrhenian Sea,Genoa,Genoa,,-130.0,-110.0,True,True,,,,False
+884,695,Italy,Tyrrhenian Sea,Tiber estuary (Ostia),Ostia,,-50.0,50.0,True,True,,,,False
+912,852,Italy,Tyrrhenian Sea,Punta Mazza,Punta Mazza,-27.0,200.0,250.0,True,False,,,,False
+919,1253,Italy,Tyrrhenian Sea,Bacoli,Bacoli C,,-500.0,-300.0,True,True,40.80325,14.08361,oxrep_popup,True
+937,1746,Italy,Tyrrhenian Sea,Pisa,Pisa F,0.0,100.0,150.0,True,False,,,,False
+940,1746,Italy,Tyrrhenian Sea,Pisa,Pisa C,0.0,-50.0,-1.0,True,True,43.72388,10.38813,oxrep_popup,True
+1019,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia A,,-200.0,-1.0,True,True,40.91148,9.50738,oxrep_popup,True
+1022,1233,Italy,Tyrrhenian Sea,Le Grotticelle,Le Grotticelle,-45.0,-75.0,-25.0,True,True,40.78333333333333,13.433333333333334,v01_geocoded,True
+1031,1805,Italy,Tyrrhenian Sea,Maratea,Maratea A,,25.0,75.0,True,False,,,,False
+1051,1551,Italy,Tyrrhenian Sea,Ladispoli,Ladispoli B,,25.0,100.0,True,False,,,,False
+1054,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino G,,200.0,400.0,True,False,,,,False
+1058,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino M,,42.0,66.0,True,False,,,,False
+1060,881,Italy,Tyrrhenian Sea,Capraia,Capraia E,,1000.0,1500.0,False,False,,,,False
+1063,1236,Italy,Tyrrhenian Sea,Porto Ercole,Porto Ercole B,,-150.0,-100.0,True,True,,,,False
+1079,1746,Italy,Tyrrhenian Sea,Pisa,Pisa H,0.0,-150.0,400.0,True,True,43.72388,10.38813,oxrep_popup,True
+1082,1746,Italy,Tyrrhenian Sea,Pisa,Pisa G,0.0,-150.0,400.0,True,True,43.72388,10.38813,oxrep_popup,True
+1083,258,Italy,Tyrrhenian Sea,Ponza,Ponza C,,-100.0,-1.0,True,True,40.88,12.97,oxrep_popup,True
+1119,1253,Italy,Tyrrhenian Sea,Bacoli,Bacoli B,,100.0,200.0,True,False,,,,False
+1123,1447,Italy,Tyrrhenian Sea,Le Formiche di Grosseto,Le Formiche di Grosseto B,,-150.0,400.0,True,True,,,,False
+1164,1658,Italy,Tyrrhenian Sea,Napoli,Napoli,,200.0,250.0,True,False,,,,False
+1183,881,Italy,Tyrrhenian Sea,Capraia,Capraia D,,1.0,400.0,True,False,,,,False
+1216,1223,Italy,Tyrrhenian Sea,Ischia,Ischia,0.0,-300.0,300.0,True,True,40.72571,13.96164,oxrep_popup,True
+1243,1447,Italy,Tyrrhenian Sea,Le Formiche di Grosseto,Le Formiche di Grosseto C,,-150.0,400.0,True,True,,,,False
+1250,881,Italy,Tyrrhenian Sea,Capraia,Capraia Etruscan 2004,-35.0,-600.0,-300.0,True,True,43.07225,9.82366,oxrep_popup,True
+1254,1481,Italy,Tyrrhenian Sea,Salerno,Salerno,,,,False,False,,,,False
+1291,1820,Italy,Tyrrhenian Sea,Albenga,Albenga,-42.0,-100.0,-80.0,True,True,44.04255,8.22876,oxrep_popup,True
+1348,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia medieval,0.0,1000.0,1500.0,False,False,,,,False
+1441,1567,Italy,Tyrrhenian Sea,Sinuessa,Sinuessa B,,-50.0,-1.0,True,True,,,,False
+1502,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino D,,200.0,400.0,True,False,,,,False
+1516,1551,Italy,Tyrrhenian Sea,Ladispoli,Ladispoli A,-12.0,1.0,15.0,True,False,,,,False
+1522,1746,Italy,Tyrrhenian Sea,Pisa,Pisa D,0.0,400.0,600.0,True,False,,,,False
+1528,1115,Italy,Tyrrhenian Sea,Agropoli,Agropoli,,-150.0,400.0,True,True,40.333333333333336,14.966666666666669,v01_geocoded,True
+1599,725,Italy,Tyrrhenian Sea,Cefalu,Cefalu,,400.0,600.0,True,False,,,,False
+1631,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino L,,42.0,66.0,True,False,,,,False
+1662,1236,Italy,Tyrrhenian Sea,Porto Ercole,Porto Ercole A,,-150.0,-100.0,True,True,42.38333333333333,11.2,v01_geocoded,True
+1665,566,Italy,Tyrrhenian Sea,Secca Del Bagno,Secca Del Bagno,-60.0,-200.0,-180.0,True,True,38.46666666666667,14.883333333333333,v01_geocoded,True
+1679,1364,Italy,Tyrrhenian Sea,Circeo,Circeo D,,-25.0,25.0,True,True,,,,False
+1691,1364,Italy,Tyrrhenian Sea,Circeo,Circeo E,,200.0,325.0,True,False,,,,False
+1693,1192,Italy,Tyrrhenian Sea,Pigne (Salerno),Pigne (Salerno),0.0,1000.0,1500.0,False,False,,,,False
+1717,1746,Italy,Tyrrhenian Sea,Pisa,Pisa E,0.0,-30.0,-1.0,True,True,43.72388,10.38813,oxrep_popup,True
+1739,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino E,,101.0,300.0,True,False,,,,False
+1747,1805,Italy,Tyrrhenian Sea,Maratea,Maratea B,,25.0,260.0,True,False,,,,False
+1777,881,Italy,Tyrrhenian Sea,Capraia,Capraia C,,,,False,False,,,,False
+1804,1567,Italy,Tyrrhenian Sea,Sinuessa,Sinuessa A,,-300.0,-200.0,True,True,,,,False
+1828,1840,Italy,Tyrrhenian Sea,La Maddalena,La Maddalena,,200.0,300.0,True,False,,,,False
+1842,2013,Italy,Tyrrhenian Sea,Santa Maria,Santa Maria,,200.0,300.0,True,False,,,,False
+1860,414,Italy,Tyrrhenian Sea,Elba,Elba,-200.0,25.0,75.0,True,False,,,,False
+1866,1364,Italy,Tyrrhenian Sea,Circeo,Circeo C,,-150.0,-1.0,True,True,,,,False
+1884,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino C,,300.0,400.0,True,False,,,,False
+1886,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino J,,101.0,300.0,True,False,,,,False
+1917,1447,Italy,Tyrrhenian Sea,Le Formiche di Grosseto,Le Formiche di Grosseto A,,-150.0,400.0,True,True,,,,False
+1932,1444,Italy,Tyrrhenian Sea,Barbarossa,Barbarossa,,-250.0,-150.0,True,True,42.75,10.4,v01_geocoded,True
+1933,986,Italy,Tyrrhenian Sea,Cagliari,Cagliari A,,1.0,300.0,True,False,,,,False
+1957,1872,Italy,Tyrrhenian Sea,Golfo di Pozzuoli,Golfo di Pozzuoli,0.0,200.0,500.0,True,False,,,,False
+1973,1569,Italy,Tyrrhenian Sea,Coscia di Donna,Coscia di Donna,-15.0,75.0,100.0,True,False,,,,False
+1981,1658,Italy,Tyrrhenian Sea,Napoli,Napoli C,0.0,1.0,100.0,True,False,,,,False
+1982,1820,Italy,Tyrrhenian Sea,Albenga,Albenga II,-50.0,-100.0,-1.0,True,True,44.04255,8.22876,oxrep_popup,True
+2051,1364,Italy,Tyrrhenian Sea,Circeo,Circeo B,,-250.0,-150.0,True,True,,,,False
+2069,296,Italy,Tyrrhenian Sea,Baia di Salinedda,Baia di Salinedda (San Teodoro),0.0,200.0,400.0,True,False,,,,False
+2082,986,Italy,Tyrrhenian Sea,Cagliari,Cagliari B,,200.0,375.0,True,False,,,,False
+2099,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia B,,-400.0,-100.0,True,True,40.91148,9.50738,oxrep_popup,True
+2105,314,Italy,Tyrrhenian Sea,Herculaneum,Herculaneum I,,79.0,79.0,True,False,,,,False
+2129,258,Italy,Tyrrhenian Sea,Ponza,Isole di Ponza,-100.0,1.0,300.0,True,False,,,,False
+2142,308,Italy,Tyrrhenian Sea,Panarea,Panarea (Alberti),,50.0,100.0,True,False,,,,False
+2209,881,Italy,Tyrrhenian Sea,Capraia,Capraia B,,-150.0,400.0,True,True,43.07225,9.82366,oxrep_popup,True
+2240,326,Italy,Tyrrhenian Sea,Meloria,Meloria C,-4.0,1.0,100.0,True,False,,,,False
+2263,296,Italy,Tyrrhenian Sea,Baia di Salinedda,Baia di Salinedda,,200.0,300.0,True,False,,,,False
+2340,258,Italy,Tyrrhenian Sea,Ponza,Ponza A,,-300.0,-250.0,True,True,40.88,12.97,oxrep_popup,True
+2344,308,Italy,Tyrrhenian Sea,Panarea,Panarea (Roghi),,-325.0,-300.0,True,True,38.63,15.07,oxrep_popup,True
+2345,314,Italy,Tyrrhenian Sea,Herculaneum,Herculaneum II,0.0,79.0,79.0,True,False,,,,False
+2372,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino F,,300.0,400.0,True,False,,,,False
+2385,1658,Italy,Tyrrhenian Sea,Napoli,Napoli A,0.0,75.0,100.0,True,False,,,,False
+2408,1658,Italy,Tyrrhenian Sea,Napoli,Napoli B,0.0,180.0,220.0,True,False,,,,False
+2411,1364,Italy,Tyrrhenian Sea,Circeo,Circeo A,,-550.0,-500.0,True,True,,,,False
+2422,881,Italy,Tyrrhenian Sea,Capraia,Capraia A,,-100.0,100.0,True,True,43.07225,9.82366,oxrep_popup,True
+2423,1746,Italy,Tyrrhenian Sea,Pisa,Pisa I,0.0,300.0,400.0,True,False,,,,False
+2424,1805,Italy,Tyrrhenian Sea,Maratea,Maratea C,,200.0,400.0,True,False,,,,False
+2443,1746,Italy,Tyrrhenian Sea,Pisa,Pisa A,0.0,175.0,225.0,True,False,,,,False
+2464,801,Italy,Tyrrhenian Sea,Civitavecchia,Civitavecchia,,50.0,150.0,True,False,,,,False
+2493,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia (statue),0.0,-150.0,400.0,True,True,40.91148,9.50738,oxrep_popup,True
+2520,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino A,,125.0,175.0,True,False,,,,False
+2526,1746,Italy,Tyrrhenian Sea,Pisa,Pisa P,0.0,-30.0,30.0,True,True,43.72388,10.38813,oxrep_popup,True
+2589,513,Italy,Tyrrhenian Sea,Spargi,Spargi,,-120.0,-100.0,True,True,41.21666666666667,9.333333333333334,v01_geocoded,True
+2651,1412,Italy,Tyrrhenian Sea,Fiumicino,Fiumicino K,,42.0,66.0,True,False,,,,False
+2679,1421,Italy,Tyrrhenian Sea,Olbia (Sardinia),Olbia Late Roman 1,0.0,425.0,475.0,True,False,,,,False
+574,1270,Italy,West Mediterranean Sea,Terrauzza,Terrauzza,,175.0,225.0,True,False,,,,False
+582,550,Italy,West Mediterranean Sea,Gallipoli,Gallipoli 2,0.0,-300.0,-200.0,True,True,39.97683,18.07388,oxrep_popup,True
+699,797,Italy,West Mediterranean Sea,Lampedusa,Lampedusa A,,300.0,350.0,True,False,,,,False
+700,1723,Italy,West Mediterranean Sea,Marsala,Marsala (Punic Ship),,-250.0,-175.0,True,True,37.74462,12.4669,oxrep_popup,True
+739,1662,Italy,West Mediterranean Sea,Taranto,Taranto C,,1.0,100.0,True,False,,,,False
+766,358,Italy,West Mediterranean Sea,Isola delle Correnti,Isola delle Correnti,-9.0,200.0,400.0,True,False,,,,False
+1035,550,Italy,West Mediterranean Sea,Gallipoli,Gallipoli 3,0.0,-300.0,-200.0,True,True,39.97683,18.07388,oxrep_popup,True
+1039,1662,Italy,West Mediterranean Sea,Taranto,Taranto A,,400.0,650.0,True,False,,,,False
+1044,933,Italy,West Mediterranean Sea,Torre Sgarrata,Torre Sgarrata,-11.0,180.0,205.0,True,False,,,,False
+1084,1585,Italy,West Mediterranean Sea,Pantelleria,Pantelleria,,,,False,False,,,,False
+1305,1849,Italy,West Mediterranean Sea,Punta del Serrone,Punta del Serrone,-16.0,250.0,300.0,True,False,,,,False
+1327,988,Italy,West Mediterranean Sea,Sicilian Channel,Sicilian Channel,,-425.0,-375.0,True,True,,,,False
+1364,1847,Italy,West Mediterranean Sea,Gela,Gela B,0.0,-475.0,-425.0,True,True,37.04304,14.26666,oxrep_popup,True
+1394,1005,Italy,West Mediterranean Sea,Capo Cimiti,Capo Cimiti,-8.0,-150.0,400.0,True,True,38.95,17.166666666666668,v01_geocoded,True
+1476,1225,Italy,West Mediterranean Sea,Giardini Naxos,Giardini Naxos,-24.0,200.0,300.0,True,False,,,,False
+1595,1710,Italy,West Mediterranean Sea,Tremiti Islands,Tremiti Islands (?),-21.0,-100.0,100.0,True,True,,,,False
+1658,1256,Italy,West Mediterranean Sea,Siracusa,Siracusa D,,-150.0,400.0,True,True,37.07,15.3,oxrep_popup,True
+1684,1061,Italy,West Mediterranean Sea,Riace,Riace,,1.0,100.0,True,False,,,,False
+1695,836,Italy,West Mediterranean Sea,Capo Taormina,Capo Taormina,-28.0,1.0,400.0,True,False,,,,False
+1712,774,Italy,West Mediterranean Sea,Stentinello,Stentinello,,-300.0,-280.0,True,True,37.11666666666667,15.25,v01_geocoded,True
+1740,1079,Italy,West Mediterranean Sea,Mercury,Mercury,,75.0,200.0,True,False,,,,False
+1784,1662,Italy,West Mediterranean Sea,Taranto,Taranto B,,-300.0,-150.0,True,True,40.47,17.25,oxrep_popup,True
+1794,1256,Italy,West Mediterranean Sea,Siracusa,Siracusa A,,-450.0,-430.0,True,True,37.07,15.3,oxrep_popup,True
+1833,550,Italy,West Mediterranean Sea,Gallipoli,Gallipoli 1,0.0,1.0,400.0,True,False,,,,False
+1941,1723,Italy,West Mediterranean Sea,Marsala,Marsala A,-2.0,1150.0,1200.0,False,False,,,,False
+1962,1847,Italy,West Mediterranean Sea,Gela,Gela A,-5.0,-525.0,-475.0,True,True,37.04304,14.26666,oxrep_popup,True
+1974,1723,Italy,West Mediterranean Sea,Marsala,Marsala (Sister Ship),,-300.0,-200.0,True,True,37.74462,12.4669,oxrep_popup,True
+1994,1256,Italy,West Mediterranean Sea,Siracusa,Siracusa B,,400.0,700.0,True,False,,,,False
+2114,1256,Italy,West Mediterranean Sea,Siracusa,Siracusa C,,400.0,700.0,True,False,,,,False
+2207,931,Italy,West Mediterranean Sea,Mazara del vallo,Mazara del vallo,-500.0,-300.0,-100.0,True,True,,,,False
+2231,550,Italy,West Mediterranean Sea,Gallipoli,Gallipoli (BA),-40.0,-150.0,400.0,True,True,39.97683,18.07388,oxrep_popup,True
+2355,887,Italy,West Mediterranean Sea,Vulpiglia,Vulpiglia,-7.0,-300.0,-290.0,True,True,36.7,15.133333333333333,v01_geocoded,True
+2503,1723,Italy,West Mediterranean Sea,Marsala,Marsala C,,1000.0,1500.0,False,False,,,,False
+2551,797,Italy,West Mediterranean Sea,Lampedusa,Lampedusa B,,-125.0,-75.0,True,True,35.483333333333334,12.6,v01_geocoded,True
+2567,295,Italy,West Mediterranean Sea,Savelletri,Savelletri,-5.0,-280.0,-250.0,True,True,40.86666666666667,17.4,v01_geocoded,True
+2640,1723,Italy,West Mediterranean Sea,Marsala,Marsala B,,1150.0,1200.0,False,False,,,,False
+2666,1664,Italy,West Mediterranean Sea,Valle Ponti,Valle Ponti,,-25.0,-1.0,True,True,44.66666666666666,12.166666666666666,v01_geocoded,True
+527,1651,Italy,,Montecristo,Montecristo F,-60.0,100.0,300.0,True,False,,,,False
+536,1941,Italy,,Secche Di Ugento,Secche Di Ugento A,,-50.0,100.0,True,True,39.81666666666667,18.15,v01_geocoded,True
+544,468,Italy,,Secche della Circe,Secche della Circe,0.0,400.0,499.0,True,False,,,,False
+545,1867,Italy,,Lago di Nemi,Nemi A,,35.0,50.0,True,False,,,,False
+555,1721,Italy,,Cantafora,Cantafora B,0.0,200.0,225.0,True,False,,,,False
+566,1812,Italy,,Golfo di Porto Azzurro,Golfo di Porto Azzurro,-20.0,1.0,400.0,True,False,,,,False
+567,1470,Italy,,Punta Tonnara,Punta Tonnara,-23.0,1000.0,1500.0,False,False,,,,False
+583,403,Italy,,Preveto,Preveto,,1000.0,1100.0,False,False,,,,False
+585,741,Italy,,Torre Melissa - Villaggio Sirio,Torre Melissa - Villaggio Sirio,0.0,-125.0,0.0,True,True,39.30421,17.11326,oxrep_popup,True
+586,1359,Italy,,Sa Tonnara,Sa Tonnara A,-6.0,-200.0,-150.0,True,True,40.05386,8.40351,oxrep_popup,True
+587,1831,Italy,,La Tonnara,La Tonnara,0.0,-100.0,50.0,True,True,,,,False
+590,424,Italy,,Marzamemi,Marzamemi A,-7.0,200.0,250.0,True,False,,,,False
+605,1477,Italy,,Capo Colonna,Capo Colonna and Capo Alfieri,0.0,300.0,500.0,True,False,,,,False
+607,1689,Italy,,Porto Pino,East Porto Pino,-11.0,1000.0,1500.0,False,False,,,,False
+622,1282,Italy,,Lerici,Lerici,0.0,1.0,200.0,True,False,,,,False
+629,716,Italy,,Capo Bianco,Capo Bianco,-5.0,350.0,500.0,True,False,,,,False
+636,1350,Italy,,Punta di Zambrone,Punta di Zambrone,0.0,-100.0,40.0,True,True,38.72,15.97789,oxrep_popup,True
+637,1399,Italy,,Skerki Bank,Skerki Bank wreck G,-760.0,25.0,75.0,True,False,,,,False
+640,1626,Italy,,Capo d'Armi,Capo d'Armi,0.0,-40.0,100.0,True,True,37.95864,15.66942,oxrep_popup,True
+645,1162,Italy,,Porto Palo di Menfi,Porto Palo di Menfi,-4.0,-200.0,-100.0,True,True,37.57434,12.91082,oxrep_popup,True
+649,596,Italy,,Randello,Randello,,300.0,325.0,True,False,,,,False
+654,483,Italy,,Rena Maiore,Rena Maiore,0.0,,,False,False,,,,False
+657,270,Italy,,Capo Galera,Capo Galera,0.0,1100.0,1300.0,False,False,,,,False
+666,1136,Italy,,Perelli,Perelli,-21.0,1.0,25.0,True,False,,,,False
+668,574,Italy,,Marciano Marina,Marciano Marina,-64.0,1.0,100.0,True,False,,,,False
+671,1055,Italy,,Calaminnola,Calaminnola,,-300.0,-200.0,True,True,,,,False
+677,1617,Italy,,Mandriola,Mandriola A,-4.0,275.0,325.0,True,False,,,,False
+690,530,Italy,,Plemmirio,Plemmirio B,-47.0,175.0,225.0,True,False,,,,False
+692,914,Italy,,Capo di Torre Cavallo,Capo di Torre Cavallo,,-150.0,-50.0,True,True,40.63333333333333,18.016666666666666,v01_geocoded,True
+694,1946,Italy,,Punta Scifo,Punta Scifo A,,200.0,225.0,True,False,,,,False
+707,1785,Italy,,Torre Flavia,Torre Flavia A,,-150.0,400.0,True,True,41.94812,12.0568,oxrep_popup,True
+715,424,Italy,,Marzamemi,Marzamemi E,,-400.0,-300.0,True,True,,,,False
+756,1085,Italy,,Castellammare del Golfo,Castellammare del Golfo,,1400.0,1500.0,False,False,,,,False
+767,424,Italy,,Marzamemi,Marzamemi D,,325.0,350.0,True,False,,,,False
+781,1213,Italy,,Isola Rossa,Isola Rossa 2,-300.0,-30.0,200.0,True,True,41.01725,8.84579,oxrep_popup,True
+808,584,Italy,,Alghero,Alghero,,-150.0,400.0,True,True,40.55756,8.30944,oxrep_popup,True
+812,1175,Italy,,Santa Croce Camerina,Santa Croce Camerina,0.0,,,False,False,,,,False
+813,685,Italy,,Sant'Andrea,Sant'Andrea A,-10.0,-50.0,-50.0,True,True,42.81174,10.14038,oxrep_popup,True
+823,1582,Italy,,Secche della Meloria,Secche della Meloria,-5.0,-275.0,-225.0,True,True,43.54776,10.22071,oxrep_popup,True
+825,432,Italy,,Saturo,Saturo B,,-200.0,-150.0,True,True,,,,False
+835,1185,Italy,,Nardo,Nardo,0.0,-200.0,-50.0,True,True,40.15102,17.92419,oxrep_popup,True
+852,1909,Italy,,Acque Chiare,Acque Chiare,-6.0,300.0,450.0,True,False,,,,False
+854,1258,Italy,,Scauri,Scauri,-10.0,475.0,500.0,True,False,,,,False
+870,266,Italy,,La Speranza,La Speranza,-4.0,1.0,50.0,True,False,,,,False
+885,1867,Italy,,Lago di Nemi,Nemi B,,35.0,50.0,True,False,,,,False
+893,1941,Italy,,Secche Di Ugento,Secche Di Ugento C,,600.0,700.0,True,False,,,,False
+897,1670,Italy,,Santa Caterina di Nardo,Santa Caterina di Nardo 2,0.0,-400.0,-200.0,True,True,40.13633,17.95166,oxrep_popup,True
+926,1280,Italy,,Punta Penne,Punta Penne C,-5.0,-150.0,400.0,True,True,,,,False
+933,1213,Italy,,Isola Rossa,Isola Rossa 3,-200.0,200.0,400.0,True,False,,,,False
+939,1195,Italy,,Bocca Grande,Bocca Grande,0.0,-100.0,100.0,True,True,40.53607,14.18644,oxrep_popup,True
+941,237,Italy,,Le Scole,"Scole A, Le",,365.0,380.0,True,False,,,,False
+942,1651,Italy,,Montecristo,Montecristo A,,-260.0,-250.0,True,True,,,,False
+945,1930,Italy,,Comacchio,Comacchio,0.0,-100.0,-1.0,True,True,,,,False
+958,464,Italy,,Procida,Procida,,-150.0,-25.0,True,True,,,,False
+961,1186,Italy,,Torre Guaceto,Torre Guaceto,,-100.0,-1.0,True,True,40.7,17.783333333333335,v01_geocoded,True
+967,1670,Italy,,Santa Caterina di Nardo,Santa Caterina di Nardo,,-175.0,-125.0,True,True,40.13633,17.95166,oxrep_popup,True
+969,858,Italy,,Caucana,Caucana,-2.0,700.0,800.0,True,False,,,,False
+985,530,Italy,,Plemmirio,Plemmirio C,,-575.0,-525.0,True,True,37.00001,15.3297,oxrep_popup,True
+1007,1668,Italy,,L'Asinara,L'Asinara 1,-300.0,50.0,200.0,True,False,,,,False
+1015,1980,Italy,,Marausa Lido,Marausa Lido,0.0,200.0,300.0,True,False,,,,False
+1018,1478,Italy,,Punta Scaletta,Punta Scaletta,-40.0,-140.0,-130.0,True,True,42.25,11.1,v01_geocoded,True
+1064,898,Italy,,Averno,Averno B,,-150.0,400.0,True,True,,,,False
+1070,235,Italy,,Ventotene,Ventotene 4,0.0,1.0,100.0,True,False,,,,False
+1080,1651,Italy,,Montecristo,Montecristo C,,-150.0,400.0,True,True,,,,False
+1088,235,Italy,,Ventotene,Ventotene 2,-140.0,-100.0,-1.0,True,True,40.78333333333333,13.416666666666666,v01_geocoded,True
+1092,424,Italy,,Marzamemi,Marzamemi K,,400.0,700.0,True,False,,,,False
+1096,1941,Italy,,Secche Di Ugento,Secche Di Ugento B,,-150.0,-1.0,True,True,,,,False
+1098,1500,Italy,,Ognina,Ognina (Catania) A,,-150.0,-25.0,True,True,,,,False
+1120,431,Italy,,Lido di Sant'Anna,Lido di Sant'Anna,,-150.0,-25.0,True,True,40.66666666666666,17.933333333333334,v01_geocoded,True
+1127,581,Italy,,Camarina,Camarina A,-4.0,175.0,200.0,True,False,,,,False
+1130,361,Italy,,Isola della Gallinara,Isola della Gallinara (Savona),-50.0,-100.0,-1.0,True,True,44.02648,8.22996,oxrep_popup,True
+1140,1511,Italy,,Punta La Cera,Punta La Cera,0.0,180.0,400.0,True,False,,,,False
+1144,1605,Italy,,Diano Marina,Diano Marina,-40.0,25.0,75.0,True,False,,,,False
+1146,1408,Italy,,Cala Barca,Cala Barca,0.0,,,False,False,,,,False
+1147,1643,Italy,,Cala Barbiere,Cala Barbiere,,-200.0,-150.0,True,True,,,,False
+1148,554,Italy,,Teulada,Teulada,,-600.0,-300.0,True,True,38.89684,8.7482,oxrep_popup,True
+1152,1446,Italy,,Torre Santa Sabina,Torre Santa Sabina 2,-3.0,-300.0,300.0,True,True,40.75993,17.70652,oxrep_popup,True
+1160,584,Italy,,Alghero,Alghero 1,0.0,-25.0,150.0,True,True,40.55756,8.30944,oxrep_popup,True
+1198,619,Italy,,Sciacca,Sciacca,,-150.0,400.0,True,True,37.49603,13.08025,oxrep_popup,True
+1204,375,Italy,,La Madonnina,La Madonnina,,-325.0,-300.0,True,True,40.28333333333333,17.533333333333335,v01_geocoded,True
+1208,1651,Italy,,Montecristo,Montecristo E,,-100.0,-25.0,True,True,,,,False
+1215,1213,Italy,,Isola Rossa,Isola Rossa,,100.0,200.0,True,False,,,,False
+1225,1310,Italy,,Isole Pedagne Grandi,Isole Pedagne Grandi,0.0,-25.0,25.0,True,True,40.60026,18.04779,oxrep_popup,True
+1239,619,Italy,,Sciacca,Sciacca,-25.0,-100.0,0.0,True,True,37.49603,13.08025,oxrep_popup,True
+1240,1946,Italy,,Punta Scifo,Punta Scifo B,,-300.0,-100.0,True,True,,,,False
+1262,1371,Italy,,Guardia de su Turcu,Guardia de su Turcu,-13.0,1000.0,1500.0,False,False,,,,False
+1285,1022,Italy,,Capo Scalambri-Malta,Capo Scalambri-Malta,0.0,,,False,False,,,,False
+1297,1378,Italy,,Capo Feto,Capo Feto,0.0,-500.0,-300.0,True,True,37.65552,12.53694,oxrep_popup,True
+1299,530,Italy,,Plemmirio,Plemmirio A,,300.0,500.0,True,False,,,,False
+1303,1657,Italy,,Cala Su Pallosu,Cala Su Pallosu,-7.0,-200.0,-100.0,True,True,40.04279,8.39492,oxrep_popup,True
+1308,1154,Italy,,Giglio,Giglio,,1200.0,1400.0,False,False,,,,False
+1325,265,Italy,,Capo Palinuro,Capo Palinuro - Punta della Quaglia,0.0,-150.0,400.0,True,True,40.02649,15.24078,oxrep_popup,True
+1326,581,Italy,,Camarina,Camarina C,,1100.0,1200.0,False,False,,,,False
+1344,235,Italy,,Ventotene,Ventotene 1,0.0,1.0,100.0,True,False,,,,False
+1347,1689,Italy,,Porto Pino,Porto Pino,-7.0,100.0,200.0,True,False,,,,False
+1373,2043,Italy,,Torre Chianca,Torre Chianca,-6.0,225.0,275.0,True,False,,,,False
+1379,1399,Italy,,Skerki Bank,Skerki Bank wreck D,-850.0,-80.0,-50.0,True,True,,,,False
+1386,1000,Italy,,Capo Passero,Capo Passero II,0.0,-150.0,150.0,True,True,,,,False
+1392,2020,Italy,,Pantano Longarini,Pantano Longarini,0.0,600.0,650.0,True,False,,,,False
+1413,1876,Italy,,San Vito,San Vito,,-400.0,400.0,True,True,38.18825,12.74551,oxrep_popup,True
+1414,644,Italy,,Procchio,Procchio,,160.0,200.0,True,False,,,,False
+1432,441,Italy,,Punta Penna,Punta Penna,0.0,200.0,400.0,True,False,,,,False
+1446,980,Italy,,Punta del Diavolo,Punta del Diavolo,-21.0,1000.0,1500.0,False,False,,,,False
+1458,235,Italy,,Ventotene,Ventotene 5,-122.0,400.0,500.0,True,False,,,,False
+1467,898,Italy,,Averno,Averno C,,-150.0,400.0,True,True,,,,False
+1474,1562,Italy,,Seleno,Seleno,0.0,-150.0,-25.0,True,True,38.89716,17.02056,oxrep_popup,True
+1503,2043,Italy,,Torre Chianca,Torre Chianca (Lecce),0.0,175.0,400.0,True,False,,,,False
+1506,1154,Italy,,Giglio,Giglio Campese A,,-600.0,-590.0,True,True,42.36666666666667,10.866666666666667,v01_geocoded,True
+1511,249,Italy,,Cala Rossano,Cala Rossano,,30.0,60.0,True,False,,,,False
+1537,393,Italy,,Cala Reale,Cala Reale,-8.0,380.0,400.0,True,False,,,,False
+1567,613,Italy,,Capo Granitola,Capo Granitola D,,200.0,400.0,True,False,,,,False
+1578,424,Italy,,Marzamemi,Marzamemi B,,500.0,540.0,True,False,,,,False
+1580,1477,Italy,,Capo Colonna,"Capo Colonna, Cicala",0.0,200.0,300.0,True,False,,,,False
+1590,1384,Italy,,Mal di Ventre,Mal di Ventre,-30.0,-75.0,-25.0,True,True,39.97313,8.30755,oxrep_popup,True
+1593,1164,Italy,,Porto Palo di Capo Passero,Porto Palo di Capo Passero,-45.0,-400.0,-200.0,True,True,36.66922,15.16525,oxrep_popup,True
+1596,1876,Italy,,San Vito,San Vito Lo Capo,0.0,1100.0,1200.0,False,False,,,,False
+1605,1500,Italy,,Ognina,Ognina (Catania) B,,,,False,False,,,,False
+1610,1047,Italy,,Siciliano,Siciliano (Porto San Paolo),-4.0,200.0,300.0,True,False,,,,False
+1616,484,Italy,,Cala Gadir,Cala Gadir,-30.0,-220.0,-150.0,True,True,,,,False
+1633,1938,Italy,,Golfo della Stella,Golfo della Stella,,,,False,False,,,,False
+1637,613,Italy,,Capo Granitola,Capo Granitola B,,-300.0,-150.0,True,True,,,,False
+1642,581,Italy,,Camarina,Camarina E,,-300.0,400.0,True,True,36.84438,14.45011,oxrep_popup,True
+1663,607,Italy,,Li Galli - Vetara,Li Galli - Vetara,0.0,-100.0,100.0,True,True,40.58051,14.36428,oxrep_popup,True
+1683,662,Italy,,Secca di Capistello,Secca di Capistello,-90.0,-300.0,-280.0,True,True,38.43333333333333,14.95,v01_geocoded,True
+1713,1867,Italy,,Lago di Nemi,Nemi D,,35.0,50.0,True,False,,,,False
+1720,1797,Italy,,Bergeggi,Bergeggi A,,10.0,60.0,True,False,,,,False
+1731,972,Italy,,Femmina Morta,Femmina Morta,,300.0,325.0,True,False,,,,False
+1782,1102,Italy,,Torre Testa,Torre Testa,,,,False,False,,,,False
+1786,1321,Italy,,San Pietro,San Pietro,-6.0,200.0,250.0,True,False,,,,False
+1801,1477,Italy,,Capo Colonna,Capo Colonna,,-600.0,-300.0,True,True,39.02978,17.20047,oxrep_popup,True
+1832,1274,Italy,,Seno del Campese,Seno del Campese,0.0,-700.0,-600.0,True,True,,,,False
+1844,424,Italy,,Marzamemi,Marzamemi F,,275.0,300.0,True,False,,,,False
+1847,1449,Italy,,Bocca Piccola,Bocca Piccola 2,0.0,50.0,150.0,True,False,,,,False
+1876,898,Italy,,Averno,Averno D,,-150.0,400.0,True,True,,,,False
+1897,1785,Italy,,Torre Flavia,Torre Flavia B,-25.0,,,False,False,,,,False
+1901,321,Italy,,Cala del Diavolo,Cala del Diavolo,0.0,-120.0,-10.0,True,True,42.30612,10.31066,oxrep_popup,True
+1904,1449,Italy,,Bocca Piccola,Bocca Piccola 1,0.0,1.0,150.0,True,False,,,,False
+1909,1070,Italy,,Mucurune,Mucurune,0.0,-200.0,-50.0,True,True,40.06689,18.48793,oxrep_popup,True
+1910,1288,Italy,,Cala Palombara,Cala Palombara,0.0,-100.0,0.0,True,True,40.14829,18.49823,oxrep_popup,True
+1915,691,Italy,,Favignana,Favignana,-70.0,1000.0,1100.0,False,False,,,,False
+1922,1651,Italy,,Montecristo,Montecristo B,,1400.0,1500.0,False,False,,,,False
+1937,1206,Italy,,Punta Licosa,Punta Licosa 2,0.0,-100.0,100.0,True,True,40.25509,14.90192,oxrep_popup,True
+1950,1303,Italy,,Isola delle Femmine,Isola delle Femmine,,-400.0,-200.0,True,True,,,,False
+1958,1994,Italy,,Margherita di Savoia,Margherita di Savoia,0.0,-500.0,-300.0,True,True,41.39405,16.20758,oxrep_popup,True
+1964,1668,Italy,,L'Asinara,L'Asinara 2,-200.0,300.0,500.0,True,False,,,,False
+1965,1210,Italy,,Torre Sinfono,Torre Sinfono,0.0,-100.0,-1.0,True,True,39.90945,18.04092,oxrep_popup,True
+1977,1615,Italy,,Punta dell'Arcera,Punta dell'Arcera,0.0,300.0,450.0,True,False,,,,False
+1979,898,Italy,,Averno,Averno A,,-150.0,400.0,True,True,,,,False
+1992,1650,Italy,,Secca dei Mattoni,Secca dei Mattoni,,-100.0,-50.0,True,True,40.9,12.883333333333333,v01_geocoded,True
+2015,782,Italy,,Porto Azzurro,Porto Azzurro A,,250.0,300.0,True,False,,,,False
+2026,1501,Italy,,Cala Piomba,Cala Piomba,-28.0,30.0,40.0,True,False,,,,False
+2028,1003,Italy,,Punta Braccetto,Punta Braccetto,-5.0,-500.0,-475.0,True,True,36.8,14.466666666666669,v01_geocoded,True
+2034,782,Italy,,Porto Azzurro,Porto Azzurro B,,50.0,100.0,True,False,,,,False
+2043,1280,Italy,,Punta Penne,Punta Penne B,,150.0,225.0,True,False,,,,False
+2046,897,Italy,,Montalto di Castro,Montalto di Castro,-40.0,-200.0,-100.0,True,True,42.33811,11.50405,oxrep_popup,True
+2070,515,Italy,,Terracina (harbour),Terracina,,-150.0,-1.0,True,True,41.285311,13.258859,oxrep_popup,True
+2075,581,Italy,,Camarina,Camarina B,,1.0,100.0,True,False,,,,False
+2093,685,Italy,,Sant'Andrea,Sant'Andrea B,-40.0,-100.0,-100.0,True,True,42.81174,10.14038,oxrep_popup,True
+2100,424,Italy,,Marzamemi,Marzamemi C,,1.0,400.0,True,False,,,,False
+2104,625,Italy,,Ottiolu,Ottiolu,-3.0,1.0,100.0,True,False,,,,False
+2108,557,Italy,,Trapani,Trapani,,200.0,300.0,True,False,,,,False
+2109,1867,Italy,,Lago di Nemi,Nemi C,,35.0,50.0,True,False,,,,False
+2113,432,Italy,,Saturo,Saturo A,,-200.0,-150.0,True,True,40.36666666666667,17.3,v01_geocoded,True
+2137,1381,Italy,,Cala del Falco,Cala del Falco 1,-2.0,200.0,300.0,True,False,,,,False
+2147,467,Italy,,Aci Trezza,Aci Trezza 2,-18.0,1.0,400.0,True,False,,,,False
+2148,1399,Italy,,Skerki Bank,Skerki Bank wreck F,-765.0,25.0,75.0,True,False,,,,False
+2149,608,Italy,,Capo Donato,Capo Donato,0.0,1.0,300.0,True,False,,,,False
+2168,1040,Italy,,Le Formiche di Capraia,Le Formiche di Capraia,-18.0,-175.0,-125.0,True,True,43.07383,9.82624,oxrep_popup,True
+2190,1038,Italy,,Lazzaretto,Lazzaretto B,0.0,100.0,200.0,True,False,,,,False
+2217,234,Italy,,Cala del Barbiere,Toscana Cala del Barbiere,0.0,1.0,200.0,True,False,,,,False
+2236,1500,Italy,,Ognina,Ognina A,-8.0,215.0,230.0,True,False,,,,False
+2237,1140,Italy,,Cala Minnola,Cala Minnola,-30.0,-100.0,-50.0,True,True,37.99504,12.35309,oxrep_popup,True
+2247,424,Italy,,Marzamemi,Marzamemi J,,400.0,700.0,True,False,,,,False
+2254,581,Italy,,Camarina,Camarina D,,265.0,275.0,True,False,,,,False
+2258,1735,Italy,,Porto Racolomo,Porto Racolomo,0.0,,,False,False,,,,False
+2261,1446,Italy,,Torre Santa Sabina,Torre Santa Sabina 1,-3.0,-25.0,25.0,True,True,40.75993,17.70652,oxrep_popup,True
+2262,1399,Italy,,Skerki Bank,Skerki Bank,,355.0,400.0,True,False,,,,False
+2267,1367,Italy,,Acquaviva,Acquaviva,,100.0,200.0,True,False,,,,False
+2276,1500,Italy,,Ognina,Ognina D,,-400.0,-300.0,True,True,,,,False
+2278,424,Italy,,Marzamemi,Marzamemi G,,-160.0,-140.0,True,True,,,,False
+2282,1563,Italy,,Chiessi,Chiessi,-45.0,60.0,85.0,True,False,,,,False
+2286,559,Italy,,Pesaro,Pesaro,,-125.0,-25.0,True,True,43.9,12.9,oxrep_popup,True
+2290,1740,Italy,,Egadi,Egadi,0.0,,,False,False,,,,False
+2308,1280,Italy,,Punta Penne,Punta Penne A,,-150.0,-25.0,True,True,,,,False
+2310,1399,Italy,,Skerki Bank,Skerki Bank wreck B,-770.0,50.0,100.0,True,False,,,,False
+2321,1397,Italy,,Tre Senghe,Tre Senghe,-25.0,-30.0,-20.0,True,True,42.10267,15.47767,oxrep_popup,True
+2326,1000,Italy,,Capo Passero,Capo Passero,,400.0,650.0,True,False,,,,False
+2335,467,Italy,,Aci Trezza,Aci Trezza 1,-35.0,1.0,400.0,True,False,,,,False
+2349,613,Italy,,Capo Granitola,Capo Granitola C,,250.0,400.0,True,False,,,,False
+2350,1381,Italy,,Cala del Falco,Cala del Falco 2,-7.0,25.0,50.0,True,False,,,,False
+2371,1651,Italy,,Montecristo,Montecristo D,,-600.0,-500.0,True,True,,,,False
+2373,581,Italy,,Camarina,Camarina bronzes,-7.0,1.0,200.0,True,False,,,,False
+2386,484,Italy,,Cala Gadir,Cala Gadir II,-30.0,-125.0,-75.0,True,True,36.8,12.016666666666667,v01_geocoded,True
+2387,1500,Italy,,Ognina,Ognina West,,-100.0,-25.0,True,True,,,,False
+2394,235,Italy,,Ventotene,Ventotene 3,0.0,1.0,100.0,True,False,,,,False
+2396,235,Italy,,Ventotene,Ventotene B,,-75.0,-25.0,True,True,,,,False
+2413,1216,Italy,,Santo Stefano al Mare,Santo Stefano al Mare,-58.0,-10.0,10.0,True,True,43.83025,7.91118,oxrep_popup,True
+2417,1323,Italy,,Levanzo,Levanzo I,-96.0,300.0,400.0,True,False,,,,False
+2426,1800,Italy,,Punta Ala,Punta Ala A,-8.0,250.0,251.0,True,False,,,,False
+2428,1206,Italy,,Punta Licosa,Punta Licosa 1,-32.0,-100.0,-1.0,True,True,40.25509,14.90192,oxrep_popup,True
+2429,583,Italy,,Sardinia,Sardinia,,-210.0,-190.0,True,True,,,,False
+2440,1785,Italy,,Torre Flavia,Torre Flavia C ?,-12.0,1.0,15.0,True,False,,,,False
+2469,1102,Italy,,Torre Testa,Torre Testa - Porto di Brindisi,0.0,-200.0,-50.0,True,True,40.68831,17.88368,oxrep_popup,True
+2471,557,Italy,,Trapani,Trapani,0.0,200.0,300.0,True,False,,,,False
+2494,1517,Italy,,Porticello,Porticello,-37.0,-425.0,-400.0,True,True,38.23972,15.66101,oxrep_popup,True
+2505,613,Italy,,Capo Granitola,Capo Granitola A,-3.0,225.0,275.0,True,False,,,,False
+2549,1116,Italy,,Sette Fratelli,Sette Fratelli,0.0,-400.0,-300.0,True,True,,,,False
+2584,294,Italy,,Mezzaluna,Mezzaluna,-10.0,1000.0,1500.0,False,False,,,,False
+2592,944,Italy,,Palombina Vecchia,Palombina Vecchia,-5.0,-100.0,-50.0,True,True,43.63333333333333,13.416666666666666,v01_geocoded,True
+2595,1038,Italy,,Lazzaretto,Lazzaretto A,-2.0,315.0,325.0,True,False,,,,False
+2600,1154,Italy,,Giglio,Giglio Porto,-38.0,200.0,225.0,True,False,,,,False
+2609,742,Italy,,Capo Linaro,Capo Linaro,0.0,25.0,75.0,True,False,,,,False
+2610,237,Italy,,Le Scole,"Scole B, Le",,,,False,False,,,,False
+2636,424,Italy,,Marzamemi,Marzamemi H,,-425.0,-375.0,True,True,,,,False
+2645,554,Italy,,Teulada,Teulada,-130.0,75.0,125.0,True,False,,,,False
+2646,235,Italy,,Ventotene,Ventotene A,,-325.0,-275.0,True,True,,,,False
+2671,1154,Italy,,Giglio,Giglio Campese B,,-200.0,-1.0,True,True,,,,False
+2673,958,Italy,,Caprara,Caprara,0.0,-100.0,50.0,True,True,42.11267,15.49621,oxrep_popup,True

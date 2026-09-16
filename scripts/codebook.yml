@@ -45,6 +45,20 @@ alphabet:
   35: "Este alphabet"
 
 # Direction of writing. Codes 0-3 plus the literal string "both" occur.
+# The source file carries no key for these. Codes 0 and 1 were confirmed by the
+# compiler of database_preliminary.csv (recorded in scripts/direction_model.py);
+# 2 and 3 were not. The labels are left blank only because filling them changes
+# what the site prints — fill 0 and 1 in whenever that is wanted.
+#   0  (10,584 records)  right-to-left, sinistroverse   [confirmed]
+#   1  ( 2,224 records)  left-to-right, dextroverse     [confirmed]
+#        The corpus corroborates it independently: the Republican
+#        Latin alphabet is 98% code 1 (n=702) and Greek blue type 98% (n=171),
+#        while the Northern Etruscan alphabet is 2% (n=3,473). An inversion of
+#        0 and 1 would have Latin written right-to-left.
+#   2  (    76 records)  probably boustrophedon: 63 are Greek and 11 Messapic,
+#        and 60 of 76 are dated to the 6th century or earlier.
+#   3  (     5 records)  unidentified; all Greek, four of them blue type.
+# scripts/direction_unit.py uses codes 0 and 1 only and excludes the rest.
 direction:
   0: ""
   1: ""

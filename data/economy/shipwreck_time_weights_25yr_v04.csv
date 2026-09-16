@@ -1,0 +1,487 @@
+wreck_id,sitename,locname,longitude,latitude,wreckage_after,wreckage_before,bin_start_year,bin_end_year,weight
+oxrep_loc_840,Ancona,Ancona 2,13.60656,43.81418,-200.0,-175.0,-200,-175,1.0
+oxrep_loc_2029,Ancona,Ancona,13.60656,43.81418,-150.0,-25.0,-150,-125,0.2
+oxrep_loc_2029,Ancona,Ancona,13.60656,43.81418,-150.0,-25.0,-125,-100,0.2
+oxrep_loc_2029,Ancona,Ancona,13.60656,43.81418,-150.0,-25.0,-100,-75,0.2
+oxrep_loc_2029,Ancona,Ancona,13.60656,43.81418,-150.0,-25.0,-75,-50,0.2
+oxrep_loc_2029,Ancona,Ancona,13.60656,43.81418,-150.0,-25.0,-50,-25,0.2
+oxrep_loc_2059,Grado,Grado (2000),13.33333,45.71666,-300.0,-200.0,-300,-275,0.25
+oxrep_loc_2059,Grado,Grado (2000),13.33333,45.71666,-300.0,-200.0,-275,-250,0.25
+oxrep_loc_2059,Grado,Grado (2000),13.33333,45.71666,-300.0,-200.0,-250,-225,0.25
+oxrep_loc_2059,Grado,Grado (2000),13.33333,45.71666,-300.0,-200.0,-225,-200,0.25
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-300,-275,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-275,-250,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-250,-225,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-225,-200,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-200,-175,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-175,-150,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-150,-125,0.125
+oxrep_loc_2189,Ancona,Ancona 3,13.60656,43.81418,-300.0,-100.0,-125,-100,0.125
+oxrep_loc_2294,Caorle,Caorle,12.95288,45.49646,-125.0,-75.0,-125,-100,0.5
+oxrep_loc_2294,Caorle,Caorle,12.95288,45.49646,-125.0,-75.0,-100,-75,0.5
+oxrep_loc_2540,Ancona,Ancona 1,13.60656,43.81418,-200.0,-50.0,-200,-175,0.166667
+oxrep_loc_2540,Ancona,Ancona 1,13.60656,43.81418,-200.0,-50.0,-175,-150,0.166667
+oxrep_loc_2540,Ancona,Ancona 1,13.60656,43.81418,-200.0,-50.0,-150,-125,0.166667
+oxrep_loc_2540,Ancona,Ancona 1,13.60656,43.81418,-200.0,-50.0,-125,-100,0.166667
+oxrep_loc_2540,Ancona,Ancona 1,13.60656,43.81418,-200.0,-50.0,-100,-75,0.166667
+oxrep_loc_2540,Ancona,Ancona 1,13.60656,43.81418,-200.0,-50.0,-75,-50,0.166667
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-300,-275,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-275,-250,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-250,-225,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-225,-200,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-200,-175,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-175,-150,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-150,-125,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-125,-100,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-100,-75,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-75,-50,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-50,-25,0.035714
+oxrep_loc_575,Capraia,Capraia Roman 2004,9.82366,43.07225,-300.0,400.0,-25,0,0.035714
+oxrep_loc_592,Pisa,Pisa Hellenistic ship,10.38813,43.72388,-200.0,-175.0,-200,-175,1.0
+oxrep_loc_631,Ponza,Ponza B,12.97,40.88,-175.0,-150.0,-175,-150,1.0
+oxrep_loc_634,Bacoli,Marina Grande di Bacoli,14.08361,40.80325,-50.0,100.0,-50,-25,0.166667
+oxrep_loc_634,Bacoli,Marina Grande di Bacoli,14.08361,40.80325,-50.0,100.0,-25,0,0.166667
+oxrep_loc_789,Pisa,Pisa B,10.38813,43.72388,-12.0,15.0,-25,0,0.444444
+oxrep_loc_822,Bacoli,Bacoli A,14.08361,40.80325,-50.0,100.0,-50,-25,0.166667
+oxrep_loc_822,Bacoli,Bacoli A,14.08361,40.80325,-50.0,100.0,-25,0,0.166667
+oxrep_loc_848,Pozzino,Pozzino,10.5,43.0,-140.0,-120.0,-150,-125,0.75
+oxrep_loc_848,Pozzino,Pozzino,10.5,43.0,-140.0,-120.0,-125,-100,0.25
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-500,-475,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-475,-450,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-450,-425,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-425,-400,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-400,-375,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-375,-350,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-350,-325,0.125
+oxrep_loc_919,Bacoli,Bacoli C,14.08361,40.80325,-500.0,-300.0,-325,-300,0.125
+oxrep_loc_940,Pisa,Pisa C,10.38813,43.72388,-50.0,-1.0,-50,-25,0.510204
+oxrep_loc_940,Pisa,Pisa C,10.38813,43.72388,-50.0,-1.0,-25,0,0.489796
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-200,-175,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-175,-150,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-150,-125,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-125,-100,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-100,-75,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-75,-50,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-50,-25,0.125628
+oxrep_loc_1019,Olbia (Sardinia),Olbia A,9.50738,40.91148,-200.0,-1.0,-25,0,0.120603
+oxrep_loc_1022,Le Grotticelle,Le Grotticelle,13.433333333333334,40.78333333333333,-75.0,-25.0,-75,-50,0.5
+oxrep_loc_1022,Le Grotticelle,Le Grotticelle,13.433333333333334,40.78333333333333,-75.0,-25.0,-50,-25,0.5
+oxrep_loc_1079,Pisa,Pisa H,10.38813,43.72388,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1079,Pisa,Pisa H,10.38813,43.72388,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1079,Pisa,Pisa H,10.38813,43.72388,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1079,Pisa,Pisa H,10.38813,43.72388,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1079,Pisa,Pisa H,10.38813,43.72388,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1079,Pisa,Pisa H,10.38813,43.72388,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1082,Pisa,Pisa G,10.38813,43.72388,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1082,Pisa,Pisa G,10.38813,43.72388,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1082,Pisa,Pisa G,10.38813,43.72388,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1082,Pisa,Pisa G,10.38813,43.72388,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1082,Pisa,Pisa G,10.38813,43.72388,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1082,Pisa,Pisa G,10.38813,43.72388,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1083,Ponza,Ponza C,12.97,40.88,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_1083,Ponza,Ponza C,12.97,40.88,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_1083,Ponza,Ponza C,12.97,40.88,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_1083,Ponza,Ponza C,12.97,40.88,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-300,-275,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-275,-250,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-250,-225,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-225,-200,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-200,-175,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-175,-150,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-150,-125,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-125,-100,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-100,-75,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-75,-50,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-50,-25,0.041667
+oxrep_loc_1216,Ischia,Ischia,13.96164,40.72571,-300.0,300.0,-25,0,0.041667
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-600,-575,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-575,-550,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-550,-525,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-525,-500,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-500,-475,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-475,-450,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-450,-425,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-425,-400,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-400,-375,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-375,-350,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-350,-325,0.083333
+oxrep_loc_1250,Capraia,Capraia Etruscan 2004,9.82366,43.07225,-600.0,-300.0,-325,-300,0.083333
+oxrep_loc_1291,Albenga,Albenga,8.22876,44.04255,-100.0,-80.0,-100,-75,1.0
+oxrep_loc_1528,Agropoli,Agropoli,14.966666666666669,40.333333333333336,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1528,Agropoli,Agropoli,14.966666666666669,40.333333333333336,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1528,Agropoli,Agropoli,14.966666666666669,40.333333333333336,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1528,Agropoli,Agropoli,14.966666666666669,40.333333333333336,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1528,Agropoli,Agropoli,14.966666666666669,40.333333333333336,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1528,Agropoli,Agropoli,14.966666666666669,40.333333333333336,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1662,Porto Ercole,Porto Ercole A,11.2,42.38333333333333,-150.0,-100.0,-150,-125,0.5
+oxrep_loc_1662,Porto Ercole,Porto Ercole A,11.2,42.38333333333333,-150.0,-100.0,-125,-100,0.5
+oxrep_loc_1665,Secca Del Bagno,Secca Del Bagno,14.883333333333333,38.46666666666667,-200.0,-180.0,-200,-175,1.0
+oxrep_loc_1717,Pisa,Pisa E,10.38813,43.72388,-30.0,-1.0,-50,-25,0.172414
+oxrep_loc_1717,Pisa,Pisa E,10.38813,43.72388,-30.0,-1.0,-25,0,0.827586
+oxrep_loc_1932,Barbarossa,Barbarossa,10.4,42.75,-250.0,-150.0,-250,-225,0.25
+oxrep_loc_1932,Barbarossa,Barbarossa,10.4,42.75,-250.0,-150.0,-225,-200,0.25
+oxrep_loc_1932,Barbarossa,Barbarossa,10.4,42.75,-250.0,-150.0,-200,-175,0.25
+oxrep_loc_1932,Barbarossa,Barbarossa,10.4,42.75,-250.0,-150.0,-175,-150,0.25
+oxrep_loc_1982,Albenga,Albenga II,8.22876,44.04255,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_1982,Albenga,Albenga II,8.22876,44.04255,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_1982,Albenga,Albenga II,8.22876,44.04255,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_1982,Albenga,Albenga II,8.22876,44.04255,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-400,-375,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-375,-350,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-350,-325,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-325,-300,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-300,-275,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-275,-250,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-250,-225,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-225,-200,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-200,-175,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-175,-150,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-150,-125,0.083333
+oxrep_loc_2099,Olbia (Sardinia),Olbia B,9.50738,40.91148,-400.0,-100.0,-125,-100,0.083333
+oxrep_loc_2209,Capraia,Capraia B,9.82366,43.07225,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_2209,Capraia,Capraia B,9.82366,43.07225,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_2209,Capraia,Capraia B,9.82366,43.07225,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_2209,Capraia,Capraia B,9.82366,43.07225,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_2209,Capraia,Capraia B,9.82366,43.07225,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_2209,Capraia,Capraia B,9.82366,43.07225,-150.0,400.0,-25,0,0.045455
+oxrep_loc_2340,Ponza,Ponza A,12.97,40.88,-300.0,-250.0,-300,-275,0.5
+oxrep_loc_2340,Ponza,Ponza A,12.97,40.88,-300.0,-250.0,-275,-250,0.5
+oxrep_loc_2344,Panarea,Panarea (Roghi),15.07,38.63,-325.0,-300.0,-325,-300,1.0
+oxrep_loc_2422,Capraia,Capraia A,9.82366,43.07225,-100.0,100.0,-100,-75,0.125
+oxrep_loc_2422,Capraia,Capraia A,9.82366,43.07225,-100.0,100.0,-75,-50,0.125
+oxrep_loc_2422,Capraia,Capraia A,9.82366,43.07225,-100.0,100.0,-50,-25,0.125
+oxrep_loc_2422,Capraia,Capraia A,9.82366,43.07225,-100.0,100.0,-25,0,0.125
+oxrep_loc_2493,Olbia (Sardinia),Olbia (statue),9.50738,40.91148,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_2493,Olbia (Sardinia),Olbia (statue),9.50738,40.91148,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_2493,Olbia (Sardinia),Olbia (statue),9.50738,40.91148,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_2493,Olbia (Sardinia),Olbia (statue),9.50738,40.91148,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_2493,Olbia (Sardinia),Olbia (statue),9.50738,40.91148,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_2493,Olbia (Sardinia),Olbia (statue),9.50738,40.91148,-150.0,400.0,-25,0,0.045455
+oxrep_loc_2526,Pisa,Pisa P,10.38813,43.72388,-30.0,30.0,-50,-25,0.083333
+oxrep_loc_2526,Pisa,Pisa P,10.38813,43.72388,-30.0,30.0,-25,0,0.416667
+oxrep_loc_2589,Spargi,Spargi,9.333333333333334,41.21666666666667,-120.0,-100.0,-125,-100,1.0
+oxrep_loc_582,Gallipoli,Gallipoli 2,18.07388,39.97683,-300.0,-200.0,-300,-275,0.25
+oxrep_loc_582,Gallipoli,Gallipoli 2,18.07388,39.97683,-300.0,-200.0,-275,-250,0.25
+oxrep_loc_582,Gallipoli,Gallipoli 2,18.07388,39.97683,-300.0,-200.0,-250,-225,0.25
+oxrep_loc_582,Gallipoli,Gallipoli 2,18.07388,39.97683,-300.0,-200.0,-225,-200,0.25
+oxrep_loc_700,Marsala,Marsala (Punic Ship),12.4669,37.74462,-250.0,-175.0,-250,-225,0.333333
+oxrep_loc_700,Marsala,Marsala (Punic Ship),12.4669,37.74462,-250.0,-175.0,-225,-200,0.333333
+oxrep_loc_700,Marsala,Marsala (Punic Ship),12.4669,37.74462,-250.0,-175.0,-200,-175,0.333333
+oxrep_loc_1035,Gallipoli,Gallipoli 3,18.07388,39.97683,-300.0,-200.0,-300,-275,0.25
+oxrep_loc_1035,Gallipoli,Gallipoli 3,18.07388,39.97683,-300.0,-200.0,-275,-250,0.25
+oxrep_loc_1035,Gallipoli,Gallipoli 3,18.07388,39.97683,-300.0,-200.0,-250,-225,0.25
+oxrep_loc_1035,Gallipoli,Gallipoli 3,18.07388,39.97683,-300.0,-200.0,-225,-200,0.25
+oxrep_loc_1364,Gela,Gela B,14.26666,37.04304,-475.0,-425.0,-475,-450,0.5
+oxrep_loc_1364,Gela,Gela B,14.26666,37.04304,-475.0,-425.0,-450,-425,0.5
+oxrep_loc_1394,Capo Cimiti,Capo Cimiti,17.166666666666668,38.95,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1394,Capo Cimiti,Capo Cimiti,17.166666666666668,38.95,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1394,Capo Cimiti,Capo Cimiti,17.166666666666668,38.95,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1394,Capo Cimiti,Capo Cimiti,17.166666666666668,38.95,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1394,Capo Cimiti,Capo Cimiti,17.166666666666668,38.95,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1394,Capo Cimiti,Capo Cimiti,17.166666666666668,38.95,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1658,Siracusa,Siracusa D,15.3,37.07,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1658,Siracusa,Siracusa D,15.3,37.07,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1658,Siracusa,Siracusa D,15.3,37.07,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1658,Siracusa,Siracusa D,15.3,37.07,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1658,Siracusa,Siracusa D,15.3,37.07,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1658,Siracusa,Siracusa D,15.3,37.07,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1712,Stentinello,Stentinello,15.25,37.11666666666667,-300.0,-280.0,-300,-275,1.0
+oxrep_loc_1784,Taranto,Taranto B,17.25,40.47,-300.0,-150.0,-300,-275,0.166667
+oxrep_loc_1784,Taranto,Taranto B,17.25,40.47,-300.0,-150.0,-275,-250,0.166667
+oxrep_loc_1784,Taranto,Taranto B,17.25,40.47,-300.0,-150.0,-250,-225,0.166667
+oxrep_loc_1784,Taranto,Taranto B,17.25,40.47,-300.0,-150.0,-225,-200,0.166667
+oxrep_loc_1784,Taranto,Taranto B,17.25,40.47,-300.0,-150.0,-200,-175,0.166667
+oxrep_loc_1784,Taranto,Taranto B,17.25,40.47,-300.0,-150.0,-175,-150,0.166667
+oxrep_loc_1794,Siracusa,Siracusa A,15.3,37.07,-450.0,-430.0,-450,-425,1.0
+oxrep_loc_1962,Gela,Gela A,14.26666,37.04304,-525.0,-475.0,-525,-500,0.5
+oxrep_loc_1962,Gela,Gela A,14.26666,37.04304,-525.0,-475.0,-500,-475,0.5
+oxrep_loc_1974,Marsala,Marsala (Sister Ship),12.4669,37.74462,-300.0,-200.0,-300,-275,0.25
+oxrep_loc_1974,Marsala,Marsala (Sister Ship),12.4669,37.74462,-300.0,-200.0,-275,-250,0.25
+oxrep_loc_1974,Marsala,Marsala (Sister Ship),12.4669,37.74462,-300.0,-200.0,-250,-225,0.25
+oxrep_loc_1974,Marsala,Marsala (Sister Ship),12.4669,37.74462,-300.0,-200.0,-225,-200,0.25
+oxrep_loc_2231,Gallipoli,Gallipoli (BA),18.07388,39.97683,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_2231,Gallipoli,Gallipoli (BA),18.07388,39.97683,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_2231,Gallipoli,Gallipoli (BA),18.07388,39.97683,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_2231,Gallipoli,Gallipoli (BA),18.07388,39.97683,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_2231,Gallipoli,Gallipoli (BA),18.07388,39.97683,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_2231,Gallipoli,Gallipoli (BA),18.07388,39.97683,-150.0,400.0,-25,0,0.045455
+oxrep_loc_2355,Vulpiglia,Vulpiglia,15.133333333333333,36.7,-300.0,-290.0,-300,-275,1.0
+oxrep_loc_2551,Lampedusa,Lampedusa B,12.6,35.483333333333334,-125.0,-75.0,-125,-100,0.5
+oxrep_loc_2551,Lampedusa,Lampedusa B,12.6,35.483333333333334,-125.0,-75.0,-100,-75,0.5
+oxrep_loc_2567,Savelletri,Savelletri,17.4,40.86666666666667,-280.0,-250.0,-300,-275,0.166667
+oxrep_loc_2567,Savelletri,Savelletri,17.4,40.86666666666667,-280.0,-250.0,-275,-250,0.833333
+oxrep_loc_2666,Valle Ponti,Valle Ponti,12.166666666666666,44.66666666666666,-25.0,-1.0,-25,0,1.0
+oxrep_loc_536,Secche Di Ugento,Secche Di Ugento A,18.15,39.81666666666667,-50.0,100.0,-50,-25,0.166667
+oxrep_loc_536,Secche Di Ugento,Secche Di Ugento A,18.15,39.81666666666667,-50.0,100.0,-25,0,0.166667
+oxrep_loc_585,Torre Melissa - Villaggio Sirio,Torre Melissa - Villaggio Sirio,17.11326,39.30421,-125.0,0.0,-125,-100,0.2
+oxrep_loc_585,Torre Melissa - Villaggio Sirio,Torre Melissa - Villaggio Sirio,17.11326,39.30421,-125.0,0.0,-100,-75,0.2
+oxrep_loc_585,Torre Melissa - Villaggio Sirio,Torre Melissa - Villaggio Sirio,17.11326,39.30421,-125.0,0.0,-75,-50,0.2
+oxrep_loc_585,Torre Melissa - Villaggio Sirio,Torre Melissa - Villaggio Sirio,17.11326,39.30421,-125.0,0.0,-50,-25,0.2
+oxrep_loc_585,Torre Melissa - Villaggio Sirio,Torre Melissa - Villaggio Sirio,17.11326,39.30421,-125.0,0.0,-25,0,0.2
+oxrep_loc_586,Sa Tonnara,Sa Tonnara A,8.40351,40.05386,-200.0,-150.0,-200,-175,0.5
+oxrep_loc_586,Sa Tonnara,Sa Tonnara A,8.40351,40.05386,-200.0,-150.0,-175,-150,0.5
+oxrep_loc_636,Punta di Zambrone,Punta di Zambrone,15.97789,38.72,-100.0,40.0,-100,-75,0.178571
+oxrep_loc_636,Punta di Zambrone,Punta di Zambrone,15.97789,38.72,-100.0,40.0,-75,-50,0.178571
+oxrep_loc_636,Punta di Zambrone,Punta di Zambrone,15.97789,38.72,-100.0,40.0,-50,-25,0.178571
+oxrep_loc_636,Punta di Zambrone,Punta di Zambrone,15.97789,38.72,-100.0,40.0,-25,0,0.178571
+oxrep_loc_640,Capo d'Armi,Capo d'Armi,15.66942,37.95864,-40.0,100.0,-50,-25,0.107143
+oxrep_loc_640,Capo d'Armi,Capo d'Armi,15.66942,37.95864,-40.0,100.0,-25,0,0.178571
+oxrep_loc_645,Porto Palo di Menfi,Porto Palo di Menfi,12.91082,37.57434,-200.0,-100.0,-200,-175,0.25
+oxrep_loc_645,Porto Palo di Menfi,Porto Palo di Menfi,12.91082,37.57434,-200.0,-100.0,-175,-150,0.25
+oxrep_loc_645,Porto Palo di Menfi,Porto Palo di Menfi,12.91082,37.57434,-200.0,-100.0,-150,-125,0.25
+oxrep_loc_645,Porto Palo di Menfi,Porto Palo di Menfi,12.91082,37.57434,-200.0,-100.0,-125,-100,0.25
+oxrep_loc_692,Capo di Torre Cavallo,Capo di Torre Cavallo,18.016666666666666,40.63333333333333,-150.0,-50.0,-150,-125,0.25
+oxrep_loc_692,Capo di Torre Cavallo,Capo di Torre Cavallo,18.016666666666666,40.63333333333333,-150.0,-50.0,-125,-100,0.25
+oxrep_loc_692,Capo di Torre Cavallo,Capo di Torre Cavallo,18.016666666666666,40.63333333333333,-150.0,-50.0,-100,-75,0.25
+oxrep_loc_692,Capo di Torre Cavallo,Capo di Torre Cavallo,18.016666666666666,40.63333333333333,-150.0,-50.0,-75,-50,0.25
+oxrep_loc_707,Torre Flavia,Torre Flavia A,12.0568,41.94812,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_707,Torre Flavia,Torre Flavia A,12.0568,41.94812,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_707,Torre Flavia,Torre Flavia A,12.0568,41.94812,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_707,Torre Flavia,Torre Flavia A,12.0568,41.94812,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_707,Torre Flavia,Torre Flavia A,12.0568,41.94812,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_707,Torre Flavia,Torre Flavia A,12.0568,41.94812,-150.0,400.0,-25,0,0.045455
+oxrep_loc_781,Isola Rossa,Isola Rossa 2,8.84579,41.01725,-30.0,200.0,-50,-25,0.021739
+oxrep_loc_781,Isola Rossa,Isola Rossa 2,8.84579,41.01725,-30.0,200.0,-25,0,0.108696
+oxrep_loc_808,Alghero,Alghero,8.30944,40.55756,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_808,Alghero,Alghero,8.30944,40.55756,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_808,Alghero,Alghero,8.30944,40.55756,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_808,Alghero,Alghero,8.30944,40.55756,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_808,Alghero,Alghero,8.30944,40.55756,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_808,Alghero,Alghero,8.30944,40.55756,-150.0,400.0,-25,0,0.045455
+oxrep_loc_813,Sant'Andrea,Sant'Andrea A,10.14038,42.81174,-50.0,-50.0,-50,-25,1.0
+oxrep_loc_823,Secche della Meloria,Secche della Meloria,10.22071,43.54776,-275.0,-225.0,-275,-250,0.5
+oxrep_loc_823,Secche della Meloria,Secche della Meloria,10.22071,43.54776,-275.0,-225.0,-250,-225,0.5
+oxrep_loc_835,Nardo,Nardo,17.92419,40.15102,-200.0,-50.0,-200,-175,0.166667
+oxrep_loc_835,Nardo,Nardo,17.92419,40.15102,-200.0,-50.0,-175,-150,0.166667
+oxrep_loc_835,Nardo,Nardo,17.92419,40.15102,-200.0,-50.0,-150,-125,0.166667
+oxrep_loc_835,Nardo,Nardo,17.92419,40.15102,-200.0,-50.0,-125,-100,0.166667
+oxrep_loc_835,Nardo,Nardo,17.92419,40.15102,-200.0,-50.0,-100,-75,0.166667
+oxrep_loc_835,Nardo,Nardo,17.92419,40.15102,-200.0,-50.0,-75,-50,0.166667
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-400,-375,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-375,-350,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-350,-325,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-325,-300,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-300,-275,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-275,-250,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-250,-225,0.125
+oxrep_loc_897,Santa Caterina di Nardo,Santa Caterina di Nardo 2,17.95166,40.13633,-400.0,-200.0,-225,-200,0.125
+oxrep_loc_939,Bocca Grande,Bocca Grande,14.18644,40.53607,-100.0,100.0,-100,-75,0.125
+oxrep_loc_939,Bocca Grande,Bocca Grande,14.18644,40.53607,-100.0,100.0,-75,-50,0.125
+oxrep_loc_939,Bocca Grande,Bocca Grande,14.18644,40.53607,-100.0,100.0,-50,-25,0.125
+oxrep_loc_939,Bocca Grande,Bocca Grande,14.18644,40.53607,-100.0,100.0,-25,0,0.125
+oxrep_loc_961,Torre Guaceto,Torre Guaceto,17.783333333333335,40.7,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_961,Torre Guaceto,Torre Guaceto,17.783333333333335,40.7,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_961,Torre Guaceto,Torre Guaceto,17.783333333333335,40.7,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_961,Torre Guaceto,Torre Guaceto,17.783333333333335,40.7,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_967,Santa Caterina di Nardo,Santa Caterina di Nardo,17.95166,40.13633,-175.0,-125.0,-175,-150,0.5
+oxrep_loc_967,Santa Caterina di Nardo,Santa Caterina di Nardo,17.95166,40.13633,-175.0,-125.0,-150,-125,0.5
+oxrep_loc_985,Plemmirio,Plemmirio C,15.3297,37.00001,-575.0,-525.0,-575,-550,0.5
+oxrep_loc_985,Plemmirio,Plemmirio C,15.3297,37.00001,-575.0,-525.0,-550,-525,0.5
+oxrep_loc_1018,Punta Scaletta,Punta Scaletta,11.1,42.25,-140.0,-130.0,-150,-125,1.0
+oxrep_loc_1088,Ventotene,Ventotene 2,13.416666666666666,40.78333333333333,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_1088,Ventotene,Ventotene 2,13.416666666666666,40.78333333333333,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_1088,Ventotene,Ventotene 2,13.416666666666666,40.78333333333333,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_1088,Ventotene,Ventotene 2,13.416666666666666,40.78333333333333,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_1120,Lido di Sant'Anna,Lido di Sant'Anna,17.933333333333334,40.66666666666666,-150.0,-25.0,-150,-125,0.2
+oxrep_loc_1120,Lido di Sant'Anna,Lido di Sant'Anna,17.933333333333334,40.66666666666666,-150.0,-25.0,-125,-100,0.2
+oxrep_loc_1120,Lido di Sant'Anna,Lido di Sant'Anna,17.933333333333334,40.66666666666666,-150.0,-25.0,-100,-75,0.2
+oxrep_loc_1120,Lido di Sant'Anna,Lido di Sant'Anna,17.933333333333334,40.66666666666666,-150.0,-25.0,-75,-50,0.2
+oxrep_loc_1120,Lido di Sant'Anna,Lido di Sant'Anna,17.933333333333334,40.66666666666666,-150.0,-25.0,-50,-25,0.2
+oxrep_loc_1130,Isola della Gallinara,Isola della Gallinara (Savona),8.22996,44.02648,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_1130,Isola della Gallinara,Isola della Gallinara (Savona),8.22996,44.02648,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_1130,Isola della Gallinara,Isola della Gallinara (Savona),8.22996,44.02648,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_1130,Isola della Gallinara,Isola della Gallinara (Savona),8.22996,44.02648,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-600,-575,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-575,-550,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-550,-525,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-525,-500,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-500,-475,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-475,-450,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-450,-425,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-425,-400,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-400,-375,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-375,-350,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-350,-325,0.083333
+oxrep_loc_1148,Teulada,Teulada,8.7482,38.89684,-600.0,-300.0,-325,-300,0.083333
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-300,-275,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-275,-250,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-250,-225,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-225,-200,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-200,-175,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-175,-150,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-150,-125,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-125,-100,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-100,-75,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-75,-50,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-50,-25,0.041667
+oxrep_loc_1152,Torre Santa Sabina,Torre Santa Sabina 2,17.70652,40.75993,-300.0,300.0,-25,0,0.041667
+oxrep_loc_1160,Alghero,Alghero 1,8.30944,40.55756,-25.0,150.0,-25,0,0.142857
+oxrep_loc_1198,Sciacca,Sciacca,13.08025,37.49603,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1198,Sciacca,Sciacca,13.08025,37.49603,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1198,Sciacca,Sciacca,13.08025,37.49603,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1198,Sciacca,Sciacca,13.08025,37.49603,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1198,Sciacca,Sciacca,13.08025,37.49603,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1198,Sciacca,Sciacca,13.08025,37.49603,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1204,La Madonnina,La Madonnina,17.533333333333335,40.28333333333333,-325.0,-300.0,-325,-300,1.0
+oxrep_loc_1225,Isole Pedagne Grandi,Isole Pedagne Grandi,18.04779,40.60026,-25.0,25.0,-25,0,0.5
+oxrep_loc_1239,Sciacca,Sciacca,13.08025,37.49603,-100.0,0.0,-100,-75,0.25
+oxrep_loc_1239,Sciacca,Sciacca,13.08025,37.49603,-100.0,0.0,-75,-50,0.25
+oxrep_loc_1239,Sciacca,Sciacca,13.08025,37.49603,-100.0,0.0,-50,-25,0.25
+oxrep_loc_1239,Sciacca,Sciacca,13.08025,37.49603,-100.0,0.0,-25,0,0.25
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-500,-475,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-475,-450,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-450,-425,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-425,-400,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-400,-375,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-375,-350,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-350,-325,0.125
+oxrep_loc_1297,Capo Feto,Capo Feto,12.53694,37.65552,-500.0,-300.0,-325,-300,0.125
+oxrep_loc_1303,Cala Su Pallosu,Cala Su Pallosu,8.39492,40.04279,-200.0,-100.0,-200,-175,0.25
+oxrep_loc_1303,Cala Su Pallosu,Cala Su Pallosu,8.39492,40.04279,-200.0,-100.0,-175,-150,0.25
+oxrep_loc_1303,Cala Su Pallosu,Cala Su Pallosu,8.39492,40.04279,-200.0,-100.0,-150,-125,0.25
+oxrep_loc_1303,Cala Su Pallosu,Cala Su Pallosu,8.39492,40.04279,-200.0,-100.0,-125,-100,0.25
+oxrep_loc_1325,Capo Palinuro,Capo Palinuro - Punta della Quaglia,15.24078,40.02649,-150.0,400.0,-150,-125,0.045455
+oxrep_loc_1325,Capo Palinuro,Capo Palinuro - Punta della Quaglia,15.24078,40.02649,-150.0,400.0,-125,-100,0.045455
+oxrep_loc_1325,Capo Palinuro,Capo Palinuro - Punta della Quaglia,15.24078,40.02649,-150.0,400.0,-100,-75,0.045455
+oxrep_loc_1325,Capo Palinuro,Capo Palinuro - Punta della Quaglia,15.24078,40.02649,-150.0,400.0,-75,-50,0.045455
+oxrep_loc_1325,Capo Palinuro,Capo Palinuro - Punta della Quaglia,15.24078,40.02649,-150.0,400.0,-50,-25,0.045455
+oxrep_loc_1325,Capo Palinuro,Capo Palinuro - Punta della Quaglia,15.24078,40.02649,-150.0,400.0,-25,0,0.045455
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-400,-375,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-375,-350,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-350,-325,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-325,-300,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-300,-275,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-275,-250,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-250,-225,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-225,-200,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-200,-175,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-175,-150,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-150,-125,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-125,-100,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-100,-75,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-75,-50,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-50,-25,0.03125
+oxrep_loc_1413,San Vito,San Vito,12.74551,38.18825,-400.0,400.0,-25,0,0.03125
+oxrep_loc_1474,Seleno,Seleno,17.02056,38.89716,-150.0,-25.0,-150,-125,0.2
+oxrep_loc_1474,Seleno,Seleno,17.02056,38.89716,-150.0,-25.0,-125,-100,0.2
+oxrep_loc_1474,Seleno,Seleno,17.02056,38.89716,-150.0,-25.0,-100,-75,0.2
+oxrep_loc_1474,Seleno,Seleno,17.02056,38.89716,-150.0,-25.0,-75,-50,0.2
+oxrep_loc_1474,Seleno,Seleno,17.02056,38.89716,-150.0,-25.0,-50,-25,0.2
+oxrep_loc_1506,Giglio,Giglio Campese A,10.866666666666667,42.36666666666667,-600.0,-590.0,-600,-575,1.0
+oxrep_loc_1590,Mal di Ventre,Mal di Ventre,8.30755,39.97313,-75.0,-25.0,-75,-50,0.5
+oxrep_loc_1590,Mal di Ventre,Mal di Ventre,8.30755,39.97313,-75.0,-25.0,-50,-25,0.5
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-400,-375,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-375,-350,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-350,-325,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-325,-300,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-300,-275,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-275,-250,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-250,-225,0.125
+oxrep_loc_1593,Porto Palo di Capo Passero,Porto Palo di Capo Passero,15.16525,36.66922,-400.0,-200.0,-225,-200,0.125
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-300,-275,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-275,-250,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-250,-225,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-225,-200,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-200,-175,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-175,-150,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-150,-125,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-125,-100,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-100,-75,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-75,-50,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-50,-25,0.035714
+oxrep_loc_1642,Camarina,Camarina E,14.45011,36.84438,-300.0,400.0,-25,0,0.035714
+oxrep_loc_1663,Li Galli - Vetara,Li Galli - Vetara,14.36428,40.58051,-100.0,100.0,-100,-75,0.125
+oxrep_loc_1663,Li Galli - Vetara,Li Galli - Vetara,14.36428,40.58051,-100.0,100.0,-75,-50,0.125
+oxrep_loc_1663,Li Galli - Vetara,Li Galli - Vetara,14.36428,40.58051,-100.0,100.0,-50,-25,0.125
+oxrep_loc_1663,Li Galli - Vetara,Li Galli - Vetara,14.36428,40.58051,-100.0,100.0,-25,0,0.125
+oxrep_loc_1683,Secca di Capistello,Secca di Capistello,14.95,38.43333333333333,-300.0,-280.0,-300,-275,1.0
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-600,-575,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-575,-550,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-550,-525,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-525,-500,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-500,-475,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-475,-450,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-450,-425,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-425,-400,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-400,-375,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-375,-350,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-350,-325,0.083333
+oxrep_loc_1801,Capo Colonna,Capo Colonna,17.20047,39.02978,-600.0,-300.0,-325,-300,0.083333
+oxrep_loc_1901,Cala del Diavolo,Cala del Diavolo,10.31066,42.30612,-120.0,-10.0,-125,-100,0.181818
+oxrep_loc_1901,Cala del Diavolo,Cala del Diavolo,10.31066,42.30612,-120.0,-10.0,-100,-75,0.227273
+oxrep_loc_1901,Cala del Diavolo,Cala del Diavolo,10.31066,42.30612,-120.0,-10.0,-75,-50,0.227273
+oxrep_loc_1901,Cala del Diavolo,Cala del Diavolo,10.31066,42.30612,-120.0,-10.0,-50,-25,0.227273
+oxrep_loc_1901,Cala del Diavolo,Cala del Diavolo,10.31066,42.30612,-120.0,-10.0,-25,0,0.136364
+oxrep_loc_1909,Mucurune,Mucurune,18.48793,40.06689,-200.0,-50.0,-200,-175,0.166667
+oxrep_loc_1909,Mucurune,Mucurune,18.48793,40.06689,-200.0,-50.0,-175,-150,0.166667
+oxrep_loc_1909,Mucurune,Mucurune,18.48793,40.06689,-200.0,-50.0,-150,-125,0.166667
+oxrep_loc_1909,Mucurune,Mucurune,18.48793,40.06689,-200.0,-50.0,-125,-100,0.166667
+oxrep_loc_1909,Mucurune,Mucurune,18.48793,40.06689,-200.0,-50.0,-100,-75,0.166667
+oxrep_loc_1909,Mucurune,Mucurune,18.48793,40.06689,-200.0,-50.0,-75,-50,0.166667
+oxrep_loc_1910,Cala Palombara,Cala Palombara,18.49823,40.14829,-100.0,0.0,-100,-75,0.25
+oxrep_loc_1910,Cala Palombara,Cala Palombara,18.49823,40.14829,-100.0,0.0,-75,-50,0.25
+oxrep_loc_1910,Cala Palombara,Cala Palombara,18.49823,40.14829,-100.0,0.0,-50,-25,0.25
+oxrep_loc_1910,Cala Palombara,Cala Palombara,18.49823,40.14829,-100.0,0.0,-25,0,0.25
+oxrep_loc_1937,Punta Licosa,Punta Licosa 2,14.90192,40.25509,-100.0,100.0,-100,-75,0.125
+oxrep_loc_1937,Punta Licosa,Punta Licosa 2,14.90192,40.25509,-100.0,100.0,-75,-50,0.125
+oxrep_loc_1937,Punta Licosa,Punta Licosa 2,14.90192,40.25509,-100.0,100.0,-50,-25,0.125
+oxrep_loc_1937,Punta Licosa,Punta Licosa 2,14.90192,40.25509,-100.0,100.0,-25,0,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-500,-475,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-475,-450,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-450,-425,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-425,-400,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-400,-375,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-375,-350,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-350,-325,0.125
+oxrep_loc_1958,Margherita di Savoia,Margherita di Savoia,16.20758,41.39405,-500.0,-300.0,-325,-300,0.125
+oxrep_loc_1965,Torre Sinfono,Torre Sinfono,18.04092,39.90945,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_1965,Torre Sinfono,Torre Sinfono,18.04092,39.90945,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_1965,Torre Sinfono,Torre Sinfono,18.04092,39.90945,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_1965,Torre Sinfono,Torre Sinfono,18.04092,39.90945,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_1992,Secca dei Mattoni,Secca dei Mattoni,12.883333333333333,40.9,-100.0,-50.0,-100,-75,0.5
+oxrep_loc_1992,Secca dei Mattoni,Secca dei Mattoni,12.883333333333333,40.9,-100.0,-50.0,-75,-50,0.5
+oxrep_loc_2028,Punta Braccetto,Punta Braccetto,14.466666666666669,36.8,-500.0,-475.0,-500,-475,1.0
+oxrep_loc_2046,Montalto di Castro,Montalto di Castro,11.50405,42.33811,-200.0,-100.0,-200,-175,0.25
+oxrep_loc_2046,Montalto di Castro,Montalto di Castro,11.50405,42.33811,-200.0,-100.0,-175,-150,0.25
+oxrep_loc_2046,Montalto di Castro,Montalto di Castro,11.50405,42.33811,-200.0,-100.0,-150,-125,0.25
+oxrep_loc_2046,Montalto di Castro,Montalto di Castro,11.50405,42.33811,-200.0,-100.0,-125,-100,0.25
+oxrep_loc_2070,Terracina (harbour),Terracina,13.258859,41.285311,-150.0,-1.0,-150,-125,0.167785
+oxrep_loc_2070,Terracina (harbour),Terracina,13.258859,41.285311,-150.0,-1.0,-125,-100,0.167785
+oxrep_loc_2070,Terracina (harbour),Terracina,13.258859,41.285311,-150.0,-1.0,-100,-75,0.167785
+oxrep_loc_2070,Terracina (harbour),Terracina,13.258859,41.285311,-150.0,-1.0,-75,-50,0.167785
+oxrep_loc_2070,Terracina (harbour),Terracina,13.258859,41.285311,-150.0,-1.0,-50,-25,0.167785
+oxrep_loc_2070,Terracina (harbour),Terracina,13.258859,41.285311,-150.0,-1.0,-25,0,0.161074
+oxrep_loc_2093,Sant'Andrea,Sant'Andrea B,10.14038,42.81174,-100.0,-100.0,-100,-75,1.0
+oxrep_loc_2113,Saturo,Saturo A,17.3,40.36666666666667,-200.0,-150.0,-200,-175,0.5
+oxrep_loc_2113,Saturo,Saturo A,17.3,40.36666666666667,-200.0,-150.0,-175,-150,0.5
+oxrep_loc_2168,Le Formiche di Capraia,Le Formiche di Capraia,9.82624,43.07383,-175.0,-125.0,-175,-150,0.5
+oxrep_loc_2168,Le Formiche di Capraia,Le Formiche di Capraia,9.82624,43.07383,-175.0,-125.0,-150,-125,0.5
+oxrep_loc_2237,Cala Minnola,Cala Minnola,12.35309,37.99504,-100.0,-50.0,-100,-75,0.5
+oxrep_loc_2237,Cala Minnola,Cala Minnola,12.35309,37.99504,-100.0,-50.0,-75,-50,0.5
+oxrep_loc_2261,Torre Santa Sabina,Torre Santa Sabina 1,17.70652,40.75993,-25.0,25.0,-25,0,0.5
+oxrep_loc_2286,Pesaro,Pesaro,12.9,43.9,-125.0,-25.0,-125,-100,0.25
+oxrep_loc_2286,Pesaro,Pesaro,12.9,43.9,-125.0,-25.0,-100,-75,0.25
+oxrep_loc_2286,Pesaro,Pesaro,12.9,43.9,-125.0,-25.0,-75,-50,0.25
+oxrep_loc_2286,Pesaro,Pesaro,12.9,43.9,-125.0,-25.0,-50,-25,0.25
+oxrep_loc_2321,Tre Senghe,Tre Senghe,15.47767,42.10267,-30.0,-20.0,-50,-25,0.5
+oxrep_loc_2321,Tre Senghe,Tre Senghe,15.47767,42.10267,-30.0,-20.0,-25,0,0.5
+oxrep_loc_2386,Cala Gadir,Cala Gadir II,12.016666666666667,36.8,-125.0,-75.0,-125,-100,0.5
+oxrep_loc_2386,Cala Gadir,Cala Gadir II,12.016666666666667,36.8,-125.0,-75.0,-100,-75,0.5
+oxrep_loc_2413,Santo Stefano al Mare,Santo Stefano al Mare,7.91118,43.83025,-10.0,10.0,-25,0,0.5
+oxrep_loc_2428,Punta Licosa,Punta Licosa 1,14.90192,40.25509,-100.0,-1.0,-100,-75,0.252525
+oxrep_loc_2428,Punta Licosa,Punta Licosa 1,14.90192,40.25509,-100.0,-1.0,-75,-50,0.252525
+oxrep_loc_2428,Punta Licosa,Punta Licosa 1,14.90192,40.25509,-100.0,-1.0,-50,-25,0.252525
+oxrep_loc_2428,Punta Licosa,Punta Licosa 1,14.90192,40.25509,-100.0,-1.0,-25,0,0.242424
+oxrep_loc_2469,Torre Testa,Torre Testa - Porto di Brindisi,17.88368,40.68831,-200.0,-50.0,-200,-175,0.166667
+oxrep_loc_2469,Torre Testa,Torre Testa - Porto di Brindisi,17.88368,40.68831,-200.0,-50.0,-175,-150,0.166667
+oxrep_loc_2469,Torre Testa,Torre Testa - Porto di Brindisi,17.88368,40.68831,-200.0,-50.0,-150,-125,0.166667
+oxrep_loc_2469,Torre Testa,Torre Testa - Porto di Brindisi,17.88368,40.68831,-200.0,-50.0,-125,-100,0.166667
+oxrep_loc_2469,Torre Testa,Torre Testa - Porto di Brindisi,17.88368,40.68831,-200.0,-50.0,-100,-75,0.166667
+oxrep_loc_2469,Torre Testa,Torre Testa - Porto di Brindisi,17.88368,40.68831,-200.0,-50.0,-75,-50,0.166667
+oxrep_loc_2494,Porticello,Porticello,15.66101,38.23972,-425.0,-400.0,-425,-400,1.0
+oxrep_loc_2592,Palombina Vecchia,Palombina Vecchia,13.416666666666666,43.63333333333333,-100.0,-50.0,-100,-75,0.5
+oxrep_loc_2592,Palombina Vecchia,Palombina Vecchia,13.416666666666666,43.63333333333333,-100.0,-50.0,-75,-50,0.5
+oxrep_loc_2673,Caprara,Caprara,15.49621,42.11267,-100.0,50.0,-100,-75,0.166667
+oxrep_loc_2673,Caprara,Caprara,15.49621,42.11267,-100.0,50.0,-75,-50,0.166667
+oxrep_loc_2673,Caprara,Caprara,15.49621,42.11267,-100.0,50.0,-50,-25,0.166667
+oxrep_loc_2673,Caprara,Caprara,15.49621,42.11267,-100.0,50.0,-25,0,0.166667

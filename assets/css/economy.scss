@@ -1,0 +1,253 @@
+---
+# Front matter so Jekyll runs this through Sass. The body is plain CSS: the
+# same file is inlined verbatim into the standalone animation page by
+# scripts/economy_field_animation.py, so keep it free of Sass syntax.
+---
+
+/* ==========================================================================
+   Economy page: the latent economic field E(s,t) animation.
+
+   Layout, type and chrome take the site tokens from atlas.scss. Only the
+   field's own colour ramps are defined here: a diverging blue/red scale for
+   the standardised field (polarity around its space-time mean), a single
+   blue ramp for its posterior SD, and the orange used for a pinned place.
+   ========================================================================== */
+
+:root {
+  --econ-div-lo:  #1c5cab;
+  --econ-div-mid: #e9e8e3;
+  --econ-div-hi:  #b8352f;
+  --econ-seq-lo:  #cde2fb;
+  --econ-seq-hi:  #0d366b;
+  --econ-pin:      #d95926;
+  --econ-pin-soft: rgba(217, 89, 38, .20);
+  --econ-nat:      #16181b;
+  --econ-nat-soft: rgba(22, 24, 27, .10);
+  --econ-shore:    #3a3d41;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --econ-div-lo:  #6da7ec;
+    --econ-div-mid: #3a3e43;
+    --econ-div-hi:  #e66767;
+    --econ-seq-lo:  #184f95;
+    --econ-seq-hi:  #cde2fb;
+    --econ-pin:      #e87a4a;
+    --econ-pin-soft: rgba(232, 122, 74, .26);
+    --econ-nat:      #e8e7e3;
+    --econ-nat-soft: rgba(232, 231, 227, .12);
+    --econ-shore:    #cfd2d6;
+  }
+}
+:root[data-theme="dark"] {
+  --econ-div-lo:  #6da7ec;
+  --econ-div-mid: #3a3e43;
+  --econ-div-hi:  #e66767;
+  --econ-seq-lo:  #184f95;
+  --econ-seq-hi:  #cde2fb;
+  --econ-pin:      #e87a4a;
+  --econ-pin-soft: rgba(232, 122, 74, .26);
+  --econ-nat:      #e8e7e3;
+  --econ-nat-soft: rgba(232, 231, 227, .12);
+  --econ-shore:    #cfd2d6;
+}
+
+/* prose on the wide page keeps a reading measure */
+.econ-prose { max-width: 40rem; }
+.econ-prose p { margin: 0 0 var(--s4); line-height: var(--lh-prose); }
+.econ-prose code { font-family: var(--font-mono); font-size: .92em; }
+
+/* controls -------------------------------------------------------------- */
+
+.econ-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s3) var(--s5);
+  margin: var(--s5) 0 var(--s4);
+  padding: var(--s3) var(--s4);
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  font-family: var(--font-ui);
+}
+.econ-controls label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  font-size: var(--t-12);
+  font-weight: 600;
+  color: var(--text-2);
+}
+.econ-controls select {
+  height: var(--h-sm);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r1);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: var(--t-13);
+  font-weight: 400;
+  padding: 0 var(--s2);
+  cursor: pointer;
+}
+.econ-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--h-md);
+  min-width: 5rem;
+  padding: 0 var(--s4);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r1);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: var(--t-13);
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+}
+.econ-btn:hover { background: var(--bg-sunken); border-color: var(--text-muted); }
+.econ-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--text-on-accent); }
+.econ-controls :focus-visible,
+.econ-chip:focus-visible,
+.econ-canvas:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.econ-scrub {
+  flex: 1 1 16rem;
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-width: 14rem;
+}
+.econ-scrub input[type="range"] { flex: 1; accent-color: var(--accent); height: 1.5rem; margin: 0; }
+.econ-year {
+  min-width: 7.5ch;
+  text-align: right;
+  font-size: var(--t-15);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+/* map + side column ----------------------------------------------------- */
+
+.econ-grid {
+  display: grid;
+  grid-template-columns: minmax(17rem, .95fr) minmax(17rem, 1.05fr);
+  gap: var(--s5);
+  align-items: start;
+}
+@media (max-width: 47.5rem) { .econ-grid { grid-template-columns: 1fr; } }
+
+.econ-map {
+  position: relative;
+  padding: var(--s3);
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+}
+.econ-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: var(--r1);
+  cursor: crosshair;
+}
+.econ-tip {
+  position: absolute;
+  pointer-events: none;
+  padding: var(--s2) var(--s3);
+  background: var(--text);
+  color: var(--bg-page);
+  border-radius: var(--r1);
+  font-family: var(--font-ui);
+  font-size: var(--t-12);
+  line-height: var(--lh-snug);
+  white-space: nowrap;
+  transform: translate(-50%, calc(-100% - .75rem));
+  opacity: 0;
+  transition: opacity .08s;
+}
+.econ-tip b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.econ-tip.on { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .econ-tip { transition: none; } }
+
+.econ-side { display: flex; flex-direction: column; gap: var(--s4); }
+.econ-card {
+  padding: var(--s4) var(--s5);
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  font-family: var(--font-ui);
+}
+.econ-card h2 {
+  margin: 0 0 var(--s3);
+  font-family: var(--font-ui);
+  font-size: var(--t-13);
+  font-weight: 600;
+  line-height: var(--lh-snug);
+  letter-spacing: 0;
+  color: var(--text);
+}
+
+/* legend */
+.econ-ramp { height: .75rem; border-radius: var(--r1); border: 1px solid var(--border); }
+.econ-ticks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--s1);
+  font-size: var(--t-12);
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+.econ-note { margin: var(--s3) 0 0; font-size: var(--t-12); line-height: var(--lh-snug); color: var(--text-muted); }
+
+/* readout */
+.econ-readout { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s1) var(--s4); }
+.econ-readout .big { font-size: var(--t-24); font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.econ-readout .lbl { font-size: var(--t-12); color: var(--text-2); }
+.econ-readout .val { font-variant-numeric: tabular-nums; color: var(--text); }
+.econ-probe { margin-top: var(--s3); padding-top: var(--s3); border-top: 1px solid var(--border); }
+.econ-probe .name { font-weight: 600; font-variant-numeric: tabular-nums; }
+.econ-probe .sub { font-size: var(--t-12); color: var(--text-muted); }
+.econ-doms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: 2px var(--s4);
+  margin-top: var(--s2);
+  font-size: var(--t-12);
+}
+.econ-doms span { display: flex; justify-content: space-between; gap: var(--s2); color: var(--text-2); }
+.econ-doms span b { font-weight: 500; color: var(--text); font-variant-numeric: tabular-nums; }
+.econ-chips { display: flex; flex-wrap: wrap; gap: var(--s2); margin-top: var(--s3); }
+.econ-chip {
+  padding: 2px var(--s3);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: var(--t-12);
+  line-height: var(--lh-snug);
+  cursor: pointer;
+}
+.econ-chip:hover { border-color: var(--text-muted); }
+.econ-chip.on { background: var(--econ-pin); border-color: var(--econ-pin); color: #fff; }
+
+/* trajectory chart */
+.econ-traj { display: block; width: 100%; height: auto; overflow: visible; font-family: var(--font-ui); }
+.econ-lgd { display: flex; flex-wrap: wrap; gap: var(--s4); margin-top: var(--s2); font-size: var(--t-12); color: var(--text-2); }
+.econ-lgd i { display: inline-block; width: 1.125rem; height: 0; margin-right: var(--s2); border-top: 2px solid var(--econ-nat); vertical-align: middle; }
+.econ-lgd i.pin { border-top-color: var(--econ-pin); }
+
+/* data table */
+.econ-details { margin-top: var(--s6); font-family: var(--font-ui); font-size: var(--t-13); color: var(--text-2); }
+.econ-details > summary { cursor: pointer; color: var(--text); font-weight: 600; }
+.econ-tablebox { overflow-x: auto; margin-top: var(--s3); }
+.econ-table td, .econ-table th { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.econ-table td:first-child, .econ-table th:first-child { text-align: left; }

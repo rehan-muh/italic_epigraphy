@@ -1,0 +1,721 @@
+port_id,name,modern_name,country_region,longitude,latitude,foundation_year,dated_for_model,culture_flags,infrastructure_count,pleiades,dare,trismegistos,topostext
+752,Sardinia,"Isle of Sardinia, Sardaigne ",Italy Sardinia,9.111677,40.307796,,0,,0,https://pleiades.stoa.org/places/472014,,https://www.trismegistos.org/place/3310,https://topostext.org/place/402920ISar
+753,"Olbia, Roman port","Olbia, Porto Romano",Italy Sardinia,9.5031,40.9275,-330,1,Ro,4,http://pleiades.stoa.org/places/471987,http://imperium.ahlfeldt.se/places/16889,https://www.trismegistos.org/place/22167,https://topostext.org/place/409095UOlb
+753.1,"Olbia, Punic port and Roman port","Olbia, near Molo Vecchio and Molo Brin",Italy Sardinia,9.5057,40.9232,-750,1,Pn|Gr|Ro,2,http://pleiades.stoa.org/places/471987,http://imperium.ahlfeldt.se/places/16889,https://www.trismegistos.org/place/22167,https://topostext.org/place/409095UOlb
+754,Coclearia ,near San Teodoro,Italy Sardinia,9.675812,40.784988,-30,1,Ro,1,http://pleiades.stoa.org/places/471906,http://imperium.ahlfeldt.se/places/30261,,
+755,"Pheronia, Feronia ",Posada,Italy Sardinia,9.722893,40.639368,-30,1,Ro,0,http://pleiades.stoa.org/places/471995,http://imperium.ahlfeldt.se/places/32836,,
+756,Portus Liguidonis,San Giovanni di Posada,Italy Sardinia,9.751357,40.616236,-30,1,Ro,0,http://pleiades.stoa.org/places/471999,http://imperium.ahlfeldt.se/places/32838,,
+756.1,Outlet of R Kaidris,"Orosei, with several Nuraghe, on R Cedrino",Italy Sardinia,9.734,40.373,-1500,1,Ro,0,https://pleiades.stoa.org/places/471956,,,
+757,"Sulcis, Sulpicius, Supicius ","Arbatax, near Tortoli",Italy Sardinia,9.706108,39.912462,-330,1,Ro,0,http://pleiades.stoa.org/places/472025,http://imperium.ahlfeldt.se/places/32839,,
+758,Custodia Rubriensis ,Roman fort near Bari Sardo,Italy Sardinia,9.686434,39.833966,-30,1,Ro,1,http://pleiades.stoa.org/places/471911,http://imperium.ahlfeldt.se/places/36277,,
+759,Saralapis ,"San Giovanni di Saralat, Foxi Manna",Italy Sardinia,9.664134,39.694379,,0,Pn|Ro,1,,,,
+760,Saralapis ,"San Giovanni di Saralat, Foxi Murdegu",Italy Sardinia,9.657261,39.66651,,0,Pn|Ro,1,,,,
+761,"Sarcapos, Sarpach, on R Saipros","Santa Maria di Villaputzu, near Muravera, on R Flumendosa",Italy Sardinia,9.631611,39.425626,-30,1,Pn|Ro,0,http://pleiades.stoa.org/places/472012,http://imperium.ahlfeldt.se/places/36478,,
+762,Caralitanum Prom.,"Capo Carbonara, Stagno di Notteri",Italy Sardinia,9.516373,39.11649,-330,1,Pn|Ro,1,http://pleiades.stoa.org/places/471900,http://imperium.ahlfeldt.se/places/41659,,
+763,Cuccureddus,Cuccureddus,Italy Sardinia,9.4909,39.1359,,0,Pn|Ro,0,,http://imperium.ahlfeldt.se/places/41656,,
+764,,Roman villa at Quartu Sant'Elena,Italy Sardinia,9.27361,39.21267,-30,1,Ro,1,http://pleiades.stoa.org/places/472001,http://imperium.ahlfeldt.se/places/35719,,
+765,"Caralis, Carales, on R Sulcis","Cagliari, Roman naval base, on R Cixerri",Italy Sardinia,9.112387,39.211683,-750,1,Pn|Gr|Ro,2,http://pleiades.stoa.org/places/471899,http://imperium.ahlfeldt.se/places/16177,https://www.trismegistos.org/place/3239,https://topostext.org/place/392091UKar
+766,,"Roman villa di Tigellio, Cagliari",Italy Sardinia,9.10834,39.22054,-30,1,Ro,1,,http://imperium.ahlfeldt.se/places/41650,,
+766.1,,Nuraghe Antigori,Italy Sardinia,9.005325,39.095552,-1500,1,My,0,,,,
+766.2,,"Su Leunaxi, near Nuraghe Sa Domu ‘e s’Orcu and Motti, in Monte Arrubiu area",Italy Sardinia,9.0236,39.0619,-1500,1,My,0,,,,
+766.3,,Quarry at Perd’e Sali,Italy Sardinia,9.0253,39.0219,,0,,2,,,,
+767,Nora ,"Capo di Pula, Creek of San Efisio",Italy Sardinia,9.01444,38.987048,-750,1,Pn|Gr|Ro,2,http://pleiades.stoa.org/places/471979,http://imperium.ahlfeldt.se/places/22707,https://www.trismegistos.org/place/22201,https://topostext.org/place/390090UNor
+768,Nora ,"Capo di Pula, Cala di Nora, with Molo Schmiedt",Italy Sardinia,9.012555,38.984715,-750,1,Pn|Gr|Ro,3,http://pleiades.stoa.org/places/471979,http://imperium.ahlfeldt.se/places/22707,,https://topostext.org/place/390090UNor
+769,Nora ,"Lagoon of San Efisio, north of Is Fradis Minoris peninsula",Italy Sardinia,9.012066,38.988036,-750,1,Pn|Gr|Ro,1,http://pleiades.stoa.org/places/471979,http://imperium.ahlfeldt.se/places/22707,https://www.trismegistos.org/place/22201,https://topostext.org/place/390090UNor
+769.1,"Littus anneum, Aigialos Proseches?",Porto d'Agumu,Italy Sardinia,8.9971,38.9843,-30,1,Ro,0,https://pleiades.stoa.org/places/474900,,,
+770,"Bitia, Bithia, Bioea ","Punta di Chia, near Domus de Maria",Italy Sardinia,8.8849,38.8956,-750,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/471894,http://imperium.ahlfeldt.se/places/36274,https://www.trismegistos.org/place/22117,https://topostext.org/place/389089UBit
+771,"Portus Herculis, Herakleous Limen, Melqart",Porto Malfatano,Italy Sardinia,8.803097,38.898734,,0,Pn|Ro,2,http://pleiades.stoa.org/places/471942,,,
+772,"Portus Herculis, Herakleous Limen, Melqart","Porto Malfatano, submerged breakwater on NE side of Capo Malfatano",Italy Sardinia,8.803355,38.887868,,0,Ro,2,http://pleiades.stoa.org/places/471942,,,
+772.1,,Quarry at Piscinni,Italy Sardinia,8.7779,38.9083,-30,1,Ro,1,,,,
+773,"Port of Tegulitia, Tegula ",Porto Teulada,Italy Sardinia,8.7236,38.9347,-30,1,Pn|Ro,1,http://pleiades.stoa.org/places/472029,http://imperium.ahlfeldt.se/places/32840,,
+774,Sulcitanus Portus ,"bay of Porto Pino, quarry of Guardia s'Arena",Italy Sardinia,8.614564,38.932988,,0,Pn|Ro,3,,,,
+775,Sulcitanus Portus ,"Porto Pino, access canal to the lagoon of Baiocca",Italy Sardinia,8.602078,38.963151,,0,Pn|Ro,1,,,,
+776,Sulcitanus Portus ,South end of the lagoon of Baiocca,Italy Sardinia,8.593479,39.011823,,0,Pn|Ro,2,,,,
+776.1,,"Maladroxia, on R Corruppus, in Golfo di Palmas",Italy Sardinia,8.4494,38.9983,,0,Li|Ro,0,,,,
+777,Sulcitanus Portus ,Golfo di Palmas,Italy Sardinia,8.461377,39.048305,,0,Ro,1,,,,
+778,"Sulcis, Solci (export of copper?)",San Antioco,Italy Sardinia,8.462004,39.06534,-750,1,Pn|Gr|Ro,3,http://pleiades.stoa.org/places/472024,http://imperium.ahlfeldt.se/places/16886,https://www.trismegistos.org/place/22208,https://topostext.org/place/391084USul
+779,Enosis insula,"Carloforte, on the isle of San Pietro",Italy Sardinia,8.321367,39.140566,-30,1,Pn|Ro,1,http://pleiades.stoa.org/places/471917,http://imperium.ahlfeldt.se/places/41297,,
+780,,"Monte Sirai, with Neolithic settlement",Italy Sardinia,8.4887,39.1774,-750,1,Li|Pn|Gr|Ro,0,http://pleiades.stoa.org/places/471974,http://imperium.ahlfeldt.se/places/32831,,
+781,Metalla? ,"Temple of Antas, near Fluminimaggiore, Iglesiente mining area with possible export at Portixeddu",Italy Sardinia,8.5002,39.394,-500,1,Pn|Gr|Ro,1,https://pleiades.stoa.org/places/471971,,,
+781.1,,"S’Omu e S’Orku (SOMK), Portu Maga, Mesolithic settlement",Italy Sardinia,8.4601,39.5681,-7000,1,Li,0,,,,
+782,"Neapolis, Punic Qart Hadasht, on R Hieros (?)","Santa Maria di Nabui, on R Pabillonis",Italy Sardinia,8.5555,39.68794,,0,Pn|Ro,2,http://pleiades.stoa.org/places/471977,http://imperium.ahlfeldt.se/places/41635,https://www.trismegistos.org/place/22118,https://topostext.org/place/397086UNea
+782.1,,"Roman villa at Stagno di Marceddi, S. Angiarxia, Arbus",Italy Sardinia,8.4946,39.7145,-30,1,Ro,1,http://pleiades.stoa.org/places/472005,http://imperium.ahlfeldt.se/places/35720,,
+783,,Roman villa at Pauli Putzu,Italy Sardinia,8.60514,39.72744,-330,1,Ro,1,http://pleiades.stoa.org/places/471994,http://imperium.ahlfeldt.se/places/35717,,
+784,,Roman villa at Muru de Bangiu,Italy Sardinia,8.6645,39.78592,-30,1,Ro,1,http://pleiades.stoa.org/places/471954,http://imperium.ahlfeldt.se/places/35386,,
+785,,"Roman villa at Sant'Ungroni, near Arborea",Italy Sardinia,8.5822,39.7945,-30,1,Ro,1,http://pleiades.stoa.org/places/472009,http://imperium.ahlfeldt.se/places/35722,,
+786,"Othaia, Othoca, on R Thyrsos","Santa Giusta, near Oristano, on R Tirso",Italy Sardinia,8.60849,39.86957,-750,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/471988,http://imperium.ahlfeldt.se/places/32834,,
+786.1,,Cuccuru is Arrius Neolithic settlement,Italy Sardinia,8.495,39.925,-4500,1,Li,0,,,,
+787,"Tarrai, Tharros, Tarrhos, Punic port","San Giovanni di Sinis, Stagno di Mistras",Italy Sardinia,8.44,39.892,-750,1,Pn|Gr|Ro,2,http://pleiades.stoa.org/places/472032,http://imperium.ahlfeldt.se/places/22706,https://www.trismegistos.org/place/22215,https://topostext.org/place/399084UTar
+787.1,"Tarrai, Tharros, Tarrhos, possible Nuragic port","San Giovanni di Sinis, Porto Vecchio possibly near present car park, near Nuragic settlement of Su Murru Mannu",Italy Sardinia,8.4416,39.8789,-1500,1,My|Pn|Ro,2,http://pleiades.stoa.org/places/472032,http://imperium.ahlfeldt.se/places/22706,https://www.trismegistos.org/place/22215,https://topostext.org/place/399084UTar
+788,"Tarrai, Tharros, Tarrhos","San Giovanni di Sinis, La Caletta, near Capo San Marco",Italy Sardinia,8.437959,39.859288,-750,1,Pn|Gr|Ro,1,http://pleiades.stoa.org/places/472032,http://imperium.ahlfeldt.se/places/22706,https://www.trismegistos.org/place/22215,https://topostext.org/place/399084UTar
+788.1,,Portu Suedda,Italy Sardinia,8.3936,39.9725,-1200,1,Pn,0,,,,
+788.2,,Isola di Mal di Ventre,Italy Sardinia,8.3066,39.988,-1200,1,Pn,0,,,,
+789,"Coracodes, Korakodes portus","Cala di Su Pallosu, with isolotto di Sa Tonnara",Italy Sardinia,8.409895,40.043873,-1200,1,Pn|Ro,1,http://pleiades.stoa.org/places/474927,,,
+790,"Cornus, Kornos",S’Archittu,Italy Sardinia,8.490364,40.087832,-330,1,Pn|Ro,0,http://pleiades.stoa.org/places/471907,http://imperium.ahlfeldt.se/places/30262,https://www.trismegistos.org/place/22120,https://topostext.org/place/401085UCor
+791,"Bosa, on R Temos","Bosa Marina, at outlet of R Temo",Italy Sardinia,8.469417,40.284535,-330,1,Pn|Ro,0,http://pleiades.stoa.org/places/471895,http://imperium.ahlfeldt.se/places/30259,https://www.trismegistos.org/place/22102,
+792,"Carbia, Garbia ",Alghero,Italy Sardinia,8.306281,40.569916,-30,1,Ro,0,http://pleiades.stoa.org/places/471901,http://imperium.ahlfeldt.se/places/36276,,
+793,Nymphaeus portus ,"Roman villa at Sant'Imbenia, Porto Conte, Grotta Verde, Capo Caccia",Italy Sardinia,8.189645,40.616568,-750,1,Li|Pn|Gr|Ro,1,http://pleiades.stoa.org/places/471985,http://imperium.ahlfeldt.se/places/35723,,https://topostext.org/place/406082HNym
+794,Nure ,Porto Ferro,Italy Sardinia,8.19785,40.682966,-30,1,Ro,0,http://pleiades.stoa.org/places/471982,http://imperium.ahlfeldt.se/places/36477,,
+795,,Stintino,Italy Sardinia,8.225224,40.938117,,0,,0,,,,
+796,"Turris Libyssonis, Libisonis","Porto Torres, outlet of R Mannu",Italy Sardinia,8.3918,40.8368,-330,1,Ro,2,http://pleiades.stoa.org/places/472035,http://imperium.ahlfeldt.se/places/16888,https://www.trismegistos.org/place/22086,https://topostext.org/place/408084UPLi
+796.1,"Turris Libyssonis, Libisonis","Porto Torres, north-south Molo di Ponente 2009 & 2012",Italy Sardinia,8.3941,40.8391,-330,1,Ro,2,http://pleiades.stoa.org/places/472035,http://imperium.ahlfeldt.se/places/16888,https://www.trismegistos.org/place/22086,https://topostext.org/place/408084UPLi
+796.2,"Turris Libyssonis, Libisonis","Porto Torres, Piazza di Colombo",Italy Sardinia,8.4016,40.8392,-330,1,Ro,4,http://pleiades.stoa.org/places/472035,http://imperium.ahlfeldt.se/places/16888,https://www.trismegistos.org/place/22086,https://topostext.org/place/408084UPLi
+796.3,"Turris Libyssonis, Libisonis","Porto Torres, quarry at Scoglio Lungo",Italy Sardinia,8.4089,40.8389,-330,1,Ro,1,http://pleiades.stoa.org/places/472035,http://imperium.ahlfeldt.se/places/16888,https://www.trismegistos.org/place/22086,https://topostext.org/place/408084UPLi
+797,,"Roman villa at Santa Filitica, near Sorso",Italy Sardinia,8.62901,40.87198,-30,1,Ro,1,http://pleiades.stoa.org/places/472022,http://imperium.ahlfeldt.se/places/35725,,
+798,,"Roman villa at Lu Bagnu, near Castelsardo",Italy Sardinia,8.68912,40.90308,-30,1,Ro,1,,http://imperium.ahlfeldt.se/places/41884,,
+799,Portus Tibulae ,Castelsardo,Italy Sardinia,8.706077,40.916939,-30,1,Ro,0,http://pleiades.stoa.org/places/471902,http://imperium.ahlfeldt.se/places/30260,,
+800,Viniolae,"porto di Vignola, near Aglientu",Italy Sardinia,9.060096,41.129461,-30,1,Ro,0,http://pleiades.stoa.org/places/472044,http://imperium.ahlfeldt.se/places/36482,,
+801,,Spiagge delle Colone on Capo Testa,Italy Sardinia,9.1609,41.2404,-330,1,Ro,3,http://pleiades.stoa.org/places/473387,http://imperium.ahlfeldt.se/places/38059,,
+802,Tibula?,"Porto Longone, at Santa Teresa Gallura",Italy Sardinia,9.195259,41.237221,-30,1,Ro,0,http://pleiades.stoa.org/places/472034,http://imperium.ahlfeldt.se/places/32841,https://www.trismegistos.org/place/22245,
+803,"Turublum Minus, Lamos?, Telepylos?, possible port of the Laestrygonians and stopover of Odysseus, near famous Arktou Akra Prom.","Porto Pozzo, ca. 12 km west of Capo d'Orso with famous Roccia dell' Orso landmark",Italy Sardinia,9.275693,41.199135,-1500,1,My|Ro,0,http://pleiades.stoa.org/places/472036,http://imperium.ahlfeldt.se/places/36481,,
+804,Ilva insula,"Cala Gavetta, on Isla La Maddalena",Italy Sardinia,9.404022,41.212045,,0,Ro,0,http://pleiades.stoa.org/places/471952,http://imperium.ahlfeldt.se/places/41662,,
+805,Elefantaria,"Cannigione, Golfo di Arzachena",Italy Sardinia,9.444,41.105,-30,1,Ro,0,http://pleiades.stoa.org/places/471916,http://imperium.ahlfeldt.se/places/36279,,
+806,,Cala Bitta,Italy Sardinia,9.470911,41.125616,,0,,0,,,,
+807,,Poltu Quatu,Italy Sardinia,9.495848,41.13583,,0,,0,,,,
+808,,Porto Vecchio of Porto Cervo,Italy Sardinia,9.53626,41.133359,,0,,0,,,,
+809,,Bay of Cugnana-Portisco,Italy Sardinia,9.523114,41.016495,,0,,0,,,,
+810,,Porto Rotondo,Italy Sardinia,9.546367,41.029277,,0,,0,,,,
+811,,"Roman Villa Eva, near Ventimiglia",Italy West,7.564,43.7902,-30,1,Ro,1,,,,
+811.1,"Vintimilio plagia, Album Intermilium, Albintimilium","Ventimiglia, on R Nervia",Italy West,7.6252,43.7893,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/157802,http://imperium.ahlfeldt.se/places/8039,https://www.trismegistos.org/place/3705,https://topostext.org/place/43876UAlb
+812,,"Roman villa at Foce, near Sanremo",Italy West,7.75954,43.80824,-30,1,Ro,1,http://pleiades.stoa.org/places/157924,http://imperium.ahlfeldt.se/places/18015,,
+813,Matutia,"La Costa, Sanremo",Italy West,7.7807,43.8147,-30,1,Ro,0,http://pleiades.stoa.org/places/157837,http://imperium.ahlfeldt.se/places/17381,,
+814,,"Roman villa di Bussana, near Sanremo",Italy West,7.83858,43.82099,-30,1,Ro,1,http://pleiades.stoa.org/places/157828,http://imperium.ahlfeldt.se/places/17380,,
+815,"Costa Balenae, at the outlet of R Tavia ","Riva Ligure, on R Taggia",Italy West,7.869096,43.830374,,0,Ro,0,http://pleiades.stoa.org/places/157837,,,
+816,"Portus Mauritii, Portu Maurici ","Porto Maurizio, near Imperia",Italy West,8.0207,43.8737,-30,1,Ro,0,http://pleiades.stoa.org/places/157908,http://imperium.ahlfeldt.se/places/17379,,
+817,Lucus Bormani ,Diano Marina,Italy West,8.0859,43.9068,-30,1,Ro,0,http://pleiades.stoa.org/places/157879,http://imperium.ahlfeldt.se/places/17378,,
+818,"Albingauno, Albenganum ","Albenga, on R Centa, with an anchorage at Isola Gallinaria",Italy West,8.2133,44.047,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/157803,http://imperium.ahlfeldt.se/places/10567,https://www.trismegistos.org/place/31683,https://topostext.org/place/440082UAlI
+819,Pullopice,Finale Ligure,Italy West,8.342,44.164,-30,1,Ro,0,http://pleiades.stoa.org/places/157910,http://imperium.ahlfeldt.se/places/17179,,
+820,Varicottis,Varigotti,Italy West,8.396,44.18,300,0,Ro,0,,http://imperium.ahlfeldt.se/places/44322,,
+821,"Vada Sabatia, Vadis Savadis",Vado Ligure,Italy West,8.4359,44.2693,-100,1,Ro,1,http://pleiades.stoa.org/places/383808,http://imperium.ahlfeldt.se/places/17178,https://www.trismegistos.org/place/31860,
+822,Insula Liguriae,"Isola di Bergeggi with ancient lighthouse, near Vado Ligure",Italy West,8.44476,44.2342,250,0,Ro,0,,,,
+823,"Savo, Vicus Virginis? ","Savona, on R Letimbro",Italy West,8.479161,44.296439,-330,1,Ro,0,http://pleiades.stoa.org/places/383770,http://imperium.ahlfeldt.se/places/10568,https://www.trismegistos.org/place/31864,
+824,Alba Docilia ,Roman villa at Albissola,Italy West,8.51187,44.33385,-30,1,Ro,2,http://pleiades.stoa.org/places/383563,http://imperium.ahlfeldt.se/places/17180,https://www.trismegistos.org/place/41056,
+825,,"San Donato, near Varazze",Italy West,8.57134,44.36806,300,0,Ro,0,,http://imperium.ahlfeldt.se/places/44323,,
+826,Ad Navalia ,Cogoleto,Italy West,8.633105,44.37737,-30,1,Ro,3,http://pleiades.stoa.org/places/383551,http://imperium.ahlfeldt.se/places/17181,,
+827,Hasta ,Voltri,Italy West,8.744872,44.422373,-30,1,Ro,0,http://pleiades.stoa.org/places/383670,http://imperium.ahlfeldt.se/places/17182,,
+828,Sestri Ponente ,"Sestri Ponente, on R Polcevera",Italy West,8.867501,44.395427,-30,1,Ro,2,,http://imperium.ahlfeldt.se/places/17183,,
+829,Genua,"Piazza Caricamento, Roman port of Genoa",Italy West,8.9284,44.411,-600,1,Gr|Ro,2,http://pleiades.stoa.org/places/383664,http://imperium.ahlfeldt.se/places/10569,https://www.trismegistos.org/place/14373,https://topostext.org/place/44489UGen
+830,"archaic landing place of Genua, Etruscan Cainua?","Piazza Brignole, on R Bisagno",Italy West,8.94388,44.409,-1000,1,Ro,0,,,,
+831,Ricina ,Recco,Italy West,9.140469,44.358043,300,0,Ro,0,http://pleiades.stoa.org/places/383758,http://imperium.ahlfeldt.se/places/23137,https://www.trismegistos.org/place/31777,
+832,Delphinis ,Camogli,Italy West,9.1526,44.349,-30,1,Ro,0,http://pleiades.stoa.org/places/383632,http://imperium.ahlfeldt.se/places/17184,,
+833,"Portu Delphini, Port du Dauphin ",Portofino,Italy West,9.211589,44.302575,-30,1,Ro,0,http://pleiades.stoa.org/places/383750,http://imperium.ahlfeldt.se/places/17185,,
+834,Ad Solaria ,Chiavari,Italy West,9.310881,44.309698,300,0,Ro,0,http://pleiades.stoa.org/places/383555,http://imperium.ahlfeldt.se/places/17186,,
+835,Tegulata ,Lavagna,Italy West,9.338812,44.299149,-30,1,Ro,0,http://pleiades.stoa.org/places/383795,http://imperium.ahlfeldt.se/places/10578,,
+836,"Segesta, Tigulliorum ",Sestri Levante,Italy West,9.389291,44.273009,-30,1,Ro,0,http://pleiades.stoa.org/places/383775,http://imperium.ahlfeldt.se/places/17187,,
+837,Ad Monilia ,Moneglia,Italy West,9.484384,44.234533,-30,1,Ro,0,http://pleiades.stoa.org/places/383550,http://imperium.ahlfeldt.se/places/17188,,
+838,Antion ,Framura,Italy West,9.546199,44.202859,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/383572,http://imperium.ahlfeldt.se/places/17189,,
+839,Portus Veneris ,"Portovenere, the Genoese rampart is built on top of the Roman quay, the lighthouse is on isola del Tino",Italy West,9.833473,44.049041,-30,1,Ro,1,http://pleiades.stoa.org/places/403262,http://imperium.ahlfeldt.se/places/17206,,
+840,,"Roman villa del Varignano Vecchio, near Le Gracie, La Spezia",Italy West,9.841662,44.063586,-100,1,Ro,1,,http://imperium.ahlfeldt.se/places/42387,,
+841,,San Vito di Marola (ancient site destroyed by Italian Navy in 19th c.),Italy West,9.8175,44.0914,,0,Ro,0,,,,
+842,"Erix, Portus Ericis, Erycis, Portus Illycis, Pullion ","Lerici, Pugliola",Italy West,9.904603,44.077808,300,0,Ro,0,http://pleiades.stoa.org/places/403265,http://imperium.ahlfeldt.se/places/17207,,
+843,,"Roman villa di Bocca di Magra, Ameglia",Italy West,9.984691,44.046073,50,0,Ro,1,http://pleiades.stoa.org/places/403176,http://imperium.ahlfeldt.se/places/42322,,
+844,"Portus Lunae, Lune, Selene, Etruscan Luna, near R Macra  (export of white marble)","Luni Antica, on former coastal lagoon in between R Magra and R Parmignola, near Carrara (Etruscan Carhara, Carhaira)",Italy West,10.0152,44.0608,-330,1,Ro,1,http://pleiades.stoa.org/places/403235,http://imperium.ahlfeldt.se/places/5854,https://www.trismegistos.org/place/31016,https://topostext.org/place/441100ULun
+845,Taberna Frigida ,Massa,Italy West,10.099174,43.998373,300,0,Ro,0,http://pleiades.stoa.org/places/403279,http://imperium.ahlfeldt.se/places/10591,https://www.trismegistos.org/place/41079,
+846,Fossae Papirianae,"R Versilia, near Forte dei Marni & Pietrasanta",Italy West,10.16,43.951,-30,1,Ro,0,http://pleiades.stoa.org/places/403208,http://imperium.ahlfeldt.se/places/17194,,
+847,,"San Rocchino, near Massarosa",Italy West,10.28083,43.87307,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/403274,http://imperium.ahlfeldt.se/places/17210,,
+848,,Roman villa at Massaciuccoli,Italy West,10.3602,43.83659,-330,1,Ro,1,http://pleiades.stoa.org/places/403241,http://imperium.ahlfeldt.se/places/35741,https://www.trismegistos.org/place/31999,
+849,,"Isola del Migliarino, near R Serchio",Italy West,10.32724,43.76764,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/403225,http://imperium.ahlfeldt.se/places/33586,,
+850,,"Porto delle Conche, near R Serchio",Italy West,10.33555,43.73476,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/403258,http://imperium.ahlfeldt.se/places/33588,,
+851,"Port of Pise, Pisa, Etruscan Pisna, Peithusa, Pithsa, on ancient R Auser, near R Arnus","Stazione Ferroviaria Pisa-San Rossore, near Pisa, near R Arno, with Neolithic settlement",Italy West,10.3862,43.7211,-550,1,Li|Gr|Ro,1,http://pleiades.stoa.org/places/403253,http://imperium.ahlfeldt.se/places/10595,https://www.trismegistos.org/place/11855,https://topostext.org/place/437104UPis
+852,,"Roman villa at San Piero a Grado, near Pisa on R Arno",Italy West,10.346,43.68,-30,1,Ro,1,http://pleiades.stoa.org/places/409239,http://imperium.ahlfeldt.se/places/22570,,
+853,,"Isola di Coltano, with Neolithic settlement",Italy West,10.3934,43.6386,-5000,1,Li|Ro,1,,,,
+854,"Triturrita? Turrita? Near Portus Pisanus, Pisarum emporio, Liburnus Portus, Portus Herculis Liburni, Portus Labro, Etruscan Liburna","Santo Stefano ai Lupi, Livorno. This port was connected to the city of Pisa by a series of marshes. A lighthouse was on the Secche della Meloria. Neolithic settlement at Querciolaia",Italy West,10.3343,43.5733,-5000,1,Li|Ro,3,http://pleiades.stoa.org/places/403261,,,
+855,,Castiglioncello ,Italy West,10.4182,43.4022,-330,1,Ro,0,http://pleiades.stoa.org/places/403195,http://imperium.ahlfeldt.se/places/18712,,
+856,"Vadis, Vada Volaterrana ","San Gaetano di Vada, near Vada Volterra",Italy West,10.44801,43.35981,-330,1,Ro,0,http://pleiades.stoa.org/places/403270,http://imperium.ahlfeldt.se/places/33589,,
+857,"Caecina, Etruscan Ceicna, Caicni","Roman villa di San Vincenzino, at Cecina, on R Cecina",Italy West,10.5106,43.3099,-30,1,Ro,1,http://pleiades.stoa.org/places/403275,http://imperium.ahlfeldt.se/places/26499,,
+858,Caprasia insula,Isle of Capraia,Italy West,9.838895,43.050537,,0,Ro,0,http://pleiades.stoa.org/places/403193,http://imperium.ahlfeldt.se/places/41263,,
+858.1,,"San Vincenzo, Neolithic settlement",Italy West,10.531,43.099,-5000,1,Li|Ro,0,,,,
+858.2,,"Roman villa at Villa del Barone, Poggio del Molino",Italy West,10.5129,43.0124,50,0,Ro,1,,,,
+859,"Populonio, Poplonium, Etruscan Fufluna, Pupluna","Baratti, near Populonia",Italy West,10.5014,42.9924,-750,1,Gr|Ro,5,http://pleiades.stoa.org/places/403212,http://imperium.ahlfeldt.se/places/16693,https://www.trismegistos.org/place/14356,https://topostext.org/place/430105UPop
+859.1,,"Roman villa Le Logge, at Populonia",Italy West,10.4895,42.9881,-50,1,Ro,1,,,https://www.trismegistos.org/place/14356,
+860,"Falesia, Porto Falese ","Piombino, with Neolithic settlement",Italy West,10.559041,42.934297,-5000,1,Li|Ro,0,http://pleiades.stoa.org/places/403206,http://imperium.ahlfeldt.se/places/22911,,
+861,,Vignale,Italy West,10.67991,42.9663,-330,1,Ro,1,http://pleiades.stoa.org/places/596384814,http://imperium.ahlfeldt.se/places/25067,,
+862,Etruscan Fullona,Follonica,Italy West,10.757,42.917,-700,1,Gr|Ro,0,,,,
+863,,Roman villa at Puntone Vecchio di Scarlino,Italy West,10.787,42.89577,-30,1,Ro,1,http://pleiades.stoa.org/places/403175,http://imperium.ahlfeldt.se/places/17197,,
+864,Portus Scabris ,Portiglione,Italy West,10.7828,42.8844,,0,Ro,0,http://pleiades.stoa.org/places/409236,,,
+865,R Alma ,Pian d'Alma,Italy West,10.77345,42.84234,,0,Ro,0,https://pleiades.stoa.org/places/403175,,,
+866,"Ilva, Aithalia, Ethalie ","Isle of Elba, with Neolithic settlement",Italy West,10.273798,42.770152,-5000,1,Li|Ro,0,http://pleiades.stoa.org/places/403222,http://imperium.ahlfeldt.se/places/41261,https://www.trismegistos.org/place/45368,https://topostext.org/place/428103IAit
+867,"Argous portus, Argoos, ","Portoferraio, on the isle of Elba",Italy West,10.329861,42.813066,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/403180,http://imperium.ahlfeldt.se/places/33580,https://www.trismegistos.org/place/42396,
+868,,"Edilnautica marina, on the isle of Elba",Italy West,10.314434,42.80632,,0,Ro,0,,,,
+869,,"Roman villa Le Grotte, on the isle of Elba",Italy West,10.3305,42.8006,10,0,Ro,1,,http://imperium.ahlfeldt.se/places/40452,,
+870,,"Roman villa at Capo Castello, on the isle of Elba",Italy West,10.42146,42.86496,10,0,Ro,1,,http://imperium.ahlfeldt.se/places/42278,,
+871,Portus Longus ,"Porto Longone, Porto Azzurro, on the isle of Elba",Italy West,10.397004,42.762374,,0,Ro,0,,,,
+872,Planasia insula,"Isle of Pianosa, near the isle of Elba",Italy West,10.082156,42.582969,-330,1,Ro,0,http://pleiades.stoa.org/places/403255,http://imperium.ahlfeldt.se/places/24898,https://www.trismegistos.org/place/61096,https://topostext.org/place/426100IPla
+873,,"Bagni di Agrippa, Roman villa and Neolithic settlements near Cala Giovanna and La Scola islet, on the isle of Pianosa",Italy West,10.09386,42.59297,-5000,1,Li|Ro,3,,http://imperium.ahlfeldt.se/places/42325,,
+874,,"Stronzolo di Orlando, near Cala del Bruciato, on the isle of Pianosa",Italy West,10.094162,42.570995,,0,Li|Ro,0,,,,
+875,"Traianos Limen, Cape Troia","Cala del Barbiere, near Punta Ala, in front of the isle of Elba",Italy West,10.748622,42.80944,,0,Ro,0,http://pleiades.stoa.org/places/409238,,,
+876,Salebro,"Roman villa at Paduline, Castiglione della Pescaia, on R Bruna",Italy West,10.8868,42.765,-30,1,Ro,1,http://pleiades.stoa.org/places/403269,http://imperium.ahlfeldt.se/places/45375,https://www.trismegistos.org/place/32134,https://topostext.org/place/429110UVet
+876.1,"Vetulonium, Etruscan Vatluna? on Lacus Prilius, Lacu Aprile","Vetulonia, now inland, on R Bruna",Italy West,11.0082,42.877,,0,Ro,0,,,,
+877,Port of Rusellae? on R Umbronis,"Spolverino, on R Ombrone",Italy West,11.0706,42.6886,,0,Ro,0,http://pleiades.stoa.org/places/403285,,,
+878,,"Roman villa Le Terme, Santa Francesca di Talamone",Italy West,11.13614,42.56418,-30,1,Ro,1,http://pleiades.stoa.org/places/413331,http://imperium.ahlfeldt.se/places/23142,,
+879,"Portus Telamonis, Telamon, Etruscan Tlamu","Port of Talamone, near Talamonaccio on R Osa",Italy West,11.158,42.559,,0,Ro,1,http://pleiades.stoa.org/places/403280,http://imperium.ahlfeldt.se/places/23141,https://www.trismegistos.org/place/32041,https://topostext.org/place/426112STal
+880,R Alminia,"Roman villa at Albinia, near the end of Giannella tombolo, on R Albegna",Italy West,11.20724,42.49566,-30,1,Ro,1,http://pleiades.stoa.org/places/413006,http://imperium.ahlfeldt.se/places/42279,,
+880.1,,"Punta degli Stretti, near Canale di Nassa through Giannella tombolo",Italy West,11.173,42.431,-1000,1,Li|Ro,0,,,,
+881,"Domitiana positio, Portus Domitianus ","Roman villa at Santa Liberata, on the peninsula of Argentario",Italy West,11.152682,42.436562,-30,1,Ro,6,http://pleiades.stoa.org/places/403272,http://imperium.ahlfeldt.se/places/25851,,
+882,Incitaria?,"Porto San Stefano, on the peninsula of Argentario",Italy West,11.1166,42.4396,-30,1,Ro,0,http://pleiades.stoa.org/places/403223,http://imperium.ahlfeldt.se/places/33585,,
+883,"Aegilium, Igilium insula","Campese, on the isle of Giglio",Italy West,10.8812,42.3684,,0,Ro,2,http://pleiades.stoa.org/places/403221,http://imperium.ahlfeldt.se/places/41260,https://www.trismegistos.org/place/45372,
+884,Igilium,"Porto, with Roman mole under the modern breakwater, Neolithic settlement, on the isle of Giglio",Italy West,10.9218,42.3601,,0,Li|Ro,4,http://pleiades.stoa.org/places/403220,http://imperium.ahlfeldt.se/places/33584,,
+884.1,,"Bagno del Saraceno, Roman villa on the isle of Giglio",Italy West,10.922725,42.3593,-330,1,Ro,3,https://pleiades.stoa.org/places/408457,,,
+885,Oglasa insula,"Isle of Montecristo, with Neolithic settlement",Italy West,10.309211,42.331958,-5000,1,Li|Ro,0,http://pleiades.stoa.org/places/403247,http://imperium.ahlfeldt.se/places/41292,,
+886,"Portu Herculis, Port of Hercules","Porto Ercole, on the peninsula of Argentario",Italy West,11.2086,42.3912,-330,1,Ro,0,http://pleiades.stoa.org/places/403260,http://imperium.ahlfeldt.se/places/23143,,
+887,Etruscan port of Vulci,"Orbetello, on Orbetello peninsula inside the Orbetello lagoon",Italy West,11.2072,42.4335,,0,Ro,0,http://pleiades.stoa.org/places/403248,http://imperium.ahlfeldt.se/places/17936,https://www.trismegistos.org/place/32050,
+888,,"Roman villa at La Madonnella, Orbetello",Italy West,11.242,42.4459,-30,1,Ro,1,,,,
+888.1,,"Roman villa of Portus Feniglius, on Duna Feniglia tombolo, near Taglio di Ansedonia canal",Italy West,11.2774,42.4201,-1000,1,Ro,1,,,,
+889,"Artemisia, Dianium insula","Cala degli Spalmatoio, on the isle of Giannutri",Italy West,11.103834,42.253963,-30,1,Li|Ro,3,http://pleiades.stoa.org/places/403182,http://imperium.ahlfeldt.se/places/25132,https://www.trismegistos.org/place/47102,https://topostext.org/place/423111IDia
+890,"Villa Domitia, on Artemisia, Dianium insula","Cala Maestra, with Roman villa at Punta Scaletta, on the isle of Giannutri",Italy West,11.096265,42.25423,-30,1,Li|Ro,2,http://pleiades.stoa.org/places/403192,http://imperium.ahlfeldt.se/places/25133,,
+891,"Cosa, Cossae, Portus Herculis Cosanus, Etruscan Cusi, Cuthi","Ansedonia, with Roman villas at Tagliata & Torre San Biagio",Italy West,11.293827,42.40709,-330,1,Ro,10,http://pleiades.stoa.org/places/413107,http://imperium.ahlfeldt.se/places/21588,https://www.trismegistos.org/place/32049,https://topostext.org/place/424113UCos
+891.1,,Lago di Burano,Italy West,11.38,42.4,-30,1,Ro,0,,,,
+892,"R Arnine, Armenta, port of Vulci, Etruscan Velch, Velx",Roman villa Tombolo Palombaro at Montalto Marina on R Fiora,Italy West,11.5856,42.3251,-30,1,Ro,1,http://pleiades.stoa.org/places/413029,,,
+893,"Regis, Regae ","Roman villa Pian delle Murelle, near Montalto",Italy West,11.6041,42.3122,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/413284,http://imperium.ahlfeldt.se/places/26616,,
+894,Quintiana,"Casale di Cazzanello, near Riva dei Tarquini",Italy West,11.6518,42.2824,-30,1,Ro,2,http://pleiades.stoa.org/places/413278,http://imperium.ahlfeldt.se/places/26615,,
+895,"Martanum, Maltano, Etruscan port","Roman villa Pian di Spille, near R Marta at Voltone",Italy West,11.6783,42.2493,-30,1,Ro,4,http://pleiades.stoa.org/places/413194,http://imperium.ahlfeldt.se/places/33604,,
+896,"Graviscae, port of Tarquinia, Etruscan Tarchuna, Tarchna, possible first settlement of Etruscan people",Porto Clementino,Italy West,11.7066,42.2144,-750,1,Gr|Ro,3,http://pleiades.stoa.org/places/413157,http://imperium.ahlfeldt.se/places/21336,https://www.trismegistos.org/place/32081,https://topostext.org/place/422117UGra
+897,Rapinium,"Roman villa at Bagni di San Agostino, near R Mignone",Italy West,11.737,42.167,-30,1,Ro,1,http://pleiades.stoa.org/places/413282,http://imperium.ahlfeldt.se/places/26614,,
+897.1,,Roman villa at Torre San Agostino,Italy West,11.74,42.148,50,0,Ro,1,,,,
+898,"Algae, Etruscan port",Torre Valdaliga,Italy West,11.75841,42.12394,-30,1,Ro,2,http://pleiades.stoa.org/places/413008,http://imperium.ahlfeldt.se/places/26613,https://www.trismegistos.org/place/52003,
+899,,La Mattonara,Italy West,11.76828,42.1164,,0,Ro,2,,,,
+899.1,,"Roman villa at Punta San Paolo, inside modern port area",Italy West,11.78,42.106,-30,1,Ro,2,,,,
+900,"Centumcellae, Palace of the Hundred Chambres. It is the translator of Pliny the Younger who calls it like this, but the « hundred chambres » could also mean the numerous caves in this area, rather than a palace","Darsena Romana in the port of Civitavecchia, and its Torre del Lazzaretto and its Torre del Bicchiere",Italy West,11.787807,42.095064,107,0,Ro,5,http://pleiades.stoa.org/places/413076,http://imperium.ahlfeldt.se/places/16706,https://www.trismegistos.org/place/32032,https://topostext.org/place/421118UCCe
+901,,Roman villa at Punta del Pecoraro,Italy West,11.803,42.074,-30,1,Ro,2,,,,
+902,,Roman villa at Punta della Vipera,Italy West,11.81967,42.0487,-30,1,Ro,3,,,,
+902.1,,Etruscan temple at Punta della Vipera,Italy West,11.8243,42.0446,-500,1,Ro,1,,,,
+903,"Castrum Novum (port of Caere, Coere, Agylla), Etruscan port","Roman villa Casale Alibrandi, Torre Chiaruccia, west of Cape Linaro, at outlet of R Guardiole",Italy West,11.8305,42.0383,-287,1,Ro,4,http://pleiades.stoa.org/places/432772,http://imperium.ahlfeldt.se/places/21309,https://www.trismegistos.org/place/32045,https://topostext.org/place/420118UCNo
+904,Panapione,Santa Marinella,Italy West,11.8544,42.0343,,0,Ro,0,http://pleiades.stoa.org/places/433010,http://imperium.ahlfeldt.se/places/17935,https://www.trismegistos.org/place/32019,https://topostext.org/place/420119UPan
+904.1,Punicum ,"Castello Odescalchi at Santa Marinella, with Roman villa & fish tank 600 m west",Italy West,11.8715,42.035,-330,1,Ro,3,http://pleiades.stoa.org/places/433010,http://imperium.ahlfeldt.se/places/17935,https://www.trismegistos.org/place/32019,https://topostext.org/place/420119UPan
+905,,"Roman villa Le Grottacce, Santa Marinella East",Italy West,11.903,42.0398,-30,1,Ro,4,http://pleiades.stoa.org/places/432867,http://imperium.ahlfeldt.se/places/35107,,
+905.1,,Roman villa I Grottini,Italy West,11.9354,42.0288,-30,1,Ro,1,,,,
+906,"Pyrgoi, Pyrgi (also called The Towers), port of Agylle, Caere, Etruscan Chaire, Caisra, Cisra","Castello Santa Severa, canal-port, at outlet of R Caolino",Italy West,11.9565,42.0152,-750,1,Gr|Ro,5,http://pleiades.stoa.org/places/433061,http://imperium.ahlfeldt.se/places/17254,https://www.trismegistos.org/place/38449,https://topostext.org/place/410120UPyr
+906.1,"Pyrgoi, Pyrgi (also called The Towers), port of Agylle, Caere, Etruscan Chaire, Caisra, Cisra","Castello Santa Severa, sanctuary-port, at outlet of R Caolino",Italy West,11.9604,42.015,-750,1,Gr|Ro,2,http://pleiades.stoa.org/places/433061,http://imperium.ahlfeldt.se/places/17254,https://www.trismegistos.org/place/38449,https://topostext.org/place/410120UPyr
+906.2,Etruscan submerged structure,Macchiatonda,Italy West,11.977,41.9957,-750,1,Gr|Ro,0,,,,
+907,,"Roman villa at Fosso Zembra, Campo di Mare, near Marina di Cerveteri, with large circular fish tank at 400 m NW",Italy West,12.043114,41.964853,200,0,Ro,3,,,,
+908,,Roman villa Torre Flavia,Italy West,12.0493,41.9555,-30,1,Ro,3,http://pleiades.stoa.org/places/422953,http://imperium.ahlfeldt.se/places/35785,https://www.trismegistos.org/place/31995,
+908.1,,"Roman villa at Piazza degli Nereide, Ladispoli",Italy West,12.081,41.942,30,0,Ro,3,,,,
+909,"Alsium, port of Agylla, Caere, Coere, Etruscan Chaire, Caisra","Palo Laziale, with Roman villa",Italy West,12.100837,41.932961,-750,1,Gr|Ro,5,http://pleiades.stoa.org/places/422831,http://imperium.ahlfeldt.se/places/17253,https://www.trismegistos.org/place/32028,https://topostext.org/place/419121UAls
+910,,Roman villa at Marina di San Nicola ,Italy West,12.1253,41.9271,-330,1,Ro,2,http://pleiades.stoa.org/places/422970,http://imperium.ahlfeldt.se/places/35791,,
+911,,Roman villa at Torre di Palidoro ,Italy West,12.1424,41.9128,-330,1,Ro,1,http://pleiades.stoa.org/places/423098,http://imperium.ahlfeldt.se/places/35812,,
+912,"Fregenae, Etruscan Ficrine",Fregene,Italy West,12.18341,41.853058,-330,1,Ro,0,http://pleiades.stoa.org/places/422930,http://imperium.ahlfeldt.se/places/21587,https://www.trismegistos.org/place/40774,https://topostext.org/place/419122UFre
+913,"Portus Augusti Ostiensis, Portus Claudii, Portus Claudius, Port Claude","Porto di Claudio, ""The Emperor's port at Ostia"", near the airport of Fiumicino",Italy West,12.248161,41.779696,46,0,Ro,5,http://pleiades.stoa.org/places/423012,http://imperium.ahlfeldt.se/places/16710,https://www.trismegistos.org/place/30631,
+914,"Portus Trajani, Portus Trajanus","Porto di Traiano, near the airport of Fiumicino. The harbour basin is on the Sforza property and its water level was raised 3 m in the early 20th century, this hides and protects all ancient structures, except warehouses",Italy West,12.262604,41.779943,103,0,Ro,7,http://pleiades.stoa.org/places/423012,http://imperium.ahlfeldt.se/places/16710,https://www.trismegistos.org/place/30631,https://topostext.org/place/418123HPor
+915,Tyrrhene ancient lighthouse of Portus Claudius,supposed location of the ancient lighthouse of Portus Claudius,Italy West,12.2346,41.7765,46,0,Ro,1,,,,
+916,"Ostia, port of Rome","Ostia, with probable lighthouse at Tor Boacciana. It may be noted that Dionysius is more positive on the use of this port than Strabo, although they both lived in the same period",Italy West,12.279848,41.75343,-640,1,Gr|Ro,7,http://pleiades.stoa.org/places/422995,http://imperium.ahlfeldt.se/places/15960,https://www.trismegistos.org/place/2988,https://topostext.org/place/418123UOst
+917,Ostia,"Ostia river port in ancient Tiber meander ""Fiume Morto""",Italy West,12.290905,41.75752,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/422995,http://imperium.ahlfeldt.se/places/15960,https://www.trismegistos.org/place/2988,https://topostext.org/place/418123UOst
+918,Ostia,"Ostia, molo repubblicano",Italy West,12.298925,41.764802,,0,Ro,1,,,,
+919,,"Stella-Buoi, Stalla Buoi, at the outlet of the Canale Romano on R Tiber, immediately east of Portus Trajanus",Italy West,12.279485,41.781193,,0,Ro,0,,,,
+920,,"Quartaccio, at Ponte Galeria",Italy West,12.335019,41.7956,,0,Ro,0,,,,
+921,Ficana,"Monti di San Paolo, near Acilia",Italy West,12.35306,41.80187,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/422921,http://imperium.ahlfeldt.se/places/26608,https://www.trismegistos.org/place/32277,https://topostext.org/place/418123UFic
+922,Portus Vicus Alexandri,"Santa Passera, on left bank of R Tiber, south of Rome",Italy West,12.471443,41.847394,-330,1,Ro,1,http://pleiades.stoa.org/places/423120,http://imperium.ahlfeldt.se/places/29118,,
+923,,"Santa Passera, on right bank of R Tiber",Italy West,12.460841,41.856437,,0,Ro,1,http://pleiades.stoa.org/places/423051,,,
+924,,"on left bank of R Tiber, at Ponte Marconi",Italy West,12.471271,41.85995,,0,Ro,1,,,,
+925,,"Pietra Papa, on right bank of R Tiber",Italy West,12.47534,41.86483,,0,Ro,1,http://pleiades.stoa.org/places/423000,,,
+926,,"Ponte Testaccio, archaïc Mattatoio, on right bank of R Tiber; Note the ancient port area spanned ca. 2 km from Ponte Testaccio to Ponte Cestius-Fabricius",Italy West,12.470699,41.874705,,0,Ro,1,,,,
+926.1,"Pons Probi, Pons Novus, Pons Marmoreus Theodosii","On right bank of R Tiber at bridge of Probus, now destroyed, on Aurelian Wall & in front of Porta Portuensis",Italy West,12.4712,41.88,100,0,Ro,2,https://pleiades.stoa.org/places/490093260,,,
+927,"Horrea Galbae, Horrea Lollianae, Horrea Seianae, Emporium and Porticus Aemilia","Porticus Aemilia & emporium on left bank of R Tiber at Marmorata, south of Ponte Sublico. Tucci claims it could be shipsheds",Italy West,12.47459,41.88244,100,0,Ro,5,,,,
+928,"Transtiberim, Trastevere","Porto di Ripa Grande, on right bank of R Tiber between Ponte Sublico and Porta Portese",Italy West,12.474048,41.883078,,0,Ro,0,,,,
+929,Salinae,at toe of Aventino hill,Italy West,12.47953,41.886246,,0,Ro,1,,,,
+930,"Portus Tiberinus, near Pons Aemilius, oldest archaic port of Rome, close to Foro Romano and Horrea Agrippiana","Foro Boario, on left bank of R Tiber near Ponte Rotto and isle of Tiberina",Italy West,12.4809,41.8892,-753,1,Ro,3,,,,
+930.1,,"Ponte Cestio, on right bank of R Tiber",Italy West,12.4777,41.8896,,0,Ro,2,,,,
+931,"Ponte Aelius, no far from the wine market Ad Ciconias nixas, near Campus Martius, with ""cranes looking like storks""","Between Ponte Sant'Angelo and Ponte Umberto I, on left bank of R Tiber",Italy West,12.4688,41.9015,,0,Ro,4,http://pleiades.stoa.org/places/423025,http://imperium.ahlfeldt.se/places/1438,https://www.trismegistos.org/place/2058,https://topostext.org/place/419125PRom
+931.1,,"Ripetta, on left bank of R Tiber",Italy West,12.4748,41.9058,30,0,Ro,1,,,,
+932,,Roman villa di Procoio at Pianabella,Italy West,12.3125,41.7446,-30,1,Ro,1,,,,
+932.1,,Roman villa di Plinio at Palombara,Italy West,12.3468,41.7111,-30,1,Ro,1,http://pleiades.stoa.org/places/423004,http://imperium.ahlfeldt.se/places/21338,,
+932.2,Vicus Augustanus Laurentium,Grotta di Piastra,Italy West,12.3596,41.7033,,0,Ro,0,,,,
+933,,Roman villa Magna Grotte di Piastra,Italy West,12.3637,41.7004,-30,1,Ro,1,http://pleiades.stoa.org/places/426625,http://imperium.ahlfeldt.se/places/26605,,
+934,"Praetorium de Laurentum, Laureta, Loreta","Tor Paterno, inside Riserva statale Tenuta di Castelporziano",Italy West,12.3915,41.6809,-30,1,Ro,0,http://pleiades.stoa.org/places/423121,http://imperium.ahlfeldt.se/places/21337,https://www.trismegistos.org/place/32590,https://topostext.org/place/417123ULau
+934.1,,"Roman villa del Discobolo, Pantan di Lauro",Italy West,12.3984,41.6735,-30,1,Ro,1,,,,
+935,Troia?,"Roman villa at Torvaianica, at outlet of Fosso Pratica",Italy West,12.4685,41.6137,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/423107,http://imperium.ahlfeldt.se/places/26602,,
+936,,Roman villa La Madonnella at Torvaianica,Italy West,12.4732,41.61634,-30,1,Ro,1,,http://imperium.ahlfeldt.se/places/40461,,
+937,,Roman villa at Centro Regina,Italy West,12.4988,41.5912,-30,1,Ro,1,http://pleiades.stoa.org/places/426626,http://imperium.ahlfeldt.se/places/35103,,
+938,Castrum Inui,"Tor San Lorenzo, at Porto Rutulo",Italy West,12.5113,41.5803,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/438710,http://imperium.ahlfeldt.se/places/41381,https://www.trismegistos.org/place/61099,https://topostext.org/place/416125UCaI
+939,Lacus Nemorensis (Caligula's Naumachies),"Lago di Nemi, with many Roman villas",Italy West,12.7,41.70552,-30,1,Ro,2,http://pleiades.stoa.org/places/422984,,https://www.trismegistos.org/place/32329,
+940,Lacus Albanus (Caligula's Naumachies),"Lago Albano, with many Roman villas",Italy West,12.668608,41.745241,-30,1,Ro,1,http://pleiades.stoa.org/places/422825,,https://www.trismegistos.org/place/32364,https://topostext.org/place/418127WAlb
+941,Lacus Fucinus (Claudius' Naumachies),"Lake Fucin, now dried out in the valley of Avezzano",Italy West,13.54638,41.993758,,0,Ro,0,http://pleiades.stoa.org/places/432853,,,
+942,,Roman villa at Tor Caldara ,Italy West,12.5869,41.4859,-30,1,Ro,1,http://pleiades.stoa.org/places/423095,http://imperium.ahlfeldt.se/places/26601,,
+943,"Antium, Nero's port, Etruscan Anth? Caenon?","Anzio, with Nero's Roman villa and several others",Italy West,12.628393,41.442702,-750,1,Gr|Ro,2,http://pleiades.stoa.org/places/422837,http://imperium.ahlfeldt.se/places/16711,https://www.trismegistos.org/place/32374,https://topostext.org/place/415126UAnt
+944,,Castello di San Gallo at Nettuno,Italy West,12.65254,41.45554,-30,1,Ro,2,http://pleiades.stoa.org/places/422985,http://imperium.ahlfeldt.se/places/26600,,
+945,,Castello di San Gallo at Nettuno,Italy West,12.65607,41.45583,-30,1,Ro,2,http://pleiades.stoa.org/places/422985,http://imperium.ahlfeldt.se/places/26600,,
+946,Caenon?,"Castello di San Gallo at Nettuno, on R Loricina",Italy West,12.66064,41.45612,-30,1,Ro,4,http://pleiades.stoa.org/places/422985,http://imperium.ahlfeldt.se/places/26600,,
+946.1,,Roman villa Le Grottacce,Italy West,12.7299,41.4315,-30,1,Ro,1,,,,
+946.2,,Roman villa La Chiesola,Italy West,12.7382,41.4253,30,0,Ro,1,,,,
+947,,Roman villa La Saracca,Italy West,12.745244,41.420781,30,0,Ro,3,,,,
+948,,Roman villa La Banca,Italy West,12.749332,41.417172,30,0,Ro,3,,,,
+949,"Astura, Storas, on R Astura","Torre Astura,  on R Astura",Italy West,12.767198,41.407351,-330,1,Ro,5,http://pleiades.stoa.org/places/432703,http://imperium.ahlfeldt.se/places/22569,https://www.trismegistos.org/place/32331,https://topostext.org/place/414128UAst
+950,Clostra Romana ,"Lago di Fogliano, near Latina",Italy West,12.868416,41.401924,-30,1,Ro,0,http://pleiades.stoa.org/places/432788,http://imperium.ahlfeldt.se/places/23147,https://www.trismegistos.org/place/32443,
+951,Ad Turres Albas ,near Lago dei Monaci,Italy West,12.91288,41.375768,-330,1,Ro,0,http://pleiades.stoa.org/places/432644,http://imperium.ahlfeldt.se/places/23148,,
+952,,"Roman villa at Palazzo di Domiziano, near Sabaudia",Italy West,13.0396,41.2684,-30,1,Ro,3,http://pleiades.stoa.org/places/432895,http://imperium.ahlfeldt.se/places/35108,,
+953,"Port of Circei, Circe, Eea, Aeaea, Aiaia, Aia insula?, possible stopover for Odysseus","Inside Lago di Paola, several Roman villas incl. Piscina di Lucullo, with access via canal and breakwaters",Italy West,13.04425,41.253072,-330,1,My|Ro,7,http://pleiades.stoa.org/places/432783,http://imperium.ahlfeldt.se/places/22392,https://www.trismegistos.org/place/41839,
+954,"Circei, Circaeum Prom., Kirkaion, outlet of Nero's Fossa Augusta","Cape Circeo, with several Roman villas, with canal outlet on R Torto",Italy West,13.1052,41.2405,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/432782,http://imperium.ahlfeldt.se/places/22391,,https://topostext.org/place/412131LKir
+955,"Terracina, Tarracina, Anxur, Etruscan Tarchna, Tarkina","Terracina, with several Roman villas",Italy West,13.2545,41.286,-500,1,Gr|Ro,5,http://pleiades.stoa.org/places/433143,http://imperium.ahlfeldt.se/places/16712,https://www.trismegistos.org/place/32551,https://topostext.org/place/413133SJAn
+956,Fundi,"Fondi, with possible connections to the sea via Lago di Fondi and Canale Canneto and Cannale Sant’Anastasia",Italy West,13.42926,41.35738,-330,1,Ro,0,http://pleiades.stoa.org/places/432855,http://imperium.ahlfeldt.se/places/16713,https://www.trismegistos.org/place/23508,https://topostext.org/place/414134UFun
+957,Pontia insula,"Porto di Ponza, with Roman villa Grotta di Pilato, Punta della Madonna, on the isle of Ponza",Italy West,12.964786,40.894781,-750,1,Li|Gr|Ro,4,http://pleiades.stoa.org/places/433041,http://imperium.ahlfeldt.se/places/29154,https://www.trismegistos.org/place/38447,https://topostext.org/place/409130IPon
+957.1,Sinonia insula,"Isola Zannone, with fish tank",Italy West,13.04886,40.9655,,0,Ro,2,https://pleiades.stoa.org/places/433121,http://imperium.ahlfeldt.se/places/41269,,
+958,Pandataria insula,"Roman villa Giulia at Punta Eolo, on the isle of Ventotene",Italy West,13.433896,40.797822,-30,1,Ro,4,http://pleiades.stoa.org/places/433011,http://imperium.ahlfeldt.se/places/41267,https://www.trismegistos.org/place/43877,https://topostext.org/place/408134IPan
+958.1,Pandataria insula,"Roman villa Polveriera at Porto Vecchio, on the isle of Ventotene",Italy West,13.434,40.7979,30,0,Li|Ro,5,,,,
+958.2,Pandataria insula,"Roman villa with fish tank, on the isle of Ventotene",Italy West,13.4348,40.7968,-30,1,Ro,2,,,,
+959,"Aegina, on Pandataria insula","San Stefano, islet near the isle of Ventotene",Italy West,13.454465,40.789044,,0,Ro,0,http://pleiades.stoa.org/places/433011,http://imperium.ahlfeldt.se/places/41267,https://www.trismegistos.org/place/43877,
+960,Speluncae ,"Sperlonga, Torre Truglia",Italy West,13.432844,41.253212,-30,1,Ro,1,http://pleiades.stoa.org/places/433127,http://imperium.ahlfeldt.se/places/22964,https://www.trismegistos.org/place/32362,https://topostext.org/place/413134USpe
+961,Villa Tiberii ,"Roman villa Grotta di Tiberio, with fresh-water fish tank",Italy West,13.449773,41.250255,-30,1,Ro,6,http://pleiades.stoa.org/places/433204,http://imperium.ahlfeldt.se/places/22393,,
+961.1,,Roman villa behind Bazzano beach,Italy West,13.4547,41.249,-100,1,Ro,2,,,,
+961.2,,"Roman villa San Agostino, Pian delle Salce",Italy West,13.4879,41.235,-70,1,Ro,2,,,,
+961.3,,"Roman villa San Vito, Monte a Mare, Albergo Ninfeo",Italy West,13.512,41.224,-100,1,Ro,2,,,,
+962,"Caiete, Caieta, Caeatas, Aeete, Etruscan Caithi","Gaeta, Gaète",Italy West,13.586,41.211,-330,1,Ro,0,http://pleiades.stoa.org/places/432734,http://imperium.ahlfeldt.se/places/21326,https://www.trismegistos.org/place/10415,https://topostext.org/place/412135UCai
+962.1,,"Spiaggia di Fontania, with Roman villa Gneo Fonteo, La Catena, La Nave, and many others on Spiaggia Serapo and around Gaeta",Italy West,13.55314,41.20846,-30,1,Ro,5,,,,
+962.2,,Roman villa Arzano,Italy West,13.5705,41.231,-30,1,Ro,1,,,,
+962.3,,Roman villa Accetta at Punta Conca,Italy West,13.5753,41.2405,-30,1,Ro,3,,,,
+962.4,,"Roman villa Arcela, Villa Irlanda",Italy West,13.591,41.2476,-30,1,Ro,1,,,,
+962.5,,Roman villa Vindicio,Italy West,13.5956,41.2485,-30,1,Ro,1,,,,
+963,,Roman villa La Caraciolo at Porto di Caposele,Italy West,13.5981,41.25082,-30,1,Ro,4,,,,
+963.1,,"Roman villa Rubino, Villa di Cicerone, quay with 250 m BW at 60 m south",Italy West,13.6008,41.2514,30,0,Ro,6,,,,
+964,"Formiae, Formies, Hormies ",Roman villa at Marina di Castellone,Italy West,13.6057,41.253,-330,1,Ro,3,http://pleiades.stoa.org/places/432839,http://imperium.ahlfeldt.se/places/16716,https://www.trismegistos.org/place/32462,https://topostext.org/place/413136UFor
+965,"Formiae, Formies, Hormies ","Formia, Roman villa Sarinola",Italy West,13.608778,41.255461,-30,1,Ro,3,http://pleiades.stoa.org/places/432839,http://imperium.ahlfeldt.se/places/16716,https://www.trismegistos.org/place/32462,https://topostext.org/place/413136UFor
+965.1,"Formiae, Formies, Hormies ","Formia, Roman villa Caposelice under Mercato Largo Paone",Italy West,13.6116,41.2578,-30,1,Ro,3,http://pleiades.stoa.org/places/432839,http://imperium.ahlfeldt.se/places/16716,https://www.trismegistos.org/place/32462,https://topostext.org/place/413136UFor
+966,,"Roman villa Mamurra, with fish tank at Porticciolo Romano, Torre Gianola",Italy West,13.675,41.2479,-330,1,Ro,4,http://pleiades.stoa.org/places/432863,http://imperium.ahlfeldt.se/places/22276,,
+967,Pyrae?,Roman villa at Scauri ,Italy West,13.703677,41.250662,-330,1,Ro,1,http://pleiades.stoa.org/places/433111,http://imperium.ahlfeldt.se/places/35114,,
+968,"Minturnae, on via Appia, with Pons Tirenus bridge on R Liris",Minturno on R Garigliano,Italy West,13.7709,41.241,-296,1,Ro,0,http://pleiades.stoa.org/places/432940,http://imperium.ahlfeldt.se/places/16714,https://www.trismegistos.org/place/14433,https://topostext.org/place/412138UMin
+968.1,"Marica temple, sea-port of Minturnae",Outlet of R Garigliano,Italy West,13.7645,41.2265,-700,1,Gr|Ro,0,https://pleiades.stoa.org/places/432925,,,
+969,,Roman villa San Limato ,Italy West,13.8408,41.15847,-330,1,Ro,1,http://pleiades.stoa.org/places/433159,http://imperium.ahlfeldt.se/places/35115,,
+970,"Sinuessa, Sinuesa, Sinope","Baia Azzurra Levagnole, near Mondragone",Italy West,13.85,41.14944,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/433122,http://imperium.ahlfeldt.se/places/21310,https://www.trismegistos.org/place/32437,https://topostext.org/place/411139USin
+971,,"Roman villa at Treppete, near Mondragone",Italy West,13.86509,41.12983,-30,1,Ro,1,http://pleiades.stoa.org/places/433165,http://imperium.ahlfeldt.se/places/35116,,
+972,Aquae Sinuessanae & Pagus Sarclanus?,Starza di Mondragone,Italy West,13.9125,41.1228,-330,1,Ro,0,http://pleiades.stoa.org/places/433003,http://imperium.ahlfeldt.se/places/29152,https://www.trismegistos.org/place/42743,
+973,"Volturnum, on R Vulturnus","Castel Volturno, on R Volturno",Italy West,13.92,41.0186,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/433210,http://imperium.ahlfeldt.se/places/23181,https://www.trismegistos.org/place/32591,https://topostext.org/place/410139WVol
+974,"Liternum, Linternum, port of the Osci, Oskoi, Osques, Opici, Aurunci, Ausones",Lago di Patria,Italy West,14.029903,40.921334,-330,1,Ro,0,http://pleiades.stoa.org/places/432911,http://imperium.ahlfeldt.se/places/23180,https://www.trismegistos.org/place/32481,https://topostext.org/place/409140ULit
+975,"Cumae, Cumes, Kyme","Cuma, with uncertain location of ancient port NE and/or SW of the acropolis, and uncertain Fossa Neronis",Italy West,14.051265,40.846657,-750,1,Gr|Ro,4,http://pleiades.stoa.org/places/432808,http://imperium.ahlfeldt.se/places/16719,https://www.trismegistos.org/place/14437,https://topostext.org/place/408141PCum
+975.1,Villa near Acherusia Palus,"Roman villa of Publius Servilius Vatia Isauricus, at Torre Vageta Fusaro, near Fusaro lake",Italy West,14.0433,40.8133,50,0,Ro,2,https://pleiades.stoa.org/places/432622,,,
+976,Aenaria ,"Baia di Cartaromana, on the isle of Ischia",Italy West,13.9605,40.7291,,0,Ro,0,http://pleiades.stoa.org/places/432648,http://imperium.ahlfeldt.se/places/42338,https://www.trismegistos.org/place/32363,
+976.1,,"Porto d'Ischia, on the isle of Ischia",Italy West,13.940565,40.74431,,0,Ro,0,,,,
+977,"Pithekoussai, Pithecusae, Etruscan Inarime, first Greek (Euboian) settlement in Italy","Monte Vico, at Lacco Ameno, on the isle of Ischia",Italy West,13.885913,40.754297,-750,1,Li|Pn|Gr|Ro,0,http://pleiades.stoa.org/places/433026,http://imperium.ahlfeldt.se/places/22960,https://www.trismegistos.org/place/23501,https://topostext.org/place/408139IPit
+978,,"Punta Chiarito, on the isle of Ischia",Italy West,13.879064,40.696687,-700,1,Gr|Ro,0,http://pleiades.stoa.org/places/433055,http://imperium.ahlfeldt.se/places/29157,,
+978.1,"Procita, Prochyta insula",Isle of Procida,Italy West,14.016731,40.759068,-700,1,Li|My|Gr|Ro,0,http://pleiades.stoa.org/places/433053,http://imperium.ahlfeldt.se/places/41252,,
+978.2,,"Punta d'Alaca & Punta di Mezzogiorno, on the isle of Vivara",Italy West,13.992,40.74,-1500,1,My|Ro,0,,,,
+979,,"Roman villa di Lucullo, near Grotta della Dragonara",Italy West,14.0836,40.7842,-60,1,Ro,0,https://pleiades.stoa.org/places/870212544,,,
+979.1,,Roman villa at Punta Terone,Italy West,14.0888,40.7869,-30,1,Ro,2,,,,
+980,"Misenos, Misenum, Misene, home port of Classis Misenensis fleet as from 12 BC","Capo Miseno, west of Naples",Italy West,14.085,40.79,-12,1,Ro,4,http://pleiades.stoa.org/places/432941,http://imperium.ahlfeldt.se/places/16720,https://www.trismegistos.org/place/3152,https://topostext.org/place/408141HMis
+980.1,"Misenos, Misenum, Misene, Inner harbour","Lago Miseno, Mare Morto",Italy West,14.073,40.793,-12,1,Ro,2,,,,
+981,"Misenos, Misenum, Misene ","Punta Terone, pilae of the southern breakwater",Italy West,14.089871,40.788295,-12,1,Ro,5,http://pleiades.stoa.org/places/432941,,https://www.trismegistos.org/place/3152,https://topostext.org/place/408141HMis
+982,"Misenos, Misenum, Misene ","Punta di Pennata, pilae of the northern breakwater",Italy West,14.089078,40.789763,-12,1,Ro,3,http://pleiades.stoa.org/places/432941,,https://www.trismegistos.org/place/3152,https://topostext.org/place/408141HMis
+983,"Misenos, Misenum, Misene ","Punta Sarparella, concrete jetty within the harbour",Italy West,14.0829,40.79024,-12,1,Ro,2,http://pleiades.stoa.org/places/432941,,https://www.trismegistos.org/place/3152,https://topostext.org/place/408141HMis
+984,"Misenos, Misenum, Misene ","Punta di Pennata, pilae within the harbour",Italy West,14.08524,40.7914,-12,1,Ro,2,http://pleiades.stoa.org/places/432941,,https://www.trismegistos.org/place/3152,https://topostext.org/place/408141HMis
+984.1,"Misenos, Misenum, Misene ",Large Roman villa on isola Pennata,Italy West,14.088,40.7931,-30,1,Ro,1,,,,
+984.2,Thermae,"Roman villa Cento Camerelle, Bacoli",Italy West,14.0853,40.7984,-30,1,Ro,1,,,,
+984.3,Bauli,"Roman villa Marina Grande, Hortalus fish tank, Bacoli",Italy West,14.0831,40.8,-30,1,Ro,3,,,,
+985,Bauli,"Roman villa Tomba di Agrippina, Caesar fish tank, Bacoli",Italy West,14.08134,40.80286,-30,1,Ro,2,http://pleiades.stoa.org/places/432720,http://imperium.ahlfeldt.se/places/24882,https://www.trismegistos.org/place/32281,https://topostext.org/place/408141UBau
+985.1,Bauli,"Roman villa Bagni Salvatore, Bacoli",Italy West,14.0829,40.809,-30,1,Ro,4,,,,
+985.2,Bauli,"Roman villa Castello di Baia, Bacoli",Italy West,14.083,40.8111,-30,1,Ro,2,,,,
+985.3,Bauli,"Roman villa near via Lucullo & Castello Aragonese, Bacoli",Italy West,14.0766,40.8126,-30,1,Ro,3,,,,
+986,"Baiae, Baïes, with access to Portus Baianus, on Lacus Baianus","Baia, two concrete moles over 200 m long, access to Porto di Baia, and several Roman villas: Terme di Mercurio, Terme di Sosandra, Terme di Venere, Templo di Diana, Palazzo dei Cesari",Italy West,14.0775,40.8183,-30,1,Ro,6,http://pleiades.stoa.org/places/432716,http://imperium.ahlfeldt.se/places/22558,https://www.trismegistos.org/place/32453,https://topostext.org/place/408141PBai
+986.1,,Roman villa dei Pisoni,Italy West,14.0796,40.8205,-30,1,Ro,3,,,,
+987,"Access to Portus Iulius, Julius, port of Julien, on Lacus Lucrinus, used by Agrippa as a naval base from 37 BC to 12 BC","Lucrino, two concrete moles over 200 m long",Italy West,14.094706,40.82648,-37,1,Ro,6,https://pleiades.stoa.org/places/432915,http://imperium.ahlfeldt.se/places/40428,https://www.trismegistos.org/place/32454,https://topostext.org/place/408141WLuc
+988,"Navale di Agrippa, on Lacus Avernus, Odysseus' stopover at the Halls of Hades possibly in this area",Lake Averno,Italy West,14.07598,40.837969,-37,1,Ro,1,http://pleiades.stoa.org/places/432712,http://imperium.ahlfeldt.se/places/41885,https://www.trismegistos.org/place/42488,https://topostext.org/place/408141WAve
+989,"Vicus Annianus, Invinias",Pozzuoli West,Italy West,14.10502,40.82988,300,0,Ro,1,http://pleiades.stoa.org/places/432885,http://imperium.ahlfeldt.se/places/23179,,
+990,Vicus Lartidianus,"Pozzuoli West, with Nabatean temple",Italy West,14.1125,40.8294,,0,Ro,1,,,,
+991,"Puteoli, Dikaiarcheia, Dicearque, Flavia Colonia Augusta Puteoli, Delus Minor, in the Campi Phlegraei volcano district","Pozzuoli, Pouzzoles, Puteoles, in the Campi Flegrei volcano district, pilae of arched mole are under modern breakwater (Molo Caligoliano)",Italy West,14.1154,40.8216,-750,1,Gr|Ro,7,http://pleiades.stoa.org/places/432815,http://imperium.ahlfeldt.se/places/16721,https://www.trismegistos.org/place/3189,https://topostext.org/place/408141PDik
+991.1,"Puteoli, Dikaiarcheia, Dicearque","Rocca di Rione Terra, large number of submerged pilae",Italy West,14.1193,40.8193,30,0,Ro,2,,,,
+992,"Nesis, Odysseus' port of the Cyclops ?","Porto Paone, on the isle of Nisida, which is now connected to the continent by a breakwater, at Naples (Cuisenier mentions this site with two other possible sites: Marettimo and Faraglioni, Nisida clearly providing the best shelter as described by Homer)",Italy West,14.161118,40.794293,,0,My|Ro,2,http://pleiades.stoa.org/places/432980,,,
+993,Nesis,"Nisida, very large pila of over 1500 m3 remaining from an arched mole",Italy West,14.168934,40.796145,,0,Ro,1,http://pleiades.stoa.org/places/432980,,,
+994,Imperial Villa of Pausilypon ,"Roman villa at Posillipo, protected by row of pilae",Italy West,14.1883,40.793,-30,1,Ro,4,,http://imperium.ahlfeldt.se/places/24883,,
+994.1,Imperial Villa of Pausilypon ,"Palazzo degli Spiriti, with pilae",Italy West,14.1917,40.7934,-30,1,Ro,4,,,,
+995,Imperial Villa of Pausilypon ,"Pollion's villa at Porto Marechiaro, with pilae",Italy West,14.1919,40.7947,-30,1,Ro,3,,http://imperium.ahlfeldt.se/places/24883,,
+995.1,,"Villa Volpicelli, and several other coastal villas near Capo di Posillipo",Italy West,14.2071,40.8024,-30,1,Ro,3,,,,
+996,Megaris insula,"Castell del'Ovo, at Pizzofalcone in Naples",Italy West,14.2481,40.8271,,0,Ro,4,,,,
+997,"Parthenope, Neapolis","Santa Lucia, near Pizzofalcone in Naples, but port probably at Piazza Municipio since early times",Italy West,14.2522,40.8398,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/433014,http://imperium.ahlfeldt.se/places/1524,https://www.trismegistos.org/place/2676,https://topostext.org/place/408142PNea
+997.1,Neapolis ,"Naples, Piazza Municipio, offshore Roman pier made with timber caissons",Italy West,14.25462,40.83927,-600,1,Gr|Ro,3,http://pleiades.stoa.org/places/433014,http://imperium.ahlfeldt.se/places/1524,https://www.trismegistos.org/place/2676,https://topostext.org/place/408142PNea
+998,Neapolis ,"Naples, Piazza Municipio, onshore Roman quay",Italy West,14.2524,40.83926,-600,1,Gr|Ro,1,http://pleiades.stoa.org/places/433014,http://imperium.ahlfeldt.se/places/1524,https://www.trismegistos.org/place/2676,https://topostext.org/place/408142PNea
+999,,Roman villa dei Papiri,Italy West,14.3446,40.8079,-50,1,Ro,1,,,,
+999.1,"Herculaneum, Etruscan Herclena","Ercolano, Resina",Italy West,14.35,40.7998,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/432873,http://imperium.ahlfeldt.se/places/21353,https://www.trismegistos.org/place/3365,https://topostext.org/place/408143UHer
+1000,,"Roman villa Sora, near Torre del Greco",Italy West,14.37469,40.77828,-50,1,Ro,1,,http://imperium.ahlfeldt.se/places/42388,,
+1001,Oplontis ,"Villa di Poppea, near Torre Annunziata",Italy West,14.4525,40.75755,-330,1,Ro,0,http://pleiades.stoa.org/places/432992,http://imperium.ahlfeldt.se/places/21354,https://www.trismegistos.org/place/32518,https://topostext.org/place/408145UOpl
+1001.1,Oplontis ,Roman villa di Lucius Tertius Crassus,Italy West,14.4566,40.7562,-30,1,Ro,1,,,,
+1002,"Pompeia, Porta Marina, Etruscan Pumpai","Pompei, uncertain location of ancient port on R Sarno near Porta Marina and/or near Porta Stabia?, with several Roman villas: Misteri, Diomede, Colonne a mosaico, Cicerone, Imperiale",Italy West,14.48226,40.74893,-750,1,Gr|Ro,4,http://pleiades.stoa.org/places/433032,http://imperium.ahlfeldt.se/places/21352,https://www.trismegistos.org/place/2788,https://topostext.org/place/407145PPom
+1002.1,"Pompeia, Porta Stabia, Etruscan Pumpai","Pompei, uncertain location of ancient port on R Sarno near Porta Marina and/or near Porta Stabia?, with several Roman villas: Misteri, Diomede, Colonne a mosaico, Cicerone, Imperiale",Italy West,14.4908,40.7473,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/433032,http://imperium.ahlfeldt.se/places/21352,https://www.trismegistos.org/place/2788,https://topostext.org/place/407145PPom
+1003,Stabiae ,"Castellammare di Stabia, with several Roman villas: Petraro, San Marco, Pastore, Ariana",Italy West,14.4926,40.69976,-330,1,Ro,1,http://pleiades.stoa.org/places/433128,http://imperium.ahlfeldt.se/places/16722,https://www.trismegistos.org/place/14340,https://topostext.org/place/407145USta
+1004,Aequana ,"Roman villa at Pezzolo beach, Marina di Seiano,near Vico Equense",Italy West,14.4215,40.6617,-750,1,Gr|Ro,3,http://pleiades.stoa.org/places/432649,http://imperium.ahlfeldt.se/places/29119,https://www.trismegistos.org/place/14339,
+1005,,Piano di Sorrento ,Italy West,14.402715,40.645818,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/433021,http://imperium.ahlfeldt.se/places/22399,,
+1005.1,,Roman villa at Marina Piccola,Italy West,14.3778,40.6301,-30,1,Ro,1,,,,
+1006,"Surrentum, Etruscan Irnthi","Sorrento, Roman villa Agrippa Postumus at Marina Grande",Italy West,14.3698,40.6279,-330,1,Ro,3,http://pleiades.stoa.org/places/433139,http://imperium.ahlfeldt.se/places/16723,https://www.trismegistos.org/place/14448,https://topostext.org/place/406144USur
+1007,,"Roman villa at Capo di Sorrento, Bagni della Regina Giovanna",Italy West,14.3519,40.6338,-30,1,Ro,2,http://pleiades.stoa.org/places/432749,http://imperium.ahlfeldt.se/places/35106,,
+1007.1,,"Roman villa at Marina di Puolo, at Punta della Calcarella",Italy West,14.3484,40.6294,-30,1,Ro,1,,,,
+1008,,Roman villa at Capo di Massa,Italy West,14.3404,40.6263,-30,1,Ro,1,,http://imperium.ahlfeldt.se/places/42283,,
+1008.1,Minervae Prom.,Roman villa at Punta Campanella,Italy West,14.3244,40.5692,-30,1,Ro,1,https://pleiades.stoa.org/places/432938,http://imperium.ahlfeldt.se/places/41250,https://www.trismegistos.org/place/49920,https://topostext.org/place/406143SMin
+1009,"Capraria, Capreae insula","Bagni di Tiberio, near Marina Grande on the isle of Capri, with lighthouse at Roman villa Jovis",Italy West,14.236593,40.557685,-550,1,Li|Gr|Ro,5,http://pleiades.stoa.org/places/432751,http://imperium.ahlfeldt.se/places/22631,https://www.trismegistos.org/place/32415,https://topostext.org/place/406143ICap
+1010,"Capraria, Capreae insula","Palazzo a Mare, near Marina Grande on the isle of Capri",Italy West,14.2288,40.5596,-30,1,Ro,3,http://pleiades.stoa.org/places/433006,http://imperium.ahlfeldt.se/places/22398,,
+1010.1,"Capraria, Capreae insula",Roman villa Damecuta on the isle of Capri,Italy West,14.2,40.5592,30,0,Ro,1,,,,
+1011,"Capraria, Capreae insula","Scoglio del Monacone, near the isle of Capri",Italy West,14.2562,40.5431,,0,Ro,2,,,,
+1012,"Capraria, Capreae insula","Marina Piccola, on the isle of Capri",Italy West,14.23487,40.54454,,0,Ro,1,,,,
+1013,,"Roman villa on Scoglio Isca, Galluzzo",Italy West,14.3766,40.588,30,0,Ro,1,,,,
+1013.1,"Seirenoussai nesoi, Anthemoessa insulae, Anthemuse, possible Siren islands, no stopover for Odysseus",isola di Gallo Lungo,Italy West,14.43365,40.5825,-750,1,My|Gr|Ro,2,http://pleiades.stoa.org/places/433124,http://imperium.ahlfeldt.se/places/41251,,https://topostext.org/place/406144ISei
+1014,,Roman villa at Positano ,Italy West,14.4871,40.62815,-30,1,Ro,1,http://pleiades.stoa.org/places/433048,http://imperium.ahlfeldt.se/places/21355,,
+1015,Amalfi Civitas ,Amalfi,Italy West,14.602899,40.629351,300,0,Ro,0,http://pleiades.stoa.org/places/432670,http://imperium.ahlfeldt.se/places/16724,,
+1016,,Roman villa at Minori ,Italy West,14.6262,40.6505,-30,1,Ro,1,http://pleiades.stoa.org/places/432939,http://imperium.ahlfeldt.se/places/22400,,
+1017,Vietri ,"Punta Fuenti, near Vietri sul Mare",Italy West,14.713068,40.657725,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/433199,http://imperium.ahlfeldt.se/places/29171,https://www.trismegistos.org/place/32536,
+1018,"Salernum, Etruscan Irna",Salerno,Italy West,14.7611,40.670947,,0,Ro,0,http://pleiades.stoa.org/places/433075,http://imperium.ahlfeldt.se/places/1523,https://www.trismegistos.org/place/14450,https://topostext.org/place/407148USal
+1019,,"Arensola, near Eboli",Italy West,14.94346,40.5352,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442475,http://imperium.ahlfeldt.se/places/29179,,
+1020,Portus Alburnus ,"at the outlet of R Silarus, now called Sele, near Capaccio-Paestum",Italy West,14.969769,40.488629,-330,1,Ro,0,http://pleiades.stoa.org/places/442457,http://imperium.ahlfeldt.se/places/29175,,
+1021,"Poseïdonia, Posidonia, Paestum, on R Silarus","Capaccio-Paestum, possibly near Torre di Paestum",Italy West,14.992,40.415,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442733,http://imperium.ahlfeldt.se/places/16726,https://www.trismegistos.org/place/14483,https://topostext.org/place/404150PPos
+1022,,Roman villa San Marco at Agropoli ,Italy West,14.990506,40.358318,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/442454,http://imperium.ahlfeldt.se/places/16727,,
+1023,,San Marco di Castellabate,Italy West,14.932901,40.268002,-30,1,Ro,3,http://pleiades.stoa.org/places/442775,http://imperium.ahlfeldt.se/places/30397,,
+1023.1,,Isola Licosa,Italy West,14.9004,40.252,,0,Ro,2,,,,
+1024,"Velia, Elea, Portus Velinus, Hyele, near R Hales","Velia, near R Alento",Italy West,15.157,40.1602,-535,1,Ro,2,http://pleiades.stoa.org/places/452488,http://imperium.ahlfeldt.se/places/16728,https://www.trismegistos.org/place/2495,https://topostext.org/place/402152PEle
+1025,Palinurus ,"Roman villa at Palinuro, near Centola",Italy West,15.282234,40.035658,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/452398,http://imperium.ahlfeldt.se/places/30469,,
+1026,"Oenotrides insulae, Molpa ",Scoglio del Coniglio? With good anchorage on the coast,Italy West,15.294659,40.026788,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452382,http://imperium.ahlfeldt.se/places/30465,https://www.trismegistos.org/place/59547,
+1027,"Pyxus, near Buxentum Prom.","Policastro Bussentino, near Capo degli Ingreschi, near Camerota",Italy West,15.516403,40.065378,-470,1,Gr|Ro,0,http://pleiades.stoa.org/places/452411,http://imperium.ahlfeldt.se/places/16730,https://www.trismegistos.org/place/14487,https://topostext.org/place/401155UPyx
+1028,Scidrus ,"Roman villa at Cammerelle, near Sapri",Italy West,15.6222,40.07218,-330,1,Ro,3,http://pleiades.stoa.org/places/452452,http://imperium.ahlfeldt.se/places/35397,,
+1029,Cesernia ,"Capo La Timpa, near Maratea",Italy West,15.7001,39.9922,-30,1,Ro,0,http://pleiades.stoa.org/places/452297,http://imperium.ahlfeldt.se/places/23170,,
+1030,,"Isle of Santo Janni, Santoianni ",Italy West,15.716,39.9673,-30,1,Ro,1,http://pleiades.stoa.org/places/452345,http://imperium.ahlfeldt.se/places/30459,,
+1030.0999999999999,,"Roman villa at La Secca, near Castrocucco",Italy West,15.7436,39.9342,-30,1,Ro,3,,,,
+1031,Blanda ,"Tortora Marina, on R Noce",Italy West,15.756465,39.913511,-330,1,Ro,0,http://pleiades.stoa.org/places/452274,http://imperium.ahlfeldt.se/places/16729,https://www.trismegistos.org/place/14485,https://topostext.org/place/399158UBla
+1032,,Petrosa ,Italy West,15.781146,39.81781,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452404,http://imperium.ahlfeldt.se/places/30471,,
+1033,"Laos, Laus ",outlet of R Lao?,Italy West,15.789572,39.775272,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452361,http://imperium.ahlfeldt.se/places/23168,https://www.trismegistos.org/place/14487,https://topostext.org/place/398158ULao
+1034,"Cerillea, Cerilli ",Cirella,Italy West,15.804176,39.709009,-330,1,Ro,0,http://pleiades.stoa.org/places/452296,http://imperium.ahlfeldt.se/places/23167,,
+1035,,Belvedere Marittimo ,Italy West,15.848026,39.613783,-330,1,Ro,0,http://pleiades.stoa.org/places/452272,http://imperium.ahlfeldt.se/places/30434,,
+1036,,Acquappesa ,Italy West,15.945789,39.491704,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/452249,http://imperium.ahlfeldt.se/places/30426,,
+1037,Port of Pandosia,San Lucido ,Italy West,16.042302,39.301273,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/452430,http://imperium.ahlfeldt.se/places/30484,,
+1038,"Klampeteia, Clampetia ",Amantea,Italy West,16.065528,39.127809,-330,1,Ro,0,http://pleiades.stoa.org/places/452304,http://imperium.ahlfeldt.se/places/23166,,
+1039,"Temesa, Temese, Tempsa, on R Sabutus","outlet of R Savuto, 10 km south of Amantea",Italy West,16.094554,39.027944,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452469,http://imperium.ahlfeldt.se/places/16731,https://www.trismegistos.org/place/11853,https://topostext.org/place/390162UTem
+1040,,"Roman villa at Piano delle Vigne, near Falerna",Italy West,16.15407,38.98683,-330,1,Ro,1,http://pleiades.stoa.org/places/452405,http://imperium.ahlfeldt.se/places/35396,,
+1041,Terina ,"Sant'Eufemia Vetere, near Lamezia Terme",Italy West,16.2389,38.9448,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/452470,http://imperium.ahlfeldt.se/places/30492,https://www.trismegistos.org/place/38437,https://topostext.org/place/389162UTer
+1042,Ad Turres,between R Angitola and R Savuto,Italy West,16.2697,38.9282,-30,1,Ro,0,http://pleiades.stoa.org/places/452254,http://imperium.ahlfeldt.se/places/36305,,
+1043,"Port Parthenius of the phoceans, on R Tanno?","unlocalized, in the gulf of Eufemia near the airport of Lamezia Terme",Italy West,16.2787,38.896,,0,Ro,0,http://pleiades.stoa.org/places/456109,http://imperium.ahlfeldt.se/places/42152,,
+1044,Acconia ,Acconia ,Italy West,16.211913,38.845734,300,0,Ro,0,http://pleiades.stoa.org/places/452247,http://imperium.ahlfeldt.se/places/30425,,
+1045,Ad Fluvium Angitulam ,"Ponte Angitola, near Francavilla Angitola",Italy West,16.192327,38.773926,-30,1,Ro,0,http://pleiades.stoa.org/places/452251,http://imperium.ahlfeldt.se/places/36302,https://www.trismegistos.org/place/40496,
+1046,Annicia,Pizzo,Italy West,16.162,38.74,300,0,Ro,0,http://pleiades.stoa.org/places/456030,http://imperium.ahlfeldt.se/places/23164,,
+1047,"Leucosia, Ithacesiae insula, near Vibo","Vibo Marina, near Vibo Valentia",Italy West,16.1191,38.6833,,0,Ro,2,http://pleiades.stoa.org/places/452367,http://imperium.ahlfeldt.se/places/41770,,https://topostext.org/place/387161HVib
+1047.0999999999999,"Port of Hipponium, Hipponion","Outlet of R Trainiti, near Bivona",Italy West,16.0723,38.7222,-30,1,Ro,1,https://pleiades.stoa.org/places/452337,http://imperium.ahlfeldt.se/places/16733,https://www.trismegistos.org/place/33100,https://topostext.org/place/387161PHip
+1047.2,,"Scoglio Galera, near Torre Sant'Irene",Italy West,15.9994,38.7254,-30,1,Ro,4,,,,
+1047.3,,Punta di Zambrone,Italy West,15.9718,38.7135,-1500,1,My|Ro,0,,,,
+1048,"Trapeia, Port of Hercules",Tropea,Italy West,15.908708,38.683746,300,0,Ro,0,http://pleiades.stoa.org/places/452482,http://imperium.ahlfeldt.se/places/16734,https://www.trismegistos.org/place/33097,
+1049,,Nicotera Marina,Italy West,15.921,38.545,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452391,http://imperium.ahlfeldt.se/places/16735,https://www.trismegistos.org/place/33062,
+1050,,San Teodoro,Italy West,15.9234,38.5247,-30,1,Ro,0,http://pleiades.stoa.org/places/452432,http://imperium.ahlfeldt.se/places/30486,,
+1051,Emporion,Rosarno,Italy West,15.95941,38.49277,-330,1,Ro,0,http://pleiades.stoa.org/places/452323,http://imperium.ahlfeldt.se/places/30455,,https://topostext.org/place/385160UEmp
+1052,"Medma, Mesma","Pian delle Vigne, near Rosarno",Italy West,15.9882,38.4821,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452375,http://imperium.ahlfeldt.se/places/22645,https://www.trismegistos.org/place/41573,https://topostext.org/place/385160UEmp
+1053,"Port at the outlet of R Metaurus, Metaure ","R Petrace, near Gioia Tauro",Italy West,15.871137,38.421553,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452379,http://imperium.ahlfeldt.se/places/16736,https://www.trismegistos.org/place/61084,https://topostext.org/place/384159UMet
+1054,Taurianum ,"Taureana, near Lido di Palmi",Italy West,15.86494,38.39426,-330,1,Ro,0,http://pleiades.stoa.org/places/452466,http://imperium.ahlfeldt.se/places/30491,https://www.trismegistos.org/place/33092,
+1055,Portus Orestis,"Marina di Palmi, Porto Ravaglioso",Italy West,15.8336,38.351,-30,1,Ro,0,http://pleiades.stoa.org/places/452409,http://imperium.ahlfeldt.se/places/30475,,
+1056,Ad Mallias,between Nicotera and Reggio di Calabria,Italy West,15.823,38.3162,-30,1,Ro,0,http://pleiades.stoa.org/places/452253,http://imperium.ahlfeldt.se/places/36304,,
+1057,Arciade,Arciade,Italy West,15.8046,38.291,300,0,Ro,0,http://pleiades.stoa.org/places/452264,http://imperium.ahlfeldt.se/places/23163,,
+1058,"Scyllaeum, Scylla, in front of Charybdis in Sicily, both Planktes insulae, where Odysseus possibly sailed",Scilla,Italy West,15.715,38.259,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452436,http://imperium.ahlfeldt.se/places/34443,https://www.trismegistos.org/place/61083,https://topostext.org/place/383157LSky
+1059,Kainys ,"Punta Pezzo, near Villa San Giovanni",Italy West,15.6354,38.2322,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/452349,http://imperium.ahlfeldt.se/places/34442,https://www.trismegistos.org/place/41938,https://topostext.org/place/382156UCol
+1060,Ad Columnam ,Villa San Giovanni,Italy West,15.6318,38.2193,-30,1,Ro,0,http://pleiades.stoa.org/places/452250,http://imperium.ahlfeldt.se/places/23161,,
+1061,"Rhegium, Rhegion","Rhege, Reggio di Calabria",Italy West,15.634658,38.109425,-740,1,Gr|Ro,1,http://pleiades.stoa.org/places/452416,http://imperium.ahlfeldt.se/places/16556,https://www.trismegistos.org/place/2048,https://topostext.org/place/381156PRhe
+1062,"Leucopetra, Petra, Bruttium Prom.",Punta di Pellaro,Italy West,15.632315,38.006879,,0,Ro,0,http://pleiades.stoa.org/places/452366,http://imperium.ahlfeldt.se/places/41568,https://www.trismegistos.org/place/33080,https://topostext.org/place/380156ULeu
+1063,Decastadium? On R Halex,"Melito di Porto Salvo, on R Melito",Italy West,15.792908,37.912551,-30,1,Ro,0,http://pleiades.stoa.org/places/452320,http://imperium.ahlfeldt.se/places/30454,https://www.trismegistos.org/place/40517,https://topostext.org/place/379158UDec
+1064,Scyle ,Bova Marina,Italy West,15.92,37.928,-330,1,Ro,0,http://pleiades.stoa.org/places/452435,http://imperium.ahlfeldt.se/places/23184,https://www.trismegistos.org/place/41126,
+1065,Hipporum ,near Galati,Italy West,16.070617,37.926494,-30,1,Ro,0,http://pleiades.stoa.org/places/452338,http://imperium.ahlfeldt.se/places/36307,,
+1066,"Zephyrion Akra, Zephyrium Prom., Zeffiro","Capo Bruzzano, near Africo",Italy West,16.14614,38.039445,,0,Ro,0,http://pleiades.stoa.org/places/452495,http://imperium.ahlfeldt.se/places/41759,,
+1067,,Roman villa Palazzi di Casignana ,Italy West,16.158269,38.11782,-30,1,Ro,1,http://pleiades.stoa.org/places/452397,http://imperium.ahlfeldt.se/places/41760,,
+1068,Altanum? ,Bovalino Marina,Italy West,16.177826,38.141495,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/452259,http://imperium.ahlfeldt.se/places/30428,,
+1069,"Lokroi Epizephyrioi, Locri Epizefiri, Locres ",Locri,Italy West,16.2368,38.2077,-750,1,Gr|Ro,2,http://pleiades.stoa.org/places/452369,http://imperium.ahlfeldt.se/places/16737,https://www.trismegistos.org/place/33081,https://topostext.org/place/382162PLoc
+1070,Subsicivo? ,Roman villa Nanilio near Marina di Gioiosa Ionica,Italy West,16.333741,38.293092,-30,1,Ro,1,http://pleiades.stoa.org/places/452456,http://imperium.ahlfeldt.se/places/36310,,
+1071,"Amphissa, Santo Onofrio ",near Roccella Ionica,Italy West,16.413143,38.318166,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452431,http://imperium.ahlfeldt.se/places/30485,,
+1072,"Kaulonia, Caulonia, Aulonia, Stilida","Punta Stilo, at Monasterace Marina",Italy West,16.5787,38.4454,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/452352,http://imperium.ahlfeldt.se/places/23185,https://www.trismegistos.org/place/38435,https://topostext.org/place/384166PKau
+1073,Cocinto?,"on R Assi, near Monasterace",Italy West,16.5843,38.4573,-30,1,Ro,0,http://pleiades.stoa.org/places/452305,http://imperium.ahlfeldt.se/places/36306,,
+1074,Vivarium ,"Copanello, near Stalettì",Italy West,16.56218,38.75726,300,0,Ro,0,http://pleiades.stoa.org/places/452492,http://imperium.ahlfeldt.se/places/30498,https://www.trismegistos.org/place/33091,
+1075,"Scylletium, Scolacium ","Roccelletta, near Borgia",Italy West,16.5952,38.8076,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/452439,http://imperium.ahlfeldt.se/places/16738,https://www.trismegistos.org/place/33090,https://topostext.org/place/388166UScy
+1076,"Castra Hannibalis, Camp of Annibal ",Torre di Catanzaro,Italy West,16.713868,38.85776,-330,1,Ro,1,http://pleiades.stoa.org/places/452293,http://imperium.ahlfeldt.se/places/23186,https://www.trismegistos.org/place/41124,
+1077,"Tacina, port of Kyterion","at crossing of R Tacina, at Steccato di Cutro",Italy West,16.897527,38.926335,300,0,Ro,0,http://pleiades.stoa.org/places/452461,http://imperium.ahlfeldt.se/places/36311,,
+1078,,Le Castella ,Italy West,17.023685,38.903404,-330,1,Ro,0,http://pleiades.stoa.org/places/452289,http://imperium.ahlfeldt.se/places/30440,,
+1079,"Port of Aphrodite, Dioskourias, Cape Iapygie, Iapygium Prom., Sallentin ",Cape Rizzuto,Italy West,17.08987,38.899,,0,Ro,0,http://pleiades.stoa.org/places/452341,http://imperium.ahlfeldt.se/places/41767,,
+1080,,Cape Cimiti,Italy West,17.16869,38.95411,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452283,http://imperium.ahlfeldt.se/places/36876,,
+1081,"Port of Lakinion Greco-Roman colony, near Naus Prom., Lacinium  Prom., Hera/Juno temple ","Cape Scifo, near Cape Colonna, with several shipwrecks and quarries",Italy West,17.1912,39.0203,,0,Ro,3,http://pleiades.stoa.org/places/452356,http://imperium.ahlfeldt.se/places/41768,https://www.trismegistos.org/place/41128,https://topostext.org/place/390172SLac
+1081.0999999999999,possible stopover of Odysseus on Calypso's isle of Ogygia acc to Scylax,Submerged island off Capo Colonna coast,Italy West,17.1703,39.0384,,0,Ro,0,,,,
+1082,"Kroton, Crotone, on R Aisaros","Crotone, on R Esaro",Italy West,17.126348,39.085539,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/452317,http://imperium.ahlfeldt.se/places/16739,https://www.trismegistos.org/place/33075,https://topostext.org/place/391171PCro
+1083,Meto ,outlet of R Neto,Italy West,17.1409,39.1763,-30,1,Ro,0,http://pleiades.stoa.org/places/452381,http://imperium.ahlfeldt.se/places/36308,,
+1084,Krimisa?,Ciro Marina,Italy West,17.140861,39.370149,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452353,http://imperium.ahlfeldt.se/places/30460,https://www.trismegistos.org/place/14506,
+1085,"Temple of Apollo Alaeus, port of Aesarus ","Punta Alice, near Ciro Marina",Italy West,17.1466,39.39654,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452262,http://imperium.ahlfeldt.se/places/36875,https://www.trismegistos.org/place/14506,https://topostext.org/place/394171SAAl
+1086,"Paternum, at outlet of R Hylias",Outlet of R Fiumenica,Italy West,17.031,39.48,-30,1,Ro,0,http://pleiades.stoa.org/places/452401,http://imperium.ahlfeldt.se/places/36309,,
+1087,,Cariati,Italy West,16.9617,39.496,-330,1,Ro,0,http://pleiades.stoa.org/places/452286,http://imperium.ahlfeldt.se/places/30437,,
+1088,"Sybaris ad Traeis, on R Traeis","near Mirto and Crosia, on R Trionto",Italy West,16.771,39.59,-443,1,Gr|Ro,1,http://pleiades.stoa.org/places/452458,http://imperium.ahlfeldt.se/places/30489,https://www.trismegistos.org/place/33076,https://topostext.org/place/397165PSyb
+1089,"Portus Roscia, Ruscia, Rouskiane",Mirto,Italy West,16.769,39.61,-30,1,Ro,0,http://pleiades.stoa.org/places/452422,http://imperium.ahlfeldt.se/places/30481,,
+1090,"archaic Sybaris, on R Sybaris and R Crathis, Thourioi, Thurii, Copia","Laghi di Sibari, Francavilla Marittima, on R Crati",Italy West,16.491191,39.717044,-720,1,Gr|Ro,1,http://pleiades.stoa.org/places/452457,http://imperium.ahlfeldt.se/places/16740,https://www.trismegistos.org/place/14503,https://topostext.org/place/397165PSyb
+1091,,Broglio di Trebisacce ,Italy West,16.538059,39.865106,-1500,1,Mi|My|Ro,0,http://pleiades.stoa.org/places/452483,http://imperium.ahlfeldt.se/places/30497,,
+1092,"Ad Vicesimum, Lagaria?",Amendolara,Italy West,16.589,39.9483,-30,1,Ro,0,http://pleiades.stoa.org/places/452255,http://imperium.ahlfeldt.se/places/22550,https://www.trismegistos.org/place/38436,https://topostext.org/place/399166XAme
+1093,,"Roman villa at Menzinara, near Montegiordano ",Italy West,16.60264,40.04726,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/452384,http://imperium.ahlfeldt.se/places/35395,,
+1094,Cugno dei Vagni ,near Rocca Imperiale,Italy West,16.6296,40.14226,-30,1,Ro,0,http://pleiades.stoa.org/places/452318,http://imperium.ahlfeldt.se/places/30453,,
+1095,,Piano San Pietro ,Italy West,16.64197,40.15955,-330,1,Ro,0,http://pleiades.stoa.org/places/452407,http://imperium.ahlfeldt.se/places/30473,,
+1096,"Ad Simnum, Semnum",on right bank of R Sinni,Italy West,16.65453,40.15831,300,0,Ro,0,http://pleiades.stoa.org/places/452442,http://imperium.ahlfeldt.se/places/23188,,
+1097,"Siris, on R Siris",on left bank of R Sinni,Italy West,16.6682,40.1658,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/452450,http://imperium.ahlfeldt.se/places/21356,https://www.trismegistos.org/place/7089,https://topostext.org/place/401165USir
+1098,"Heraclea, Heraclee ",Policoro,Italy West,16.67,40.22,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/452333,http://imperium.ahlfeldt.se/places/21306,https://www.trismegistos.org/place/14501,https://topostext.org/place/402167UHer
+1098.0999999999999,,"Termitito, Bosco di Andriace, near Montalbano Jonico",Italy West,16.6642,40.2934,-1500,1,My|Ro,0,,,,
+1099,"Metapontum, Metaponte","Lago di Santa Pelagina, near Metaponto",Italy West,16.8352,40.3728,-750,1,Gr|Ro,3,http://pleiades.stoa.org/places/442658,http://imperium.ahlfeldt.se/places/21307,https://www.trismegistos.org/place/14498,https://topostext.org/place/404168PMet
+1100,"Tarentum, Taras, Neptuna","Tarento, Taranto, Scoglio del Tonno",Italy West,17.228144,40.472032,-750,1,My|Gr|Ro,1,http://pleiades.stoa.org/places/442810,http://imperium.ahlfeldt.se/places/16562,https://www.trismegistos.org/place/2267,https://topostext.org/place/405172PTar
+1101,,"Roman villa at Masseria Caronella, near Tarento",Italy West,17.31499,40.50047,-30,1,Ro,1,,http://imperium.ahlfeldt.se/places/42560,,
+1102,"Choirades, Choerades, Khoirades insulae","Isole Cheradi, Isola San Paolo and San Pietro",Italy West,17.172,40.447,,0,Ro,0,http://pleiades.stoa.org/places/442543,http://imperium.ahlfeldt.se/places/41277,,
+1103,"Satyrion, Saturnum ",Torre Saturo & Porto Pirrone,Italy West,17.30396,40.37282,-1500,1,My|Ro,2,http://pleiades.stoa.org/places/442789,http://imperium.ahlfeldt.se/places/30407,https://www.trismegistos.org/place/59545,https://topostext.org/place/404173USat
+1103.0999999999999,,Marina di Pulsano,Italy West,17.3742,40.348,,0,Ro,1,,,,
+1104,,Torre Ovo ,Italy West,17.50013,40.30372,-330,1,Ro,1,http://pleiades.stoa.org/places/442826,http://imperium.ahlfeldt.se/places/30416,,
+1105,Port Sasina ,Porto Cesareo,Italy West,17.896215,40.25706,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442730,http://imperium.ahlfeldt.se/places/36742,https://www.trismegistos.org/place/14282,
+1106,Port of Neretum,Santa Caterina ,Italy West,17.983673,40.137046,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442767,http://imperium.ahlfeldt.se/places/30392,https://www.trismegistos.org/place/14278,
+1107,"Kallipolis, Callipolis, Anxa ",Gallipoli,Italy West,17.979931,40.054413,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442625,http://imperium.ahlfeldt.se/places/16898,https://www.trismegistos.org/place/45240,https://topostext.org/place/401180UKal
+1108,Port of Uzentum,Torre San Giovanni ,Italy West,18.114451,39.883041,,0,Ro,0,https://pleiades.stoa.org/places/442841,http://imperium.ahlfeldt.se/places/23192,https://www.trismegistos.org/place/14292,
+1109,,Torre San Gregorio,Italy West,18.31,39.8138,-330,1,Ro,1,,,,
+1110,"Portus Sallentinus, Leuke, near Iapygia Prom.","Santa Maria di Leuca, near Punta Ristola",Italy West,18.362675,39.792157,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442632,http://imperium.ahlfeldt.se/places/41276,https://www.trismegistos.org/place/32964,https://topostext.org/place/398183LIap
+1111,"Sikelia, Thrinacia, Trinacria insula, where Odysseus possibly had a stopover on the isle of Helios?",Isle of Sicily,Italy Sicily,14.3,37.6,,0,Ro,0,https://pleiades.stoa.org/places/462492,,https://www.trismegistos.org/place/2132,https://topostext.org/place/376145RSic
+1111.0999999999999,"Peloris, Pelorus, Pelorias Prom., Charybdis, in front of Scylla on the mainland, where Odysseus possibly sailed",Capo Peloro,Italy Sicily,15.646,38.263,,0,Ro,0,http://pleiades.stoa.org/places/462416,http://imperium.ahlfeldt.se/places/22539,https://www.trismegistos.org/place/58751,https://topostext.org/place/383157LPel
+1111.2,Port of Traiectus ,near Faro Superiore,Italy Sicily,15.589,38.246,-30,1,Ro,1,http://pleiades.stoa.org/places/462520,http://imperium.ahlfeldt.se/places/22540,,
+1112,"Zancle, Zankle, Messana, Messene","Messina, NE cape",Italy Sicily,15.560811,38.192865,-730,1,My|Gr|Ro,1,http://pleiades.stoa.org/places/462538,http://imperium.ahlfeldt.se/places/16875,https://www.trismegistos.org/place/3578,https://topostext.org/place/382156PMes
+1113,,Roman villa at Pistunina,Italy Sicily,15.536584,38.145129,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/462440,http://imperium.ahlfeldt.se/places/16875,,
+1114,"Phoinix, Tamaricii, Palmae ",Santa Teresa di Riva,Italy Sicily,15.37,37.9438,-330,1,Ro,0,http://pleiades.stoa.org/places/462427,http://imperium.ahlfeldt.se/places/36270,,
+1115,,Quarry at Letojanni,Italy Sicily,15.3078,37.878,-330,1,Ro,1,http://pleiades.stoa.org/places/462280,http://imperium.ahlfeldt.se/places/38054,,
+1116,Tauromenium ,Taormina,Italy Sicily,15.302,37.848,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462506,http://imperium.ahlfeldt.se/places/16874,https://www.trismegistos.org/place/22322,https://topostext.org/place/379153PTau
+1117,"Naxos, Naxus ",Giardini-Naxos,Italy Sicily,15.2694,37.8239,-470,1,Gr|Ro,2,http://pleiades.stoa.org/places/462387,http://imperium.ahlfeldt.se/places/36267,https://www.trismegistos.org/place/38475,https://topostext.org/place/378153UNax
+1118,"Archaic Naxos, near R Akesines","Giardini-Naxos, near R Alcantara",Italy Sicily,15.2694,37.8193,-734,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/462386,http://imperium.ahlfeldt.se/places/21300,https://www.trismegistos.org/place/38475,https://topostext.org/place/378153UNax
+1119,Acium ,Capo Molini,Italy Sicily,15.171274,37.572564,-30,1,Ro,0,http://pleiades.stoa.org/places/462067,http://imperium.ahlfeldt.se/places/36312,https://www.trismegistos.org/place/22267,
+1120,"Reefs of the Cyclopes, Odysseus' port of the Cyclops? Some consider the Etna is the one-eyed Cyclop","Islets of Faraglioni, in front of Aci Tressa (Cuisenier mentions this site with two other possible sites: Marettimo and Nisida, the latter clearly providing the best shelter as described by Homer)",Italy Sicily,15.16887,37.559234,,0,My|Ro,0,http://pleiades.stoa.org/places/462179,,,
+1121,,Roman fort at Castello di Aci,Italy Sicily,15.1492,37.5542,300,0,Ro|By,1,,http://imperium.ahlfeldt.se/places/42131,,
+1122,"Ulixis portus, Port of Odysseus ",Ognina,Italy Sicily,15.118541,37.529208,-30,1,My|Ro,1,http://pleiades.stoa.org/places/462530,http://imperium.ahlfeldt.se/places/41569,,
+1123,"Katane, Catina ","Probably Piazza del Duomo, Catania, ancient port now under lava",Italy Sicily,15.0873,37.5024,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/462270,http://imperium.ahlfeldt.se/places/16884,https://www.trismegistos.org/place/22289,https://topostext.org/place/375151PCat
+1123.0999999999999,R Terias,R San Leonardo,Italy Sicily,15.094,37.3437,,0,Ro,0,https://pleiades.stoa.org/places/462508,http://imperium.ahlfeldt.se/places/16883,,
+1123.2,"Leontinoi, on R Terias","Lentini, on R San Leonardo",Italy Sicily,14.998,37.2855,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462279,http://imperium.ahlfeldt.se/places/16883,https://www.trismegistos.org/place/5452,https://topostext.org/place/373150PLeo
+1124,,Punta Castelluccio ,Italy Sicily,15.132834,37.310011,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462458,http://imperium.ahlfeldt.se/places/30243,,
+1125,"Trotilon, Trotilum, on R Pantagias",Brucoli,Italy Sicily,15.186556,37.282776,,0,Ro,0,http://pleiades.stoa.org/places/466010,,,
+1125.0999999999999,"Xiphoneos, Xiphonia, Xiphon","Porto Megarese, Augusta",Italy Sicily,15.207,37.234,-330,1,Ro,0,http://pleiades.stoa.org/places/462536,http://imperium.ahlfeldt.se/places/42107,,
+1126,"Megara Hyblaea, on R Alabon","Banchinamento Orsi, on R Cantera, in Augusta harbour, Scylax locates Megaris on R Simaithos, now R Simeto, possibly Paterno",Italy Sicily,15.183741,37.205772,-750,1,Gr|Ro,3,http://pleiades.stoa.org/places/462307,http://imperium.ahlfeldt.se/places/21301,https://www.trismegistos.org/place/22241,https://topostext.org/place/372152PMeg
+1127,"Tapsus, Thapsos ",peninsula of Magnisi,Italy Sicily,15.228473,37.145257,-1200,1,My|Ro,0,http://pleiades.stoa.org/places/462511,http://imperium.ahlfeldt.se/places/22798,https://www.trismegistos.org/place/61070,https://topostext.org/place/372152UTha
+1128,"Leon, landing place of Athenian fleet in 414 BC","Rada di Santa Panagia, near Hexapyla sanctuary at Porta Scea, with Neolithic settlement at Stentinello",Italy Sicily,15.2615,37.1076,-4000,1,Li|Ro,0,http://pleiades.stoa.org/places/462278,http://imperium.ahlfeldt.se/places/30165,,https://topostext.org/place/371153SHex
+1129,"Trogili, Trogilos, Labdalum","Near a tower called Geleagre, at Syracuse, Santa Panagia",Italy Sicily,15.277736,37.108397,,0,Ro,1,http://pleiades.stoa.org/places/462526,http://imperium.ahlfeldt.se/places/46204,,
+1130,"Syracuse, Syrakus, Syrakousai ""Small Port"", Lakkios, Achradina","Porto Lachio, near Via Diaz at Syracuse",Italy Sicily,15.29,37.0693,,0,Ro,4,http://pleiades.stoa.org/places/462276,http://dare.ht.lu.se/places/16570,https://www.trismegistos.org/place/2210,https://topostext.org/place/371153PUAch
+1131,"Syracuse, Port of Arethuse on the isle of Ortygia, possibly Odysseus' stopover on the isle of Aeolos","Port of Arethuse, on Via Vittorio Veneto, on the isle of Ortigia",Italy Sicily,15.2943,37.0653,,0,Pn|Ro,2,http://pleiades.stoa.org/places/462402,http://imperium.ahlfeldt.se/places/42104,https://www.trismegistos.org/place/15654,https://topostext.org/place/371153IOrt
+1132,"Syracuse, ""Large Port"", on the isle of Sikelia, Sicania, Trinacria, major Greek (Corinthian) settlement in Sicily","Siracusa, ancient port possibly near Corso Umberto I, and/or at present Porto Grande on Foro Vittorio Emanuele II, on Ortigia",Italy Sicily,15.288,37.06,-733,1,Pn|Gr|Ro,3,http://pleiades.stoa.org/places/462503,http://imperium.ahlfeldt.se/places/16570,https://www.trismegistos.org/place/2210,https://topostext.org/place/371153PSyr
+1133,"Syracuse, Port of Olympia, Olympeion, near outlet of R Cyane and R Anapos",near outlet of R Ciane and R Anapo,Italy Sicily,15.2571,37.0516,,0,Ro,0,http://pleiades.stoa.org/places/462398,http://imperium.ahlfeldt.se/places/26493,https://www.trismegistos.org/place/2210,https://topostext.org/place/371153SZeu
+1134,Plemmyrion,"Quarry at Punta delle Mola, Massoliveri",Italy Sicily,15.3074,37.0415,,0,Ro,1,http://pleiades.stoa.org/places/462451,http://imperium.ahlfeldt.se/places/36861,https://www.trismegistos.org/place/61062,https://topostext.org/place/370153SPle
+1135,,Quarry at Punta Asparano,Italy Sicily,15.2687,36.9862,,0,Ro,1,,,,
+1136,,Ognina island,Italy Sicily,15.2635,36.97915,,0,Ro,0,,,,
+1137,"Daskoni, Daskone, Dascon?",Ognina,Italy Sicily,15.25627,36.97985,,0,Ro,1,,,,
+1138,Portus Naustathamus?,"Fontane Bianche, port of Cassibile",Italy Sicily,15.214525,36.95611,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462385,http://imperium.ahlfeldt.se/places/30508,,
+1139,,Roman villa at Borgelluzzo,Italy Sicily,15.1486,36.91385,-30,1,Ro,1,http://pleiades.stoa.org/places/462115,http://imperium.ahlfeldt.se/places/35405,https://www.trismegistos.org/place/46389,https://topostext.org/place/369151UAbo
+1140,"Helorus, Elorus, on R Helorus","Roman villa del Tellaro, Caddeddi, on R Tellaro",Italy Sicily,15.1075,36.8422,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/462234,http://imperium.ahlfeldt.se/places/22879,https://www.trismegistos.org/place/22298,https://topostext.org/place/368151PHel
+1141,Phoenicus portus ,Torre Vendicari,Italy Sicily,15.0985,36.803,-330,1,Pn|Ro,1,http://pleiades.stoa.org/places/462426,,,
+1142,,Cittadella ,Italy Sicily,15.0888,36.7853,-30,1,Ro,0,http://pleiades.stoa.org/places/462162,http://imperium.ahlfeldt.se/places/23636,,
+1143,"Portus Pachino, Pachyno, Pachyni, Apollineum ",Portopalo di Capo Passero south of Sicily,Italy Sicily,15.1385,36.6857,-330,1,Ro,1,http://pleiades.stoa.org/places/462456,http://imperium.ahlfeldt.se/places/30242,https://www.trismegistos.org/place/40477,https://topostext.org/place/367151LPac
+1144,Odysseae portus ,Isola delle Correnti,Italy Sicily,15.0783,36.648,,0,Ro,0,http://pleiades.stoa.org/places/462396,,,
+1145,"Hereum, Cymbe ","Punta Religione, near Marina di Modica",Italy Sicily,14.7802,36.7063,,0,Ro,0,http://pleiades.stoa.org/places/462240,,,
+1146,R Hirminum,"Masseria Maestro, on R Irminio",Italy Sicily,14.594,36.771,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462293,http://imperium.ahlfeldt.se/places/30168,,
+1147,Caucana portus ,Punta Secca and Fontana Nuova,Italy Sicily,14.50732,36.788665,300,0,Li|Ro|By,2,http://pleiades.stoa.org/places/462459,http://imperium.ahlfeldt.se/places/22886,https://www.trismegistos.org/place/33127,https://topostext.org/place/368145UCau
+1148,"Kamarina, on R Hipparis","Camarina, on R Ippari",Italy Sicily,14.440957,36.866878,-598,1,Gr|Ro,0,http://pleiades.stoa.org/places/462126,http://imperium.ahlfeldt.se/places/22885,https://www.trismegistos.org/place/22111,https://topostext.org/place/369144PCam
+1149,"Mesopotamium, port of Euboia?",Berdia Vecchia,Italy Sicily,14.399822,36.927737,-30,1,Ro,0,http://pleiades.stoa.org/places/462314,http://imperium.ahlfeldt.se/places/36265,https://www.trismegistos.org/place/40475,
+1150,,Piano Rizzuto,Italy Sicily,14.3,37.032,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462434,http://imperium.ahlfeldt.se/places/30230,,
+1151,Calvisiana ,near Gela,Italy Sicily,14.27,37.047,-30,1,Ro,0,http://pleiades.stoa.org/places/462125,http://imperium.ahlfeldt.se/places/23157,https://www.trismegistos.org/place/22283,
+1152,"Gela, on R Gela","Gela, on R Gela",Italy Sicily,14.2583,37.063,-688,1,Gr|Ro,1,http://pleiades.stoa.org/places/462214,http://imperium.ahlfeldt.se/places/22643,https://www.trismegistos.org/place/702,https://topostext.org/place/371143PGel
+1153,Chalae? ,Caricatore,Italy Sicily,14.23,37.06648,-30,1,Ro,0,http://pleiades.stoa.org/places/462156,http://imperium.ahlfeldt.se/places/36388,https://www.trismegistos.org/place/40474,
+1154,,Montelungo,Italy Sicily,14.197,37.0842,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462369,http://imperium.ahlfeldt.se/places/30215,,
+1155,"Port of Maktorion, Mactorium?",Torre di Manfria ,Italy Sicily,14.138661,37.100201,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462298,http://imperium.ahlfeldt.se/places/35357,,
+1156,"Phintias, on R Himeras","Licata, on R Salso",Italy Sicily,13.9317,37.1,-330,1,Ro,0,http://pleiades.stoa.org/places/462424,http://imperium.ahlfeldt.se/places/22641,https://www.trismegistos.org/place/22308,https://topostext.org/place/371139UPhi
+1157,"Ecnomus, Eknomos Prom. Major naval battle","Cape Balatazze, on Monte Sole",Italy Sicily,13.9,37.097,,0,Ro,1,http://pleiades.stoa.org/places/462191,,https://www.trismegistos.org/place/61068,https://topostext.org/place/371139LEkn
+1158,,Pizzo Caduta,Italy Sicily,13.881,37.102,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462442,http://imperium.ahlfeldt.se/places/30233,,
+1159,"Port of Daedalium, Dedalium, Omphale ",Rocca San Nicola,Italy Sicily,13.856089,37.114826,-30,1,Ro,0,http://pleiades.stoa.org/places/462184,http://imperium.ahlfeldt.se/places/36390,,
+1160,,Spiaggia di Malerba: port of Castellazzo di Palma di Montechiaro and Narasette?,Italy Sicily,13.780019,37.144488,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462138,http://imperium.ahlfeldt.se/places/30510,,
+1161,,Castello di Palma di Montechiaro ,Italy Sicily,13.695341,37.17957,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/462142,http://imperium.ahlfeldt.se/places/34445,,
+1162,,Quarry at Monte Grande,Italy Sicily,13.6667,37.192,-30,1,Ro,1,http://pleiades.stoa.org/places/462349,http://imperium.ahlfeldt.se/places/38055,,
+1162.0999999999999,,Cannatello,Italy Sicily,13.624,37.233,-1400,1,Ro,0,,,,
+1163,"Agrakas, Akragas, Agrigentum, on R Hypsas","San Leone, on R San Leone",Italy Sicily,13.581,37.2687,-580,1,Pn|Gr|Ro,3,http://pleiades.stoa.org/places/462086,http://imperium.ahlfeldt.se/places/16882,https://www.trismegistos.org/place/22270,https://topostext.org/place/373136PAkr
+1164,,Roman villa at Punta Piccola,Italy Sicily,13.4877,37.2899,-30,1,Ro,1,http://pleiades.stoa.org/places/462188,http://imperium.ahlfeldt.se/places/35481,,
+1165,,Durrueli di Realmonte ,Italy Sicily,13.463407,37.289874,,0,Ro,0,http://pleiades.stoa.org/places/462188,,,
+1166,"Heraclea Minoa, on R Halycus","Eraclea Minoa, on R Platani",Italy Sicily,13.28,37.3937,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462237,http://imperium.ahlfeldt.se/places/21303,https://www.trismegistos.org/place/38467,https://topostext.org/place/374133PHer
+1167,,Borgo Bonsignore ,Italy Sicily,13.256671,37.414943,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/462116,http://imperium.ahlfeldt.se/places/30504,,
+1168,"Thermae Selinuntinae, Aquae Larodes",Sciacca,Italy Sicily,13.0923,37.503,-30,1,Ro,0,http://pleiades.stoa.org/places/462514,http://imperium.ahlfeldt.se/places/23158,https://www.trismegistos.org/place/22273,
+1169,"Selinus, Selinunt, Selinonte east port","Selinonte east, on R Gorgo Cottone, with a curious slipway",Italy Sicily,12.8294,37.5845,-650,1,Pn|Gr|Ro,3,http://pleiades.stoa.org/places/462489,http://imperium.ahlfeldt.se/places/22545,https://www.trismegistos.org/place/22286,
+1170,"Selinus, Selinunt, Selinonte west port, on R Selinon","Selinonte west, on R Modione",Italy Sicily,12.82116,37.5828,-650,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/462489,http://imperium.ahlfeldt.se/places/22545,https://www.trismegistos.org/place/22286,
+1171,"Mazara, on R Mazara","Mazara del Vallo, on R Mazara",Italy Sicily,12.587605,37.644211,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/462305,http://imperium.ahlfeldt.se/places/30171,https://www.trismegistos.org/place/22316,
+1172,"Lilybaion, Lilybee South port?","Porto delle Tartane, Palude di Margitello, near modern port at Marsala",Italy Sicily,12.43,37.7937,-750,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/462281,http://imperium.ahlfeldt.se/places/16881,https://www.trismegistos.org/place/22315,https://topostext.org/place/378124ULil
+1173,"Lilybaion, Lilybee Main port","Cape Boeo, at Marsala",Italy Sicily,12.428115,37.808131,-750,1,Pn|Gr|Ro,1,http://pleiades.stoa.org/places/462281,http://imperium.ahlfeldt.se/places/16881,https://www.trismegistos.org/place/22315,https://topostext.org/place/378124ULil
+1174,"Lilybaion, Lilybee North port?","Punta Alga, at Marsala",Italy Sicily,12.443337,37.8124,-750,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/462281,http://imperium.ahlfeldt.se/places/16881,https://www.trismegistos.org/place/22315,https://topostext.org/place/378124ULil
+1175,,"Isola Grande, Lehmann mentions a mole at the southern tip of this island, not ancient?",Italy Sicily,12.447225,37.841595,,0,Ro,1,http://pleiades.stoa.org/places/465844,,,
+1176,"Motye, Motya","Mozia, on the isle of San Pantaleo inside Lo Stagnone lagoon, a causeway connects the island to the continent, but the 52x37 m basin was not a port",Italy Sicily,12.4646,37.8641,-750,1,Li|Pn|Gr|Ro,5,http://pleiades.stoa.org/places/462373,http://imperium.ahlfeldt.se/places/22634,https://www.trismegistos.org/place/22326,https://topostext.org/place/379125PMot
+1176.0999999999999,"Motye, Motya","Mozia, on the isle of San Pantaleo inside Lo Stagnone lagoon, ancient jetty in front of Torre Orientale",Italy Sicily,12.4724,37.86902,-350,1,Pn|Gr|Ro,1,,,,
+1176.2,"Motye, Motya","Mozia, on the isle of San Pantaleo inside Lo Stagnone lagoon, North Gate Harbour",Italy Sicily,12.47,37.8715,-350,1,Pn|Gr|Ro,1,,,,
+1177,"Aigousa insula, anchorage of Roman fleet before the famous battle of the Egadi Islands (10 March 241 BC), Odysseus' port of the Cyclops? ","Favignana, on the isle of Favignana, the largest of the Egadi islands (Cuisenier mentions this site with two other possible sites: Faraglioni and Nisida, the latter clearly providing the best shelter as described by Homer)",Italy Sicily,12.322489,37.934044,-750,1,Li|My|Pn|Gr|Ro,1,http://pleiades.stoa.org/places/462084,http://imperium.ahlfeldt.se/places/22888,https://www.trismegistos.org/place/42873,https://topostext.org/place/379123IAig
+1177.0999999999999,Aigousa insula,"Punta San Nicola, on the isle of Favignana",Italy Sicily,12.3427,37.9359,,0,Ro,2,,,,
+1178,Aigousa insula,"La Collina Torretta-Navetta, on the isle of Favignana",Italy Sicily,12.363861,37.924988,,0,Li|Ro,0,http://pleiades.stoa.org/places/462084,,https://www.trismegistos.org/place/42873,https://topostext.org/place/379123IAig
+1179,"Maritima, Hieronesos, Hiera insula","Marettimo, on the isle of Marettimo, furthest of the Egadi islands",Italy Sicily,12.077769,37.970422,-330,1,Li|Ro,0,http://pleiades.stoa.org/places/462243,http://imperium.ahlfeldt.se/places/22889,https://www.trismegistos.org/place/61448,https://topostext.org/place/380121IHie
+1180,"Bucinna, Phorbantia insula","Grotta del Genovese, on the isle of Levanzo",Italy Sicily,12.321625,38.00168,-10000,1,Li|Ro,1,http://pleiades.stoa.org/places/462428,http://imperium.ahlfeldt.se/places/22887,https://www.trismegistos.org/place/22307,https://topostext.org/place/380123IPho
+1180.0999999999999,"Bucinna, Phorbantia insula","Cala Minnola, on the isle of Levanzo",Italy Sicily,12.351,37.9924,,0,Ro,1,https://pleiades.stoa.org/places/773379957,,,
+1180.2,"Aigatai Nesoi, Aegates Insulae, possible anchorage of Roman fleet before the famous battle of the Egadi Islands (10 March 241 BC)","Capo Grosso, on the isle of Levanzo",Italy Sicily,12.338,38.016,,0,Ro,0,https://pleiades.stoa.org/places/462075,,https://www.trismegistos.org/place/22306,
+1181,"Drepanum, Drepane ",Trapani,Italy Sicily,12.502194,38.007961,-330,1,Pn|Ro,0,http://pleiades.stoa.org/places/462187,http://imperium.ahlfeldt.se/places/22635,https://www.trismegistos.org/place/22351,https://topostext.org/place/380125UDre
+1182,"Port of Erix, Eryx, Erice, Carthaginian base camp during the famous battle of the Egadi Islands (10 March 241 BC)",Porto di Bonagia,Italy Sicily,12.58963,38.070435,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462201,http://imperium.ahlfeldt.se/places/22637,https://www.trismegistos.org/place/22300,https://topostext.org/place/380126UEry
+1182.0999999999999,,Tonnara di Cofino,Italy Sicily,12.6801,38.1123,-250,1,Ro,1,,,,
+1182.2,,San Vito lo Capo,Italy Sicily,12.736,38.186,-400,1,Gr|Ro,0,,,,
+1182.3,,Tonnara del Secco,Italy Sicily,12.7692,38.1673,-400,1,Gr|Ro,2,,,,
+1183,,Grotta dell'Uzzo,Italy Sicily,12.790889,38.110401,,0,Li|Ro,1,,,,
+1184,"Emporion Segestanon, Emporium of the Aegestes, port of Segesta, on R Crimisus","Castellammare del Golfo, on R San Bartolomeo",Italy Sicily,12.88,38.0295,-330,1,Ro,0,http://pleiades.stoa.org/places/462194,http://imperium.ahlfeldt.se/places/31215,https://www.trismegistos.org/place/22278,https://topostext.org/place/380129UEmp
+1184.0999999999999,,"Tonnara dell’Ursa at Punta Molinazzo, near Punta Raisi",Italy Sicily,13.0791,38.1732,-400,1,Gr|Ro,1,,,,
+1185,"Os, Osteodes","Cala Santa Maria, on the island di Ustica",Italy Sicily,13.1957,38.7082,-30,1,Ro,0,http://pleiades.stoa.org/places/1361,http://imperium.ahlfeldt.se/places/41241,https://www.trismegistos.org/place/22354,
+1186,,"Punta Spalmatore, on the island di Ustica",Italy Sicily,13.152119,38.695927,-30,1,Li|Ro,0,http://pleiades.stoa.org/places/1361,http://imperium.ahlfeldt.se/places/41241,https://www.trismegistos.org/place/22354,
+1187,,"Tramontana, Faraglioni, Scoglio Colombara, on the island di Ustica",Italy Sicily,13.182596,38.71968,-1500,1,Li|Pn|Ro,0,http://pleiades.stoa.org/places/1361,http://imperium.ahlfeldt.se/places/41241,https://www.trismegistos.org/place/22354,
+1188,"Port of Hyccara, Hykkara?","Roman villa at San Nicolo, near Carini",Italy Sicily,13.18,38.17,300,0,Ro|By,1,http://pleiades.stoa.org/places/462479,http://imperium.ahlfeldt.se/places/35375,https://www.trismegistos.org/place/40468,https://topostext.org/place/381132UHyk
+1188.0999999999999,Pakonia?,"Tunnarium, on Isola delle Femmine",Italy Sicily,13.23715,38.2079,-300,1,Ro,1,https://pleiades.stoa.org/places/462407,,,
+1188.2,"Port of Hercte, Hirce",Sferracavallo,Italy Sicily,13.2738,38.1989,,0,Ro,1,http://pleiades.stoa.org/places/465912,,https://www.trismegistos.org/place/61071,https://topostext.org/place/382133HHer
+1189,"Panhormus, Panorme","Palermo, Roman naval base",Italy Sicily,13.368583,38.120398,-750,1,Pn|Gr|Ro,1,http://pleiades.stoa.org/places/462410,http://imperium.ahlfeldt.se/places/16879,https://www.trismegistos.org/place/22276,https://topostext.org/place/381134UPan
+1190,"Solus, port of Solonte ",Solanto-Porticello,Italy Sicily,13.542862,38.081694,-750,1,Pn|Gr|Ro,1,http://pleiades.stoa.org/places/462497,http://imperium.ahlfeldt.se/places/22632,https://www.trismegistos.org/place/22346,https://topostext.org/place/381135USol
+1191,"Thermai, Thermae Himeraeae, on R Thermos","Termini Imerese, on R San Leonardo",Italy Sicily,13.690394,37.993991,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/462513,http://imperium.ahlfeldt.se/places/16878,https://www.trismegistos.org/place/22348,https://topostext.org/place/380137UThe
+1192,,Roman villa at Canne Masche,Italy Sicily,13.7815,37.9743,-330,1,Ro,1,http://pleiades.stoa.org/places/462129,http://imperium.ahlfeldt.se/places/35409,,
+1193,"Himera, Himere, on R Himeras",at the outlet of R Imera Septentrionale,Italy Sicily,13.8215,37.9683,-729,1,Pn|Gr|Ro,0,http://pleiades.stoa.org/places/462244,http://imperium.ahlfeldt.se/places/22259,https://www.trismegistos.org/place/33123,https://topostext.org/place/380138PHim
+1194,,"Roman villa at Settefrati, near Mazzaforno",Italy Sicily,13.964,38.0319,-30,1,Ro,1,http://pleiades.stoa.org/places/462490,http://imperium.ahlfeldt.se/places/35378,,
+1195,"Cephaloedium, Cephalidium ",Cefalu,Italy Sicily,14.024107,38.043883,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462154,http://imperium.ahlfeldt.se/places/22800,https://www.trismegistos.org/place/22290,https://topostext.org/place/380140PCep
+1196,"Halaesa, on R Halaisos","Castel di Tusa, on R Tusa",Italy Sicily,14.263,37.998,-330,1,Ro,1,http://pleiades.stoa.org/places/462225,http://imperium.ahlfeldt.se/places/22799,https://www.trismegistos.org/place/22285,https://topostext.org/place/380143PHal
+1197,"Kale Akte, Calate ",Marina di Caronia,Italy Sicily,14.448292,38.036496,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462267,http://imperium.ahlfeldt.se/places/23160,https://www.trismegistos.org/place/22282,https://topostext.org/place/380145UKal
+1198,,Quarry at San Marco d'Alunzio,Italy Sicily,14.67,38.097,-30,1,Ro,1,http://pleiades.stoa.org/places/462478,http://imperium.ahlfeldt.se/places/22892,,
+1199,Agathyrnum ,Capo d’Orlando,Italy Sicily,14.752,38.164,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462079,http://imperium.ahlfeldt.se/places/22894,https://www.trismegistos.org/place/40470,https://topostext.org/place/382147UAga
+1200,,Roman villa at Bagnoli di San Gregorio ,Italy Sicily,14.765,38.157,-30,1,Ro,1,http://pleiades.stoa.org/places/462108,http://imperium.ahlfeldt.se/places/35402,,
+1201,,Roman villa at Patti Marina ,Italy Sicily,14.9726,38.1487,-30,1,Ro,1,http://pleiades.stoa.org/places/462414,http://imperium.ahlfeldt.se/places/35366,https://www.trismegistos.org/place/30761,https://topostext.org/place/371150VPaM
+1202,"Egira, Erikodes, Ericusa Insula",Isle of Alicudi,Italy Sicily,14.351188,38.5428,-330,1,Li|Ro,0,http://pleiades.stoa.org/places/462199,http://imperium.ahlfeldt.se/places/41242,,
+1203,"Celsina, Phoenicusa, Phoinikoussa insula","Capo Graziano, Neolithic settlement on the isle of Filicudi",Italy Sicily,14.5883,38.5569,-1500,1,Li|My|Ro,0,http://pleiades.stoa.org/places/462425,http://imperium.ahlfeldt.se/places/41243,,
+1204,Didyma insula,"Portella, north of Santa Marina Salina, on the isle of Salina",Italy Sicily,14.8696,38.5739,-1500,1,Li|My|Ro,0,http://pleiades.stoa.org/places/462186,http://imperium.ahlfeldt.se/places/41244,https://www.trismegistos.org/place/42510,https://topostext.org/place/386148IDid
+1205,"Lipara on Liparos insula, Meligounis nesos","Sottomonastero, on the isle of Lipari",Italy Sicily,14.9568,38.4717,-1500,1,Li|Mi|My|Ro,0,http://pleiades.stoa.org/places/462283,http://imperium.ahlfeldt.se/places/16885,https://www.trismegistos.org/place/22311,https://topostext.org/place/385150PLip
+1206,"Heraclea, Hiera Thermessa insula,  Hiera Hephaistou insula","Porto Vulcano, on the isle of Vulcano",Italy Sicily,14.966446,38.416361,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462242,http://imperium.ahlfeldt.se/places/41246,https://www.trismegistos.org/place/42515,https://topostext.org/place/384150IHie
+1207,"Aegina, Euonymus insula","Caletta dei Zimmeri & Punta Milazzese, south of the isle of Panarea",Italy Sicily,15.0636,38.6256,-1500,1,Li|My|Ro,0,http://pleiades.stoa.org/places/452324,http://imperium.ahlfeldt.se/places/26647,https://www.trismegistos.org/place/38479,
+1208,"Heracleotes, Hycesia insula",Isle of Basiluzzo,Italy Sicily,15.117,38.6607,,0,Ro,1,http://pleiades.stoa.org/places/465906,,,
+1209,"Strongilos, Eolie, possibly Odysseus' stopover on the isle of Aeolos","beach of San Vincenzo, on the isle of Stromboli",Italy Sicily,15.244209,38.797457,-1500,1,Li|Mi|My|Ro,0,http://pleiades.stoa.org/places/452455,http://imperium.ahlfeldt.se/places/41245,https://www.trismegistos.org/place/42514,https://topostext.org/place/388152IStr
+1210,Tyndaris ,Tindari,Italy Sicily,15.044,38.1433,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/462527,http://imperium.ahlfeldt.se/places/16876,https://www.trismegistos.org/place/22350,https://topostext.org/place/381150PTyn
+1211,,Roman villa at San Biagio ,Italy Sicily,15.150606,38.146439,-30,1,Ro,1,http://pleiades.stoa.org/places/462145,http://imperium.ahlfeldt.se/places/35414,,
+1212,"Myle, Mylae ",Milazzo,Italy Sicily,15.2428,38.2177,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/462379,http://imperium.ahlfeldt.se/places/16877,https://www.trismegistos.org/place/61073,https://topostext.org/place/382152PMyl
+1213,"Naulochos, Naulocha ",near Venetico Marina,Italy Sicily,15.371783,38.22509,-330,1,Ro,1,http://pleiades.stoa.org/places/462384,http://imperium.ahlfeldt.se/places/36266,,
+1239,"Cossura, Corsura, Kossura, Kosyros","Pantelleria and Mursia, on the isle of Pantelleria",Italy Pantelleria,11.941101,36.831534,,0,Li|Pn|Ro,1,http://pleiades.stoa.org/places/462167,http://imperium.ahlfeldt.se/places/41238,https://www.trismegistos.org/place/22244,https://topostext.org/place/368119IKos
+1240,"Aethusa, Hefaesta, Ephaestia, Efesta ",Isle of Linosa,Italy Linosa,12.869306,35.861034,-30,1,Ro,0,http://pleiades.stoa.org/places/772,http://imperium.ahlfeldt.se/places/41239,,
+1241,"Lampas nesos, Lopadusa insula, Falacron, Falacro insula?","Lampedusa, on the isle of Lampedusa",Italy Lampedusa,12.605,35.5013,,0,Li|Pn|Ro,1,http://pleiades.stoa.org/places/465897,http://imperium.ahlfeldt.se/places/41240,https://www.trismegistos.org/place/61078,https://topostext.org/place/355126ILop
+1242,"Castrum Minerva, Port of Venus, Limen Aphrodites, Athenaion ",Castro,Italy Adriatic,18.435411,40.011636,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/442536,http://imperium.ahlfeldt.se/places/23193,https://www.trismegistos.org/place/41117,https://topostext.org/place/400184UCMi
+1242.0999999999999,,Porto Badisco,Italy Adriatic,18.4849,40.079,-330,1,Ro,0,,,,
+1243,"Hydros, Hydruntum, Otrante ",Otranto,Italy Adriatic,18.490869,40.148182,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/442615,http://imperium.ahlfeldt.se/places/16899,https://www.trismegistos.org/place/14269,https://topostext.org/place/401185UHyd
+1243.0999999999999,,Torre San Stefano,Italy Adriatic,18.4732,40.1841,-330,1,Ro,0,,,,
+1243.2,,Torre dell'Orso,Italy Adriatic,18.431,40.277,-330,1,Ro,0,,,,
+1244,Port Tarentin ,Rocca Vecchia,Italy Adriatic,18.4263,40.2871,-1500,1,Mi|My|Ro,0,http://pleiades.stoa.org/places/442746,http://imperium.ahlfeldt.se/places/29278,https://www.trismegistos.org/place/14283,
+1245,,San Foca ,Italy Adriatic,18.409136,40.301208,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442770,http://imperium.ahlfeldt.se/places/30394,,
+1245.0999999999999,,San Giovanni near Lecce,Italy Adriatic,18.3169,40.3733,,0,Ro,3,,,,
+1246,"Hadrianou Hormos, port of Lupiae, Miltopiae? ","Porto Adriano, at San Cataldo near Lecce",Italy Adriatic,18.307982,40.386459,-30,1,Ro,3,http://pleiades.stoa.org/places/442607,http://imperium.ahlfeldt.se/places/29223,,
+1246.0999999999999,,Torre Veneri,Italy Adriatic,18.27,40.42,,0,Ro,0,,,,
+1246.2,,Torre Chianca,Italy Adriatic,18.188,40.47,,0,Ro,0,,,,
+1246.3,,Torre Rinalda,Italy Adriatic,18.164,40.482,,0,Ro,0,,,,
+1247,"Brindes, Brentesium, Brundisium, Bronduse","Brindisi, with possibly two ancient lighthouses: on Barra island and at the entrance of the inner port",Italy Adriatic,17.948953,40.641441,-750,1,Gr|Ro,2,http://pleiades.stoa.org/places/442509,http://imperium.ahlfeldt.se/places/10962,https://www.trismegistos.org/place/11496,https://topostext.org/place/406179PBru
+1247.0999999999999,,"Canale Giancola, near Brindisi airport",Italy Adriatic,17.9166,40.6816,,0,Ro,0,,,,
+1248,,"Canale Apani, at Torre Rossa ",Italy Adriatic,17.8705,40.6875,-330,1,Ro,0,http://pleiades.stoa.org/places/442466,http://imperium.ahlfeldt.se/places/29177,,
+1249,,"Canale Reale, at Torre Guaceto, with BA settlement",Italy Adriatic,17.7983,40.7137,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/442824,http://imperium.ahlfeldt.se/places/30414,,
+1250,Ad Speluncas ,"Mezzaluna, Pantanagianni Grande",Italy Adriatic,17.723,40.752,-30,1,Ro,0,http://pleiades.stoa.org/places/442447,http://imperium.ahlfeldt.se/places/23195,,
+1250.0999999999999,Karbina,Torre Santa Sabina,Italy Adriatic,17.6983,40.7596,-1500,1,Mi|My|Ro,1,,,,
+1251,Ad Decimum ,near Pilone,Italy Adriatic,17.5225,40.814565,300,0,Ro|By,0,http://pleiades.stoa.org/places/442440,http://imperium.ahlfeldt.se/places/36242,,
+1252,Gnathia ,"Egnazia, with several pilae",Italy Adriatic,17.391,40.8896,-750,1,Gr|Ro,3,http://pleiades.stoa.org/places/442573,http://imperium.ahlfeldt.se/places/23196,https://www.trismegistos.org/place/14267,https://topostext.org/place/409174UEgn
+1253,Diria? ,Monopoli,Italy Adriatic,17.300749,40.962258,-30,1,Ro,0,http://pleiades.stoa.org/places/442566,http://imperium.ahlfeldt.se/places/23197,,
+1254,"Turris Caesaris, Neapolis ",Polignano,Italy Adriatic,17.2183,40.9975,-330,1,Ro,0,http://pleiades.stoa.org/places/442834,http://imperium.ahlfeldt.se/places/23198,https://www.trismegistos.org/place/41108,
+1255,"Arnesto, Arnestum",San Vito di Polignano,Italy Adriatic,17.1937,41.0142,,0,Ro,2,,,,
+1256,Turres Iulianae ,Mola di Bari,Italy Adriatic,17.0904,41.066,300,0,Ro|By,0,http://pleiades.stoa.org/places/442835,http://imperium.ahlfeldt.se/places/36301,,
+1257,,Torre a Mare ,Italy Adriatic,16.997139,41.090957,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442825,http://imperium.ahlfeldt.se/places/30415,,
+1258,"Barium, commercial port","Bari, Santa Scolastica",Italy Adriatic,16.864156,41.13136,,0,Ro,1,http://pleiades.stoa.org/places/442500,http://imperium.ahlfeldt.se/places/1526,https://www.trismegistos.org/place/32988,https://topostext.org/place/411169UBar
+1258.0999999999999,"Barium, naval base","Bari, Castillo",Italy Adriatic,16.873,41.1315,,0,Ro,1,http://pleiades.stoa.org/places/442501,http://imperium.ahlfeldt.se/places/1527,https://www.trismegistos.org/place/32989,https://topostext.org/place/411169UBar
+1259,Natiolum ,Giovinazzo,Italy Adriatic,16.669838,41.192824,-330,1,Ro,0,http://pleiades.stoa.org/places/442686,http://imperium.ahlfeldt.se/places/23202,https://www.trismegistos.org/place/33004,
+1260,Respa ,Molfetta?,Italy Adriatic,16.59485,41.215935,-30,1,Ro,0,http://pleiades.stoa.org/places/442743,http://imperium.ahlfeldt.se/places/36253,,
+1261,Turenum ,Trani,Italy Adriatic,16.423982,41.286177,-30,1,Ro,0,http://pleiades.stoa.org/places/442833,http://imperium.ahlfeldt.se/places/16746,https://www.trismegistos.org/place/33014,
+1262,Barduli ,Barletta,Italy Adriatic,16.287075,41.334436,-330,1,Ro,0,http://pleiades.stoa.org/places/442498,http://imperium.ahlfeldt.se/places/23205,,
+1263,"Aufinum, Aufidena on R Aufidus, port of the Canusites ","R Ofanto, near Barletta",Italy Adriatic,16.206,41.3324,-30,1,Ro,0,http://pleiades.stoa.org/places/442484,http://imperium.ahlfeldt.se/places/23206,,
+1263.0999999999999,,"Hypogea of Trinitapoli, Madonna di Loreto church",Italy Adriatic,16.0811,41.3592,-1500,1,Mi|My|Ro,0,,,,
+1264,San Vito ,Roman villa at San Vito,Italy Adriatic,16.03185,41.3848,-330,1,Ro,1,http://pleiades.stoa.org/places/442785,http://imperium.ahlfeldt.se/places/35391,,
+1265,Salapia,near Trinitapoli,Italy Adriatic,15.9965,41.3993,-30,1,Ro,0,http://pleiades.stoa.org/places/442759,http://imperium.ahlfeldt.se/places/23207,https://www.trismegistos.org/place/14287,https://topostext.org/place/414160UElp
+1266,"Auxanum, on R Cerbalus","Torre Carlone, on R Cervaro",Italy Adriatic,15.906325,41.52173,300,0,Ro|By,0,http://pleiades.stoa.org/places/442489,http://imperium.ahlfeldt.se/places/36249,,
+1267,,Masseria Cupola ,Italy Adriatic,15.8378,41.519,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442562,http://imperium.ahlfeldt.se/places/29208,,
+1268,"Coppa Nevigatta, on R Aquilo","near Masseria Barretta, on R Candelaro",Italy Adriatic,15.8338,41.558,-5000,1,Li|My|Ro,0,http://pleiades.stoa.org/places/442552,http://imperium.ahlfeldt.se/places/29202,,
+1269,,"Mascherone, on R Candelaro",Italy Adriatic,15.903378,41.605674,-30,1,Ro,0,http://pleiades.stoa.org/places/442647,http://imperium.ahlfeldt.se/places/29233,,
+1270,"Sipous, Sipontum, Sipunte ",Manfredonia,Italy Adriatic,15.9221,41.617859,-330,1,Ro,0,http://pleiades.stoa.org/places/442797,http://imperium.ahlfeldt.se/places/16589,https://www.trismegistos.org/place/32537,https://topostext.org/place/416159USip
+1271,"Apanestae, Apeneste","Monte Saraceno, near Mattinata",Italy Adriatic,16.06038,41.69375,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442677,http://imperium.ahlfeldt.se/places/29254,,
+1272,,"Roman villa at Agnuli, near Mattinata",Italy Adriatic,16.074573,41.706483,-30,1,Ro,1,http://pleiades.stoa.org/places/442453,http://imperium.ahlfeldt.se/places/35118,,
+1273,,"Isola dei Gabbiani, in Baia dei Campi",Italy Adriatic,16.200496,41.815187,,0,Li|Ro,0,,,,
+1274,"Portus Aggasus, Port Agasus ",Vieste?,Italy Adriatic,16.183,41.885,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/446282,http://imperium.ahlfeldt.se/places/30422,,
+1275,Merinum ,Roman villa at Santa Maria di Merino,Italy Adriatic,16.1114,41.915,-30,1,Ro,2,http://pleiades.stoa.org/places/442654,http://imperium.ahlfeldt.se/places/29238,,
+1276,Portus Garnae ,Rodi Garganico,Italy Adriatic,15.891778,41.931073,,0,Ro,0,http://pleiades.stoa.org/places/446283,,,
+1277,"Hyria, Uria",Piano di Carpino,Italy Adriatic,15.83039,41.8821,-330,1,Ro,0,http://pleiades.stoa.org/places/442616,http://imperium.ahlfeldt.se/places/29224,https://www.trismegistos.org/place/14294,
+1278,Urias Sinus,"Roman villa Avicenna,  at Carpino, on Lago di Varano ",Italy Adriatic,15.8127,41.8505,-30,1,Ro,1,http://pleiades.stoa.org/places/442490,http://imperium.ahlfeldt.se/places/35119,,
+1279,,"Roman villa Santanea,  Sant'Annea",Italy Adriatic,15.50164,41.86139,-30,1,Ro,1,,http://imperium.ahlfeldt.se/places/42389,,
+1280,"Praetorium Publilianum, on Pantanus Lacus",Masseria Amorusi,Italy Adriatic,15.42795,41.84148,-30,1,Ro,0,http://pleiades.stoa.org/places/442737,http://imperium.ahlfeldt.se/places/29276,,
+1281,"Ports on R Frento, Fertur",R Fortore,Italy Adriatic,15.292675,41.922588,,0,Ro,0,http://pleiades.stoa.org/places/442582,,,
+1282,"Trimerus insula, one of the Diomedeae insulae","San Domino, one of the Tremiti islands, with Roman villa on San Nicola island",Italy Adriatic,15.499203,42.118661,-30,1,Li|Ro,1,http://pleiades.stoa.org/places/442831,http://imperium.ahlfeldt.se/places/41581,,
+1283,,Isle of Pianosa (Tremiti),Italy Adriatic,15.747006,42.22456,,0,Li|Ro,0,,,,
+1284,,Arcora,Italy Adriatic,15.05334,41.93962,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/442473,http://imperium.ahlfeldt.se/places/29178,,
+1285,Cliternia,"Masseria Savino, at Campomarino ",Italy Adriatic,15.0401,41.971,-30,1,Ro,0,http://pleiades.stoa.org/places/432787,http://imperium.ahlfeldt.se/places/29128,,
+1286,Buca?,Termoli,Italy Adriatic,14.9976,42.0066,-330,1,Ro,0,http://pleiades.stoa.org/places/432727,http://imperium.ahlfeldt.se/places/29123,https://www.trismegistos.org/place/45826,
+1287,Ports on R Trinius,R Trigno,Italy Adriatic,14.798023,42.06544,,0,Ro,0,http://pleiades.stoa.org/places/433170,,,
+1288,"Histonium, Istonium ","Casarza, at Vasto",Italy Adriatic,14.7205,42.1188,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/413171,http://imperium.ahlfeldt.se/places/22589,https://www.trismegistos.org/place/14478,
+1289,Buca?,"Porto di Vasto, at Punta della Penna",Italy Adriatic,14.7125,42.172,-330,1,Ro,0,http://pleiades.stoa.org/places/413276,http://imperium.ahlfeldt.se/places/33612,,
+1289.0999999999999,,"San Stefano, near Casalbordino",Italy Adriatic,14.61524,42.200144,,0,Ro,0,,,,
+1290,"Pallanum, Buca? at outlet of R Sagrus ","Civitas de Sangro, at outlet of R Sangro",Italy Adriatic,14.513,42.204,,0,Ro,0,http://pleiades.stoa.org/places/413242,http://imperium.ahlfeldt.se/places/18734,,
+1290.0999999999999,"Portus Veneris, at outlet of R Sagrus ","Masseria Mayer, at outlet of R Sangro",Italy Adriatic,14.544602,42.238753,,0,Ro,0,http://pleiades.stoa.org/places/413242,,,
+1291,"Gualdi, port of Anxanum ","Lanciano, and its port of San Vito Chietino-Murata Bassa, at the outlet of R Feltrino",Italy Adriatic,14.4434,42.3103,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/413017,http://imperium.ahlfeldt.se/places/22940,https://www.trismegistos.org/place/14477,
+1292,"Orton, Hortona","Ortona, Hortona",Italy Adriatic,14.4098,42.357,-330,1,Ro,0,http://pleiades.stoa.org/places/413234,http://imperium.ahlfeldt.se/places/16757,https://www.trismegistos.org/place/40806,https://topostext.org/place/424144UOrt
+1293,"Aternum, Ostia Aterni, on R Aternus","Pescara, on R Pescara",Italy Adriatic,14.2118,42.4614,-330,1,Ro,0,http://pleiades.stoa.org/places/413039,http://imperium.ahlfeldt.se/places/18733,https://www.trismegistos.org/place/40484,https://topostext.org/place/425142UAte
+1294,"Ad Salinas, at the outlet of R Salinas","Citta San Angelo, at the outlet of R Saline",Italy Adriatic,14.1349,42.5215,,0,Ro,0,,,,
+1294.0999999999999,"Matrinus, port of Hatria, Adria at the outlet of R Matrinus","Atri, at the outlet of R Piomba",Italy Adriatic,14.138,42.5332,-330,1,Ro,0,http://pleiades.stoa.org/places/413197,http://imperium.ahlfeldt.se/places/23223,,
+1295,,"Torre del Cerrano, with several pilae",Italy Adriatic,14.089452,42.58497,,0,Ro,2,,,,
+1295.0999999999999,,"Roman villa Santa Maria ad Maurinum, at Colle Morino di Pineto",Italy Adriatic,14.036685,42.633425,-30,1,Ro,1,,,,
+1295.2,R Vomanus,"Roman villa San Martino, at Fonte dell' Olmo, on R Vomano",Italy Adriatic,14.033,42.654,-30,1,Ro,1,,,,
+1296,"Castrum Novum, on R Batinus","Giulianova, on R Tordino",Italy Adriatic,13.971,42.7356,-330,1,Ro,0,http://pleiades.stoa.org/places/413073,http://imperium.ahlfeldt.se/places/18731,https://www.trismegistos.org/place/14411,https://topostext.org/place/427140UCNo
+1297,"Castrum Truentinum, Truentum, on R Truentinum","Martinsicuro, on R Tronto",Italy Adriatic,13.901,42.8908,-330,1,Ro,0,http://pleiades.stoa.org/places/413074,http://imperium.ahlfeldt.se/places/18732,https://www.trismegistos.org/place/30634,https://topostext.org/place/429139UCTr
+1298,Cupra Maritima,"Cupra Marittima, near R Menocchia",Italy Adriatic,13.8534,43.034,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/413112,http://imperium.ahlfeldt.se/places/22907,https://www.trismegistos.org/place/32630,https://topostext.org/place/430139UCup
+1299,"Castellum Firmanorum, port of Firmum Picenum, Etruscan Permu",Fermo,Italy Adriatic,13.8011,43.1605,-330,1,Ro,0,http://pleiades.stoa.org/places/413069,http://imperium.ahlfeldt.se/places/23222,,
+1300,"Cluana, on R Cluentus","Civitanova Marche, on R Chienti",Italy Adriatic,13.7396,43.317031,-30,1,Ro,0,http://pleiades.stoa.org/places/413093,http://imperium.ahlfeldt.se/places/16809,https://www.trismegistos.org/place/32627,
+1301,"Potentia, near R Flosis","Porto Potenza, near outlet of R Potenza",Italy Adriatic,13.6711,43.4142,-330,1,Ro,0,http://pleiades.stoa.org/places/413272,http://imperium.ahlfeldt.se/places/22713,https://www.trismegistos.org/place/32688,https://topostext.org/place/434137UPot
+1302,Numana ,Numana,Italy Adriatic,13.628195,43.50729,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/413228,http://imperium.ahlfeldt.se/places/15970,https://www.trismegistos.org/place/32679,https://topostext.org/place/435136UNum
+1303,"Ancone, Ankon","Ancona, on Lungomare Vanvitelli",Italy Adriatic,13.5092,43.6235,,0,Ro,1,http://pleiades.stoa.org/places/413014,http://imperium.ahlfeldt.se/places/1454,https://www.trismegistos.org/place/3362,https://topostext.org/place/436135PAnc
+1303.0999999999999,,Torrette di Ancona,Italy Adriatic,13.45381,43.61243,,0,Ro,0,,,,
+1303.2,,Palombina Vecchia,Italy Adriatic,13.419,43.625,,0,Ro,0,,,,
+1304,"Ad Aesim, on R Aesis",outlet of R Esino at Acona airport,Italy Adriatic,13.4009,43.632,300,0,Ro|By,0,http://pleiades.stoa.org/places/412988,http://imperium.ahlfeldt.se/places/22346,,
+1305,"Sena Gallica, on R Sena","Senigallia, on R Misa",Italy Adriatic,13.2185,43.7123,-330,1,Ro,0,http://pleiades.stoa.org/places/413310,http://imperium.ahlfeldt.se/places/15969,https://www.trismegistos.org/place/32242,https://topostext.org/place/437132USen
+1306,,"Montedoro di Scapezzano, near Cesano ",Italy Adriatic,13.175681,43.75246,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/413208,http://imperium.ahlfeldt.se/places/26557,,
+1307,R Mataurum,"Ponte Metauro, on R Metauro",Italy Adriatic,13.056,43.8308,,0,Ro,0,,http://imperium.ahlfeldt.se/places/23228,,
+1308,Fanum Fortunae ,Fano,Italy Adriatic,13.019325,43.858514,-330,1,Ro,0,http://pleiades.stoa.org/places/413129,http://imperium.ahlfeldt.se/places/10565,https://www.trismegistos.org/place/32203,https://topostext.org/place/438130UFFo
+1309,"Pisaurum, on R Pisaurus","Pesaro, on R Foglia",Italy Adriatic,12.92,43.9159,-550,1,Gr|Ro,0,http://pleiades.stoa.org/places/413256,http://imperium.ahlfeldt.se/places/10564,https://www.trismegistos.org/place/14364,https://topostext.org/place/439129UPis
+1310,,Roman villa at San Cristoforo,Italy Adriatic,12.78782,43.95104,300,0,Ro|By,1,,http://imperium.ahlfeldt.se/places/42170,,
+1311,"Ariminum, Etruscan Arimna, Harimne, on R Ariminus & R Ausa","Rimini, on R Marecchia (R Ausa is now backfilled)",Italy Adriatic,12.5739,44.0623,-550,1,Gr|Ro,3,http://pleiades.stoa.org/places/393379,http://imperium.ahlfeldt.se/places/10562,https://www.trismegistos.org/place/14365,https://topostext.org/place/441126UAri
+1312,Ad Rubiconem ,"Rubicon, near Villamarina",Italy Adriatic,12.446855,44.171696,-30,1,Ro,0,http://pleiades.stoa.org/places/393368,http://imperium.ahlfeldt.se/places/17228,https://www.trismegistos.org/place/42456,https://topostext.org/place/442124WRub
+1313,Ad Novas,Villalta,Italy Adriatic,12.3542,44.18738,-30,1,Ro,0,,http://imperium.ahlfeldt.se/places/22354,,
+1314,Sabis,Castiglione di Cervia,Italy Adriatic,12.2633,44.26035,-30,1,Ro,0,,http://imperium.ahlfeldt.se/places/17226,,
+1315,"Classis, home port of Classis Ravennate fleet, Etruscan Ravna, on R Bedesis","Classe, naval base SE of Ravenna, on R Ronco, with ancient lighthouse",Italy Adriatic,12.21913,44.39546,,0,Ro,1,http://pleiades.stoa.org/places/393404,http://imperium.ahlfeldt.se/places/16621,https://www.trismegistos.org/place/31930,
+1315.1,Ravenna,"Port'Aurea, Ravenna",Italy Adriatic,12.1923,44.4136,,0,Ro,0,https://pleiades.stoa.org/places/393480,http://imperium.ahlfeldt.se/places/1452,https://www.trismegistos.org/place/3192,https://topostext.org/place/444122PRav
+1316,"Butrium, Budrium, port of Budrio ","Casa Rossa, near Sant’Alberto, on R Reno",Italy Adriatic,12.14588,44.53989,-330,1,Ro,0,http://pleiades.stoa.org/places/393394,http://imperium.ahlfeldt.se/places/17834,https://www.trismegistos.org/place/41091,
+1317,"Augusta, on Fossa Augusta","Valle Umana, Argenta",Italy Adriatic,12.09413,44.56244,-30,1,Ro,0,http://pleiades.stoa.org/places/393386,http://imperium.ahlfeldt.se/places/22355,,
+1318,"R Vatrenus, navigable",R Santerno,Italy Adriatic,11.947,44.56,,0,Ro,0,,http://imperium.ahlfeldt.se/places/44084,,
+1319,"Pomposa, Etruscan Spina, at the outlet of R Padus","Valpega, near Comacchio, on ancient branch of R Po, now called Canale di Porto Garibaldi, with possible lighthouse",Italy Adriatic,12.10256,44.6943,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/393498,http://imperium.ahlfeldt.se/places/18002,https://www.trismegistos.org/place/14371,https://topostext.org/place/447121USpi
+1319.1,,"Comacchio, former group of islands in front of outlet of ancient branch of R Po, now called Canale di Porto Garibaldi",Italy Adriatic,12.1823,44.694,-30,1,Ro,0,,,,
+1320,Sacis ad Padum,near Comacchio,Italy Adriatic,12.11759,44.72213,-30,1,Ro,0,http://pleiades.stoa.org/places/393488,http://imperium.ahlfeldt.se/places/18003,https://www.trismegistos.org/place/31899,
+1321,Neronia ,"Tombe, near Lagosanto",Italy Adriatic,12.13237,44.7672,-30,1,Ro,0,http://pleiades.stoa.org/places/393457,http://imperium.ahlfeldt.se/places/17832,,
+1322,Corniculani ,"Valle Bosco, near Codigoro",Italy Adriatic,12.13113,44.82403,-30,1,Ro,0,http://pleiades.stoa.org/places/393409,http://imperium.ahlfeldt.se/places/17833,https://www.trismegistos.org/place/41090,
+1323,Hadriani ,"San Basilio, near Ariano nel Polesine",Italy Adriatic,12.17741,44.94566,-750,1,Gr|Ro,0,http://pleiades.stoa.org/places/393434,http://imperium.ahlfeldt.se/places/17831,,
+1324,"R Padus-Eridanus, navigable up to Augusta Taurinorum ","Torino, on R Po",Italy Adriatic,12.050858,44.973546,,0,Ro,0,http://pleiades.stoa.org/places/393469,http://imperium.ahlfeldt.se/places/16565,https://www.trismegistos.org/place/42384,https://topostext.org/place/450120WEri
+1325,Septem Maria ,"Contarina, near Porto Viro",Italy Adriatic,12.22032,45.02637,-30,1,Ro,0,http://pleiades.stoa.org/places/393494,http://imperium.ahlfeldt.se/places/17830,,
+1326,"Atria, Etruscan Hatria ",Adria,Italy Adriatic,12.067121,45.048536,-750,1,Gr|Ro,1,http://pleiades.stoa.org/places/393436,http://imperium.ahlfeldt.se/places/10648,https://www.trismegistos.org/place/12222,https://topostext.org/place/450121UAdr
+1327,Fossis ,Cavanella d'Adige,Italy Adriatic,12.24533,45.10979,-30,1,Ro,0,http://pleiades.stoa.org/places/393429,http://imperium.ahlfeldt.se/places/17829,https://www.trismegistos.org/place/31380,
+1328,"Bruntulum, Brundulus ","Brondolo, south of Chioggia",Italy Adriatic,12.28343,45.19576,-30,1,Ro,0,http://pleiades.stoa.org/places/393393,http://imperium.ahlfeldt.se/places/15977,,
+1329,"Edrum, Aedro, Edron, Edro portus, Ebro portus, on R Fossa Claudia canal","Vallonga, near R Brenta",Italy Adriatic,12.07582,45.27356,-30,1,Ro,1,http://pleiades.stoa.org/places/393476,http://imperium.ahlfeldt.se/places/17835,,
+1330,"R Medoacus Minor, Meduacus ","Lova, near Campagna Lupia, on R Scolo Brentella Comio",Italy Adriatic,12.09872,45.33435,-30,1,Ro,0,http://pleiades.stoa.org/places/393451,http://imperium.ahlfeldt.se/places/23155,,
+1331,,Isola Poveglia,Italy Adriatic,12.331184,45.383648,,0,Ro,1,,,,
+1332,Ad Portum ,"Porto Menai, south of Mira",Italy Adriatic,12.13381,45.41901,-30,1,Ro,0,http://pleiades.stoa.org/places/393366,http://imperium.ahlfeldt.se/places/17837,,
+1333,"R Medoacus Maior, Meduacus, Ad XII ","Sambruson, near Naviglio del Brenta",Italy Adriatic,12.10001,45.4132,-30,1,Ro,0,http://pleiades.stoa.org/places/393359,http://imperium.ahlfeldt.se/places/17836,https://www.trismegistos.org/place/41088,
+1334,"Patavium, Etruscan Pathva",Padova,Italy Adriatic,11.878362,45.413289,,0,Ro,0,http://pleiades.stoa.org/places/393473,http://imperium.ahlfeldt.se/places/10647,https://www.trismegistos.org/place/3507,https://topostext.org/place/454119UPat
+1335,Ad IX ,Mestre,Italy Adriatic,12.221424,45.48142,-30,1,Ro,0,http://pleiades.stoa.org/places/393358,http://imperium.ahlfeldt.se/places/17838,,
+1336,"Turricellum, Torcellum ","Isle of Torcello, in the lagoon of Venice, Venezia, Venise",Italy Adriatic,12.4197,45.4986,,0,Ro,0,http://pleiades.stoa.org/places/393506,,,
+1337,Constanciacum,"Costanziaco, near isola Torcello",Italy Adriatic,12.426726,45.499074,,0,Ro,0,,,,
+1338,"Amiana, Ammiana",Santa Cristina,Italy Adriatic,12.454933,45.5085,,0,Ro,0,,,,
+1339,Altinum ,Altino,Italy Adriatic,12.4077,45.5428,-550,1,Gr|Ro,1,http://pleiades.stoa.org/places/393374,http://imperium.ahlfeldt.se/places/17839,https://www.trismegistos.org/place/8430,https://topostext.org/place/455124UAlt
+1340,Port of Altinum ,"in Scanello canal, near isola Burano",Italy Adriatic,12.430144,45.488198,,0,Ro,1,,,,
+1341,Port of Altinum ,"in Scanello canal, near Treporti",Italy Adriatic,12.438846,45.467388,,0,Ro,1,,,,
+1342,,Roman villa at Lio Piccolo,Italy Adriatic,12.4829,45.493,-30,1,Ro,1,,,,
+1342.1,,"Roman cistern of Canal de San Felice, at Ca'Ballarin, near Lio Piccolo",Italy Adriatic,12.475254,45.482957,,0,Ro,1,,,,
+1343,,"Roman tower of Canal de San Felice, near Lio Piccolo, possible lighthouse",Italy Adriatic,12.459775,45.474726,,0,Ro,1,,,,
+1344,Equilum,"Turris di Piave, Torre de Caligo, near Jesolo, with possible lighthouse",Italy Adriatic,12.63852,45.54283,-30,1,Ro,1,http://pleiades.stoa.org/places/393414,http://imperium.ahlfeldt.se/places/17995,https://www.trismegistos.org/place/12284,
+1345,"Eraclia, Port on R Anassum or Anaxum ","Cittanova, near Eraclea, with BA settlement",Italy Adriatic,12.6573,45.6378,-1300,1,Ro,0,http://pleiades.stoa.org/places/393437,http://imperium.ahlfeldt.se/places/15983,https://www.trismegistos.org/place/31304,
+1346,Port on R Liquentia ,"R Livenza, with outlet at Porto Santa Margherita",Italy Adriatic,12.81516,45.59205,-30,1,Ro,0,http://pleiades.stoa.org/places/393446,http://imperium.ahlfeldt.se/places/17994,,
+1347,"Port on the Romatinus, Reatinus ","R Lemene, which passes at Portogruaro and at Concordia Sagittaria, and with an outlet at Porto di Falconera",Italy Adriatic,12.90582,45.61705,-30,1,Ro,0,http://pleiades.stoa.org/places/393478,http://imperium.ahlfeldt.se/places/17993,,
+1347.1,,"BA settlement at Casa Zucca, near San Gaetano of Caorle",Italy Adriatic,12.8872,45.6356,-1200,1,Ro,0,,,,
+1348,"Port on R Tilaventum Maius, Apicilia",R Tagliamento,Italy Adriatic,12.98675,45.78756,-30,1,Ro,0,http://pleiades.stoa.org/places/187287,http://imperium.ahlfeldt.se/places/17983,,
+1348.1,,"Muzzana Bonifica, BA settlement near Cormor Canal",Italy Adriatic,13.1286,45.7714,-1300,1,Ro,0,,,,
+1348.2,,BA settlement near Ara del Gorgo,Italy Adriatic,13.1542,45.7705,-1300,1,Ro,0,,,,
+1349,Port on R Tilaventum Minus ,"Chiarisacco, near San Giorgio di Nogaro, on R Corno",Italy Adriatic,13.21565,45.83349,-30,1,Ro,0,http://pleiades.stoa.org/places/187260,http://imperium.ahlfeldt.se/places/17984,,
+1349.1,,"Ca Baredi, BA settlement near Anfora Canal",Italy Adriatic,13.3203,45.7648,-1500,1,Ro,0,,,,
+1350,Gradus ,Grado,Italy Adriatic,13.389233,45.683163,,0,Ro,1,http://pleiades.stoa.org/places/187397,http://imperium.ahlfeldt.se/places/1507,https://www.trismegistos.org/place/30950,https://topostext.org/place/457134UGra
+1351,"Aquileia, Aquilee, on ancient course of R Aesontius, Sontius, Isontius (ca. 50 m wide)","Aquilea, on ancient course of R Isonzo, Soca, now R Terzo & R Natissa",Italy Adriatic,13.3695,45.7748,-200,1,Ro,5,http://pleiades.stoa.org/places/187290,http://imperium.ahlfeldt.se/places/1468,https://www.trismegistos.org/place/3327,https://topostext.org/place/458134UAqu
+1352,,"Roman villa at via Bagni nuova, Monfalcone",Italy Adriatic,13.5266,45.7885,-30,1,Ro,1,http://pleiades.stoa.org/places/187264,http://imperium.ahlfeldt.se/places/44028,,
+1352.1,on R Timavo,"Terme Romane at Monfalcone, on R Timavo",Italy Adriatic,13.5663,45.7921,,0,Ro,1,,,,
+1352.2,"Fons Timavi, Port on Lake Timavus, Timave ","R Timavo, with outlet at San Giovani di Duino at Monfalcone",Italy Adriatic,13.5909,45.7896,-30,1,Ro,1,http://pleiades.stoa.org/places/187383,http://imperium.ahlfeldt.se/places/17990,https://www.trismegistos.org/place/12273,
+1352.3,,Roman villa at Sistiana,Italy Adriatic,13.6272,45.7722,-30,1,Ro,1,,,,
+1353,Castellum Pucinum ,"Castello di Miramare, Grignano",Italy Adriatic,13.708221,45.70551,-30,1,Ro,2,http://pleiades.stoa.org/places/187339,http://imperium.ahlfeldt.se/places/17991,,
+1353.1,,Cedas,Italy Adriatic,13.732,45.694,-30,1,Ro,2,,,,
+1353.2,,"Roman villa della Statua & villa del Peristilo, at Barcola",Italy Adriatic,13.7546,45.6796,50,0,Ro,1,,,,
+1354,Etruscan Tarcste,"Trieste, near the Roman theatre",Italy Adriatic,13.771666,45.649509,-330,1,Ro,2,http://pleiades.stoa.org/places/187578,http://imperium.ahlfeldt.se/places/10735,https://www.trismegistos.org/place/12317,https://topostext.org/place/456138UTer
+1354.1,Tergeste,"Trieste, via Cavana & Curia & via Cavazzeni",Italy Adriatic,13.76665,45.648,50,0,Ro,1,http://pleiades.stoa.org/places/187578,http://imperium.ahlfeldt.se/places/10735,https://www.trismegistos.org/place/12317,https://topostext.org/place/456138UTer
+1354.2,Tergeste,"Tergeste, Roman villa at Piazzetta Santa Lucia",Italy Adriatic,13.7664,45.647,50,0,Ro,2,http://pleiades.stoa.org/places/187578,http://imperium.ahlfeldt.se/places/10735,https://www.trismegistos.org/place/12317,https://topostext.org/place/456138UTer
+1354.3,Tergeste,"Tergeste, molo Venezia & Riva Grumula",Italy Adriatic,13.7616,45.6469,50,0,Ro,2,http://pleiades.stoa.org/places/187578,http://imperium.ahlfeldt.se/places/10735,https://www.trismegistos.org/place/12317,https://topostext.org/place/456138UTer
+1355,,Roman fort at San Rocco,Italy Adriatic,13.844,45.606,-178,1,Ro,1,,http://imperium.ahlfeldt.se/places/44614,,
+1355.1,Castrum Muglae,Stramare Muggia,Italy Adriatic,13.783,45.6,,0,Ro,2,,http://imperium.ahlfeldt.se/places/38875,,
+1356,Port of Castrum Muglae?,Punta Sottile,Italy Adriatic,13.718024,45.606169,,0,Ro,2,,http://imperium.ahlfeldt.se/places/38875,,

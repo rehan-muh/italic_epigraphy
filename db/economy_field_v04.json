@@ -1,0 +1,302 @@
+{
+ "model": "latent-factor spatiotemporal HSGP LGCP, penalised ML + Laplace",
+ "version": "v0.4",
+ "seed": 1,
+ "quick": false,
+ "selected_length_scales": {
+  "spatial_km": 140,
+  "temporal_yr": 50
+ },
+ "cv_table": [
+  {
+   "ls_km": 90,
+   "lt_yr": 80,
+   "heldout_deviance": 121046.66980100714,
+   "fold_deviance": [
+    30997.5,
+    41408.2,
+    35302.9,
+    5836.8,
+    7501.3
+   ]
+  },
+  {
+   "ls_km": 90,
+   "lt_yr": 150,
+   "heldout_deviance": 171125.49822362143,
+   "fold_deviance": [
+    51212.4,
+    57267.3,
+    39789.1,
+    6082.6,
+    16774.1
+   ]
+  },
+  {
+   "ls_km": 140,
+   "lt_yr": 80,
+   "heldout_deviance": 97373.78270615837,
+   "fold_deviance": [
+    23000.1,
+    32711.4,
+    29446.8,
+    5274.6,
+    6941.0
+   ]
+  },
+  {
+   "ls_km": 140,
+   "lt_yr": 150,
+   "heldout_deviance": 129788.41124074603,
+   "fold_deviance": [
+    36402.3,
+    46431.7,
+    29858.6,
+    5473.0,
+    11622.8
+   ]
+  },
+  {
+   "ls_km": 200,
+   "lt_yr": 80,
+   "heldout_deviance": 120358.61491997085,
+   "fold_deviance": [
+    46971.0,
+    41053.1,
+    21422.8,
+    4824.8,
+    6087.0
+   ]
+  },
+  {
+   "ls_km": 200,
+   "lt_yr": 150,
+   "heldout_deviance": 186182.69593706419,
+   "fold_deviance": [
+    96320.2,
+    55727.0,
+    22690.8,
+    5039.5,
+    6405.2
+   ]
+  },
+  {
+   "ls_km": 90,
+   "lt_yr": 50,
+   "heldout_deviance": 99893.43652656495,
+   "fold_deviance": [
+    25589.1,
+    30039.6,
+    31944.1,
+    5620.0,
+    6700.7
+   ]
+  },
+  {
+   "ls_km": 140,
+   "lt_yr": 50,
+   "heldout_deviance": 87822.16572030041,
+   "fold_deviance": [
+    22751.0,
+    24861.3,
+    28706.3,
+    5085.3,
+    6418.2
+   ]
+  },
+  {
+   "ls_km": 200,
+   "lt_yr": 50,
+   "heldout_deviance": 91083.73263634589,
+   "fold_deviance": [
+    32856.1,
+    26535.3,
+    20856.0,
+    4756.1,
+    6080.2
+   ]
+  }
+ ],
+ "loadings_rho": {
+  "urban_city": 2.7314,
+  "archaeological_occupation": 0.5925,
+  "maritime_shipwreck": 1.6961,
+  "amphora_trade": 2.9328,
+  "ancient_port": 1.4589,
+  "mining_production": 0.921,
+  "pleiades_settlement": 1.898,
+  "pleiades_production": 3.1615,
+  "pleiades_transport": 3.0505,
+  "oil_wine_press": 4.8976,
+  "chrr_hoard": 2.3522
+ },
+ "normalized_weights_rho2": {
+  "urban_city": 0.0999,
+  "archaeological_occupation": 0.0047,
+  "maritime_shipwreck": 0.0385,
+  "amphora_trade": 0.1152,
+  "ancient_port": 0.0285,
+  "mining_production": 0.0114,
+  "pleiades_settlement": 0.0482,
+  "pleiades_production": 0.1338,
+  "pleiades_transport": 0.1246,
+  "oil_wine_press": 0.3212,
+  "chrr_hoard": 0.0741
+ },
+ "domain_mean_loading": {
+  "settlement": 1.7406,
+  "exchange": 2.3145,
+  "connectivity": 2.2547,
+  "production": 2.9933,
+  "monetization": 2.3522
+ },
+ "alphas": {
+  "urban_city": -2.2377,
+  "archaeological_occupation": -3.9363,
+  "maritime_shipwreck": -4.5119,
+  "amphora_trade": -4.6888,
+  "ancient_port": -0.2775,
+  "mining_production": -4.9607,
+  "pleiades_settlement": -0.563,
+  "pleiades_production": -3.6421,
+  "pleiades_transport": -2.7534,
+  "oil_wine_press": -9.1631,
+  "chrr_hoard": -4.7744
+ },
+ "dispersion_initial": {
+  "urban_city": 1.058,
+  "archaeological_occupation": 0.667,
+  "maritime_shipwreck": 0.426,
+  "amphora_trade": 0.466,
+  "ancient_port": 1.454,
+  "mining_production": 0.871,
+  "pleiades_settlement": 0.987,
+  "pleiades_production": 0.949,
+  "pleiades_transport": 1.193,
+  "oil_wine_press": 0.951,
+  "chrr_hoard": 0.71
+ },
+ "dispersion_after_reweight": {
+  "urban_city": 1.109,
+  "archaeological_occupation": 0.656,
+  "maritime_shipwreck": 0.425,
+  "amphora_trade": 0.469,
+  "ancient_port": 1.553,
+  "mining_production": 0.866,
+  "pleiades_settlement": 0.959,
+  "pleiades_production": 0.889,
+  "pleiades_transport": 1.186,
+  "oil_wine_press": 0.975,
+  "chrr_hoard": 0.701
+ },
+ "likelihood_weights_1_over_phi": {
+  "urban_city": 0.9449,
+  "archaeological_occupation": 1.0,
+  "maritime_shipwreck": 1.0,
+  "amphora_trade": 1.0,
+  "ancient_port": 0.6878,
+  "mining_production": 1.0,
+  "pleiades_settlement": 1.0,
+  "pleiades_production": 1.0,
+  "pleiades_transport": 0.8386,
+  "oil_wine_press": 1.0,
+  "chrr_hoard": 1.0
+ },
+ "reliability_R": {
+  "urban_city": 0.954,
+  "archaeological_occupation": 0.5841,
+  "maritime_shipwreck": 0.92,
+  "amphora_trade": 0.9718,
+  "ancient_port": 0.726,
+  "mining_production": 0.7723,
+  "pleiades_settlement": 0.9351,
+  "pleiades_production": 0.9756,
+  "pleiades_transport": 0.9552,
+  "oil_wine_press": 0.9897,
+  "chrr_hoard": 0.9568
+ },
+ "leave_one_source_out": {
+  "urban_city": {
+   "mean_abs_delta": 0.18055819137857865,
+   "max_abs_delta": 0.9396522957080252,
+   "corr_with_full": 0.9724618140259492
+  },
+  "archaeological_occupation": {
+   "mean_abs_delta": 0.04806542438031251,
+   "max_abs_delta": 0.3486576786278668,
+   "corr_with_full": 0.9979529041938509
+  },
+  "maritime_shipwreck": {
+   "mean_abs_delta": 0.013738267735673633,
+   "max_abs_delta": 0.3456768789147975,
+   "corr_with_full": 0.9997059833685503
+  },
+  "amphora_trade": {
+   "mean_abs_delta": 0.03517461766181274,
+   "max_abs_delta": 0.3948345894559111,
+   "corr_with_full": 0.9987552645636251
+  },
+  "ancient_port": {
+   "mean_abs_delta": 0.16376041684672132,
+   "max_abs_delta": 0.8175263930529004,
+   "corr_with_full": 0.9778173259770677
+  },
+  "mining_production": {
+   "mean_abs_delta": 0.025760109033796358,
+   "max_abs_delta": 0.14745376671873767,
+   "corr_with_full": 0.9994059860201365
+  },
+  "pleiades_settlement": {
+   "mean_abs_delta": 0.29108431490175846,
+   "max_abs_delta": 2.033841561973595,
+   "corr_with_full": 0.9119590359917478
+  },
+  "pleiades_production": {
+   "mean_abs_delta": 0.09827987803198861,
+   "max_abs_delta": 0.6716819739921092,
+   "corr_with_full": 0.9909522050716351
+  },
+  "pleiades_transport": {
+   "mean_abs_delta": 0.15038673450060858,
+   "max_abs_delta": 0.6086795990762841,
+   "corr_with_full": 0.9826927460585907
+  },
+  "oil_wine_press": {
+   "mean_abs_delta": 0.01138872267804969,
+   "max_abs_delta": 0.4622543799568979,
+   "corr_with_full": 0.9997432532358709
+  },
+  "chrr_hoard": {
+   "mean_abs_delta": 0.012941173064362954,
+   "max_abs_delta": 0.19679632482426257,
+   "corr_with_full": 0.9998243678116471
+  }
+ },
+ "domain_of_source": {
+  "urban_city": "settlement",
+  "archaeological_occupation": "settlement",
+  "maritime_shipwreck": "exchange",
+  "amphora_trade": "exchange",
+  "ancient_port": "connectivity",
+  "mining_production": "production",
+  "pleiades_settlement": "settlement",
+  "pleiades_production": "production",
+  "pleiades_transport": "connectivity",
+  "oil_wine_press": "production",
+  "chrr_hoard": "monetization"
+ },
+ "source_windows_from": {
+  "amphora_trade": -400,
+  "chrr_hoard": -200
+ },
+ "excluded_sources": {
+  "itinere_roads / orbis": "no segment chronology; handoff forbids undated back-projection",
+  "oxrep_quarries": "free-text dating only",
+  "oxrep_water_technology": "Egyptian papyri only",
+  "awmc_shapefiles": "listed URLs 404; features covered by Pleiades with period attestation",
+  "palmisano": "not materialised",
+  "hyde33": "not materialised",
+  "see": "data/economy/data_sources_v04.csv"
+ },
+ "runtime_s": 15.1
+}

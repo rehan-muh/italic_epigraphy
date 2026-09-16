@@ -1,0 +1,363 @@
+hoard_id,label,longitude,latitude,closing_year,bin_start_year,bin_end_year,weight
+CLV,Calvatone (Italy; CLV),10.44057,45.12697,-27.0,-50,-25,0.48
+CLV,Calvatone (Italy; CLV),10.44057,45.12697,-27.0,-25,0,0.52
+MIR,Mirabella Imbaccari (Sicily; MIR),14.44605,37.32702,-158.0,-175,-150,0.72
+MIR,Mirabella Imbaccari (Sicily; MIR),14.44605,37.32702,-158.0,-150,-125,0.28
+TUF,Tufara (Italy; TUF),14.94654,41.48203,-74.0,-100,-75,0.36
+TUF,Tufara (Italy; TUF),14.94654,41.48203,-74.0,-75,-50,0.64
+MLO,Maleo (Italy; MLO),9.76241,45.16633,-26.0,-50,-25,0.44
+MLO,Maleo (Italy; MLO),9.76241,45.16633,-26.0,-25,0,0.56
+COD,Monte Codruzzo (Italy; COD),12.24097,44.03042,-80.0,-100,-75,0.6
+COD,Monte Codruzzo (Italy; COD),12.24097,44.03042,-80.0,-75,-50,0.4
+VAL,San Pietro Vernotico (Valesio) (Italy; VAL),17.99752,40.4889,-41.0,-75,-50,0.04
+VAL,San Pietro Vernotico (Valesio) (Italy; VAL),17.99752,40.4889,-41.0,-50,-25,0.96
+MNF,Manfria (Sicily; MNF),14.12979,37.10065,-103.0,-125,-100,0.52
+MNF,Manfria (Sicily; MNF),14.12979,37.10065,-103.0,-100,-75,0.48
+MNP,"Naples, National Museum (Italy; MNP)",14.25049,40.85338,-115.0,-125,-100,1.0
+COM,Compito (Italy; COM),10.55,43.8,-55.0,-75,-50,0.6
+COM,Compito (Italy; COM),10.55,43.8,-55.0,-50,-25,0.4
+MNS,Monselice (Italy; MNS),11.74984,45.239,-46.0,-75,-50,0.24
+MNS,Monselice (Italy; MNS),11.74984,45.239,-46.0,-50,-25,0.76
+MNT,Montiano (Italy; MNT),12.30455,44.08232,-79.0,-100,-75,0.56
+MNT,Montiano (Italy; MNT),12.30455,44.08232,-79.0,-75,-50,0.44
+COS,Cosa (Italy; COS),13.31667,41.58333,-74.0,-100,-75,0.36
+COS,Cosa (Italy; COS),13.31667,41.58333,-74.0,-75,-50,0.64
+CPL,Capalbio (Italy; CPL),11.42175,42.45342,-81.0,-100,-75,0.64
+CPL,Capalbio (Italy; CPL),11.42175,42.45342,-81.0,-75,-50,0.36
+CPR,Capranica (Italy; CPR),12.17278,42.25849,-82.0,-100,-75,0.68
+CPR,Capranica (Italy; CPR),12.17278,42.25849,-82.0,-75,-50,0.32
+MOG,Moggio (Italy; MOG),9.48623,45.93239,-31.0,-50,-25,0.64
+MOG,Moggio (Italy; MOG),9.48623,45.93239,-31.0,-25,0,0.36
+VIG,Vigatto (Italy; VIG),10.33037,44.71999,-27.0,-50,-25,0.48
+VIG,Vigatto (Italy; VIG),10.33037,44.71999,-27.0,-25,0,0.52
+CR1,Carbonara (Italy; CR1),11.22923,45.03537,-48.0,-75,-50,0.32
+CR1,Carbonara (Italy; CR1),11.22923,45.03537,-48.0,-50,-25,0.68
+CR2,Carbonara (Italy; CR2),11.22923,45.03537,-36.0,-50,-25,0.84
+CR2,Carbonara (Italy; CR2),11.22923,45.03537,-36.0,-25,0,0.16
+MOR,Morrovalle (Italy; MOR),13.59535,43.3183,-46.0,-75,-50,0.24
+MOR,Morrovalle (Italy; MOR),13.59535,43.3183,-46.0,-50,-25,0.76
+MRS,Marsala (Sicily; MRS),12.4367,37.7992,-42.0,-75,-50,0.08
+MRS,Marsala (Sicily; MRS),12.4367,37.7992,-42.0,-50,-25,0.92
+CRG,Crognaleto (Italy; CRG),13.4889,42.58771,-97.0,-125,-100,0.28
+CRG,Crognaleto (Italy; CRG),13.4889,42.58771,-97.0,-100,-75,0.72
+CRL,Carlentini (Sicily; CRL),15.0102,37.28071,-74.0,-100,-75,0.36
+CRL,Carlentini (Sicily; CRL),15.0102,37.28071,-74.0,-75,-50,0.64
+VPT,Villa Potenza (Italy; VPT),13.42649,43.32149,-71.0,-100,-75,0.24
+VPT,Villa Potenza (Italy; VPT),13.42649,43.32149,-71.0,-75,-50,0.76
+CRO,Crotone (Italy; CRO),17.12764,39.08077,-45.0,-75,-50,0.2
+CRO,Crotone (Italy; CRO),17.12764,39.08077,-45.0,-50,-25,0.8
+CRP,Carpena (Italy; CRP),12.06429,44.18539,-92.0,-125,-100,0.08
+CRP,Carpena (Italy; CRP),12.06429,44.18539,-92.0,-100,-75,0.92
+CRR,Cerriolo (Italy; CRR),7.69953,44.48498,-26.0,-50,-25,0.44
+CRR,Cerriolo (Italy; CRR),7.69953,44.48498,-26.0,-25,0,0.56
+MTR,Cergnago (Mortara) (Italy; MTR),8.77164,45.19826,-74.0,-100,-75,0.36
+MTR,Cergnago (Mortara) (Italy; MTR),8.77164,45.19826,-74.0,-75,-50,0.64
+CRV,Corvaro (Italy; CRV),13.26496,42.20538,-79.0,-100,-75,0.56
+CRV,Corvaro (Italy; CRV),13.26496,42.20538,-79.0,-75,-50,0.44
+ZAR,Zara (Italy; ZAR),14.26913,40.85394,-18.0,-50,-25,0.12
+ZAR,Zara (Italy; ZAR),14.26913,40.85394,-18.0,-25,0,0.88
+NAP,Naples (Italy; NAP),14.26811,40.85216,-107.0,-125,-100,0.68
+NAP,Naples (Italy; NAP),14.26811,40.85216,-107.0,-100,-75,0.32
+CSN,Cerreto Sannita (Italy; CSN),14.56147,41.28296,-134.0,-150,-125,0.76
+CSN,Cerreto Sannita (Italy; CSN),14.56147,41.28296,-134.0,-125,-100,0.24
+CST,Castelnovo (Italy; CST),10.40329,44.43556,-71.0,-100,-75,0.24
+CST,Castelnovo (Italy; CST),10.40329,44.43556,-71.0,-75,-50,0.76
+CTG,Contigliano (Italy; CTG),12.77202,42.41058,-39.0,-50,-25,0.96
+CTG,Contigliano (Italy; CTG),12.77202,42.41058,-39.0,-25,0,0.04
+CTR,Canturato (Italy; CTR),17.08468,39.17186,-74.0,-100,-75,0.36
+CTR,Canturato (Italy; CTR),17.08468,39.17186,-74.0,-75,-50,0.64
+CUO,Masseria Cuoco (Italy; CUO),17.80774,40.55851,-137.0,-150,-125,0.88
+CUO,Masseria Cuoco (Italy; CUO),17.80774,40.55851,-137.0,-125,-100,0.12
+CUP,San Angelo a Cupolo (Italy; CUP),14.80374,41.06912,-170.0,-200,-175,0.2
+CUP,San Angelo a Cupolo (Italy; CUP),14.80374,41.06912,-170.0,-175,-150,0.8
+NOC,Nociglia (Italy; NOC),18.32757,40.03804,-92.0,-125,-100,0.08
+NOC,Nociglia (Italy; NOC),18.32757,40.03804,-92.0,-100,-75,0.92
+CVE,Cologna Veneta (Italy; CVE),11.38032,45.30777,-27.0,-50,-25,0.48
+CVE,Cologna Veneta (Italy; CVE),11.38032,45.30777,-27.0,-25,0,0.52
+CVG,Carovigno (Italy; CVG),17.65847,40.70626,-100.0,-125,-100,0.4
+CVG,Carovigno (Italy; CVG),17.65847,40.70626,-100.0,-100,-75,0.6
+OLE,Oleggio (Italy; OLE),8.64213,45.59674,-86.0,-100,-75,0.84
+OLE,Oleggio (Italy; OLE),8.64213,45.59674,-86.0,-75,-50,0.16
+DOM,Santa Domenica di Tropea (Italy; DOM),15.89505,38.67449,-82.0,-100,-75,0.68
+DOM,Santa Domenica di Tropea (Italy; DOM),15.89505,38.67449,-82.0,-75,-50,0.32
+OLM,Olmeneta (Italy; OLM),10.02318,45.2354,-100.0,-125,-100,0.4
+OLM,Olmeneta (Italy; OLM),10.02318,45.2354,-100.0,-100,-75,0.6
+ORS,Orsara (Italy; ORS),15.26765,41.28163,-137.0,-150,-125,0.88
+ORS,Orsara (Italy; ORS),15.26765,41.28163,-137.0,-125,-100,0.12
+OSL,Ossolaro (Italy; OSL),9.92876,45.23797,-45.0,-75,-50,0.2
+OSL,Ossolaro (Italy; OSL),9.92876,45.23797,-45.0,-50,-25,0.8
+ECL,Mirabella Eclano (Italy; ECL),15.00022,41.04496,-46.0,-75,-50,0.24
+ECL,Mirabella Eclano (Italy; ECL),15.00022,41.04496,-46.0,-50,-25,0.76
+OSS,Ossero (Italy; OSS),14.39333,44.69556,-72.0,-100,-75,0.28
+OSS,Ossero (Italy; OSS),14.39333,44.69556,-72.0,-75,-50,0.72
+ELE,Elena (Italy; ELE),9.25004,39.22935,-101.0,-125,-100,0.44
+ELE,Elena (Italy; ELE),9.25004,39.22935,-101.0,-100,-75,0.56
+P02,Padova (Italy; P02),11.88586,45.40797,-42.0,-75,-50,0.08
+P02,Padova (Italy; P02),11.88586,45.40797,-42.0,-50,-25,0.92
+P03,Padova (Italy; P03),11.88586,45.40797,-42.0,-75,-50,0.08
+P03,Padova (Italy; P03),11.88586,45.40797,-42.0,-50,-25,0.92
+P04,Padova (Italy; P04),11.88586,45.40797,-46.0,-75,-50,0.24
+P04,Padova (Italy; P04),11.88586,45.40797,-46.0,-50,-25,0.76
+ENE,Enemonzo (Italy; ENE),12.87944,46.40833,-170.0,-200,-175,0.2
+ENE,Enemonzo (Italy; ENE),12.87944,46.40833,-170.0,-175,-150,0.8
+P05,Padova (Italy; P05),11.88586,45.40797,-48.0,-75,-50,0.32
+P05,Padova (Italy; P05),11.88586,45.40797,-48.0,-50,-25,0.68
+P06,Padova (Italy; P06),11.88586,45.40797,-48.0,-75,-50,0.32
+P06,Padova (Italy; P06),11.88586,45.40797,-48.0,-50,-25,0.68
+P07,Padova (Italy; P07),11.88586,45.40797,-45.0,-75,-50,0.2
+P07,Padova (Italy; P07),11.88586,45.40797,-45.0,-50,-25,0.8
+ES1,Este (Italy; ES1),11.66379,45.22338,-27.0,-50,-25,0.48
+ES1,Este (Italy; ES1),11.66379,45.22338,-27.0,-25,0,0.52
+PAC,Pachino (Sicily; PAC),15.09019,36.71522,-138.0,-150,-125,0.92
+PAC,Pachino (Sicily; PAC),15.09019,36.71522,-138.0,-125,-100,0.08
+ES2,Este (Italy; ES2),11.66379,45.22338,-4.0,-25,0,0.56
+PAE,Paestum (Italy; PAE),15.00731,40.4223,-4.0,-25,0,0.56
+PAN,Panicale (Italy; PAN),12.09993,43.0283,-89.0,-100,-75,0.96
+PAN,Panicale (Italy; PAN),12.09993,43.0283,-89.0,-75,-50,0.04
+PAS,Pasquariello (Italy; PAS),12.83333,42.83333,-43.0,-75,-50,0.12
+PAS,Pasquariello (Italy; PAS),12.83333,42.83333,-43.0,-50,-25,0.88
+PAT,Paterno (Sicily; PAT),14.90254,37.56675,-100.0,-125,-100,0.4
+PAT,Paterno (Sicily; PAT),14.90254,37.56675,-100.0,-100,-75,0.6
+PCA,Palazzo Canavese (Italy; PCA),7.97776,45.45962,-4.0,-25,0,0.56
+PDO,Pieve di Olmi (Italy; PDO),10.12368,45.08957,-79.0,-100,-75,0.56
+PDO,Pieve di Olmi (Italy; PDO),10.12368,45.08957,-79.0,-75,-50,0.44
+FAN,Fano (Italy; FAN),13.01665,43.84052,-170.0,-200,-175,0.2
+FAN,Fano (Italy; FAN),13.01665,43.84052,-170.0,-175,-150,0.8
+PET,Petacciato (Italy; PET),14.86026,42.00827,-141.0,-175,-150,0.04
+PET,Petacciato (Italy; PET),14.86026,42.00827,-141.0,-150,-125,0.96
+PIC,Potenza Picena (Italy; PIC),13.62249,43.36635,-74.0,-100,-75,0.36
+PIC,Potenza Picena (Italy; PIC),13.62249,43.36635,-74.0,-75,-50,0.64
+PIE,Piedimonte d'Alife (Italy; PIE),14.36667,41.35,-42.0,-75,-50,0.08
+PIE,Piedimonte d'Alife (Italy; PIE),14.36667,41.35,-42.0,-50,-25,0.92
+FER,Ferentino (Italy; FER),13.2562,41.69119,-81.0,-100,-75,0.64
+FER,Ferentino (Italy; FER),13.2562,41.69119,-81.0,-75,-50,0.36
+PIS,Vico Pisano (Italy; PIS),10.58359,43.69305,4.0,-25,0,0.24
+FIE,Fiesole (Italy; FIE),11.29487,43.80455,-89.0,-100,-75,0.96
+FIE,Fiesole (Italy; FIE),11.29487,43.80455,-89.0,-75,-50,0.04
+PL1,Palestrina (Italy; PL1),12.88178,41.83274,-80.0,-100,-75,0.6
+PL1,Palestrina (Italy; PL1),12.88178,41.83274,-80.0,-75,-50,0.4
+PL2,Palestrina (Italy; PL2),12.88178,41.83274,-74.0,-100,-75,0.36
+PL2,Palestrina (Italy; PL2),12.88178,41.83274,-74.0,-75,-50,0.64
+FIR,Firenze (Italy; FIR),11.24626,43.77925,-43.0,-75,-50,0.12
+FIR,Firenze (Italy; FIR),11.24626,43.77925,-43.0,-50,-25,0.88
+PLC,Policoro (Italy; PLC),16.67795,40.2128,-72.0,-100,-75,0.28
+PLC,Policoro (Italy; PLC),16.67795,40.2128,-72.0,-75,-50,0.72
+PLI,Policoro (Italy; PLI),16.67795,40.2128,-45.0,-75,-50,0.2
+PLI,Policoro (Italy; PLI),16.67795,40.2128,-45.0,-50,-25,0.8
+FOS,Fossombrone (Italy; FOS),12.81173,43.69017,-121.0,-150,-125,0.24
+FOS,Fossombrone (Italy; FOS),12.81173,43.69017,-121.0,-125,-100,0.76
+FRA,Fragagnano (Italy; FRA),17.47553,40.4302,-79.0,-100,-75,0.56
+FRA,Fragagnano (Italy; FRA),17.47553,40.4302,-79.0,-75,-50,0.44
+PON,Pontecorvo (Italy; PON),13.66618,41.45861,-74.0,-100,-75,0.36
+PON,Pontecorvo (Italy; PON),13.66618,41.45861,-74.0,-75,-50,0.64
+FSL,Fossalta (Portogruaro) (Italy; FSL),12.90998,45.79329,-82.0,-100,-75,0.68
+FSL,Fossalta (Portogruaro) (Italy; FSL),12.90998,45.79329,-82.0,-75,-50,0.32
+POT,Potenza (Italy; POT),15.80794,40.64175,-43.0,-75,-50,0.12
+POT,Potenza (Italy; POT),15.80794,40.64175,-43.0,-50,-25,0.88
+FUS,Fuscaldo (Italy; FUS),16.02839,39.41421,-90.0,-100,-75,1.0
+PQU,Pieve-Quinta (Italy; PQU),12.15277,44.23819,-42.0,-75,-50,0.08
+PQU,Pieve-Quinta (Italy; PQU),12.15277,44.23819,-42.0,-50,-25,0.92
+GAL,Gallignano (Italy; GAL),9.83761,45.43768,-4.0,-25,0,0.56
+PRC,Monte Porcaro (Italy; PRC),13.16141,41.89902,-48.0,-75,-50,0.32
+PRC,Monte Porcaro (Italy; PRC),13.16141,41.89902,-48.0,-50,-25,0.68
+ADM,Alba di Massa (Italy; ADM),13.39429,42.10723,-77.0,-100,-75,0.48
+ADM,Alba di Massa (Italy; ADM),13.39429,42.10723,-77.0,-75,-50,0.52
+GDM,Gioia dei Marsi (Italy; GDM),13.69057,41.95697,-97.0,-125,-100,0.28
+GDM,Gioia dei Marsi (Italy; GDM),13.69057,41.95697,-97.0,-100,-75,0.72
+GER,Gerenzago (Italy; GER),9.36137,45.20633,-118.0,-150,-125,0.12
+GER,Gerenzago (Italy; GER),9.36137,45.20633,-118.0,-125,-100,0.88
+AGG,Aggius (Sardinia; AGG),9.06517,40.92995,4.0,-25,0,0.24
+PTA,Patrica (Italy; PTA),13.24363,41.59085,-119.0,-150,-125,0.16
+PTA,Patrica (Italy; PTA),13.24363,41.59085,-119.0,-125,-100,0.84
+AGN,Agnona (Italy; AGN),8.25957,45.72602,-41.0,-75,-50,0.04
+AGN,Agnona (Italy; AGN),8.25957,45.72602,-41.0,-50,-25,0.96
+GOT,Gottolengo (Italy; GOT),10.26855,45.29278,-49.0,-75,-50,0.36
+GOT,Gottolengo (Italy; GOT),10.26855,45.29278,-49.0,-50,-25,0.64
+ALI,Alife (Italy; ALI),14.33403,41.32612,-87.0,-100,-75,0.88
+ALI,Alife (Italy; ALI),14.33403,41.32612,-87.0,-75,-50,0.12
+ALL,Allein (Italy; ALL),7.27262,45.80723,-27.0,-50,-25,0.48
+ALL,Allein (Italy; ALL),7.27262,45.80723,-27.0,-25,0,0.52
+GRA,Grazzanise (Italy; GRA),14.08194,41.06083,-54.0,-75,-50,0.56
+GRA,Grazzanise (Italy; GRA),14.08194,41.06083,-54.0,-50,-25,0.44
+GRE,San Gregorio di Sassola (Italy; GRE),12.87447,41.91881,-58.0,-75,-50,0.72
+GRE,San Gregorio di Sassola (Italy; GRE),12.87447,41.91881,-58.0,-50,-25,0.28
+RAN,Randazzo (Sicily; RAN),14.95012,37.87736,-77.0,-100,-75,0.48
+RAN,Randazzo (Sicily; RAN),14.95012,37.87736,-77.0,-75,-50,0.52
+ALV,Alvignano (Italy; ALV),14.33671,41.24427,-40.0,-50,-25,1.0
+RCN,Ricina (Italy; RCN),13.42649,43.32149,-101.0,-125,-100,0.44
+RCN,Ricina (Italy; RCN),13.42649,43.32149,-101.0,-100,-75,0.56
+AMA,Amaseno (Italy; AMA),13.33457,41.46705,-79.0,-100,-75,0.56
+AMA,Amaseno (Italy; AMA),13.33457,41.46705,-79.0,-75,-50,0.44
+RIC,Riccia (Italy; RIC),14.83181,41.48314,-126.0,-150,-125,0.44
+RIC,Riccia (Italy; RIC),14.83181,41.48314,-126.0,-125,-100,0.56
+AME,Lacco Ameno (Italy; AME),13.88718,40.74901,-144.0,-175,-150,0.16
+AME,Lacco Ameno (Italy; AME),13.88718,40.74901,-144.0,-150,-125,0.84
+RIG,Rignano (Italy; RIG),12.48068,42.2055,-74.0,-100,-75,0.36
+RIG,Rignano (Italy; RIG),12.48068,42.2055,-74.0,-75,-50,0.64
+AN1,Ancona (Italy; AN1),13.50337,43.5942,-55.0,-75,-50,0.6
+AN1,Ancona (Italy; AN1),13.50337,43.5942,-55.0,-50,-25,0.4
+AN2,Ancona (Italy; AN2),13.50337,43.5942,-90.0,-100,-75,1.0
+ANA,Santa Anna (Italy; ANA),10.48333,43.83333,-42.0,-75,-50,0.08
+ANA,Santa Anna (Italy; ANA),10.48333,43.83333,-42.0,-50,-25,0.92
+ROG,Roginenza (Sicily; ROG),14.84731,37.47169,-136.0,-150,-125,0.84
+ROG,Roginenza (Sicily; ROG),14.84731,37.47169,-136.0,-125,-100,0.16
+ROM,Rome (Italy; ROM),12.51133,41.89193,-147.0,-175,-150,0.28
+ROM,Rome (Italy; ROM),12.51133,41.89193,-147.0,-150,-125,0.72
+RON,Roncolon (Italy; RON),13.3954,45.78524,-61.0,-75,-50,0.84
+RON,Roncolon (Italy; RON),13.3954,45.78524,-61.0,-50,-25,0.16
+ATO,Altino (Italy; ATO),14.33267,42.09954,-42.0,-75,-50,0.08
+ATO,Altino (Italy; ATO),14.33267,42.09954,-42.0,-50,-25,0.92
+RSN,Rossano (Italy; RSN),16.63447,39.57622,-42.0,-75,-50,0.08
+RSN,Rossano (Italy; RSN),16.63447,39.57622,-42.0,-50,-25,0.92
+AVE,Avetrana (Italy; AVE),17.7326,40.3507,-38.0,-50,-25,0.92
+AVE,Avetrana (Italy; AVE),17.7326,40.3507,-38.0,-25,0,0.08
+AVV,Avvocata (Italy; AVV),14.6729,40.65458,-104.0,-125,-100,0.56
+AVV,Avvocata (Italy; AVV),14.6729,40.65458,-104.0,-100,-75,0.44
+RUT,Rutigliano (Italy; RUT),17.00558,41.00997,-58.0,-75,-50,0.72
+RUT,Rutigliano (Italy; RUT),17.00558,41.00997,-58.0,-50,-25,0.28
+AVZ,Avezzano (Italy; AVZ),13.42641,42.02896,-87.0,-100,-75,0.88
+AVZ,Avezzano (Italy; AVZ),13.42641,42.02896,-87.0,-75,-50,0.12
+IMO,Imola (Italy; IMO),11.7132,44.35916,-100.0,-125,-100,0.4
+IMO,Imola (Italy; IMO),11.7132,44.35916,-100.0,-100,-75,0.6
+S01,West Sicily (Sicily; S01),13.93457,37.62304,-146.0,-175,-150,0.24
+S01,West Sicily (Sicily; S01),13.93457,37.62304,-146.0,-150,-125,0.76
+INF,Montoro Inferiore (Italy; INF),14.77465,40.81292,-147.0,-175,-150,0.28
+INF,Montoro Inferiore (Italy; INF),14.77465,40.81292,-147.0,-150,-125,0.72
+S02,West Sicily (Sicily; S02),13.93457,37.62304,-29.0,-50,-25,0.56
+S02,West Sicily (Sicily; S02),13.93457,37.62304,-29.0,-25,0,0.44
+S03,West Sicily (Sicily; S03),13.93457,37.62304,-40.0,-50,-25,1.0
+ION,Montalbano Ionico (Italy; ION),16.5696,40.28591,-75.0,-100,-75,0.4
+ION,Montalbano Ionico (Italy; ION),16.5696,40.28591,-75.0,-75,-50,0.6
+BAG,Bagheria (Sicily; BAG),13.51237,38.07892,4.0,-25,0,0.24
+BAN,Banzi (Italy; BAN),16.00976,40.86063,-130.0,-150,-125,0.6
+BAN,Banzi (Italy; BAN),16.00976,40.86063,-130.0,-125,-100,0.4
+IT1,Italy (Italy; IT1),12.83333,42.83333,-126.0,-150,-125,0.44
+IT1,Italy (Italy; IT1),12.83333,42.83333,-126.0,-125,-100,0.56
+IT2,Italy (Italy; IT2),12.83333,42.83333,-74.0,-100,-75,0.36
+IT2,Italy (Italy; IT2),12.83333,42.83333,-74.0,-75,-50,0.64
+IT4,Central Italy (Italy; IT4),12.24145,42.83829,-79.0,-100,-75,0.56
+IT4,Central Italy (Italy; IT4),12.24145,42.83829,-79.0,-75,-50,0.44
+SBS,San Bartolomeo in Sassoforte (Italy; SBS),10.53941,44.67402,-43.0,-75,-50,0.12
+SBS,San Bartolomeo in Sassoforte (Italy; SBS),10.53941,44.67402,-43.0,-50,-25,0.88
+BDS,Belmonte del Sannio (Italy; BDS),14.42333,41.82352,-31.0,-50,-25,0.64
+BDS,Belmonte del Sannio (Italy; BDS),14.42333,41.82352,-31.0,-25,0,0.36
+IT6,Italy (Italy; IT6),12.83333,42.83333,-31.0,-50,-25,0.64
+IT6,Italy (Italy; IT6),12.83333,42.83333,-31.0,-25,0,0.36
+BEN,Beneventum (Italy; BEN),14.77816,41.1307,-47.0,-75,-50,0.28
+BEN,Beneventum (Italy; BEN),14.77816,41.1307,-47.0,-50,-25,0.72
+BER,Berchidda (Sardinia; BER),9.1651,40.78476,-82.0,-100,-75,0.68
+BER,Berchidda (Sardinia; BER),9.1651,40.78476,-82.0,-75,-50,0.32
+BEV,Bevagna (Italy; BEV),12.61488,42.93748,-116.0,-150,-125,0.04
+BEV,Bevagna (Italy; BEV),12.61488,42.93748,-116.0,-125,-100,0.96
+JES,Jesi (Italy; JES),13.24368,43.52142,-117.0,-150,-125,0.08
+JES,Jesi (Italy; JES),13.24368,43.52142,-117.0,-125,-100,0.92
+JSI,Jesi (Italy; JSI),13.24368,43.52142,-45.0,-75,-50,0.2
+JSI,Jesi (Italy; JSI),13.24368,43.52142,-45.0,-50,-25,0.8
+SES,Romagnano Sesia (Italy; SES),8.38697,45.63279,-87.0,-100,-75,0.88
+SES,Romagnano Sesia (Italy; SES),8.38697,45.63279,-87.0,-75,-50,0.12
+BLC,Bellicello (Castelvetrano) (Sicily; BLC),12.79194,37.68081,-81.0,-100,-75,0.64
+BLC,Bellicello (Castelvetrano) (Sicily; BLC),12.79194,37.68081,-81.0,-75,-50,0.36
+BLF,Belfiore (Italy; BLF),11.21085,45.38189,-127.0,-150,-125,0.48
+BLF,Belfiore (Italy; BLF),11.21085,45.38189,-127.0,-125,-100,0.52
+BLG,Bologna (Italy; BLG),11.33875,44.49381,-100.0,-125,-100,0.4
+BLG,Bologna (Italy; BLG),11.33875,44.49381,-100.0,-100,-75,0.6
+SGI,San Giovanni Incarico (Italy; SGI),13.55864,41.50001,-125.0,-150,-125,0.4
+SGI,San Giovanni Incarico (Italy; SGI),13.55864,41.50001,-125.0,-125,-100,0.6
+BOR,Borzano (Italy; BOR),10.63675,44.6036,-42.0,-75,-50,0.08
+BOR,Borzano (Italy; BOR),10.63675,44.6036,-42.0,-50,-25,0.92
+BRA,Brandosa (Italy; BRA),12.30924,42.03721,-49.0,-75,-50,0.36
+BRA,Brandosa (Italy; BRA),12.30924,42.03721,-49.0,-50,-25,0.64
+SMT,San Miniato al Tedesco (Italy; SMT),10.84975,43.67954,-80.0,-100,-75,0.6
+SMT,San Miniato al Tedesco (Italy; SMT),10.84975,43.67954,-80.0,-75,-50,0.4
+BRE,Brescello (Italy; BRE),10.51269,44.89531,-39.0,-50,-25,0.96
+BRE,Brescello (Italy; BRE),10.51269,44.89531,-39.0,-25,0,0.04
+BRG,Borgonuovo (Italy; BRG),10.61667,43.85,-111.0,-125,-100,0.84
+BRG,Borgonuovo (Italy; BRG),10.61667,43.85,-111.0,-100,-75,0.16
+BRI,Brindisi (Italy; BRI),17.93607,40.63215,-34.0,-50,-25,0.76
+BRI,Brindisi (Italy; BRI),17.93607,40.63215,-34.0,-25,0,0.24
+LCL,Lucoli (Italy; LCL),13.33799,42.29093,-124.0,-150,-125,0.36
+LCL,Lucoli (Italy; LCL),13.33799,42.29093,-124.0,-125,-100,0.64
+BRO,Broni (Italy; BRO),9.25993,45.06394,-51.0,-75,-50,0.44
+BRO,Broni (Italy; BRO),9.25993,45.06394,-51.0,-50,-25,0.56
+LIC,Licodia (Sicily; LIC),14.70555,37.15674,-74.0,-100,-75,0.36
+LIC,Licodia (Sicily; LIC),14.70555,37.15674,-74.0,-75,-50,0.64
+SPN,Spoiano (Italy; SPN),11.76842,43.37055,-46.0,-75,-50,0.24
+SPN,Spoiano (Italy; SPN),11.76842,43.37055,-46.0,-50,-25,0.76
+SPO,Spoleto (Italy; SPO),12.73899,42.74071,-79.0,-100,-75,0.56
+SPO,Spoleto (Italy; SPO),12.73899,42.74071,-79.0,-75,-50,0.44
+BUR,Burgos (Italy; BUR),8.99558,40.39081,-195.0,-225,-200,0.2
+BUR,Burgos (Italy; BUR),8.99558,40.39081,-195.0,-200,-175,0.8
+BVG,Bevagna (Italy; BVG),12.61488,42.93748,-100.0,-125,-100,0.4
+BVG,Bevagna (Italy; BVG),12.61488,42.93748,-100.0,-100,-75,0.6
+SSR,Santo Stefano Roero (Italy; SSR),7.94093,44.78844,-18.0,-50,-25,0.12
+SSR,Santo Stefano Roero (Italy; SSR),7.94093,44.78844,-18.0,-25,0,0.88
+CAH,Italy (Italy; CAH),12.83333,42.83333,-87.0,-100,-75,0.88
+CAH,Italy (Italy; CAH),12.83333,42.83333,-87.0,-75,-50,0.12
+LOR,San Lorenzo del Vallo (Italy; LOR),16.29866,39.66739,-102.0,-125,-100,0.48
+LOR,San Lorenzo del Vallo (Italy; LOR),16.29866,39.66739,-102.0,-100,-75,0.52
+CAL,Calvatone (Italy; CAL),10.44057,45.12697,-40.0,-50,-25,1.0
+LOS,Mornico Losana (Italy; LOS),9.20616,45.01016,-38.0,-50,-25,0.92
+LOS,Mornico Losana (Italy; LOS),9.20616,45.01016,-38.0,-25,0,0.08
+LTA,"Largo di Torre Argentina, Rome (Italy; LTA)",12.47655,41.89605,-97.0,-125,-100,0.28
+LTA,"Largo di Torre Argentina, Rome (Italy; LTA)",12.47655,41.89605,-97.0,-100,-75,0.72
+CAR,Carovilli (Italy; CAR),14.29403,41.71348,-81.0,-100,-75,0.64
+CAR,Carovilli (Italy; CAR),14.29403,41.71348,-81.0,-75,-50,0.36
+STR,Strongoli (Italy; STR),17.05413,39.26576,-108.0,-125,-100,0.72
+STR,Strongoli (Italy; STR),17.05413,39.26576,-108.0,-100,-75,0.28
+CAS,Casaleone (Italy; CAS),11.19401,45.16821,-51.0,-75,-50,0.44
+CAS,Casaleone (Italy; CAS),11.19401,45.16821,-51.0,-50,-25,0.56
+LUN,Luni (Italy; LUN),9.98503,44.08546,-89.0,-100,-75,0.96
+LUN,Luni (Italy; LUN),9.98503,44.08546,-89.0,-75,-50,0.04
+CAV,Cavriago (Italy; CAV),10.52591,44.69457,-45.0,-75,-50,0.2
+CAV,Cavriago (Italy; CAV),10.52591,44.69457,-45.0,-50,-25,0.8
+MAC,Maccarese (Italy; MAC),12.21975,41.87696,-74.0,-100,-75,0.36
+MAC,Maccarese (Italy; MAC),12.21975,41.87696,-74.0,-75,-50,0.64
+MAD,Maddaloni (Italy; MAD),14.3823,41.03578,-115.0,-125,-100,1.0
+SUR,Surbo (Italy; SUR),18.13456,40.39383,-46.0,-75,-50,0.24
+SUR,Surbo (Italy; SUR),18.13456,40.39383,-46.0,-50,-25,0.76
+SUS,Sustinenza (Italy; SUS),11.18365,45.15686,-56.0,-75,-50,0.64
+SUS,Sustinenza (Italy; SUS),11.18365,45.15686,-56.0,-50,-25,0.36
+SY2,Syracuse (Sicily; SY2),15.28664,37.07542,-136.0,-150,-125,0.84
+SY2,Syracuse (Sicily; SY2),15.28664,37.07542,-136.0,-125,-100,0.16
+MAN,San Mango sul Calore (Italy; MAN),14.97251,40.9589,-75.0,-100,-75,0.4
+MAN,San Mango sul Calore (Italy; MAN),14.97251,40.9589,-75.0,-75,-50,0.6
+SYR,Syracuse (Sicily; SYR),15.28664,37.07542,-88.0,-100,-75,0.92
+SYR,Syracuse (Sicily; SYR),15.28664,37.07542,-88.0,-75,-50,0.08
+MAS,Maserà (Italy; MAS),8.32526,46.13888,-125.0,-150,-125,0.4
+MAS,Maserà (Italy; MAS),8.32526,46.13888,-125.0,-125,-100,0.6
+TDS,Terranova di Sicilia (Sicily; TDS),14.24038,37.07381,-118.0,-150,-125,0.12
+TDS,Terranova di Sicilia (Sicily; TDS),14.24038,37.07381,-118.0,-125,-100,0.88
+CER,Cervia (Italy; CER),12.34812,44.26204,-82.0,-100,-75,0.68
+CER,Cervia (Italy; CER),12.34812,44.26204,-82.0,-75,-50,0.32
+CES,Cesena (Italy; CES),12.24315,44.1391,-82.0,-100,-75,0.68
+CES,Cesena (Italy; CES),12.24315,44.1391,-82.0,-75,-50,0.32
+MDI,Monteverde di Fermo (Italy; MDI),13.57395,42.85351,-92.0,-125,-100,0.08
+MDI,Monteverde di Fermo (Italy; MDI),13.57395,42.85351,-92.0,-100,-75,0.92
+CG1,Cerignola (Italy; CG1),15.89559,41.26523,-36.0,-50,-25,0.84
+CG1,Cerignola (Italy; CG1),15.89559,41.26523,-36.0,-25,0,0.16
+CG2,Cerignola (Italy; CG2),15.89559,41.26523,-100.0,-125,-100,0.4
+CG2,Cerignola (Italy; CG2),15.89559,41.26523,-100.0,-100,-75,0.6
+ME1,Meolo (Italy; ME1),12.45236,45.6197,-27.0,-50,-25,0.48
+ME1,Meolo (Italy; ME1),12.45236,45.6197,-27.0,-25,0,0.52
+ME2,Meolo (Albaredo d'Adige) (Italy; ME2),11.27843,45.31859,-39.0,-50,-25,0.96
+ME2,Meolo (Albaredo d'Adige) (Italy; ME2),11.27843,45.31859,-39.0,-25,0,0.04
+CHI,Civitella in Val di Chiana (Italy; CHI),11.7229,43.41731,-42.0,-75,-50,0.08
+CHI,Civitella in Val di Chiana (Italy; CHI),11.7229,43.41731,-42.0,-50,-25,0.92
+MES,Mesagne (Italy; MES),17.80774,40.55851,-58.0,-75,-50,0.72
+MES,Mesagne (Italy; MES),17.80774,40.55851,-58.0,-50,-25,0.28
+CIN,Cingoli (Italy; CIN),13.20787,43.37573,-87.0,-100,-75,0.88
+CIN,Cingoli (Italy; CIN),13.20787,43.37573,-87.0,-75,-50,0.12
+CIS,Cisterna di Latina (Italy; CIS),12.82808,41.5908,-41.0,-75,-50,0.04
+CIS,Cisterna di Latina (Italy; CIS),12.82808,41.5908,-41.0,-50,-25,0.96
+TNI,Terni (Italy; TNI),12.64329,42.56335,-42.0,-75,-50,0.08
+TNI,Terni (Italy; TNI),12.64329,42.56335,-42.0,-50,-25,0.92
+TOL,Tolfa (Italy; TOL),11.93216,42.15023,-72.0,-100,-75,0.28
+TOL,Tolfa (Italy; TOL),11.93216,42.15023,-72.0,-75,-50,0.72
+CLA,Claterna (Italy; CLA),11.47136,44.44279,-92.0,-125,-100,0.08
+CLA,Claterna (Italy; CLA),11.47136,44.44279,-92.0,-100,-75,0.92
+MIG,Mignano (Italy; MIG),13.98552,41.40592,-49.0,-75,-50,0.36
+MIG,Mignano (Italy; MIG),13.98552,41.40592,-49.0,-50,-25,0.64
+TR1,Taranto (Italy; TR1),17.24707,40.46438,-113.0,-125,-100,0.92
+TR1,Taranto (Italy; TR1),17.24707,40.46438,-113.0,-100,-75,0.08
+TR2,Taranto (Italy; TR2),17.24707,40.46438,-49.0,-75,-50,0.36
+TR2,Taranto (Italy; TR2),17.24707,40.46438,-49.0,-50,-25,0.64

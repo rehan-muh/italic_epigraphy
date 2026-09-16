@@ -7,6 +7,7 @@
 #   make geo-all  fetch every declared layer, including the slow OSM ones
 #   make layers   list what is declared in scripts/geosources.yml
 #   make links    reconcile findspots against Pleiades, Wikidata and iDAI
+#   make economy  package the fitted economic field for /economy/ (needs the v0.4 fit)
 #   make encoding audit the character encoding of the CSV
 #   make watch    rebuild automatically whenever the CSV changes
 #   make build    production build into _site/
@@ -17,7 +18,7 @@ PY  ?= $(shell command -v python3 2>/dev/null || command -v python 2>/dev/null |
 CSV := data/database_preliminary.csv
 GEN := _data/atlas.yml assets/data/corpus.json assets/data/places.geojson
 
-.PHONY: all db rebuild pages geo geo-all layers links encoding serve watch build clean check install
+.PHONY: all db rebuild pages geo geo-all layers links encoding economy serve watch build clean check install
 
 all: db
 
@@ -58,6 +59,11 @@ links:
 
 data/links.csv:
 	@touch $@
+
+# the field itself is fitted by scripts/economy_field.py (~45 min, checkpointed);
+# this only packages the tracked grid CSV + basis for the site page
+economy:
+	$(PY) scripts/economy_field_animation.py
 
 serve: db
 	bundle exec jekyll serve --livereload --host 127.0.0.1 --port 4000

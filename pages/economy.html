@@ -1,0 +1,54 @@
+---
+layout: page
+permalink: /economy/
+nav: economy
+title: "Economic field"
+lede: "A latent index of economic activity across Italy, 700–1 BCE, inferred from eleven archaeological and historical evidence sources and animated through time."
+width: wide
+css: /assets/css/economy.css
+---
+
+<div class="econ-prose">
+  <p>
+    The map shows the posterior mean of a shared latent field <code>E(s,t)</code>
+    fitted jointly to dated cities, Pleiades settlements and infrastructure,
+    shipwrecks, amphora stamps, ports, Republican coin hoards, presses, mines and
+    radiocarbon dates on a 0.25°&nbsp;×&nbsp;25-year grid. Values are in standard
+    deviations of the field over the whole space–time window, so blue is below the
+    700–1&nbsp;BCE mean and red above it; the field rises through the period
+    everywhere, and the interesting part is where it rises first. Play through
+    time, scrub to a year, hover a cell, or pin a place to follow its trajectory
+    with its 95% interval.
+  </p>
+</div>
+
+<div id="economy-app" data-src="{{ '/assets/data/economy_field_v04.json' | relative_url }}">
+  {% include economy-app.html %}
+</div>
+
+<div class="econ-prose">
+  <h2>How to read it</h2>
+  <p>
+    The field is a latent-factor log-Gaussian Cox process: each evidence source has
+    its own intensity <code>exp(α<sub>k</sub> + ρ<sub>k</sub>E + δ<sub>d</sub>)</code>,
+    with the loading <code>ρ<sub>k</sub></code> estimated rather than chosen and a
+    residual <code>δ<sub>d</sub></code> for what a domain (settlement, exchange,
+    connectivity, production, monetization) shows beyond the shared signal. The
+    length scales (140&nbsp;km, 50&nbsp;yr) were selected by spatial-block
+    cross-validation; chronological uncertainty enters as aoristic probability
+    over the 25-year bins, never as midpoint dates. Low values in poorly surveyed
+    regions are partly a survey effect: switch the layer to the posterior SD
+    before reading a contrast, and prefer the domain fields for hypotheses about
+    trade or settlement specifically.
+  </p>
+  <p>
+    Model card, source ledger and fitted loadings:
+    <a href="https://github.com/{{ site.repository }}/blob/main/data/economy/field_v04/README.md">data/economy/field_v04/README.md</a>
+    in the repository. Evidence: Hanson (OXREP cities), Pleiades (CC&nbsp;BY),
+    OXREP shipwrecks, mines and presses, CEIPAC amphora stamps (Rubio et al.
+    2018), de Graauw's ancient ports, Coin Hoards of the Roman Republic
+    (CC&nbsp;BY-NC), AIDA radiocarbon.
+  </p>
+</div>
+
+<script src="{{ '/assets/js/economy.js' | relative_url }}" defer></script>

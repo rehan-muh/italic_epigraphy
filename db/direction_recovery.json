@@ -1,0 +1,41 @@
+{
+ "reps": 3,
+ "summary": {
+  "aoristic EM": {
+   "per_tradition_rmse": {
+    "Cisalpine Celtic": 0.0185,
+    "Etruscan": 0.029,
+    "Faliscan": 0.1081,
+    "Greek": 0.0294,
+    "Latin": 0.0677,
+    "Messapic": 0.0206,
+    "Raetic": 0.0316
+   },
+   "overall_rmse": 0.0436
+  },
+  "midpoint": {
+   "per_tradition_rmse": {
+    "Cisalpine Celtic": 0.0283,
+    "Etruscan": 0.0349,
+    "Faliscan": 0.1929,
+    "Greek": 0.0613,
+    "Latin": 0.136,
+    "Messapic": 0.0445,
+    "Raetic": 0.0709
+   },
+   "overall_rmse": 0.0813
+  },
+  "narrow only": {
+   "per_tradition_rmse": {
+    "Cisalpine Celtic": 0.0361,
+    "Etruscan": 0.0373,
+    "Faliscan": 0.2934,
+    "Greek": 0.0758,
+    "Latin": 0.1214,
+    "Messapic": 0.0898,
+    "Raetic": 0.0759
+   },
+   "overall_rmse": 0.1042
+  }
+ }
+}

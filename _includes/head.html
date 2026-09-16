@@ -17,5 +17,6 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin
       href="{{ '/assets/fonts/public-sans-400-normal-latin.woff2' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/atlas.css' | relative_url }}">
+{% if page.css %}<link rel="stylesheet" href="{{ page.css | relative_url }}">{% endif %}
 <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
 {% seo %}

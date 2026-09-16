@@ -1,0 +1,151 @@
+{
+ "model": "latent-factor spatiotemporal HSGP LGCP, penalised ML + Laplace",
+ "version": "v0.3",
+ "seed": 1,
+ "quick": false,
+ "selected_length_scales": {
+  "spatial_km": 200,
+  "temporal_yr": 80
+ },
+ "cv_table": [
+  {
+   "ls_km": 90,
+   "lt_yr": 80,
+   "heldout_deviance": 32549.260824240082
+  },
+  {
+   "ls_km": 90,
+   "lt_yr": 150,
+   "heldout_deviance": 35897.305878158775
+  },
+  {
+   "ls_km": 140,
+   "lt_yr": 80,
+   "heldout_deviance": 27373.27435910847
+  },
+  {
+   "ls_km": 140,
+   "lt_yr": 150,
+   "heldout_deviance": 31186.932445207476
+  },
+  {
+   "ls_km": 200,
+   "lt_yr": 80,
+   "heldout_deviance": 25768.72858183327
+  },
+  {
+   "ls_km": 200,
+   "lt_yr": 150,
+   "heldout_deviance": 38091.93160704318
+  }
+ ],
+ "loadings_rho": {
+  "urban_city": 1.5409,
+  "archaeological_occupation": 0.0519,
+  "maritime_shipwreck": 1.6965,
+  "amphora_trade": 3.4703,
+  "ancient_port": 1.0922,
+  "mining_production": 0.3002
+ },
+ "normalized_weights_rho2": {
+  "urban_city": 0.1278,
+  "archaeological_occupation": 0.0001,
+  "maritime_shipwreck": 0.1549,
+  "amphora_trade": 0.6481,
+  "ancient_port": 0.0642,
+  "mining_production": 0.0048
+ },
+ "domain_mean_loading": {
+  "settlement": 0.7964,
+  "exchange": 2.5834,
+  "connectivity": 1.0922,
+  "production": 0.3002
+ },
+ "alphas": {
+  "urban_city": -1.7478,
+  "archaeological_occupation": -3.5969,
+  "maritime_shipwreck": -5.2698,
+  "amphora_trade": -6.2405,
+  "ancient_port": -0.3527,
+  "mining_production": -4.2838
+ },
+ "dispersion_initial": {
+  "urban_city": 0.831,
+  "archaeological_occupation": 0.365,
+  "maritime_shipwreck": 0.529,
+  "amphora_trade": 0.645,
+  "ancient_port": 1.597,
+  "mining_production": 0.525
+ },
+ "dispersion_after_reweight": {
+  "urban_city": 0.798,
+  "archaeological_occupation": 0.354,
+  "maritime_shipwreck": 0.453,
+  "amphora_trade": 0.601,
+  "ancient_port": 1.747,
+  "mining_production": 0.534
+ },
+ "likelihood_weights_1_over_phi": {
+  "urban_city": 1.0,
+  "archaeological_occupation": 1.0,
+  "maritime_shipwreck": 1.0,
+  "amphora_trade": 1.0,
+  "ancient_port": 0.6263,
+  "mining_production": 1.0
+ },
+ "reliability_R": {
+  "urban_city": 0.9047,
+  "archaeological_occupation": 0.0107,
+  "maritime_shipwreck": 0.9201,
+  "amphora_trade": 0.9797,
+  "ancient_port": 0.5448,
+  "mining_production": 0.2649
+ },
+ "leave_one_source_out": {
+  "urban_city": {
+   "mean_abs_delta": 0.8296217796157438,
+   "max_abs_delta": 3.020066253358017,
+   "corr_with_full": 0.48918246950894495
+  },
+  "archaeological_occupation": {
+   "mean_abs_delta": 0.20458813957532793,
+   "max_abs_delta": 0.8347163985889792,
+   "corr_with_full": 0.9660907552684198
+  },
+  "maritime_shipwreck": {
+   "mean_abs_delta": 0.037921727677588835,
+   "max_abs_delta": 0.5706664454993255,
+   "corr_with_full": 0.9986192569847948
+  },
+  "amphora_trade": {
+   "mean_abs_delta": 0.13159313082227905,
+   "max_abs_delta": 1.326094076983824,
+   "corr_with_full": 0.9822906247274857
+  },
+  "ancient_port": {
+   "mean_abs_delta": 0.3243574273727568,
+   "max_abs_delta": 2.187567276356545,
+   "corr_with_full": 0.8958672812723752
+  },
+  "mining_production": {
+   "mean_abs_delta": 0.019490388398153553,
+   "max_abs_delta": 0.10346955268043301,
+   "corr_with_full": 0.9996636600804912
+  }
+ },
+ "domain_of_source": {
+  "urban_city": "settlement",
+  "archaeological_occupation": "settlement",
+  "maritime_shipwreck": "exchange",
+  "amphora_trade": "exchange",
+  "ancient_port": "connectivity",
+  "mining_production": "production"
+ },
+ "excluded_sources": {
+  "itinere_roads": "no segment chronology in local layer; handoff forbids undated back-projection",
+  "palmisano": "not materialised",
+  "chrr_hoards": "not materialised",
+  "hyde33": "not materialised"
+ },
+ "runtime_s": 215.0
+}

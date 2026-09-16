@@ -21,3 +21,17 @@ db/.build-stamp.json
 # at the same time, so the two never drift:
 # assets/data/layers/
 # _data/layers.json
+
+# Economic-field fit artifacts. Large and regenerable (scripts/economy_field.py,
+# ~45 min): raw download caches, resumable checkpoints, the posterior basis
+# files and logs. The website only needs assets/data/economy_field_*.json,
+# which scripts/economy_field_animation.py writes from the tracked grid CSV.
+data/economy/raw_v*/
+data/economy/**/checkpoints/
+data/economy/**/*.pkl
+data/economy/**/*.log
+data/economy/field_v*/economic_field_v*_animation.html
+db/economy_field_*_basis.npz
+db/*.npz
+__pycache__/
+*.pyc

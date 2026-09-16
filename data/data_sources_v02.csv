@@ -1,0 +1,11 @@
+dataset,role,status,records_used,temporal_treatment,license_or_access,notes
+Hanson / Oxford Roman Economy Project Cities,urban/settlement,integrated,372,dated start/end from v0.1 build; city area not back-projected,open research database,Existing v0.1 component retained
+AIDA Italian radiocarbon archive,archaeological occupation,integrated,185,IntCal20-calibrated probability summarized in v0.1,open archive,Existing v0.1 component retained
+Oxford Roman Economy Project Shipwrecks,maritime exchange,integrated,98,probability spread over date ranges in v0.1,open research database,Existing v0.1 component retained
+Oxford Roman Economy Project Mines,production,integrated_secondary,4,dated overlap,open research database,Retained as separate/sensitivity component because coverage is sparse
+Ancient Ports and Harbours / de Graauw current XLS catalogue,coastal connectivity,integrated,531,persistent after catalogue foundation date,downloadable XLS catalogue,720 Italian records total; 531 dated to <=1 BCE
+CEIPAC-derived ecologyStamps amphora archive,material exchange/trade,integrated,5785,log1p site/type abundance with uniform probability over conservative type window,open research data,7175 Italy/Sicily/Sardinia stamps exported; selected dated subset enters default model
+"Palmisano, Bevan & Shennan central Italy settlement archive",settlement intensity / site size,identified_but_runtime_blocked,0,not applied,CC0; open ZIP,"7,383 sites / 10,971 occupation phases; runtime receives the ZIP but blocks application/zip materialization"
+Coin Hoards of the Roman Republic (CHRR),monetization / monetary circulation,identified_but_runtime_blocked,0,not applied,ODbL; open API / geographic serialization,Mainly 155 BCE–2 CE; bulk KML/GeoJSON/CSV serialization could not be materialized by this runtime
+Itiner-e Roman road network,terrestrial connectivity,identified_but_runtime_blocked,0,not applied,CC BY 4.0; open,"Full 14,769-segment dataset found; large GeoJSON/ZIP could not be materialized here"
+HYDE 3.3 gridded population/land use,population / agricultural baseline,identified_but_not_materialized,0,not applied,open research dataset,Spatial 5-arc-minute grids identified; ancient gridded files were not directly materializable in this runtime

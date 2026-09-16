@@ -1,0 +1,560 @@
+{
+ "n": 20922,
+ "categories": [
+  "etruscan",
+  "latin",
+  "greek",
+  "oscan",
+  "messapic",
+  "cisalpine_celtic",
+  "elymian",
+  "raetic",
+  "faliscan",
+  "venetic",
+  "other"
+ ],
+ "category_totals": {
+  "etruscan": 9553.0,
+  "latin": 6964.5,
+  "greek": 1041.5,
+  "oscan": 882.0,
+  "messapic": 586.0,
+  "cisalpine_celtic": 454.0,
+  "elymian": 399.0,
+  "raetic": 295.0,
+  "faliscan": 263.0,
+  "venetic": 280.0,
+  "other": 204.0
+ },
+ "fractional_dual_records": 3,
+ "e_draws": 6,
+ "kernel": {
+  "ls_km": 40.0,
+  "lt_quarters": 32.0,
+  "kernel": "m32",
+  "j_max": 1000,
+  "n_field_cols": 1000,
+  "kept_prior_var": 0.9642
+ },
+ "cv_bits": {},
+ "ridge_fixed": true,
+ "ridge_selected": 0.00390625,
+ "models": {
+  "trend_E": {
+   "log_loss_bits": 1.2103,
+   "beta_E": {
+    "etruscan": {
+     "beta_E_centred": -0.6286,
+     "se_total": 0.4832,
+     "ci95": [
+      -1.5757,
+      0.3185
+     ],
+     "z": -1.3,
+     "contrast_vs_etruscan": 0.0,
+     "contrast_se": 0
+    },
+    "latin": {
+     "beta_E_centred": 2.2838,
+     "se_total": 0.9602,
+     "ci95": [
+      0.4017,
+      4.1659
+     ],
+     "z": 2.38,
+     "contrast_vs_etruscan": 2.9124,
+     "contrast_se": 1.057
+    },
+    "greek": {
+     "beta_E_centred": 1.887,
+     "se_total": 1.9147,
+     "ci95": [
+      -1.8658,
+      5.6398
+     ],
+     "z": 0.99,
+     "contrast_vs_etruscan": 2.5156,
+     "contrast_se": 1.9116
+    },
+    "oscan": {
+     "beta_E_centred": -0.1792,
+     "se_total": 1.3887,
+     "ci95": [
+      -2.901,
+      2.5427
+     ],
+     "z": -0.13,
+     "contrast_vs_etruscan": 0.4494,
+     "contrast_se": 1.3074
+    },
+    "messapic": {
+     "beta_E_centred": 1.8729,
+     "se_total": 3.5085,
+     "ci95": [
+      -5.0037,
+      8.7495
+     ],
+     "z": 0.53,
+     "contrast_vs_etruscan": 2.5015,
+     "contrast_se": 3.5467
+    },
+    "cisalpine_celtic": {
+     "beta_E_centred": -5.1467,
+     "se_total": 0.6545,
+     "ci95": [
+      -6.4295,
+      -3.8639
+     ],
+     "z": -7.86,
+     "contrast_vs_etruscan": -4.5181,
+     "contrast_se": 0.5797
+    },
+    "elymian": {
+     "beta_E_centred": 6.9312,
+     "se_total": 4.9852,
+     "ci95": [
+      -2.8398,
+      16.7021
+     ],
+     "z": 1.39,
+     "contrast_vs_etruscan": 7.5598,
+     "contrast_se": 5.2808
+    },
+    "raetic": {
+     "beta_E_centred": -6.1877,
+     "se_total": 0.6572,
+     "ci95": [
+      -7.4757,
+      -4.8997
+     ],
+     "z": -9.42,
+     "contrast_vs_etruscan": -5.5591,
+     "contrast_se": 0.8822
+    },
+    "faliscan": {
+     "beta_E_centred": 6.4966,
+     "se_total": 2.9788,
+     "ci95": [
+      0.6582,
+      12.335
+     ],
+     "z": 2.18,
+     "contrast_vs_etruscan": 7.1252,
+     "contrast_se": 2.874
+    },
+    "venetic": {
+     "beta_E_centred": -3.6444,
+     "se_total": 0.5786,
+     "ci95": [
+      -4.7785,
+      -2.5104
+     ],
+     "z": -6.3,
+     "contrast_vs_etruscan": -3.0158,
+     "contrast_se": 0.5385
+    },
+    "other": {
+     "beta_E_centred": -3.6849,
+     "se_total": 0.7509,
+     "ci95": [
+      -5.1566,
+      -2.2132
+     ],
+     "z": -4.91,
+     "contrast_vs_etruscan": -3.0563,
+     "contrast_se": 0.7081
+    }
+   }
+  },
+  "trend_E_field": {
+   "log_loss_bits": 0.1903,
+   "beta_E": {
+    "etruscan": {
+     "beta_E_centred": -0.6576,
+     "se_total": 0.6688,
+     "ci95": [
+      -1.9685,
+      0.6533
+     ],
+     "z": -0.98,
+     "contrast_vs_etruscan": 0.0,
+     "contrast_se": 0
+    },
+    "latin": {
+     "beta_E_centred": 3.1727,
+     "se_total": 0.7767,
+     "ci95": [
+      1.6504,
+      4.695
+     ],
+     "z": 4.08,
+     "contrast_vs_etruscan": 3.8304,
+     "contrast_se": 1.2242
+    },
+    "greek": {
+     "beta_E_centred": 1.1832,
+     "se_total": 1.0863,
+     "ci95": [
+      -0.9458,
+      3.3123
+     ],
+     "z": 1.09,
+     "contrast_vs_etruscan": 1.8409,
+     "contrast_se": 0.9718
+    },
+    "oscan": {
+     "beta_E_centred": -0.5529,
+     "se_total": 0.6046,
+     "ci95": [
+      -1.7379,
+      0.6321
+     ],
+     "z": -0.91,
+     "contrast_vs_etruscan": 0.1048,
+     "contrast_se": 0.7795
+    },
+    "messapic": {
+     "beta_E_centred": 1.6813,
+     "se_total": 0.8283,
+     "ci95": [
+      0.0578,
+      3.3048
+     ],
+     "z": 2.03,
+     "contrast_vs_etruscan": 2.339,
+     "contrast_se": 1.0497
+    },
+    "cisalpine_celtic": {
+     "beta_E_centred": -0.2623,
+     "se_total": 0.5258,
+     "ci95": [
+      -1.2929,
+      0.7683
+     ],
+     "z": -0.5,
+     "contrast_vs_etruscan": 0.3953,
+     "contrast_se": 0.7913
+    },
+    "elymian": {
+     "beta_E_centred": -0.7308,
+     "se_total": 3.3799,
+     "ci95": [
+      -7.3554,
+      5.8937
+     ],
+     "z": -0.22,
+     "contrast_vs_etruscan": -0.0732,
+     "contrast_se": 3.7317
+    },
+    "raetic": {
+     "beta_E_centred": -1.3589,
+     "se_total": 0.6387,
+     "ci95": [
+      -2.6108,
+      -0.1071
+     ],
+     "z": -2.13,
+     "contrast_vs_etruscan": -0.7013,
+     "contrast_se": 0.814
+    },
+    "faliscan": {
+     "beta_E_centred": -2.9831,
+     "se_total": 1.328,
+     "ci95": [
+      -5.5861,
+      -0.3802
+     ],
+     "z": -2.25,
+     "contrast_vs_etruscan": -2.3255,
+     "contrast_se": 1.3431
+    },
+    "venetic": {
+     "beta_E_centred": 1.6991,
+     "se_total": 0.8512,
+     "ci95": [
+      0.0307,
+      3.3674
+     ],
+     "z": 2.0,
+     "contrast_vs_etruscan": 2.3567,
+     "contrast_se": 1.2277
+    },
+    "other": {
+     "beta_E_centred": -1.1906,
+     "se_total": 0.7746,
+     "ci95": [
+      -2.7088,
+      0.3275
+     ],
+     "z": -1.54,
+     "contrast_vs_etruscan": -0.533,
+     "contrast_se": 0.8488
+    }
+   }
+  }
+ },
+ "log_loss_bits": 0.1903,
+ "beta_E": {
+  "etruscan": {
+   "beta_E_centred": -0.6576,
+   "se_total": 0.6688,
+   "ci95": [
+    -1.9685,
+    0.6533
+   ],
+   "z": -0.98,
+   "contrast_vs_etruscan": 0.0,
+   "contrast_se": 0
+  },
+  "latin": {
+   "beta_E_centred": 3.1727,
+   "se_total": 0.7767,
+   "ci95": [
+    1.6504,
+    4.695
+   ],
+   "z": 4.08,
+   "contrast_vs_etruscan": 3.8304,
+   "contrast_se": 1.2242
+  },
+  "greek": {
+   "beta_E_centred": 1.1832,
+   "se_total": 1.0863,
+   "ci95": [
+    -0.9458,
+    3.3123
+   ],
+   "z": 1.09,
+   "contrast_vs_etruscan": 1.8409,
+   "contrast_se": 0.9718
+  },
+  "oscan": {
+   "beta_E_centred": -0.5529,
+   "se_total": 0.6046,
+   "ci95": [
+    -1.7379,
+    0.6321
+   ],
+   "z": -0.91,
+   "contrast_vs_etruscan": 0.1048,
+   "contrast_se": 0.7795
+  },
+  "messapic": {
+   "beta_E_centred": 1.6813,
+   "se_total": 0.8283,
+   "ci95": [
+    0.0578,
+    3.3048
+   ],
+   "z": 2.03,
+   "contrast_vs_etruscan": 2.339,
+   "contrast_se": 1.0497
+  },
+  "cisalpine_celtic": {
+   "beta_E_centred": -0.2623,
+   "se_total": 0.5258,
+   "ci95": [
+    -1.2929,
+    0.7683
+   ],
+   "z": -0.5,
+   "contrast_vs_etruscan": 0.3953,
+   "contrast_se": 0.7913
+  },
+  "elymian": {
+   "beta_E_centred": -0.7308,
+   "se_total": 3.3799,
+   "ci95": [
+    -7.3554,
+    5.8937
+   ],
+   "z": -0.22,
+   "contrast_vs_etruscan": -0.0732,
+   "contrast_se": 3.7317
+  },
+  "raetic": {
+   "beta_E_centred": -1.3589,
+   "se_total": 0.6387,
+   "ci95": [
+    -2.6108,
+    -0.1071
+   ],
+   "z": -2.13,
+   "contrast_vs_etruscan": -0.7013,
+   "contrast_se": 0.814
+  },
+  "faliscan": {
+   "beta_E_centred": -2.9831,
+   "se_total": 1.328,
+   "ci95": [
+    -5.5861,
+    -0.3802
+   ],
+   "z": -2.25,
+   "contrast_vs_etruscan": -2.3255,
+   "contrast_se": 1.3431
+  },
+  "venetic": {
+   "beta_E_centred": 1.6991,
+   "se_total": 0.8512,
+   "ci95": [
+    0.0307,
+    3.3674
+   ],
+   "z": 2.0,
+   "contrast_vs_etruscan": 2.3567,
+   "contrast_se": 1.2277
+  },
+  "other": {
+   "beta_E_centred": -1.1906,
+   "se_total": 0.7746,
+   "ci95": [
+    -2.7088,
+    0.3275
+   ],
+   "z": -1.54,
+   "contrast_vs_etruscan": -0.533,
+   "contrast_se": 0.8488
+  }
+ },
+ "beta_note": "beta_E_centred: effect of +1 sd of E on the category's log-share relative to the geometric mean of all categories (logit scale). Contrasts vs Etruscan also given.",
+ "grid": {
+  "cells": 12320,
+  "cover_km": 75.0,
+  "logshare_vs_E_correlation": {
+   "etruscan": {
+    "overall": -0.22,
+    "by_century": {
+     "-700": -0.331,
+     "-600": -0.235,
+     "-500": -0.131,
+     "-400": -0.141,
+     "-300": -0.172,
+     "-200": -0.043,
+     "-100": 0.175
+    }
+   },
+   "latin": {
+    "overall": 0.794,
+    "by_century": {
+     "-700": 0.795,
+     "-600": 0.7,
+     "-500": 0.559,
+     "-400": 0.615,
+     "-300": 0.648,
+     "-200": 0.518,
+     "-100": 0.579
+    }
+   },
+   "greek": {
+    "overall": 0.242,
+    "by_century": {
+     "-700": 0.676,
+     "-600": 0.607,
+     "-500": 0.446,
+     "-400": 0.385,
+     "-300": 0.384,
+     "-200": 0.164,
+     "-100": -0.025
+    }
+   },
+   "oscan": {
+    "overall": 0.182,
+    "by_century": {
+     "-700": 0.029,
+     "-600": 0.114,
+     "-500": 0.24,
+     "-400": 0.281,
+     "-300": 0.268,
+     "-200": 0.191,
+     "-100": -0.163
+    }
+   },
+   "messapic": {
+    "overall": 0.438,
+    "by_century": {
+     "-700": 0.58,
+     "-600": 0.438,
+     "-500": 0.312,
+     "-400": 0.36,
+     "-300": 0.364,
+     "-200": 0.3,
+     "-100": 0.251
+    }
+   },
+   "cisalpine_celtic": {
+    "overall": -0.394,
+    "by_century": {
+     "-700": -0.594,
+     "-600": -0.611,
+     "-500": -0.637,
+     "-400": -0.694,
+     "-300": -0.672,
+     "-200": -0.462,
+     "-100": -0.043
+    }
+   },
+   "elymian": {
+    "overall": -0.301,
+    "by_century": {
+     "-700": -0.364,
+     "-600": -0.227,
+     "-500": -0.157,
+     "-400": -0.109,
+     "-300": -0.069,
+     "-200": -0.023,
+     "-100": -0.421
+    }
+   },
+   "raetic": {
+    "overall": -0.537,
+    "by_century": {
+     "-700": -0.712,
+     "-600": -0.632,
+     "-500": -0.581,
+     "-400": -0.609,
+     "-300": -0.594,
+     "-200": -0.545,
+     "-100": -0.398
+    }
+   },
+   "faliscan": {
+    "overall": -0.686,
+    "by_century": {
+     "-700": -0.809,
+     "-600": -0.657,
+     "-500": -0.425,
+     "-400": -0.465,
+     "-300": -0.42,
+     "-200": -0.22,
+     "-100": -0.297
+    }
+   },
+   "venetic": {
+    "overall": 0.538,
+    "by_century": {
+     "-700": 0.634,
+     "-600": 0.43,
+     "-500": 0.241,
+     "-400": 0.236,
+     "-300": 0.209,
+     "-200": 0.026,
+     "-100": 0.28
+    }
+   },
+   "other": {
+    "overall": -0.278,
+    "by_century": {
+     "-700": -0.395,
+     "-600": -0.2,
+     "-500": 0.025,
+     "-400": 0.149,
+     "-300": 0.105,
+     "-200": 0.077,
+     "-100": -0.257
+    }
+   }
+  }
+ },
+ "runtime_s": 1019.6
+}

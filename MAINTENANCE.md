@@ -97,6 +97,14 @@ cannot be cited by their original identifier because they never had one.
   except the SQL console keeps working.
 - **URL and baseurl.** Set both in `_config.yml`. For a GitHub Pages project
   site the baseurl is `/repository-name`.
+- **The economy page.** `/economy/` (`pages/economy.html`,
+  `_includes/economy-app.html`, `assets/js/economy.js`, `assets/css/economy.scss`)
+  fetches `assets/data/economy_field_v04.json` (0.7 MB, only on that page).
+  `make economy` regenerates the JSON from the fitted field in
+  `data/economy/field_v04/`; the fit itself (`scripts/economy_field.py`, ~45 min)
+  and its raw caches, checkpoints and basis files are git-ignored and excluded
+  from the site, as are the manuscripts under `abstract/`, `paper/`,
+  `overleaf/` and `report/`.
 - **Generated files.** They are in `.gitignore` on the assumption that you
   build on deploy. If you deploy from a branch instead, remove those lines so
   the artefacts are committed.

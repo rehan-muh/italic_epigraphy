@@ -34,6 +34,18 @@ exclude:
   - .cache/
   - vendor/
   - node_modules/
+  # manuscripts, abstracts and analysis reports live in the repository but are
+  # not part of the site
+  - abstract/
+  - overleaf/
+  - paper/
+  - report/
+  - "*.zip"
+  # scratch files that have accumulated at the repository root
+  - "*.log"
+  - "caps*.xml"
+  - "sample*.json"
+  - t.json
 
 collections:
   sites:

@@ -1,0 +1,789 @@
+{
+ "n_coded": 12891,
+ "n_messy_excluded": 83,
+ "n_binary": 12646,
+ "n_alphabets": 21,
+ "n_languages": 8,
+ "conditional_entropy": {
+  "unconditional": {
+   "H_plugin": 0.6651,
+   "H_heldout": 0.6651,
+   "lo": null,
+   "hi": null,
+   "info_gain_heldout": 0.0
+  },
+  "| century": {
+   "H_plugin": 0.6261,
+   "H_heldout": 0.6397,
+   "lo": 0.5372,
+   "hi": 0.7978,
+   "info_gain_heldout": 0.0254
+  },
+  "| findspot": {
+   "H_plugin": 0.2171,
+   "H_heldout": 0.6709,
+   "lo": 0.5639,
+   "hi": 0.8393,
+   "info_gain_heldout": -0.0058
+  },
+  "| language": {
+   "H_plugin": 0.304,
+   "H_heldout": 0.3111,
+   "lo": 0.2656,
+   "hi": 0.3815,
+   "info_gain_heldout": 0.354
+  },
+  "| language, century": {
+   "H_plugin": 0.312,
+   "H_heldout": 0.324,
+   "lo": 0.2742,
+   "hi": 0.4082,
+   "info_gain_heldout": 0.3411
+  },
+  "| alphabet": {
+   "H_plugin": 0.2455,
+   "H_heldout": 0.2537,
+   "lo": 0.2034,
+   "hi": 0.3249,
+   "info_gain_heldout": 0.4114
+  },
+  "| alphabet, century": {
+   "H_plugin": 0.3534,
+   "H_heldout": 0.3767,
+   "lo": 0.3,
+   "hi": 0.5027,
+   "info_gain_heldout": 0.2884
+  }
+ },
+ "language_by_alphabet": {
+  "Etruscan": {
+   "p_overall": 0.0411,
+   "H_at_language_level": 0.2475,
+   "H_within_alphabet": 0.189,
+   "cells": [
+    {
+     "alphabet": "Northern Etruscan alphabet",
+     "mass": 3455.0,
+     "p_dextroverse": 0.0194,
+     "H": 0.138
+    },
+    {
+     "alphabet": "Etruscan alphabet (unspecified variety)",
+     "mass": 3385.0,
+     "p_dextroverse": 0.0251,
+     "H": 0.1692
+    },
+    {
+     "alphabet": "Southern Etruscan alphabet",
+     "mass": 2709.0,
+     "p_dextroverse": 0.0495,
+     "H": 0.2841
+    },
+    {
+     "alphabet": "Mixed Etruscan alphabet",
+     "mass": 319.0,
+     "p_dextroverse": 0.0376,
+     "H": 0.2313
+    },
+    {
+     "alphabet": "Republican Latin alphabet",
+     "mass": 106.0,
+     "p_dextroverse": 1.0,
+     "H": 0.0
+    },
+    {
+     "alphabet": "Etruscan\u2013Latin dual script",
+     "mass": 45.0,
+     "p_dextroverse": 0.0,
+     "H": 0.0
+    }
+   ]
+  },
+  "Faliscan": {
+   "p_overall": 0.1561,
+   "H_at_language_level": 0.6248,
+   "H_within_alphabet": 0.3558,
+   "cells": [
+    {
+     "alphabet": "Faliscan alphabet",
+     "mass": 227.0,
+     "p_dextroverse": 0.0352,
+     "H": 0.22
+    },
+    {
+     "alphabet": "(alphabet unrecorded)",
+     "mass": 56.0,
+     "p_dextroverse": 0.3036,
+     "H": 0.8856
+    },
+    {
+     "alphabet": "Republican Latin alphabet",
+     "mass": 25.0,
+     "p_dextroverse": 0.92,
+     "H": 0.4022
+    }
+   ]
+  },
+  "Greek": {
+   "p_overall": 0.8829,
+   "H_at_language_level": 0.521,
+   "H_within_alphabet": 0.4491,
+   "cells": [
+    {
+     "alphabet": "Greek alphabet (unspecified local variety)",
+     "mass": 237.0,
+     "p_dextroverse": 0.9241,
+     "H": 0.3877
+    },
+    {
+     "alphabet": "Greek alphabet (blue type)",
+     "mass": 167.0,
+     "p_dextroverse": 0.976,
+     "H": 0.1631
+    },
+    {
+     "alphabet": "Greek alphabet (red type)",
+     "mass": 151.0,
+     "p_dextroverse": 0.7152,
+     "H": 0.8619
+    }
+   ]
+  },
+  "Cisalpine Celtic": {
+   "p_overall": 0.4079,
+   "H_at_language_level": 0.9754,
+   "H_within_alphabet": 0.9061,
+   "cells": [
+    {
+     "alphabet": "Lepontic alphabet",
+     "mass": 341.0,
+     "p_dextroverse": 0.3548,
+     "H": 0.9383
+    },
+    {
+     "alphabet": "Republican Latin alphabet",
+     "mass": 53.0,
+     "p_dextroverse": 0.8113,
+     "H": 0.6987
+    }
+   ]
+  },
+  "Raetic": {
+   "p_overall": 0.2351,
+   "H_at_language_level": 0.7868,
+   "H_within_alphabet": 0.6389,
+   "cells": [
+    {
+     "alphabet": "Sanzeno alphabet",
+     "mass": 114.0,
+     "p_dextroverse": 0.0351,
+     "H": 0.2193
+    },
+    {
+     "alphabet": "Magr\u00e8 alphabet",
+     "mass": 85.0,
+     "p_dextroverse": 0.3882,
+     "H": 0.9637
+    },
+    {
+     "alphabet": "Raetic alphabet (unspecified variety)",
+     "mass": 65.0,
+     "p_dextroverse": 0.3692,
+     "H": 0.9501
+    }
+   ]
+  }
+ },
+ "alphabet_trajectories": {
+  "(alphabet unrecorded)": [
+   {
+    "century": -4,
+    "mass": 26.7,
+    "p": 0.2353,
+    "H": 0.7872
+   },
+   {
+    "century": -3,
+    "mass": 22.8,
+    "p": 0.2694,
+    "H": 0.8406
+   }
+  ],
+  "Etruscan alphabet (unspecified variety)": [
+   {
+    "century": -7,
+    "mass": 87.9,
+    "p": 0.126,
+    "H": 0.5465
+   },
+   {
+    "century": -6,
+    "mass": 241.6,
+    "p": 0.0749,
+    "H": 0.3838
+   },
+   {
+    "century": -5,
+    "mass": 274.2,
+    "p": 0.0577,
+    "H": 0.3184
+   },
+   {
+    "century": -4,
+    "mass": 621.2,
+    "p": 0.0153,
+    "H": 0.1141
+   },
+   {
+    "century": -3,
+    "mass": 730.0,
+    "p": 0.0197,
+    "H": 0.1399
+   },
+   {
+    "century": -2,
+    "mass": 931.0,
+    "p": 0.0116,
+    "H": 0.091
+   },
+   {
+    "century": -1,
+    "mass": 504.0,
+    "p": 0.0106,
+    "H": 0.0846
+   }
+  ],
+  "Faliscan alphabet": [
+   {
+    "century": -4,
+    "mass": 110.2,
+    "p": 0.0156,
+    "H": 0.1157
+   },
+   {
+    "century": -3,
+    "mass": 104.7,
+    "p": 0.0123,
+    "H": 0.0955
+   }
+  ],
+  "Greek alphabet (blue type)": [
+   {
+    "century": -5,
+    "mass": 46.0,
+    "p": 0.9565,
+    "H": 0.258
+   },
+   {
+    "century": -4,
+    "mass": 32.0,
+    "p": 1.0,
+    "H": 0.0
+   },
+   {
+    "century": -3,
+    "mass": 49.2,
+    "p": 0.9797,
+    "H": 0.1433
+   }
+  ],
+  "Greek alphabet (red type)": [
+   {
+    "century": -6,
+    "mass": 57.2,
+    "p": 0.6851,
+    "H": 0.8987
+   },
+   {
+    "century": -5,
+    "mass": 70.8,
+    "p": 0.8447,
+    "H": 0.6229
+   }
+  ],
+  "Greek alphabet (unspecified local variety)": [
+   {
+    "century": -7,
+    "mass": 20.0,
+    "p": 0.65,
+    "H": 0.9341
+   },
+   {
+    "century": -6,
+    "mass": 55.3,
+    "p": 0.8464,
+    "H": 0.6188
+   },
+   {
+    "century": -5,
+    "mass": 108.2,
+    "p": 0.9908,
+    "H": 0.0757
+   },
+   {
+    "century": -4,
+    "mass": 23.8,
+    "p": 0.979,
+    "H": 0.1469
+   }
+  ],
+  "Lepontic alphabet": [
+   {
+    "century": -6,
+    "mass": 27.3,
+    "p": 0.3388,
+    "H": 0.9237
+   },
+   {
+    "century": -5,
+    "mass": 47.0,
+    "p": 0.1541,
+    "H": 0.6199
+   },
+   {
+    "century": -4,
+    "mass": 37.1,
+    "p": 0.1044,
+    "H": 0.4829
+   },
+   {
+    "century": -3,
+    "mass": 25.0,
+    "p": 0.1509,
+    "H": 0.6121
+   },
+   {
+    "century": -2,
+    "mass": 79.7,
+    "p": 0.4216,
+    "H": 0.9822
+   },
+   {
+    "century": -1,
+    "mass": 106.4,
+    "p": 0.5235,
+    "H": 0.9984
+   }
+  ],
+  "Magr\u00e8 alphabet": [
+   {
+    "century": -3,
+    "mass": 27.8,
+    "p": 0.3471,
+    "H": 0.9314
+   },
+   {
+    "century": -2,
+    "mass": 20.2,
+    "p": 0.4085,
+    "H": 0.9757
+   }
+  ],
+  "Messapic alphabet": [
+   {
+    "century": -6,
+    "mass": 44.0,
+    "p": 0.7197,
+    "H": 0.8559
+   },
+   {
+    "century": -5,
+    "mass": 74.0,
+    "p": 0.8153,
+    "H": 0.6902
+   },
+   {
+    "century": -4,
+    "mass": 98.2,
+    "p": 0.944,
+    "H": 0.3113
+   },
+   {
+    "century": -3,
+    "mass": 293.5,
+    "p": 0.9415,
+    "H": 0.3214
+   },
+   {
+    "century": -2,
+    "mass": 29.0,
+    "p": 0.9195,
+    "H": 0.4038
+   }
+  ],
+  "Mixed Etruscan alphabet": [
+   {
+    "century": -4,
+    "mass": 77.5,
+    "p": 0.0419,
+    "H": 0.251
+   },
+   {
+    "century": -3,
+    "mass": 50.6,
+    "p": 0.0049,
+    "H": 0.0449
+   },
+   {
+    "century": -2,
+    "mass": 92.4,
+    "p": 0.0027,
+    "H": 0.027
+   },
+   {
+    "century": -1,
+    "mass": 47.2,
+    "p": 0.0053,
+    "H": 0.0476
+   }
+  ],
+  "Northern Etruscan alphabet": [
+   {
+    "century": -7,
+    "mass": 47.5,
+    "p": 0.0877,
+    "H": 0.4288
+   },
+   {
+    "century": -6,
+    "mass": 75.1,
+    "p": 0.0921,
+    "H": 0.4434
+   },
+   {
+    "century": -5,
+    "mass": 177.5,
+    "p": 0.0643,
+    "H": 0.3444
+   },
+   {
+    "century": -4,
+    "mass": 635.9,
+    "p": 0.0218,
+    "H": 0.1515
+   },
+   {
+    "century": -3,
+    "mass": 721.2,
+    "p": 0.0141,
+    "H": 0.1066
+   },
+   {
+    "century": -2,
+    "mass": 1178.4,
+    "p": 0.0115,
+    "H": 0.0903
+   },
+   {
+    "century": -1,
+    "mass": 619.5,
+    "p": 0.0113,
+    "H": 0.0893
+   }
+  ],
+  "Republican Latin alphabet": [
+   {
+    "century": -4,
+    "mass": 26.2,
+    "p": 0.9491,
+    "H": 0.2903
+   },
+   {
+    "century": -3,
+    "mass": 36.6,
+    "p": 0.9532,
+    "H": 0.2728
+   },
+   {
+    "century": -2,
+    "mass": 71.5,
+    "p": 0.961,
+    "H": 0.2378
+   },
+   {
+    "century": -1,
+    "mass": 544.4,
+    "p": 0.9836,
+    "H": 0.1207
+   }
+  ],
+  "Sanzeno alphabet": [
+   {
+    "century": -4,
+    "mass": 24.9,
+    "p": 0.0362,
+    "H": 0.2245
+   },
+   {
+    "century": -3,
+    "mass": 25.7,
+    "p": 0.0156,
+    "H": 0.1157
+   },
+   {
+    "century": -2,
+    "mass": 22.4,
+    "p": 0.0178,
+    "H": 0.1292
+   }
+  ],
+  "Southern Etruscan alphabet": [
+   {
+    "century": -7,
+    "mass": 171.7,
+    "p": 0.1468,
+    "H": 0.6017
+   },
+   {
+    "century": -6,
+    "mass": 389.7,
+    "p": 0.0863,
+    "H": 0.424
+   },
+   {
+    "century": -5,
+    "mass": 442.4,
+    "p": 0.0603,
+    "H": 0.3285
+   },
+   {
+    "century": -4,
+    "mass": 571.3,
+    "p": 0.0513,
+    "H": 0.292
+   },
+   {
+    "century": -3,
+    "mass": 600.1,
+    "p": 0.0167,
+    "H": 0.1224
+   },
+   {
+    "century": -2,
+    "mass": 351.5,
+    "p": 0.0197,
+    "H": 0.1396
+   },
+   {
+    "century": -1,
+    "mass": 183.8,
+    "p": 0.0177,
+    "H": 0.1282
+   }
+  ]
+ },
+ "language_trajectories": {
+  "Cisalpine Celtic": [
+   {
+    "century": -6,
+    "mass": 28.5,
+    "p": 0.3516,
+    "H": 0.9355
+   },
+   {
+    "century": -5,
+    "mass": 49.4,
+    "p": 0.1741,
+    "H": 0.667
+   },
+   {
+    "century": -4,
+    "mass": 39.1,
+    "p": 0.1135,
+    "H": 0.5105
+   },
+   {
+    "century": -3,
+    "mass": 27.1,
+    "p": 0.1649,
+    "H": 0.6459
+   },
+   {
+    "century": -2,
+    "mass": 91.3,
+    "p": 0.4367,
+    "H": 0.9884
+   },
+   {
+    "century": -1,
+    "mass": 134.2,
+    "p": 0.5413,
+    "H": 0.9951
+   }
+  ],
+  "Etruscan": [
+   {
+    "century": -7,
+    "mass": 333.4,
+    "p": 0.1558,
+    "H": 0.6242
+   },
+   {
+    "century": -6,
+    "mass": 726.5,
+    "p": 0.0835,
+    "H": 0.4143
+   },
+   {
+    "century": -5,
+    "mass": 912.5,
+    "p": 0.0629,
+    "H": 0.3389
+   },
+   {
+    "century": -4,
+    "mass": 1926.8,
+    "p": 0.0373,
+    "H": 0.2298
+   },
+   {
+    "century": -3,
+    "mass": 2124.7,
+    "p": 0.0249,
+    "H": 0.168
+   },
+   {
+    "century": -2,
+    "mass": 2591.1,
+    "p": 0.0229,
+    "H": 0.1576
+   },
+   {
+    "century": -1,
+    "mass": 1422.6,
+    "p": 0.0414,
+    "H": 0.2485
+   }
+  ],
+  "Faliscan": [
+   {
+    "century": -4,
+    "mass": 143.6,
+    "p": 0.1007,
+    "H": 0.4712
+   },
+   {
+    "century": -3,
+    "mass": 139.0,
+    "p": 0.1308,
+    "H": 0.5596
+   }
+  ],
+  "Greek": [
+   {
+    "century": -7,
+    "mass": 37.0,
+    "p": 0.5676,
+    "H": 0.9868
+   },
+   {
+    "century": -6,
+    "mass": 123.0,
+    "p": 0.7846,
+    "H": 0.7518
+   },
+   {
+    "century": -5,
+    "mass": 223.0,
+    "p": 0.9372,
+    "H": 0.3384
+   },
+   {
+    "century": -4,
+    "mass": 57.4,
+    "p": 0.9913,
+    "H": 0.0721
+   },
+   {
+    "century": -3,
+    "mass": 68.5,
+    "p": 0.9854,
+    "H": 0.1099
+   },
+   {
+    "century": -2,
+    "mass": 28.6,
+    "p": 1.0,
+    "H": 0.0
+   }
+  ],
+  "Latin": [
+   {
+    "century": -2,
+    "mass": 32.7,
+    "p": 0.9796,
+    "H": 0.1435
+   },
+   {
+    "century": -1,
+    "mass": 475.1,
+    "p": 0.9986,
+    "H": 0.0153
+   }
+  ],
+  "Messapic": [
+   {
+    "century": -6,
+    "mass": 44.0,
+    "p": 0.7197,
+    "H": 0.8559
+   },
+   {
+    "century": -5,
+    "mass": 74.0,
+    "p": 0.8153,
+    "H": 0.6902
+   },
+   {
+    "century": -4,
+    "mass": 98.2,
+    "p": 0.944,
+    "H": 0.3113
+   },
+   {
+    "century": -3,
+    "mass": 293.5,
+    "p": 0.9415,
+    "H": 0.3214
+   },
+   {
+    "century": -2,
+    "mass": 29.0,
+    "p": 0.9195,
+    "H": 0.4038
+   }
+  ],
+  "Raetic": [
+   {
+    "century": -5,
+    "mass": 40.8,
+    "p": 0.2203,
+    "H": 0.7607
+   },
+   {
+    "century": -4,
+    "mass": 48.3,
+    "p": 0.2299,
+    "H": 0.7778
+   },
+   {
+    "century": -3,
+    "mass": 75.9,
+    "p": 0.2769,
+    "H": 0.8513
+   },
+   {
+    "century": -2,
+    "mass": 53.4,
+    "p": 0.2119,
+    "H": 0.7451
+   },
+   {
+    "century": -1,
+    "mass": 41.1,
+    "p": 0.1822,
+    "H": 0.6848
+   }
+  ]
+ }
+}

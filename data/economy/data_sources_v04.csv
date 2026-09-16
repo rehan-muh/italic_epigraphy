@@ -1,0 +1,21 @@
+dataset,role,status,records_used,temporal_treatment,license_or_access,notes
+Hanson / OXREP Cities,urban/settlement,integrated (v0.1),372,aoristic activation from heaped catalogue start dates,open research database,
+AIDA Italian radiocarbon archive,archaeological occupation,integrated (v0.1),185,"IntCal20 calibrated probability, site x bin capped at 1",open archive,
+OXREP Shipwrecks (2026 export),maritime exchange,integrated (refreshed v0.4),118,uniform over wreckage-after/before interval,open research database; coordinates from location popups (+ v0.1 geocoding where OXREP gives none),367 Italian wrecks exported; replaces the 98-wreck v0.1 extract
+OXREP Mines,production,integrated_secondary (v0.1),4,dated overlap,open research database,"2026 export: 8 Italian mines, none with structured dates -> no change"
+Ancient Ports (de Graauw),coastal connectivity,integrated (v0.2),531,aoristic from foundation date,XLS catalogue,
+CEIPAC amphora stamps (Rubio et al. 2018),material exchange,integrated (v0.2),5785,uniform over conservative type window,GPL,
+Coin Hoards of the Roman Republic (CHRR),monetization,integrated (v0.4),189,"uniform deposition window [closing-10, closing+15]",CC BY-NC 3.0; Nomisma RDF dump + findspots.geojson,694 hoards; 255 in Italy/Sicily/Sardinia; hoards without closing date excluded; likelihood window from 200 BCE
+OXREP Olive oil and wine presses,production,integrated (v0.4),12,"presence over dated phase, weight = n presses",open research database,25 Italian sites; undated phases excluded
+Pleiades places - settlement class,settlement,integrated (v0.4),2315,presence ramped within first/last attested period (start/end uniform in period),CC BY; atlantides.org dump,754 places with mass before 400 BCE
+Pleiades places - rural production class,production,integrated (v0.4),899,presence ramped within first/last attested period (start/end uniform in period),CC BY; atlantides.org dump,villa/estate/centuriation/production/quarry/mine/salt-pan/fishpond
+Pleiades places - transport class,connectivity,integrated (v0.4),781,presence ramped within first/last attested period (start/end uniform in period),CC BY; atlantides.org dump,bridge/road/station/canal/port/harbor/anchorage/lighthouse/shipshed/causeway/milestone
+OXREP Stone quarries,production,excluded: undated,0,none,open research database,"792 records; coordinates only, dating is free text (mostly imperial)"
+OXREP Water technology,infrastructure,excluded: out of area,0,none,open research database,"622 records, all Egyptian papyri"
+"AWMC shapefiles (aqueducts, bridges, canals, centuriation, roads, urban areas, coastlines)",infrastructure,excluded: URLs 404 / undated,0,none,CC BY-NC 3.0,same Barrington features enter via Pleiades with period attestation
+Orbis Roman transport network,connectivity,excluded: undated imperial network,0,none,CC BY 3.0,no segment chronology; same objection as Itiner-e
+CRRO Roman Republican coin types,monetization,excluded: not spatial,0,none,ODbL,"type catalogue by mint (Rome-dominated), no findspots"
+OCRE / Coin Hoards of the Roman Empire,monetization,excluded: post-30 BCE,0,none,ODbL / n.s.,
+"Trismegistos, FACEM, RTAR, Samian/Terra Sigillata, Gallo-Belgic, Roman Britain kilns, Karanis, Levantine ceramics, archdata/cawd R packages, Dutch limes, athletic festivals, Strabo",various,excluded: web-only / out of area / out of period,0,none,various,
+"Palmisano, Bevan & Shennan settlement archive",settlement,not on MERCURY list; still not materialised,0,none,CC0,remains the main missing survey-based source
+HYDE 3.3,population baseline,not on MERCURY list; not materialised,0,none,open,

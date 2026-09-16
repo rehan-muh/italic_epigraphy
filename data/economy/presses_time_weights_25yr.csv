@@ -1,0 +1,40 @@
+site_id,sitename,locname,longitude,latitude,bin_start_year,bin_end_year,weight
+press_000,Blera,Pian della Noce,12.03333333,42.2833333,-100,-75,2.0
+press_000,Blera,Pian della Noce,12.03333333,42.2833333,-75,-50,2.0
+press_000,Blera,Pian della Noce,12.03333333,42.2833333,-50,-25,2.0
+press_000,Blera,Pian della Noce,12.03333333,42.2833333,-25,0,2.0
+press_001,Boscoreale,Villa Pisanella,14.477606,40.766229,-100,-75,2.0
+press_001,Boscoreale,Villa Pisanella,14.477606,40.766229,-75,-50,2.0
+press_002,Cerveteri,Villa del Seccareccio,12.1,42.0,-100,-75,2.0
+press_002,Cerveteri,Villa del Seccareccio,12.1,42.0,-75,-50,2.0
+press_002,Cerveteri,Villa del Seccareccio,12.1,42.0,-50,-25,2.0
+press_002,Cerveteri,Villa del Seccareccio,12.1,42.0,-25,0,2.0
+press_003,Cesena di Senigallia,none,13.21666667,43.7166666,-50,-25,2.0
+press_003,Cesena di Senigallia,none,13.21666667,43.7166666,-25,0,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-200,-175,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-175,-150,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-150,-125,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-125,-100,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-100,-75,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-75,-50,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-50,-25,2.0
+press_010,Grottarossa,Saxa Rubra,12.49194444,41.965,-25,0,1.92
+press_014,Osimo,Monte Torto,13.45369,43.488981,-50,-25,5.0
+press_014,Osimo,Monte Torto,13.45369,43.488981,-25,0,4.8
+press_015,Pompeii,Villa of the Mysteries,14.477484,40.753552,-100,-75,0.4
+press_015,Pompeii,Villa of the Mysteries,14.477484,40.753552,-75,-50,0.4
+press_017,Rossano,Ciminata,16.617348,39.603214,-75,-50,2.0
+press_017,Rossano,Ciminata,16.617348,39.603214,-50,-25,2.0
+press_018,S. Sebastiano al Vesuvio,none,14.36666667,40.85,-100,-75,2.0
+press_018,S. Sebastiano al Vesuvio,none,14.36666667,40.85,-75,-50,2.0
+press_018,S. Sebastiano al Vesuvio,none,14.36666667,40.85,-50,-25,2.0
+press_018,S. Sebastiano al Vesuvio,none,14.36666667,40.85,-25,0,2.0
+press_019,Sperlonga,Villa Prato,13.426529,41.267609,-150,-125,2.0
+press_019,Sperlonga,Villa Prato,13.426529,41.267609,-125,-100,2.0
+press_019,Sperlonga,Villa Prato,13.426529,41.267609,-75,-50,0.8
+press_019,Sperlonga,Villa Prato,13.426529,41.267609,-50,-25,0.8
+press_023,Val Melaina,Vigne Nuove,12.52805556,41.9683333,-100,-75,3.0
+press_023,Val Melaina,Vigne Nuove,12.52805556,41.9683333,-75,-50,3.0
+press_023,Val Melaina,Vigne Nuove,12.52805556,41.9683333,-50,-25,2.76
+press_024,Varignano,none,9.85194444,44.0883333,-100,-75,2.0
+press_024,Varignano,none,9.85194444,44.0883333,-75,-50,2.0

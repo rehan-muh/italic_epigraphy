@@ -1,0 +1,282 @@
+{
+ "kernel": {
+  "spatial_knots": 107,
+  "time_knots": 5,
+  "length_scale_km": 110.0,
+  "kernel": "m32",
+  "ridge": 1.0,
+  "length_scale_quarters": 8.0,
+  "selection": [
+   {
+    "length_scale_km": 45.0,
+    "kernel": "se",
+    "ridge": 1.0,
+    "spatial_knots": 284,
+    "cv_neg_loglik": 0.26583
+   },
+   {
+    "length_scale_km": 45.0,
+    "kernel": "se",
+    "ridge": 4.0,
+    "spatial_knots": 284,
+    "cv_neg_loglik": 0.31428
+   },
+   {
+    "length_scale_km": 45.0,
+    "kernel": "se",
+    "ridge": 16.0,
+    "spatial_knots": 284,
+    "cv_neg_loglik": 0.3736
+   },
+   {
+    "length_scale_km": 45.0,
+    "kernel": "m32",
+    "ridge": 1.0,
+    "spatial_knots": 284,
+    "cv_neg_loglik": 0.26507
+   },
+   {
+    "length_scale_km": 45.0,
+    "kernel": "m32",
+    "ridge": 4.0,
+    "spatial_knots": 284,
+    "cv_neg_loglik": 0.31329
+   },
+   {
+    "length_scale_km": 45.0,
+    "kernel": "m32",
+    "ridge": 16.0,
+    "spatial_knots": 284,
+    "cv_neg_loglik": 0.37281
+   },
+   {
+    "length_scale_km": 70.0,
+    "kernel": "se",
+    "ridge": 1.0,
+    "spatial_knots": 169,
+    "cv_neg_loglik": 0.25021
+   },
+   {
+    "length_scale_km": 70.0,
+    "kernel": "se",
+    "ridge": 4.0,
+    "spatial_knots": 169,
+    "cv_neg_loglik": 0.28963
+   },
+   {
+    "length_scale_km": 70.0,
+    "kernel": "se",
+    "ridge": 16.0,
+    "spatial_knots": 169,
+    "cv_neg_loglik": 0.35134
+   },
+   {
+    "length_scale_km": 70.0,
+    "kernel": "m32",
+    "ridge": 1.0,
+    "spatial_knots": 169,
+    "cv_neg_loglik": 0.24942
+   },
+   {
+    "length_scale_km": 70.0,
+    "kernel": "m32",
+    "ridge": 4.0,
+    "spatial_knots": 169,
+    "cv_neg_loglik": 0.2884
+   },
+   {
+    "length_scale_km": 70.0,
+    "kernel": "m32",
+    "ridge": 16.0,
+    "spatial_knots": 169,
+    "cv_neg_loglik": 0.34992
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "se",
+    "ridge": 1.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.24087
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "se",
+    "ridge": 4.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.27562
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "se",
+    "ridge": 16.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.3359
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "m32",
+    "ridge": 1.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.24073
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "m32",
+    "ridge": 4.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.27458
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "m32",
+    "ridge": 16.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.33425
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "m32",
+    "ridge": 1.0,
+    "t_every": 4,
+    "lt": 4.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.24849
+   },
+   {
+    "length_scale_km": 110.0,
+    "kernel": "m32",
+    "ridge": 1.0,
+    "t_every": 2,
+    "lt": 2.0,
+    "spatial_knots": 107,
+    "cv_neg_loglik": 0.26152
+   }
+  ]
+ },
+ "boundary_factor": 1.3,
+ "hsgp_columns": 1372,
+ "dense_knots": 222,
+ "models": {
+  "knot field alone": {
+   "ridge": 0.25,
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.3216,
+    "precision": 0.8998,
+    "recall": 0.6855,
+    "f1": 0.7782,
+    "balanced_accuracy": 0.8347,
+    "roc_auc": 0.9096,
+    "pr_auc": 0.8285,
+    "brier": 0.0593
+   }
+  },
+  "knot-dense field alone": {
+   "ridge": 0.25,
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.3509,
+    "precision": 0.8857,
+    "recall": 0.6101,
+    "f1": 0.7225,
+    "balanced_accuracy": 0.7967,
+    "roc_auc": 0.9067,
+    "pr_auc": 0.7996,
+    "brier": 0.0672
+   }
+  },
+  "hsgp field alone": {
+   "ridge": 0.25,
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.31,
+    "precision": 0.9001,
+    "recall": 0.7053,
+    "f1": 0.7909,
+    "balanced_accuracy": 0.8444,
+    "roc_auc": 0.9127,
+    "pr_auc": 0.8358,
+    "brier": 0.0563
+   }
+  },
+  "M5 (no field)": {
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.2279,
+    "precision": 0.913,
+    "recall": 0.7864,
+    "f1": 0.845,
+    "balanced_accuracy": 0.8853,
+    "roc_auc": 0.9512,
+    "pr_auc": 0.8983,
+    "brier": 0.0405
+   }
+  },
+  "M5 + knot field": {
+   "ridge": 0.25,
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.2231,
+    "precision": 0.9111,
+    "recall": 0.7968,
+    "f1": 0.8501,
+    "balanced_accuracy": 0.8902,
+    "roc_auc": 0.9533,
+    "pr_auc": 0.9028,
+    "brier": 0.0398
+   }
+  },
+  "M5 + knot-dense field": {
+   "ridge": 0.25,
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.2242,
+    "precision": 0.916,
+    "recall": 0.7968,
+    "f1": 0.8522,
+    "balanced_accuracy": 0.8907,
+    "roc_auc": 0.9528,
+    "pr_auc": 0.901,
+    "brier": 0.0398
+   }
+  },
+  "M5 + hsgp field": {
+   "ridge": 0.25,
+   "metrics": {
+    "n": 12137,
+    "prevalence": 0.1748,
+    "log_loss_bits": 0.2224,
+    "precision": 0.9113,
+    "recall": 0.8043,
+    "f1": 0.8545,
+    "balanced_accuracy": 0.8939,
+    "roc_auc": 0.953,
+    "pr_auc": 0.9023,
+    "brier": 0.0394
+   }
+  }
+ },
+ "paired_vs_M5": {
+  "M5 + knot field": {
+   "delta_bits": -0.0048,
+   "lo": -0.0089,
+   "hi": -0.0016
+  },
+  "M5 + knot-dense field": {
+   "delta_bits": -0.0038,
+   "lo": -0.0072,
+   "hi": -0.0011
+  },
+  "M5 + hsgp field": {
+   "delta_bits": -0.0056,
+   "lo": -0.0131,
+   "hi": 0.0001
+  }
+ }
+}
