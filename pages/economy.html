@@ -15,10 +15,7 @@ css: /assets/css/economy.css
     shipwrecks, amphora stamps, ports, Republican coin hoards, presses, mines and
     radiocarbon dates on a 0.25°&nbsp;×&nbsp;25-year grid. Values are in standard
     deviations of the field over the whole space–time window, so blue is below the
-    700–1&nbsp;BCE mean and red above it; the field rises through the period
-    everywhere, and the interesting part is where it rises first. Play through
-    time, scrub to a year, hover a cell, or pin a place to follow its trajectory
-    with its 95% interval.
+    700–1&nbsp;BCE mean and red above it.
   </p>
 </div>
 
@@ -29,17 +26,18 @@ css: /assets/css/economy.css
 <div class="econ-prose">
   <h2>How to read it</h2>
   <p>
-    The field is a latent-factor log-Gaussian Cox process: each evidence source has
-    its own intensity <code>exp(α<sub>k</sub> + ρ<sub>k</sub>E + δ<sub>d</sub>)</code>,
-    with the loading <code>ρ<sub>k</sub></code> estimated rather than chosen and a
+    The field is estimated as a latent-factor log-Gaussian Cox process. Each
+    evidence source has its own intensity
+    <code>exp(α<sub>k</sub> + ρ<sub>k</sub>E + δ<sub>d</sub>)</code>, with an
+    estimated loading <code>ρ<sub>k</sub></code> onto the latent factor and a
     residual <code>δ<sub>d</sub></code> for what a domain (settlement, exchange,
     connectivity, production, monetization) shows beyond the shared signal. The
     length scales (140&nbsp;km, 50&nbsp;yr) were selected by spatial-block
-    cross-validation; chronological uncertainty enters as aoristic probability
-    over the 25-year bins, never as midpoint dates. Low values in poorly surveyed
-    regions are partly a survey effect: switch the layer to the posterior SD
-    before reading a contrast, and prefer the domain fields for hypotheses about
-    trade or settlement specifically.
+    cross-validation; chronological uncertainty is modeled as aoristic
+    probability over the 25-year bins. Low values in poorly surveyed regions are
+    partly a survey effect: switch the layer to the posterior SD before reading a
+    contrast, and prefer the domain fields for hypotheses about trade or
+    settlement specifically.
   </p>
   <p>
     Model card, source ledger and fitted loadings:

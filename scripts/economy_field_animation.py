@@ -170,7 +170,7 @@ __ECONOMY_CSS__
   <h1>Economic field</h1>
   <p class="lede">A latent index of economic activity across Italy, 700–1 BCE, inferred from eleven archaeological and historical evidence sources and animated through time.</p>
   <div class="econ-prose">
-    <p>Posterior mean of the shared latent field <code>E(s,t)</code> fitted jointly to dated cities, Pleiades settlements and infrastructure, shipwrecks, amphora stamps, ports, Republican coin hoards, presses, mines and radiocarbon dates on a 0.25°&nbsp;×&nbsp;25-year grid (model __VERSION__, length scales __LS__&nbsp;km / __LT__&nbsp;yr). Values are in standard deviations of the field over the whole space–time window: blue is below the 700–1&nbsp;BCE mean, red above. Play through time, scrub to a year, hover a cell, or pin a place to follow its trajectory.</p>
+    <p>Posterior mean of the shared latent field <code>E(s,t)</code> fitted jointly to dated cities, Pleiades settlements and infrastructure, shipwrecks, amphora stamps, ports, Republican coin hoards, presses, mines and radiocarbon dates on a 0.25°&nbsp;×&nbsp;25-year grid (model __VERSION__, length scales __LS__&nbsp;km / __LT__&nbsp;yr). Values are in standard deviations of the field over the whole space–time window: blue is below the 700–1&nbsp;BCE mean, red above.</p>
   </div>
   <div id="economy-app">
 __APP__
